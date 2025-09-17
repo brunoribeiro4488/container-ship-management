@@ -76,44 +76,44 @@ This document is divided in different categories, such as:
 
 ## Use Case Diagram
 
-![UCD](docs/Sprint 4/UCD.svg)
+![UCD](docs/Sprint_4/UCD.svg)
 
 ## Engineering Analysis
 
 ### Domain Model
 
-![DM_General](docs/Sprint 4/DM_General.svg)
+![DM_General](docs/Sprint_4/DM_General.svg)
 
 ## Engineering Design
 
 ### Class Diagram
 
-![CD_General](docs/Sprint 4/CD_General.svg)
+![CD_General](docs/Sprint_4/CD_General.svg)
 
 
 ### Relational Model Normalised
 
-![RM_Normalised](docs/Sprint 4/Modelo.svg)
+![RM_Normalised](docs/Sprint_4/Modelo.svg)
 
-## [US401 markdown](docs/Sprint 4/US401/US401.md)
-## [US402 markdown](docs/Sprint 4/US402/US402.md)
-## [US403 markdown](docs/Sprint 4/US403/US403.md)
-## [US404 markdown](docs/Sprint 4/US404/US404.md)
-## [US405 markdown](docs/Sprint 4/US405/US405.md)
-## [US406 markdown](docs/Sprint 4/US406/US406.md)
-## [US407 markdown](docs/Sprint 4/US407/US407.md)
-## [US409 markdown](docs/Sprint 4/US409/US409.md)
-## [US410 markdown](docs/Sprint 4/US410/US410.md)
-## [US411 markdown](docs/Sprint 4/US411/US411.md)
-## [US412 markdown](docs/Sprint 4/US412/US412.md)
-## [US413 markdown](docs/Sprint 4/US413/US413.md)
-## [US414 markdown](docs/Sprint 4/US414/US414.md)
-## [US415 markdown](docs/Sprint 4/US415/US415.md)
-## [US416 summary](docs/Sprint 4/US416/Summary.pdf)
-## [US417 markdown](docs/Sprint 4/US417/US417.md)
-## [US418 markdown](docs/Sprint 4/US418/US418.md)
-## [US419 markdown](docs/Sprint 4/US419/US419.md)
-## [US420 markdown](docs/Sprint 4/US420/US420.md)
+## [US401 markdown](docs/Sprint_4/US401/US401.md)
+## [US402 markdown](docs/Sprint_4/US402/US402.md)
+## [US403 markdown](docs/Sprint_4/US403/US403.md)
+## [US404 markdown](docs/Sprint_4/US404/US404.md)
+## [US405 markdown](docs/Sprint_4/US405/US405.md)
+## [US406 markdown](docs/Sprint_4/US406/US406.md)
+## [US407 markdown](docs/Sprint_4/US407/US407.md)
+## [US409 markdown](docs/Sprint_4/US409/US409.md)
+## [US410 markdown](docs/Sprint_4/US410/US410.md)
+## [US411 markdown](docs/Sprint_4/US411/US411.md)
+## [US412 markdown](docs/Sprint_4/US412/US412.md)
+## [US413 markdown](docs/Sprint_4/US413/US413.md)
+## [US414 markdown](docs/Sprint_4/US414/US414.md)
+## [US415 markdown](docs/Sprint_4/US415/US415.md)
+## [US416 summary](docs/Sprint_4/US416/Summary.pdf)
+## [US417 markdown](docs/Sprint_4/US417/US417.md)
+## [US418 markdown](docs/Sprint_4/US418/US418.md)
+## [US419 markdown](docs/Sprint_4/US419/US419.md)
+## [US420 markdown](docs/Sprint_4/US420/US420.md)
 
 # Report
 
@@ -131,13 +131,13 @@ operates through land and sea, across different continents and has several wareh
 
 ## Project Coverage
 
-![Coverage](docs/Sprint 4/Coverage.png)
+![Coverage](docs/Sprint_4/Coverage.png)
 
-![Mutation_Coverage](docs/Sprint 4/mutation.png)
+![Mutation_Coverage](docs/Sprint_4/mutation.png)
 
 ## Pit Test Coverage Report
 
-![Pit_Test_Coverage](docs/Sprint 4/Pit%20Test.png)
+![Pit_Test_Coverage](docs/Sprint_4/Pit%20Test.png)
 
 ## Team Performance
 

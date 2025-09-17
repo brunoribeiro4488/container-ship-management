@@ -56,34 +56,34 @@ This document is divided in different categories, such as:
 
 ## Use Case Diagram
 
-![UCD](docs/Sprint2/UCD.svg)
+![UCD](docs/Sprint_2/UCD.svg)
 
 ## Engineering Analysis
 
 ### Domain Model
 
-![DM_General](docs/Sprint2/DM_General.svg)
+![DM_General](docs/Sprint_2/DM_General.svg)
 
 ## Engineering Design
 
 ### Class Diagram
 
-![CD_General](docs/Sprint2/CD_General.svg)
+![CD_General](docs/Sprint_2/CD_General.svg)
 
 
 ### Relational Model Normalised
 
-![RM_Normalised](docs/Sprint2/RM_Normalised.jpg)
+![RM_Normalised](docs/Sprint_2/RM_Normalised.jpg)
 
-## [US201 markdown](docs/Sprint2/US201/US201.md)
-## [US202 markdown](docs/Sprint2/US202/US202.md)
-## [US204 markdown](docs/Sprint2/US204/US204.md)
-## [US205 markdown](docs/Sprint2/US205/US205.md)
-## [US206 markdown](docs/Sprint2/US206/US206.md)
-## [US207 markdown](docs/Sprint2/US207/US207.md)
-## [US208 markdown](docs/Sprint2/US208/US208.md)
-## [US209 markdown](docs/Sprint2/US209/US209.md)
-## [US210 markdown](docs/Sprint2/US210/US210.md)
+## [US201 markdown](docs/Sprint_2/US201/US201.md)
+## [US202 markdown](docs/Sprint_2/US202/US202.md)
+## [US204 markdown](docs/Sprint_2/US204/US204.md)
+## [US205 markdown](docs/Sprint_2/US205/US205.md)
+## [US206 markdown](docs/Sprint_2/US206/US206.md)
+## [US207 markdown](docs/Sprint_2/US207/US207.md)
+## [US208 markdown](docs/Sprint_2/US208/US208.md)
+## [US209 markdown](docs/Sprint_2/US209/US209.md)
+## [US210 markdown](docs/Sprint_2/US210/US210.md)
 
 # Report
 
@@ -101,13 +101,13 @@ operates through land and sea, across different continents and has several wareh
 
 ## Project Coverage
 
-![Coverage](docs/Sprint2/Coverage.png)
+![Coverage](docs/Sprint_2/Coverage.png)
 
-![Mutation_Coverage](docs/Sprint2/mutation.png)
+![Mutation_Coverage](docs/Sprint_2/mutation.png)
 
 ## Pit Test Coverage Report
 
-![Pit_Test_Coverage](docs/Sprint2/Pit%20Test.png)
+![Pit_Test_Coverage](docs/Sprint_2/Pit%20Test.png)
 
 ## Team Performance
 

@@ -33,106 +33,106 @@ This document is divided in different categories, such as:
 # Software Engineering
 
 ## Use Case Diagram
-![UCD](docs/Sprint 1/UCD.svg)
+![UCD](docs/Sprint_1/UCD.svg)
 
 ## Requirements Engineering
 
 ### US101 SSD
-![SSD_US101](docs/Sprint 1/US101/US101_SSD.svg)
+![SSD_US101](docs/Sprint_1/US101/US101_SSD.svg)
 
 ### US102 SSD
-![SSD_US102](docs/Sprint 1/US102/US102_SSD.svg)
+![SSD_US102](docs/Sprint_1/US102/US102_SSD.svg)
 
 ### US103 SSD
-![SSD_US103](docs/Sprint 1/US103/US103_SSD.svg)
+![SSD_US103](docs/Sprint_1/US103/US103_SSD.svg)
 
 ### US104 SSD
-![SSD_US104](docs/Sprint 1/US104/US104_SSD.svg)
+![SSD_US104](docs/Sprint_1/US104/US104_SSD.svg)
 
 ### US105 SSD
-![SSD_US105](docs/Sprint 1/US105/US105_SSD.svg)
+![SSD_US105](docs/Sprint_1/US105/US105_SSD.svg)
 
 ### US106 SSD
-![SSD_US106](docs/Sprint 1/US106/US106_SSD.svg)
+![SSD_US106](docs/Sprint_1/US106/US106_SSD.svg)
 
 ### US107 SSD
-![SSD_US107](docs/Sprint 1/US107/US107_SSD.svg)
+![SSD_US107](docs/Sprint_1/US107/US107_SSD.svg)
 
 ## Engineering Analysis
 
 ### Domain Model
-![DM_General](docs/Sprint 1/DM_General.svg)
+![DM_General](docs/Sprint_1/DM_General.svg)
 
 #### US101 DM
-![DM_US101](docs/Sprint 1/US101/US101_DM.svg)
+![DM_US101](docs/Sprint_1/US101/US101_DM.svg)
 
 #### US102 DM
-![DM_US102](docs/Sprint 1/US102/US102_DM.svg)
+![DM_US102](docs/Sprint_1/US102/US102_DM.svg)
 
 #### US103 DM
-![DM_US103](docs/Sprint 1/US103/US103_DM.svg)
+![DM_US103](docs/Sprint_1/US103/US103_DM.svg)
 
 #### US104 DM
-![DM_US104](docs/Sprint 1/US104/US104_DM.svg)
+![DM_US104](docs/Sprint_1/US104/US104_DM.svg)
 
 #### US105 DM
-![DM_US105](docs/Sprint 1/US105/US105_DM.svg)
+![DM_US105](docs/Sprint_1/US105/US105_DM.svg)
 
 #### US106 DM
-![DM_US106](docs/Sprint 1/US106/US106_DM.svg)
+![DM_US106](docs/Sprint_1/US106/US106_DM.svg)
 
 #### US107 DM
-![DM_US107](docs/Sprint 1/US107/US107_DM.svg)
+![DM_US107](docs/Sprint_1/US107/US107_DM.svg)
 
 ## Engineering Design
 
 ### Class Diagram
-![CD_General](docs/Sprint 1/CD_General.svg)
+![CD_General](docs/Sprint_1/CD_General.svg)
 
 #### US101 CD
-![CD_US101](docs/Sprint 1/US101/US101_CD.svg)
+![CD_US101](docs/Sprint_1/US101/US101_CD.svg)
 
 #### US102 CD
-![CD_US102](docs/Sprint 1/US102/US102_CD.svg)
+![CD_US102](docs/Sprint_1/US102/US102_CD.svg)
 
 #### US103 CD
-![CD_US103](docs/Sprint 1/US103/US103_CD.svg)
+![CD_US103](docs/Sprint_1/US103/US103_CD.svg)
 
 #### US104 CD
-![CD_US104](docs/Sprint 1/US104/US104_CD.svg)
+![CD_US104](docs/Sprint_1/US104/US104_CD.svg)
 
 #### US105 CD
-![CD_US105](docs/Sprint 1/US105/US105_CD.svg)
+![CD_US105](docs/Sprint_1/US105/US105_CD.svg)
 
 #### US106 CD
-![CD_US106](docs/Sprint 1/US106/US106_CD.svg)
+![CD_US106](docs/Sprint_1/US106/US106_CD.svg)
 
 #### US107 CD
-![CD_US107](docs/Sprint 1/US107/US107_CD.svg)
+![CD_US107](docs/Sprint_1/US107/US107_CD.svg)
 
 ### US101 SD
-![SD_US101](docs/Sprint 1/US101/US101_SD.svg)
+![SD_US101](docs/Sprint_1/US101/US101_SD.svg)
 
 ### US102 SD
-![SD_US102](docs/Sprint 1/US102/US102_SD.svg)
+![SD_US102](docs/Sprint_1/US102/US102_SD.svg)
 
 ### US103 SD
-![SD_US103](docs/Sprint 1/US103/US103_SD.svg)
+![SD_US103](docs/Sprint_1/US103/US103_SD.svg)
 
 ### US104 SD
-![SD_US104](docs/Sprint 1/US104/US104_SD.svg)
+![SD_US104](docs/Sprint_1/US104/US104_SD.svg)
 
 ### US105 SD
-![SD_US105](docs/Sprint 1/US105/US105_SD.svg)
+![SD_US105](docs/Sprint_1/US105/US105_SD.svg)
 
 ### US106 SD
-![SD_US106](docs/Sprint 1/US106/US106_SD.svg)
+![SD_US106](docs/Sprint_1/US106/US106_SD.svg)
 
 ### US107 SD
-![SD_US107](docs/Sprint 1/US107/US107_SD.svg)
+![SD_US107](docs/Sprint_1/US107/US107_SD.svg)
 
 ## Relational Model Normalised
-![RM_Normalised](docs/Sprint 1/RM_Normalised.jpg)
+![RM_Normalised](docs/Sprint_1/RM_Normalised.jpg)
 
 # Report
 
@@ -177,12 +177,12 @@ void getShipByMMSI() {
 (... resto dos testes formatados iguais ...)
 
 ## Project Coverage
-![Coverage](docs/Sprint 1/Coverage.png)
+![Coverage](docs/Sprint_1/Coverage.png)
 
-![Mutation_Coverage](docs/Sprint 1/mutation.png)
+![Mutation_Coverage](docs/Sprint_1/mutation.png)
 
 ## Pit Test Coverage Report
-![Pit_Test_Coverage](docs/Sprint 1/Pit%20Test.png)
+![Pit_Test_Coverage](docs/Sprint_1/Pit%20Test.png)
 
 ## Team Performance
 In the first week of sprint, we were a bit slow because we didn't have the necessary knowledge to carry out the tasks and we weren't aligned in terms of communication yet.
