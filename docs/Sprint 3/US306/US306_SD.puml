@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port Manager" as PM
+participant ":WarehouseRateUI" as WRUI
+participant ":WarehouseRateController" as WRC
+participant ":WarehouseRate" as WR
+participant ":Printer" as P
+
+activate PM
+PM -> WRUI:  asks to know the occupancy rate of each warehouse and an estimate of the containers leaving the warehouse during the next 30 days
+activate WRUI
+WRUI -> WRC : warehouseRate()
+activate WRC
+WRC -> WR : result = warehouseRate(databaseConnection)
+activate WR
+deactivate WR
+WRC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate WRC
+WRUI --> PM : shows the data (occupancy rate and estimate) and informs operation success
+deactivate WRC
+deactivate WRUI
+deactivate PM
+@enduml

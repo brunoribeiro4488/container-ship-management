@@ -1,0 +1,121 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Company {
+  
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Containers{
+-ContainerNumber
+-ISOCode
+-MaxWeight
+-ContainerWeight
+-MaxWeightPacked
+-MaxVolumePacked
+-Certificates
+-RepairRecomendation
+-Temperature
+}
+
+class ShipPosition {
+   -shipMMSI
+   -date
+   -latitude
+   -longitude
+   -sog
+   -cog
+   -heading
+   -cargo
+   -transciever
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class TrafficManager{
+}
+
+class PortManager{
+}
+
+class ShipChiefElectricalEngineer{
+}
+
+class CargoManifest{
+-id
+-shipMMSI
+-portID
+}
+
+class Warehouse{
+-WarehouseID
+-WarehouseName
+-Latitude
+-Longitude
+-CountryName
+}
+
+class CargoManifestLoad{
+-cargoManifestID
+-dateLoad
+-done
+-portID
+}
+
+class CargoManifestUnload{
+-cargoManifestID
+-dateUnload
+-done
+-portID
+}
+
+class Client {
+-clientID
+-clientRegistrationCode
+}
+
+TrafficManager "*" -- "1" Company : knows <
+TrafficManager "1" -- "*" Ship : manages >
+Company "1" -- "*" Ship : owns >
+Ship "1" -- "*" ShipPosition : has >
+PortManager "*" -- "1" Company : knows <
+PortManager "1" -- "*" Port : manages >
+Company "1" -- "*" Port : knows >
+Port "*" -- "*" Ship : docks <
+Port "1" -- "*" Containers: has >
+Ship "1" -- "*" Containers: has >
+CargoManifest "*" -- "1" Ship : assigned to >
+CargoManifest "1" -- "*" Containers : has >
+CargoManifest "1" -- "1" Port: assigned to >
+ShipChiefElectricalEngineer "*" -- "1" Company : knows <
+ShipChiefElectricalEngineer "1" -- "*" Containers : manages >
+Company "1" -- "*" Warehouse : knows >
+Warehouse "*" -- "*" Containers : manages >
+CargoManifest "1" -- "*" CargoManifestLoad : has >
+CargoManifest "1" -- "*" CargoManifestUnload : has >
+CargoManifestLoad "*" -- "*" Containers : manages >
+CargoManifestUnload "*" -- "*" Containers : manages >
+Company "1" -- "*" Client : has >
+Client "*" -- "*" Containers : leases >
+
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class OccupationmapPortUI{
+}
+}
+
+package "controllers" {
+class OccupationmapPortController{
++occupationmapPort(portId,date)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class OccupationmapPort{
++occupationmapPort(databaseConnection,portId,date)
+}
+}
+
+
+
+OccupationmapPortUI ..> OccupationmapPortController
+OccupationmapPortController ..> Printer
+OccupationmapPortController ..> OccupationmapPort
+@enduml

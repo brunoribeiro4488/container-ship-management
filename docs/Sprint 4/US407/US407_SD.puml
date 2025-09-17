@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port Manager" as PM
+participant ":LoadingUnloadingMapUI" as LUMUI
+participant ":LoadingUnloadingMapController" as LUMC
+participant ":LoadingUnloadingMap" as LUM
+participant ":Printer" as P
+
+activate PM
+PM -> LUMUI: asks to generate, a week in advance, the loading and unloading map \n based on ships and trucks load manifests and corresponding travel plans
+activate LUMUI
+LUMUI -> PM : requests data (i.e.: portId)
+deactivate LUMUI
+
+PM -> LUMUI: types requested data
+activate LUMUI
+
+deactivate LUMC
+LUMUI -> LUMC : loadingUnloadingMap(portId)
+activate LUMC
+LUMC -> LUM : result = loadingUnloadingMap(databaseConnection,portId)
+activate LUM
+deactivate LUM
+LUMC -> P : print(filename,result,path)
+activate P
+deactivate P
+deactivate LUMC
+
+
+LUMUI --> PM : shows the data (map) and informs operation success
+deactivate LUMC
+deactivate LUMUI
+deactivate PM
+@enduml

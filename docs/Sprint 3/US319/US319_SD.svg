@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="467px" preserveAspectRatio="none" style="width:2536px;height:467px;" version="1.1" viewBox="0 0 2536 467" width="2536px" zoomAndPan="magnify"><defs><filter height="300%" id="f19lfu29dz1r58" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="264.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="96.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="241.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="644.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="994.5" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1346.5" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1582" y="243.0156"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2483.5" y="303.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="101" x2="101" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="649" x2="649" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="999" x2="999" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1351.5" x2="1351.5" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1586.5" x2="1586.5" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1821.5" x2="1821.5" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2063.5" x2="2063.5" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2317.5" x2="2317.5" y1="89.6094" y2="381.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2488.5" x2="2488.5" y1="89.6094" y2="381.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="5" y="86.5332">Ship Chief Electrical Engineer</text><ellipse cx="101.5" cy="15" fill="#FEFECE" filter="url(#f19lfu29dz1r58)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M101.5,23 L101.5,50 M88.5,31 L114.5,31 M101.5,50 L88.5,65 M101.5,50 L114.5,65 " fill="none" filter="url(#f19lfu29dz1r58)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="5" y="395.252">Ship Chief Electrical Engineer</text><ellipse cx="101.5" cy="408.3281" fill="#FEFECE" filter="url(#f19lfu29dz1r58)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M101.5,416.3281 L101.5,443.3281 M88.5,424.3281 L114.5,424.3281 M101.5,443.3281 L88.5,458.3281 M101.5,443.3281 L114.5,458.3281 " fill="none" filter="url(#f19lfu29dz1r58)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="155" x="570" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="577" y="74.5332">ThermalResistancesUI</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="155" x="570" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="577" y="402.252">ThermalResistancesUI</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="205" x="895" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="902" y="74.5332">ThermalResistancesController</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="205" x="895" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="902" y="402.252">ThermalResistancesController</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="218" x="1240.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="1247.5" y="74.5332">posContainer: PositiveContainer</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="218" x="1240.5" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="204" x="1247.5" y="402.252">posContainer: PositiveContainer</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="225" x="1472.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="1479.5" y="74.5332">negContainer: NegativeContainer</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="225" x="1472.5" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="211" x="1479.5" y="402.252">negContainer: NegativeContainer</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="216" x="1711.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="1718.5" y="74.5332">stringThermalResistance: String</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="216" x="1711.5" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="202" x="1718.5" y="402.252">stringThermalResistance: String</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="240" x="1941.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="1948.5" y="74.5332">posContThermalResistance: double</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="240" x="1941.5" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="226" x="1948.5" y="402.252">posContThermalResistance: double</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="241" x="2195.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="2202.5" y="74.5332">negContThermalResistance: double</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="241" x="2195.5" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="227" x="2202.5" y="402.252">negContThermalResistance: double</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="72" x="2450.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="2457.5" y="74.5332">p: Printer</text><rect fill="#FEFECE" filter="url(#f19lfu29dz1r58)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="72" x="2450.5" y="380.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="2457.5" y="402.252">p: Printer</text><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="264.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="96.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="241.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="644.5" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="994.5" y="152.3125"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1346.5" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1582" y="243.0156"/><rect fill="#FFFFFF" filter="url(#f19lfu29dz1r58)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2483.5" y="303.3672"/><polygon fill="#A80036" points="632.5,117.9609,642.5,121.9609,632.5,125.9609,636.5,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="106.5" x2="638.5" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="113.5" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="508" x="124.5" y="117.1045">asks to know the thermal resistances, for each operating temperature, of each container</text><polygon fill="#A80036" points="982.5,148.3125,992.5,152.3125,982.5,156.3125,986.5,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="654.5" x2="988.5" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="661.5" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="310" x="672.5" y="147.4561">stringThermalResistances = getThermalResistances()</text><polygon fill="#A80036" points="1334.5,178.6641,1344.5,182.6641,1334.5,186.6641,1338.5,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1004.5" x2="1340.5" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1011.5" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="312" x="1022.5" y="177.8076">posContThermalResistance = getThermalResistance()</text><polygon fill="#A80036" points="1570,239.0156,1580,243.0156,1570,247.0156,1574,243.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1004.5" x2="1576" y1="243.0156" y2="243.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1011.5" y="238.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="312" x="1022.5" y="238.1592">negContThermalResistance = getThermalResistance()</text><polygon fill="#A80036" points="2471.5,299.3672,2481.5,303.3672,2471.5,307.3672,2475.5,303.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1004.5" x2="2477.5" y1="303.3672" y2="303.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1011.5" y="298.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="356" x="1022.5" y="298.5107">print(Thermal Resistances,stringThermalResistances, US319)</text><polygon fill="#A80036" points="112.5,359.7188,102.5,363.7188,112.5,367.7188,108.5,363.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="106.5" x2="648.5" y1="363.7188" y2="363.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="118.5" y="358.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="395" x="129.5" y="358.8623">shows the data (thermal resistances) and informs operation success</text><!--MD5=[02f7d0038d006963f79e9d424bb60cd8]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+participant "ThermalResistancesUI" as TRUI
+participant "ThermalResistancesController" as TRC
+participant "posContainer: PositiveContainer" as PC
+participant "negContainer: NegativeContainer" as NC
+participant "stringThermalResistance: String" as STR
+participant "posContThermalResistance: double" as PCTR
+participant "negContThermalResistance: double" as NCTR
+participant "p: Printer" as P
+
+activate SCEE
+
+SCEE -> TRUI: asks to know the thermal resistances, for each operating temperature, of each container
+activate TRUI
+TRUI -> TRC : stringThermalResistances = getThermalResistances()
+activate TRC
+TRC -> PC : posContThermalResistance = getThermalResistance()
+activate PC
+deactivate PC
+TRC -> NC : negContThermalResistance = getThermalResistance()
+activate NC
+deactivate NC
+TRC -> P : print(Thermal Resistances,stringThermalResistances, US319)
+activate P
+deactivate P
+deactivate TRC
+TRUI - -> SCEE : shows the data (thermal resistances) and informs operation success
+deactivate TRUI
+
+deactivate SCEE
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+participant "ThermalResistancesUI" as TRUI
+participant "ThermalResistancesController" as TRC
+participant "posContainer: PositiveContainer" as PC
+participant "negContainer: NegativeContainer" as NC
+participant "stringThermalResistance: String" as STR
+participant "posContThermalResistance: double" as PCTR
+participant "negContThermalResistance: double" as NCTR
+participant "p: Printer" as P
+
+activate SCEE
+
+SCEE -> TRUI: asks to know the thermal resistances, for each operating temperature, of each container
+activate TRUI
+TRUI -> TRC : stringThermalResistances = getThermalResistances()
+activate TRC
+TRC -> PC : posContThermalResistance = getThermalResistance()
+activate PC
+deactivate PC
+TRC -> NC : negContThermalResistance = getThermalResistance()
+activate NC
+deactivate NC
+TRC -> P : print(Thermal Resistances,stringThermalResistances, US319)
+activate P
+deactivate P
+deactivate TRC
+TRUI - -> SCEE : shows the data (thermal resistances) and informs operation success
+deactivate TRUI
+
+deactivate SCEE
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

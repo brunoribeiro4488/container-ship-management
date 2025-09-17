@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to know which n places (cities or ports) are closest to all other places (closeness places))
+activate ":System"
+":System" --> TM : shows the data (cities or ports and its closeness places) and informs operation success
+deactivate ":System"
+
+@enduml

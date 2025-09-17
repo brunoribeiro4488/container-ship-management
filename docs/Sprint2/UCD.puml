@@ -1,0 +1,57 @@
+@startuml
+left to right direction
+skinparam linetype polyline
+actor "Traffic Manager" as tm
+actor "Project Manager" as pjm
+actor "Port Manager" as pm
+actor "Client" as c
+actor "Ship Captain" as sc
+
+
+Rectangle "Cargo Shipping Company"{
+usecase "UC101-Import ships from a text file" as UC101
+usecase "UC102-Search details of a ship" as UC102
+usecase "UC103-Have the positional message temporally organized\n and associated with the ships" as UC103
+usecase "UC104-Make a summary of the ship's movements" as UC104
+usecase "UC105-List for all the ships the MMSI, the total number\nof movements, Travelled Distance and Delta Distance" as UC105
+usecase "UC106-Get the top-N ships with the most kilometres travelled\n and their average speed" as UC106
+usecase "UC107-Get pairs of ships with routes with close departure/arrival\n coordinates and with different Travelled Distance" as UC107
+usecase "UC108-Develop the data model required to support all the functionality and\n to fulfill the purpose of the system to develop" as UC108
+usecase "UC109-Draft an SQL script to test whether the database verifies\n all the data integrity restrictions that are required\n to fulfil the purpose of the system and the business constraints of the UoD" as UC109
+usecase "UC110-Define the naming conventions to apply \nwhen defining identifiers or writing SQL or PL/SQL code" as UC110
+usecase "UC111-Create a SQL script to load the database\nwith a minimum set of data sufficient to carry out data \nintegrity verification and functional testing" as UC111
+usecase "UC201-Import ports from a text file" as UC201
+usecase "UC202-Find the closest port of a ship given its CallSign, on a certain DateTime" as UC202
+usecase "UC203-Review the relational data model in view of the new user stories \nso it can support all the requirements to fulfil the purpose of the system being developed" as UC203
+usecase "UC204-Know the current situation of a specific container being used to transport my goods" as UC204
+usecase "UC205-Get the list of containers to be offloaded in the next port, \nincluding container identifier, type, position, and load." as UC205
+usecase "UC206-Get the list of containers to be loaded in the next port, \nincluding container identifier, type, and load." as UC206
+usecase "UC207-Know how many cargo manifests I have transported during \na given year and the average number of containers per manifest" as UC207
+usecase "UC208-Know the occupancy rate (percentage) of a given ship for \na given cargo manifest. Occupancy rate is the ratio between \ntotal number of containers in the ship coming from a given manifest and the \ntotal capacity of the ship, i.e., the maximum number of containers the ship can load." as UC208
+usecase "UC209-Know the occupancy rate of a given ship at a given moment." as UC209
+usecase "UC210-Know which ships will be available on Monday next week and their location" as UC210
+
+}
+
+tm--UC101
+tm--UC102
+tm--UC103
+tm--UC104
+tm--UC105
+tm--UC106
+tm--UC107
+pjm--UC108
+pjm--UC109
+pjm--UC110
+pjm--UC111
+pm--UC201
+tm--UC202
+pjm--UC203
+c--UC204
+sc--UC205
+sc--UC206
+sc--UC207
+sc--UC208
+sc--UC209
+tm--UC210
+@enduml

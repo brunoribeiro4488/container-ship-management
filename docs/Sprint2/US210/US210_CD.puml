@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ShipsAvailableUI{
+}
+}
+
+package "controllers" {
+class ShipsAvailableController{
++getShipsAvailable()
++printer(fileName, tringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class ShipsAvailable{
++getShipsAvailable()
+}
+}
+
+
+
+ShipsAvailableUI ..> ShipsAvailableController
+ShipsAvailableController ..> Printer
+ShipsAvailableController ..> ShipsAvailable
+@enduml

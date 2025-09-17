@@ -1,0 +1,73 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "UI" {
+class SearchShipUI{
+}
+}
+
+package "Core" {
+package "Controllers" {
+class SearchShipController{
+    +getShipByMMSI(mmsi)
+    +getShipByIMO(imo)
+    +getShipByCallSign(callSign)
+}
+}
+
+package "Mappers"{
+class ShipMapper{
+    +modelToDto(s)
+}
+}
+
+package dto{
+class ShipDTO{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+}
+
+package "Stores"{
+class ShipStore{
+    +getShipByMMSI(mmsi)
+    +getShipByIMO(imo)
+    +getShipByCallSign(callSign)
+}
+}
+
+package "Model"{
+class Company{
+    +getShipStore()
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getSp()
+}
+}
+}
+SearchShipUI ..> SearchShipController
+SearchShipController ..> Company
+SearchShipController ..> ShipStore
+SearchShipController ..> ShipMapper
+ShipStore ..> Ship
+ShipMapper ..> Ship
+ShipMapper ..> ShipDTO
+
+@enduml

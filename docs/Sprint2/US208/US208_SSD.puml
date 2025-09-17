@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+autonumber
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to know the occupancy rate of a ship
+activate ":System"
+":System" --> SC: requests data (i.e.: shipMMSI and cargoManifestID)
+deactivate ":System"
+
+SC -> ":System": types requested data
+activate ":System"
+":System" --> SC : shows the data (occupancy rate) and informs operation success
+deactivate ":System"
+
+@enduml

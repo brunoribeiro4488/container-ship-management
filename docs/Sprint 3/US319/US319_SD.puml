@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+participant "ThermalResistancesUI" as TRUI
+participant "ThermalResistancesController" as TRC
+participant "posContainer: PositiveContainer" as PC
+participant "negContainer: NegativeContainer" as NC
+participant "stringThermalResistance: String" as STR
+participant "posContThermalResistance: double" as PCTR
+participant "negContThermalResistance: double" as NCTR
+participant "p: Printer" as P
+
+activate SCEE
+
+SCEE -> TRUI: asks to know the thermal resistances, for each operating temperature, of each container
+activate TRUI
+TRUI -> TRC : stringThermalResistances = getThermalResistances()
+activate TRC
+TRC -> PC : posContThermalResistance = getThermalResistance()
+activate PC
+deactivate PC
+TRC -> NC : negContThermalResistance = getThermalResistance()
+activate NC
+deactivate NC
+TRC -> P : print(Thermal Resistances,stringThermalResistances, US319)
+activate P
+deactivate P
+deactivate TRC
+TRUI --> SCEE : shows the data (thermal resistances) and informs operation success
+deactivate TRUI
+
+deactivate SCEE
+@enduml

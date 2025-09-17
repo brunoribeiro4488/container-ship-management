@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="288px" preserveAspectRatio="none" style="width:625px;height:288px;" version="1.1" viewBox="0 0 625 288" width="625px" zoomAndPan="magnify"><defs><filter height="300%" id="f1n31v2z0i4vd0" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1n31v2z0i4vd0)" height="94.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="43.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1n31v2z0i4vd0)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="576.5" y="138.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="48" x2="48" y1="89.6094" y2="203.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="581.5" x2="581.5" y1="89.6094" y2="203.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="5" y="86.5332">Ship Captain</text><ellipse cx="48.5" cy="15" fill="#FEFECE" filter="url(#f1n31v2z0i4vd0)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M48.5,23 L48.5,50 M35.5,31 L61.5,31 M48.5,50 L35.5,65 M48.5,50 L61.5,65 " fill="none" filter="url(#f1n31v2z0i4vd0)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="5" y="216.5488">Ship Captain</text><ellipse cx="48.5" cy="229.625" fill="#FEFECE" filter="url(#f1n31v2z0i4vd0)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M48.5,237.625 L48.5,264.625 M35.5,245.625 L61.5,245.625 M48.5,264.625 L35.5,279.625 M48.5,264.625 L61.5,279.625 " fill="none" filter="url(#f1n31v2z0i4vd0)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1n31v2z0i4vd0)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="547.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="554.5" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#f1n31v2z0i4vd0)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="547.5" y="202.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="554.5" y="223.5488">:System</text><rect fill="#FFFFFF" filter="url(#f1n31v2z0i4vd0)" height="94.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="43.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1n31v2z0i4vd0)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="576.5" y="138.3125"/><polygon fill="#A80036" points="564.5,134.3125,574.5,138.3125,564.5,142.3125,568.5,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="53.5" x2="570.5" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="60.5" y="125.2803">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="376" x="71.5" y="117.1045">asks to know for a specific vessel, how much did the vessel sink,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="307" x="71.5" y="133.4561">assuming that each container has half a ton of mass.</text><polygon fill="#A80036" points="64.5,181.0156,54.5,185.0156,64.5,189.0156,60.5,185.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="58.5" x2="580.5" y1="185.0156" y2="185.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70.5" y="171.9834">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="488" x="81.5" y="163.8076">shows the data (total mass placed on the vessel, pressure exerted by it on the water</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="480" x="85.5" y="180.1592">and difference in height that the vessel has suffered) and informs operation success</text><!--MD5=[85bfd5fbbacd5a1cb1bfcf07cd8515ed]
+@startuml
+'https://plantuml.com/class-diagram
+
+autonumber
+
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to know for a specific vessel, how much did the vessel sink,\nassuming that each container has half a ton of mass.
+activate ":System"
+":System" - -> SC : shows the data (total mass placed on the vessel, pressure exerted by it on the water\n and difference in height that the vessel has suffered) and informs operation success
+deactivate ":System"
+
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to know for a specific vessel, how much did the vessel sink,\nassuming that each container has half a ton of mass.
+activate ":System"
+":System" - -> SC : shows the data (total mass placed on the vessel, pressure exerted by it on the water\n and difference in height that the vessel has suffered) and informs operation success
+deactivate ":System"
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

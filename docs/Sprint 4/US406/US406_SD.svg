@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="439px" preserveAspectRatio="none" style="width:1127px;height:439px;" version="1.1" viewBox="0 0 1127 439" width="1127px" zoomAndPan="magnify"><defs><filter height="300%" id="f2m8ugu5uc1qf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="236.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="49" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="197.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="506" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="120.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="661" y="168.6641"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="986" y="199.0156"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1080.5" y="259.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="54" x2="54" y1="89.6094" y2="354.0703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="510.5" x2="510.5" y1="89.6094" y2="354.0703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="665.5" x2="665.5" y1="89.6094" y2="354.0703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="990.5" x2="990.5" y1="89.6094" y2="354.0703"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1085.5" x2="1085.5" y1="89.6094" y2="354.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="86.5332">Fleet Manager</text><ellipse cx="54" cy="15" fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,23 L54,50 M41,31 L67,31 M54,50 L41,65 M54,50 L67,65 " fill="none" filter="url(#f2m8ugu5uc1qf)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="367.6035">Fleet Manager</text><ellipse cx="54" cy="380.6797" fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,388.6797 L54,415.6797 M41,396.6797 L67,396.6797 M54,415.6797 L41,430.6797 M54,415.6797 L67,430.6797 " fill="none" filter="url(#f2m8ugu5uc1qf)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="113" x="452.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="459.5" y="74.5332">:ShipVoyagesUI</text><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="113" x="452.5" y="353.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="459.5" y="374.6035">:ShipVoyagesUI</text><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="163" x="582.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="589.5" y="74.5332">:ShipVoyagesController</text><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="163" x="582.5" y="353.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="589.5" y="374.6035">:ShipVoyagesController</text><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="101" x="938.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="945.5" y="74.5332">:ShipVoyages</text><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="101" x="938.5" y="353.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="945.5" y="374.6035">:ShipVoyages</text><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="1053.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1060.5" y="74.5332">:Printer</text><rect fill="#FEFECE" filter="url(#f2m8ugu5uc1qf)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="60" x="1053.5" y="353.0703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="1060.5" y="374.6035">:Printer</text><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="236.4609" style="stroke:#A80036;stroke-width:1.0;" width="10" x="49" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="197.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="506" y="138.3125"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="120.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="661" y="168.6641"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="986" y="199.0156"/><rect fill="#FFFFFF" filter="url(#f2m8ugu5uc1qf)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1080.5" y="259.3672"/><polygon fill="#A80036" points="494,134.3125,504,138.3125,494,142.3125,498,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="59" x2="500" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="125.2803">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="364" x="77" y="117.1045">asks to know which ship voyages - place and date of origin and</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="355" x="81" y="133.4561">destination - had an occupancy rate below a certain threshold</text><polygon fill="#A80036" points="649,164.6641,659,168.6641,649,172.6641,653,168.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="516" x2="655" y1="168.6641" y2="168.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="523" y="163.8076">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="534" y="163.8076">shipVoyages(mmsi)</text><polygon fill="#A80036" points="974,195.0156,984,199.0156,974,203.0156,978,199.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="980" y1="199.0156" y2="199.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="678" y="194.1592">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="285" x="689" y="194.1592">result = shipVoyages(databaseConnection,mmsi)</text><polygon fill="#A80036" points="1068.5,255.3672,1078.5,259.3672,1068.5,263.3672,1072.5,259.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="671" x2="1074.5" y1="259.3672" y2="259.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="678" y="254.5107">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="689" y="254.5107">print(filename,result)</text><polygon fill="#A80036" points="65,332.0703,55,336.0703,65,340.0703,61,336.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="59" x2="510" y1="336.0703" y2="336.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="71" y="323.0381">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="340" x="82" y="314.8623">shows the data (places and dates of origin and destination,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="408" x="86" y="331.2139">which have below 66% occupancy rate) and informs operation success</text><!--MD5=[fcba304b5155e77b22a8fff20b10630f]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Fleet Manager" as FM
+participant ":ShipVoyagesUI" as SVUI
+participant ":ShipVoyagesController" as SVC
+participant ":ShipVoyages" as SV
+participant ":Printer" as P
+
+activate FM
+FM -> SVUI: asks to know which ship voyages - place and date of origin and\n destination - had an occupancy rate below a certain threshold
+activate SVUI
+SVUI -> SVC : shipVoyages(mmsi)
+activate SVC
+SVC -> SV : result = shipVoyages(databaseConnection,mmsi)
+activate SV
+deactivate SV
+SVC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate SVC
+SVUI - -> FM : shows the data (places and dates of origin and destination,\n which have below 66% occupancy rate) and informs operation success
+deactivate SVC
+deactivate SVUI
+deactivate FM
+@enduml
+
+@startuml
+
+autonumber
+actor "Fleet Manager" as FM
+participant ":ShipVoyagesUI" as SVUI
+participant ":ShipVoyagesController" as SVC
+participant ":ShipVoyages" as SV
+participant ":Printer" as P
+
+activate FM
+FM -> SVUI: asks to know which ship voyages - place and date of origin and\n destination - had an occupancy rate below a certain threshold
+activate SVUI
+SVUI -> SVC : shipVoyages(mmsi)
+activate SVC
+SVC -> SV : result = shipVoyages(databaseConnection,mmsi)
+activate SV
+deactivate SV
+SVC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate SVC
+SVUI - -> FM : shows the data (places and dates of origin and destination,\n which have below 66% occupancy rate) and informs operation success
+deactivate SVC
+deactivate SVUI
+deactivate FM
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

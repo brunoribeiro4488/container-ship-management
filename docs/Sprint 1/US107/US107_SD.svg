@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="450px" preserveAspectRatio="none" style="width:1407px;height:450px;" version="1.1" viewBox="0 0 1407 450" width="1407px" zoomAndPan="magnify"><defs><filter height="300%" id="fngu5ix4ht50u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="247.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="224.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="157.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="772" y="152.3125"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="895" y="182.6641"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="66.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1010.5" y="243.0156"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1015.5" y="281.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="364.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="570.5" x2="570.5" y1="89.6094" y2="364.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="776.5" x2="776.5" y1="89.6094" y2="364.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="900" x2="900" y1="89.6094" y2="364.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1015" x2="1015" y1="89.6094" y2="364.7188"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1274.5" x2="1274.5" y1="89.6094" y2="364.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#fngu5ix4ht50u)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#fngu5ix4ht50u)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="378.252">Traffic Manager</text><ellipse cx="58" cy="391.3281" fill="#FEFECE" filter="url(#fngu5ix4ht50u)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,399.3281 L58,426.3281 M45,407.3281 L71,407.3281 M58,426.3281 L45,441.3281 M58,426.3281 L71,441.3281 " fill="none" filter="url(#fngu5ix4ht50u)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="527.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="534.5" y="74.5332">:ShipPairUI</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="83" x="527.5" y="363.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="534.5" y="385.252">:ShipPairUI</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="133" x="708.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="715.5" y="74.5332">:ShipPairController</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="133" x="708.5" y="363.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="715.5" y="385.252">:ShipPairController</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="859" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="866" y="74.5332">:Company</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="859" y="363.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="866" y="385.252">:Company</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="125" x="951" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="958" y="74.5332">sStore: ShipStore</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="125" x="951" y="363.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="958" y="385.252">sStore: ShipStore</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="242" x="1151.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="1158.5" y="74.5332">listPairShips: List&lt;Pair&lt;Ship, Ship&gt;&gt;</text><rect fill="#FEFECE" filter="url(#fngu5ix4ht50u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="242" x="1151.5" y="363.7188"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="228" x="1158.5" y="385.252">listPairShips: List&lt;Pair&lt;Ship, Ship&gt;&gt;</text><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="247.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="224.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="157.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="772" y="152.3125"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="895" y="182.6641"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="66.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1010.5" y="243.0156"/><rect fill="#FFFFFF" filter="url(#fngu5ix4ht50u)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1015.5" y="281.3672"/><polygon fill="#A80036" points="554,117.9609,564,121.9609,554,125.9609,558,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="560" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="473" x="81" y="117.1045">asks to see the pairs of ships organized by mmsi and travelled distance difference</text><polygon fill="#A80036" points="760,148.3125,770,152.3125,760,156.3125,764,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="766" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="583" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="166" x="594" y="147.4561">listPairShips = PairOfShips()</text><polygon fill="#A80036" points="883,178.6641,893,182.6641,883,186.6641,887,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="782" x2="889" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="789" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="800" y="177.8076">getShipStore()</text><polygon fill="#A80036" points="998.5,239.0156,1008.5,243.0156,998.5,247.0156,1002.5,243.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="782" x2="1004.5" y1="243.0156" y2="243.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="789" y="238.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="164" x="800" y="238.1592">listPairShips = pairOfShips()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1025.5" x2="1067.5" y1="273.3672" y2="273.3672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1067.5" x2="1067.5" y1="273.3672" y2="286.3672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1026.5" x2="1067.5" y1="286.3672" y2="286.3672"/><polygon fill="#A80036" points="1036.5,282.3672,1026.5,286.3672,1036.5,290.3672,1032.5,286.3672" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1032.5" y="268.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="224" x="1043.5" y="268.5107">listPairShips = orderList(ListPairShips)</text><polygon fill="#A80036" points="69,342.7188,59,346.7188,69,350.7188,65,346.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="570" y1="346.7188" y2="346.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="75" y="341.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="358" x="86" y="341.8623">shows the data (pairs of ships) and informs operation success</text><!--MD5=[54b4f54b1f37cbcf4f0d5e83b39d3038]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ShipPairUI" as SPUI
+participant ":ShipPairController" as SPC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "listPairShips: List<Pair<Ship, Ship>>" as lps
+
+activate TM
+TM -> SPUI : asks to see the pairs of ships organized by mmsi and travelled distance difference
+activate SPUI
+SPUI -> SPC : listPairShips = PairOfShips()
+activate SPC
+SPC -> COMP : getShipStore()
+activate COMP
+deactivate COMP
+SPC -> SS : listPairShips = pairOfShips()
+activate SS
+SS -> SS : listPairShips = orderList(ListPairShips)
+activate SS
+deactivate SS
+deactivate SS
+deactivate SPC
+SPUI - -> TM : shows the data (pairs of ships) and informs operation success
+deactivate SPUI
+deactivate TM
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ShipPairUI" as SPUI
+participant ":ShipPairController" as SPC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "listPairShips: List<Pair<Ship, Ship>>" as lps
+
+activate TM
+TM -> SPUI : asks to see the pairs of ships organized by mmsi and travelled distance difference
+activate SPUI
+SPUI -> SPC : listPairShips = PairOfShips()
+activate SPC
+SPC -> COMP : getShipStore()
+activate COMP
+deactivate COMP
+SPC -> SS : listPairShips = pairOfShips()
+activate SS
+SS -> SS : listPairShips = orderList(ListPairShips)
+activate SS
+deactivate SS
+deactivate SS
+deactivate SPC
+SPUI - -> TM : shows the data (pairs of ships) and informs operation success
+deactivate SPUI
+deactivate TM
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

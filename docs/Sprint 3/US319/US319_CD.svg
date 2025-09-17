@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="486.25px" preserveAspectRatio="none" style="width:922px;height:486px;" version="1.1" viewBox="0 0 922 486" width="922.5px" zoomAndPan="magnify"><defs><filter height="300%" id="f1dboj71rvdf1d" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f1dboj71rvdf1d)" points="466.25,7.5,490,7.5,498.75,37.0117,706.25,37.0117,706.25,132.5,466.25,132.5,466.25,7.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="466.25" x2="498.75" y1="37.0117" y2="37.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="16.25" x="471.25" y="28.1665">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f1dboj71rvdf1d)" points="440,162.5,543.75,162.5,552.5,192.0117,732.5,192.0117,732.5,305,440,305,440,162.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="440" x2="552.5" y1="192.0117" y2="192.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="96.25" x="445" y="183.1665">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f1dboj71rvdf1d)" points="20,335,65,335,73.75,364.5117,452.5,364.5117,452.5,477.5,20,477.5,20,335" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="20" x2="73.75" y1="364.5117" y2="364.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="37.5" x="25" y="355.6665">utils</text><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#f1dboj71rvdf1d)" points="482.5,335,543.75,335,552.5,364.5117,901.25,364.5117,901.25,477.5,482.5,477.5,482.5,335" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="482.5" x2="552.5" y1="364.5117" y2="364.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="53.75" x="487.5" y="355.6665">model</text><!--MD5=[013467ba965c6013199e682e90f00e38]
+class ThermalResistancesUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f1dboj71rvdf1d)" height="60" id="ThermalResistancesUI" style="stroke:#A80036;stroke-width:1.875;" width="200" x="486.25" y="52.5"/><ellipse cx="505" cy="72.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M507.5,68.125 Q507.7539,67.5 508.0469,67.1875 Q508.3398,66.875 508.6719,66.875 Q509.2578,66.875 509.6289,67.2266 Q510,67.5781 510,68.3984 L510,70.3516 Q510,71.1719 509.6484,71.5234 Q509.2969,71.875 508.75,71.875 Q508.2617,71.875 507.9492,71.6602 Q507.6367,71.4453 507.5,70.8789 Q507.4414,70.4883 507.2266,70.2734 Q506.8359,69.8633 506.1328,69.6289 Q505.4297,69.375 504.7266,69.375 Q503.8477,69.375 503.1055,69.7266 Q502.3828,70.0781 501.8164,70.8594 Q501.25,71.6406 501.25,72.7148 L501.25,73.8672 Q501.25,75.1563 502.3047,76.0156 Q503.3594,76.875 505.2344,76.875 Q506.3477,76.875 507.1289,76.6211 Q507.5781,76.4844 508.0859,76.0352 Q508.418,75.7813 508.5938,75.7031 Q508.7695,75.625 508.9844,75.625 Q509.3945,75.625 509.6875,75.957 Q510,76.2695 510,76.7188 Q510,77.1484 509.5703,77.6563 Q508.9453,78.3984 507.9492,78.8086 Q506.6406,79.375 505.0391,79.375 Q503.1641,79.375 501.6602,78.6328 Q500.4492,78.0469 499.5898,76.7773 Q498.75,75.5078 498.75,74.0039 L498.75,72.6367 Q498.75,71.0742 499.4922,69.707 Q500.2539,68.3398 501.5625,67.6172 Q502.8906,66.875 504.375,66.875 Q505.2734,66.875 506.0547,67.1875 Q506.8359,67.5 507.5,68.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="160" x="522.5" y="78.6377">ThermalResistancesUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="487.5" x2="685" y1="92.5" y2="92.5"/><line style="stroke:#A80036;stroke-width:1.875;" x1="487.5" x2="685" y1="102.5" y2="102.5"/><!--MD5=[28f7c4789d58be4ce3102e2a68d54440]
+class ThermalResistancesController--><rect codeLine="11" fill="#FEFECE" filter="url(#f1dboj71rvdf1d)" height="77.2949" id="ThermalResistancesController" style="stroke:#A80036;stroke-width:1.875;" width="252.5" x="460" y="207.5"/><ellipse cx="478.75" cy="227.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M481.25,223.125 Q481.5039,222.5 481.7969,222.1875 Q482.0898,221.875 482.4219,221.875 Q483.0078,221.875 483.3789,222.2266 Q483.75,222.5781 483.75,223.3984 L483.75,225.3516 Q483.75,226.1719 483.3984,226.5234 Q483.0469,226.875 482.5,226.875 Q482.0117,226.875 481.6992,226.6602 Q481.3867,226.4453 481.25,225.8789 Q481.1914,225.4883 480.9766,225.2734 Q480.5859,224.8633 479.8828,224.6289 Q479.1797,224.375 478.4766,224.375 Q477.5977,224.375 476.8555,224.7266 Q476.1328,225.0781 475.5664,225.8594 Q475,226.6406 475,227.7148 L475,228.8672 Q475,230.1563 476.0547,231.0156 Q477.1094,231.875 478.9844,231.875 Q480.0977,231.875 480.8789,231.6211 Q481.3281,231.4844 481.8359,231.0352 Q482.168,230.7813 482.3438,230.7031 Q482.5195,230.625 482.7344,230.625 Q483.1445,230.625 483.4375,230.957 Q483.75,231.2695 483.75,231.7188 Q483.75,232.1484 483.3203,232.6563 Q482.6953,233.3984 481.6992,233.8086 Q480.3906,234.375 478.7891,234.375 Q476.9141,234.375 475.4102,233.6328 Q474.1992,233.0469 473.3398,231.7773 Q472.5,230.5078 472.5,229.0039 L472.5,227.6367 Q472.5,226.0742 473.2422,224.707 Q474.0039,223.3398 475.3125,222.6172 Q476.6406,221.875 478.125,221.875 Q479.0234,221.875 479.8047,222.1875 Q480.5859,222.5 481.25,223.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="212.5" x="496.25" y="233.6377">ThermalResistancesController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="461.25" x2="711.25" y1="247.5" y2="247.5"/><line style="stroke:#A80036;stroke-width:1.875;" x1="461.25" x2="711.25" y1="257.5" y2="257.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="158.75" x="467.5" y="276.7737">+getThermalResistances()</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="16" fill="#FEFECE" filter="url(#f1dboj71rvdf1d)" height="77.2949" id="Printer" style="stroke:#A80036;stroke-width:1.875;" width="392.5" x="40" y="380"/><ellipse cx="208.4375" cy="400" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M210.9375,395.625 Q211.1914,395 211.4844,394.6875 Q211.7773,394.375 212.1094,394.375 Q212.6953,394.375 213.0664,394.7266 Q213.4375,395.0781 213.4375,395.8984 L213.4375,397.8516 Q213.4375,398.6719 213.0859,399.0234 Q212.7344,399.375 212.1875,399.375 Q211.6992,399.375 211.3867,399.1602 Q211.0742,398.9453 210.9375,398.3789 Q210.8789,397.9883 210.6641,397.7734 Q210.2734,397.3633 209.5703,397.1289 Q208.8672,396.875 208.1641,396.875 Q207.2852,396.875 206.543,397.2266 Q205.8203,397.5781 205.2539,398.3594 Q204.6875,399.1406 204.6875,400.2148 L204.6875,401.3672 Q204.6875,402.6563 205.7422,403.5156 Q206.7969,404.375 208.6719,404.375 Q209.7852,404.375 210.5664,404.1211 Q211.0156,403.9844 211.5234,403.5352 Q211.8555,403.2813 212.0313,403.2031 Q212.207,403.125 212.4219,403.125 Q212.832,403.125 213.125,403.457 Q213.4375,403.7695 213.4375,404.2188 Q213.4375,404.6484 213.0078,405.1563 Q212.3828,405.8984 211.3867,406.3086 Q210.0781,406.875 208.4766,406.875 Q206.6016,406.875 205.0977,406.1328 Q203.8867,405.5469 203.0273,404.2773 Q202.1875,403.0078 202.1875,401.5039 L202.1875,400.1367 Q202.1875,398.5742 202.9297,397.207 Q203.6914,395.8398 205,395.1172 Q206.3281,394.375 207.8125,394.375 Q208.7109,394.375 209.4922,394.6875 Q210.2734,395 210.9375,395.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="45" x="234.0625" y="406.1377">Printer</text><line style="stroke:#A80036;stroke-width:1.875;" x1="41.25" x2="431.25" y1="420" y2="420"/><line style="stroke:#A80036;stroke-width:1.875;" x1="41.25" x2="431.25" y1="430" y2="430"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="377.5" x="47.5" y="449.2737">+print(Thermal Resistances,stringThermalResistances, US319)</text><!--MD5=[f9241b7447f059d78b186573f6bbb40e]
+class PositiveContainer--><rect codeLine="21" fill="#FEFECE" filter="url(#f1dboj71rvdf1d)" height="77.2949" id="PositiveContainer" style="stroke:#A80036;stroke-width:1.875;" width="166.25" x="714.375" y="380"/><ellipse cx="735.375" cy="400" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M737.875,395.625 Q738.1289,395 738.4219,394.6875 Q738.7148,394.375 739.0469,394.375 Q739.6328,394.375 740.0039,394.7266 Q740.375,395.0781 740.375,395.8984 L740.375,397.8516 Q740.375,398.6719 740.0234,399.0234 Q739.6719,399.375 739.125,399.375 Q738.6367,399.375 738.3242,399.1602 Q738.0117,398.9453 737.875,398.3789 Q737.8164,397.9883 737.6016,397.7734 Q737.2109,397.3633 736.5078,397.1289 Q735.8047,396.875 735.1016,396.875 Q734.2227,396.875 733.4805,397.2266 Q732.7578,397.5781 732.1914,398.3594 Q731.625,399.1406 731.625,400.2148 L731.625,401.3672 Q731.625,402.6563 732.6797,403.5156 Q733.7344,404.375 735.6094,404.375 Q736.7227,404.375 737.5039,404.1211 Q737.9531,403.9844 738.4609,403.5352 Q738.793,403.2813 738.9688,403.2031 Q739.1445,403.125 739.3594,403.125 Q739.7695,403.125 740.0625,403.457 Q740.375,403.7695 740.375,404.2188 Q740.375,404.6484 739.9453,405.1563 Q739.3203,405.8984 738.3242,406.3086 Q737.0156,406.875 735.4141,406.875 Q733.5391,406.875 732.0352,406.1328 Q730.8242,405.5469 729.9648,404.2773 Q729.125,403.0078 729.125,401.5039 L729.125,400.1367 Q729.125,398.5742 729.8672,397.207 Q730.6289,395.8398 731.9375,395.1172 Q733.2656,394.375 734.75,394.375 Q735.6484,394.375 736.4297,394.6875 Q737.2109,395 737.875,395.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="121.25" x="753.375" y="406.1377">PositiveContainer</text><line style="stroke:#A80036;stroke-width:1.875;" x1="715.625" x2="879.375" y1="420" y2="420"/><line style="stroke:#A80036;stroke-width:1.875;" x1="715.625" x2="879.375" y1="430" y2="430"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="151.25" x="721.875" y="449.2737">+getThermalResistance()</text><!--MD5=[b1a57a1df3f8680eb1e29de8ead188ad]
+class NegativeContainer--><rect codeLine="24" fill="#FEFECE" filter="url(#f1dboj71rvdf1d)" height="77.2949" id="NegativeContainer" style="stroke:#A80036;stroke-width:1.875;" width="167.5" x="502.5" y="380"/><ellipse cx="521.25" cy="400" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M523.75,395.625 Q524.0039,395 524.2969,394.6875 Q524.5898,394.375 524.9219,394.375 Q525.5078,394.375 525.8789,394.7266 Q526.25,395.0781 526.25,395.8984 L526.25,397.8516 Q526.25,398.6719 525.8984,399.0234 Q525.5469,399.375 525,399.375 Q524.5117,399.375 524.1992,399.1602 Q523.8867,398.9453 523.75,398.3789 Q523.6914,397.9883 523.4766,397.7734 Q523.0859,397.3633 522.3828,397.1289 Q521.6797,396.875 520.9766,396.875 Q520.0977,396.875 519.3555,397.2266 Q518.6328,397.5781 518.0664,398.3594 Q517.5,399.1406 517.5,400.2148 L517.5,401.3672 Q517.5,402.6563 518.5547,403.5156 Q519.6094,404.375 521.4844,404.375 Q522.5977,404.375 523.3789,404.1211 Q523.8281,403.9844 524.3359,403.5352 Q524.668,403.2813 524.8438,403.2031 Q525.0195,403.125 525.2344,403.125 Q525.6445,403.125 525.9375,403.457 Q526.25,403.7695 526.25,404.2188 Q526.25,404.6484 525.8203,405.1563 Q525.1953,405.8984 524.1992,406.3086 Q522.8906,406.875 521.2891,406.875 Q519.4141,406.875 517.9102,406.1328 Q516.6992,405.5469 515.8398,404.2773 Q515,403.0078 515,401.5039 L515,400.1367 Q515,398.5742 515.7422,397.207 Q516.5039,395.8398 517.8125,395.1172 Q519.1406,394.375 520.625,394.375 Q521.5234,394.375 522.3047,394.6875 Q523.0859,395 523.75,395.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="127.5" x="538.75" y="406.1377">NegativeContainer</text><line style="stroke:#A80036;stroke-width:1.875;" x1="503.75" x2="668.75" y1="420" y2="420"/><line style="stroke:#A80036;stroke-width:1.875;" x1="503.75" x2="668.75" y1="430" y2="430"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="151.25" x="510" y="449.2737">+getThermalResistance()</text><!--MD5=[0ebbf8e8ede94091be7b64d992831a3e]
+link ThermalResistancesUI to ThermalResistancesController--><path codeLine="29" d="M586.25,112.575 C586.25,137.0625 586.25,172.6125 586.25,200.7125 " fill="none" id="ThermalResistancesUI-to-ThermalResistancesController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="586.25,207.3125,591.25,196.0625,586.25,201.0625,581.25,196.0625,586.25,207.3125" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[b923484171cf8c7fe8dd037a827c63bc]
+link ThermalResistancesController to PositiveContainer--><path codeLine="30" d="M639.9375,285.1875 C656.9875,297.55 675.7625,311.5625 692.5,325 C712.25,340.8375 733.3125,359.1125 751.35,375.2125 " fill="none" id="ThermalResistancesController-to-PositiveContainer" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="756.3625,379.6875,751.3238,368.4548,751.7089,375.5153,744.6484,375.9005,756.3625,379.6875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[60e120487e82d252987146784097fc74]
+link ThermalResistancesController to NegativeContainer--><path codeLine="31" d="M586.25,285.225 C586.25,311.3125 586.25,346.1 586.25,373.45 " fill="none" id="ThermalResistancesController-to-NegativeContainer" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="586.25,379.875,591.25,368.625,586.25,373.625,581.25,368.625,586.25,379.875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[c8830d88c509738dd95495f30770e4d8]
+link ThermalResistancesController to Printer--><path codeLine="32" d="M509.0125,285.0125 C452.95,312.2375 377.2,349.0375 319.75,376.9375 " fill="none" id="ThermalResistancesController-to-Printer" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="313.9,379.7875,326.204,379.3699,319.5219,377.0569,321.8349,370.3748,313.9,379.7875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[da8b03a41267598dbd1dbfedc80b5b6a]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ThermalResistancesUI{
+}
+}
+
+package "controllers" {
+class ThermalResistancesController{
++getThermalResistances()
+}
+}
+package utils{
+class Printer{
++print(Thermal Resistances,stringThermalResistances, US319)
+}
+}
+package "model"{
+class PositiveContainer{
++getThermalResistance()
+}
+class NegativeContainer{
++getThermalResistance()
+}
+}
+
+ThermalResistancesUI ..> ThermalResistancesController
+ThermalResistancesController ..> PositiveContainer
+ThermalResistancesController ..> NegativeContainer
+ThermalResistancesController ..> Printer
+
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ThermalResistancesUI{
+}
+}
+
+package "controllers" {
+class ThermalResistancesController{
++getThermalResistances()
+}
+}
+package utils{
+class Printer{
++print(Thermal Resistances,stringThermalResistances, US319)
+}
+}
+package "model"{
+class PositiveContainer{
++getThermalResistance()
+}
+class NegativeContainer{
++getThermalResistance()
+}
+}
+
+ThermalResistancesUI ..> ThermalResistancesController
+ThermalResistancesController ..> PositiveContainer
+ThermalResistancesController ..> NegativeContainer
+ThermalResistancesController ..> Printer
+
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

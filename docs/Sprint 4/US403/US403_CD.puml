@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class MostEfficientCircuitUI{
+}
+}
+
+package "controllers" {
+class MostEfficientCircuitController{
++getMostEfficientCircuit(sourceLocation)
+}
+}
+package utils{
+package "stores"{
+class NetworkStore{
++getMostEfficientCircuit(sourceLocation)
+}
+
+package "matrix"{
+class Algorithms{
++depthFirstSearch(graph, sourceLocation, circuit)
+}
+}
+
+class Printer{
++print(Most efficient circuit, mostEfficientCircuit, US403)
+}
+}
+package "model"{
+class Company{
++getNetworkStore()
+}
+
+}
+
+MostEfficientCircuitUI ..> MostEfficientCircuitController
+MostEfficientCircuitController ..> Company
+MostEfficientCircuitController ..> NetworkStore
+MostEfficientCircuitController ..> Printer
+NetworkStore ..> Algorithms
+
+@enduml

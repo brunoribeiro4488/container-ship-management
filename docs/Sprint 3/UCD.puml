@@ -1,0 +1,105 @@
+@startuml
+left to right direction
+skinparam linetype polyline
+actor "Traffic Manager" as tm
+actor "Project Manager" as pjm
+actor "Port Manager" as pm
+actor "Client" as c
+actor "Ship Captain" as sc
+actor "Port Staff" as ps
+actor "Ship Chief Electrical Engineer" as scee
+
+
+Rectangle "Cargo Shipping Company"{
+usecase "UC101-Import ships from a text file" as UC101
+usecase "UC102-Search details of a ship" as UC102
+usecase "UC103-Have the positional message temporally organized\n and associated with the ships" as UC103
+usecase "UC104-Make a summary of the ship's movements" as UC104
+usecase "UC105-List for all the ships the MMSI, the total number\nof movements, Travelled Distance and Delta Distance" as UC105
+usecase "UC106-Get the top-N ships with the most kilometres travelled\n and their average speed" as UC106
+usecase "UC107-Get pairs of ships with routes with close departure/arrival\n coordinates and with different Travelled Distance" as UC107
+usecase "UC108-Develop the data model required to support all the functionality and\n to fulfill the purpose of the system to develop" as UC108
+usecase "UC109-Draft an SQL script to test whether the database verifies\n all the data integrity restrictions that are required\n to fulfil the purpose of the system and the business constraints of the UoD" as UC109
+usecase "UC110-Define the naming conventions to apply \nwhen defining identifiers or writing SQL or PL/SQL code" as UC110
+usecase "UC111-Create a SQL script to load the database\nwith a minimum set of data sufficient to carry out data \nintegrity verification and functional testing" as UC111
+usecase "UC201-Import ports from a text file" as UC201
+usecase "UC202-Find the closest port of a ship given its CallSign, on a certain DateTime" as UC202
+usecase "UC203-Review the relational data model in view of the new user stories \nso it can support all the requirements to fulfil the purpose of the system being developed" as UC203
+usecase "UC204-Know the current situation of a specific container being used to transport my goods" as UC204
+usecase "UC205-Get the list of containers to be offloaded in the next port, \nincluding container identifier, type, position, and load." as UC205
+usecase "UC206-Get the list of containers to be loaded in the next port, \nincluding container identifier, type, and load." as UC206
+usecase "UC207-Know how many cargo manifests I have transported during \na given year and the average number of containers per manifest" as UC207
+usecase "UC208-Know the occupancy rate (percentage) of a given ship for \na given cargo manifest. Occupancy rate is the ratio between \ntotal number of containers in the ship coming from a given manifest and the \ntotal capacity of the ship, i.e., the maximum number of containers the ship can load." as UC208
+usecase "UC209-Know the occupancy rate of a given ship at a given moment." as UC209
+usecase "UC210-Know which ships will be available on Monday next week and their location" as UC210
+usecase "UC301-Import data from countries, ports, borders and seadists files from the database to build a freight network." as UC301
+usecase "UC302-Colour the map using as few colours as possible" as UC302
+usecase "UC303-Know which places (cities or ports) are closest to all other places (closeness places)." as UC303
+usecase "UC304-Have access to audit trails for a given container of a given\n cargo manifest, that is, I want to have access to a list of all \noperations performed on a given container of a given manifest, in chronological order.\n For each operation I want to know: the user/login that performed it,\n the date and time the operation was performed, the type of operation (INSERT, UPDATE, DELETE),\n the container identifier and the cargo manifest identifier." as UC304
+usecase "UC305-Know the route of a specific container I am leasing." as UC305
+usecase "UC306-Know the occupancy rate of each warehouse and an estimate of\n the containers leaving the warehouse during the next 30 days" as UC306
+usecase "UC307-Get a warning whenever I issue a cargo manifest destined for\n a warehouse whose available capacity is insufficient to accommodate the new manifest." as UC307
+usecase "UC308-Have a system that ensures that the number of containers\n in a manifest does not exceed the ship's available capacity" as UC308
+usecase "UC309-Not allow a cargo manifest for a particular ship to be\n registered in the system on a date when the ship is already occupied." as UC309
+usecase "UC310-Have a map of the occupation of the existing resources in the port during a given month." as UC310
+usecase "UC311-Provide a database access account, with login “crew”\n and password “bd7wd5aF”, which gives access exclusively to the information\n of the containers that are loaded on my ship. The information about\n each container to be made available is: identifier, type, position and load" as UC311
+usecase "UC312-Know the current situation of a specific container being used to transport my goods" as UC312
+usecase "UC313-Fill a statically reserved matrix in memory with each container's ID in its respective place" as UC313
+usecase "UC314-Know the total number of free/occupied slots in the transport vehicle" as UC314
+usecase "UC315-Know if a container is there or not" as UC315
+usecase "UC316-Know the total number of occupied slots" as UC316
+usecase "UC317-Know what set of materials to use in a container, to operate at temperatures of 7°C" as UC317
+usecase "UC318-Know what set of materials to use in a container, to operate at temperatures of -5 °C" as UC318
+usecase "UC319-Know the thermal resistance, for each operating temperature,\n of each container that must contain at least three different materials in its walls.\n One for the outer wall, one for the intermediate material, and one for the inner wall." as UC319
+usecase "UC320-Present in a summary document, the choice of materials considered for\n the two types of containers considered, and their thermal resistances." as UC320
+
+
+
+
+
+
+
+}
+
+tm--UC101
+tm--UC102
+tm--UC103
+tm--UC104
+tm--UC105
+tm--UC106
+tm--UC107
+pjm--UC108
+pjm--UC109
+pjm--UC110
+pjm--UC111
+pm--UC201
+tm--UC202
+pjm--UC203
+c--UC204
+sc--UC205
+sc--UC206
+sc--UC207
+sc--UC208
+sc--UC209
+tm--UC210
+tm--UC301
+tm--UC302
+tm--UC303
+sc--UC304
+c--UC305
+pm--UC306
+pm--UC307
+tm--UC308
+tm--UC309
+pm--UC310
+sc--UC311
+c--UC312
+ps--UC313
+ps--UC314
+ps--UC315
+ps--UC316
+scee--UC317
+scee--UC318
+scee--UC319
+scee--UC320
+@enduml

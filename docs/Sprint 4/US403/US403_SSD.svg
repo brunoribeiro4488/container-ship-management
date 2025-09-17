@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="410.72px" preserveAspectRatio="none" style="width:1060px;height:410px;" version="1.1" viewBox="0 0 1060 410" width="1060.02px" zoomAndPan="magnify"><defs><filter height="300%" id="f1c6kxfkrkl5di" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="3.02"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="6.04" dy="6.04" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1c6kxfkrkl5di)" height="117.8626" style="stroke:#A80036;stroke-width:1.51;" width="15.1" x="80.03" y="150.4102"/><rect fill="#FFFFFF" filter="url(#f1c6kxfkrkl5di)" height="45.8309" style="stroke:#A80036;stroke-width:1.51;" width="15.1" x="986.03" y="208.8519"/><line style="stroke:#A80036;stroke-width:1.51;stroke-dasharray:5.0,5.0;" x1="87.58" x2="87.58" y1="135.3102" y2="281.8627"/><line style="stroke:#A80036;stroke-width:1.51;stroke-dasharray:5.0,5.0;" x1="993.58" x2="993.58" y1="135.3102" y2="281.8627"/><text fill="#000000" font-family="sans-serif" font-size="21.14" lengthAdjust="spacing" textLength="151" x="7.55" y="130.6651">Traffic Manager</text><ellipse cx="87.58" cy="22.65" fill="#FEFECE" filter="url(#f1c6kxfkrkl5di)" rx="12.08" ry="12.08" style="stroke:#A80036;stroke-width:3.02;"/><path d="M87.58,34.73 L87.58,75.5 M67.95,46.81 L107.21,46.81 M87.58,75.5 L67.95,98.15 M87.58,75.5 L107.21,98.15 " fill="none" filter="url(#f1c6kxfkrkl5di)" style="stroke:#A80036;stroke-width:3.02;"/><text fill="#000000" font-family="sans-serif" font-size="21.14" lengthAdjust="spacing" textLength="151" x="7.55" y="302.2979">Traffic Manager</text><ellipse cx="87.58" cy="322.0429" fill="#FEFECE" filter="url(#f1c6kxfkrkl5di)" rx="12.08" ry="12.08" style="stroke:#A80036;stroke-width:3.02;"/><path d="M87.58,334.1229 L87.58,374.8929 M67.95,346.2029 L107.21,346.2029 M87.58,374.8929 L67.95,397.5429 M87.58,374.8929 L107.21,397.5429 " fill="none" filter="url(#f1c6kxfkrkl5di)" style="stroke:#A80036;stroke-width:3.02;"/><rect fill="#FEFECE" filter="url(#f1c6kxfkrkl5di)" height="47.7302" style="stroke:#A80036;stroke-width:2.265;" width="96.64" x="942.24" y="80.03"/><text fill="#000000" font-family="sans-serif" font-size="21.14" lengthAdjust="spacing" textLength="75.5" x="952.81" y="112.5451">:System</text><rect fill="#FEFECE" filter="url(#f1c6kxfkrkl5di)" height="47.7302" style="stroke:#A80036;stroke-width:2.265;" width="96.64" x="942.24" y="280.3527"/><text fill="#000000" font-family="sans-serif" font-size="21.14" lengthAdjust="spacing" textLength="75.5" x="952.81" y="312.8679">:System</text><rect fill="#FFFFFF" filter="url(#f1c6kxfkrkl5di)" height="117.8626" style="stroke:#A80036;stroke-width:1.51;" width="15.1" x="80.03" y="150.4102"/><rect fill="#FFFFFF" filter="url(#f1c6kxfkrkl5di)" height="45.8309" style="stroke:#A80036;stroke-width:1.51;" width="15.1" x="986.03" y="208.8519"/><polygon fill="#A80036" points="967.91,202.8119,983.01,208.8519,967.91,214.8919,973.95,208.8519" style="stroke:#A80036;stroke-width:1.51;"/><line style="stroke:#A80036;stroke-width:1.51;" x1="95.13" x2="976.97" y1="208.8519" y2="208.8519"/><text fill="#000000" font-family="sans-serif" font-size="19.63" font-weight="bold" lengthAdjust="spacing" textLength="10.57" x="105.7" y="189.1732">1</text><text fill="#000000" font-family="sans-serif" font-size="19.63" lengthAdjust="spacing" textLength="662.89" x="122.31" y="176.8278">asks to know the most efficient circuit that starts from a source location and</text><text fill="#000000" font-family="sans-serif" font-size="19.63" lengthAdjust="spacing" textLength="717.25" x="128.35" y="201.5186">visits the greatest number of other locations once, returning to the starting location</text><polygon fill="#A80036" points="111.74,248.6427,96.64,254.6827,111.74,260.7227,105.7,254.6827" style="stroke:#A80036;stroke-width:1.51;"/><line style="stroke:#A80036;stroke-width:1.51;stroke-dasharray:2.0,2.0;" x1="102.68" x2="992.07" y1="254.6827" y2="254.6827"/><text fill="#000000" font-family="sans-serif" font-size="19.63" font-weight="bold" lengthAdjust="spacing" textLength="10.57" x="120.8" y="247.3495">2</text><text fill="#000000" font-family="sans-serif" font-size="19.63" lengthAdjust="spacing" textLength="838.05" x="137.41" y="247.3495">shows the data (most efficient circuit and shortest total distance) and informs operation success</text><!--MD5=[9eead8f9cea2c158b0de72a8a120598c]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to know the most efficient circuit that starts from a source location and\n visits the greatest number of other locations once, returning to the starting location
+activate ":System"
+":System" - -> TM : shows the data (most efficient circuit and shortest total distance) and informs operation success
+deactivate ":System"
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to know the most efficient circuit that starts from a source location and\n visits the greatest number of other locations once, returning to the starting location
+activate ":System"
+":System" - -> TM : shows the data (most efficient circuit and shortest total distance) and informs operation success
+deactivate ":System"
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

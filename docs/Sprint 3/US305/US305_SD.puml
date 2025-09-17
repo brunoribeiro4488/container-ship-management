@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Client" as C
+participant ":getRouteOfAContainerUI" as RCUI
+participant ":getRouteOfAContainerController" as RCC
+participant ":RouteOfAContainer" as RC
+participant ":Printer" as P
+
+activate C
+C -> RCUI: asks to know the route of the container
+activate RCUI
+RCUI --> C: requests data (clientRegistrationCode, containerNumber, ISOCode)
+deactivate RCUI
+
+C -> RCUI: types requested data
+activate RCUI
+RCUI -> RCC : getRouteOfAContainer(clientRegistrationCode, containerNumber, ISOCode)
+activate RCC
+RCC -> RC : result = getRouteOfAContainer(clientRegistrationCode, containerNumber, ISOCode)
+activate RC
+deactivate RC
+RCC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate RCC
+RCUI --> C : shows the data and informs operation success
+deactivate RCC
+deactivate RCUI
+deactivate C
+@enduml

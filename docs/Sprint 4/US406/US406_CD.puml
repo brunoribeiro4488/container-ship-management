@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ShipVoyagesUI{
+}
+}
+
+package "controllers" {
+class ShipVoyagesController{
++shipVoyages(mmsi)
++print(fileName,stringToPrint)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+}
+
+package data{
+class ShipVoyages{
++shipVoyages(databaseConnection,mmsi)
+}
+}
+
+
+
+ShipVoyagesUI ..> ShipVoyagesController
+ShipVoyagesController ..> Printer
+ShipVoyagesController ..> ShipVoyages
+@enduml

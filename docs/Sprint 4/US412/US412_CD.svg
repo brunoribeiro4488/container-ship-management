@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="457px" preserveAspectRatio="none" style="width:840px;height:457px;" version="1.1" viewBox="0 0 840 457" width="840px" zoomAndPan="magnify"><defs><filter height="300%" id="f1al7bn84nc81u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f1al7bn84nc81u)" points="253,6,272,6,279,29.6094,367,29.6094,367,106,253,106,253,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="253" x2="279" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="257" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f1al7bn84nc81u)" points="200,130,283,130,290,153.6094,420,153.6094,420,244,200,244,200,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="200" x2="290" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="204" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f1al7bn84nc81u)" points="16,268,52,268,59,291.6094,823,291.6094,823,450,16,450,16,268" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="291.6094" y2="291.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="284.5332">utils</text><!--MD5=[fbca5634cbc0239920b500cad9c4bedb]
+cluster stores--><polygon fill="#FFFFFF" filter="url(#f1al7bn84nc81u)" points="190,312,241,312,248,335.6094,799,335.6094,799,426,190,426,190,312" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="190" x2="248" y1="335.6094" y2="335.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="194" y="328.5332">stores</text><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#f1al7bn84nc81u)" points="40,312,89,312,96,335.6094,166,335.6094,166,426,40,426,40,312" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="96" y1="335.6094" y2="335.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="44" y="328.5332">model</text><!--MD5=[12eac3e0e1e3626b1dd7ed5e46052d64]
+class EnergyUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f1al7bn84nc81u)" height="48" id="EnergyUI" style="stroke:#A80036;stroke-width:1.5;" width="82" x="269" y="42"/><ellipse cx="284" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M286,54.5 Q286.2031,54 286.4375,53.75 Q286.6719,53.5 286.9375,53.5 Q287.4063,53.5 287.7031,53.7813 Q288,54.0625 288,54.7188 L288,56.2813 Q288,56.9375 287.7188,57.2188 Q287.4375,57.5 287,57.5 Q286.6094,57.5 286.3594,57.3281 Q286.1094,57.1563 286,56.7031 Q285.9531,56.3906 285.7813,56.2188 Q285.4688,55.8906 284.9063,55.7031 Q284.3438,55.5 283.7813,55.5 Q283.0781,55.5 282.4844,55.7813 Q281.9063,56.0625 281.4531,56.6875 Q281,57.3125 281,58.1719 L281,59.0938 Q281,60.125 281.8438,60.8125 Q282.6875,61.5 284.1875,61.5 Q285.0781,61.5 285.7031,61.2969 Q286.0625,61.1875 286.4688,60.8281 Q286.7344,60.625 286.875,60.5625 Q287.0156,60.5 287.1875,60.5 Q287.5156,60.5 287.75,60.7656 Q288,61.0156 288,61.375 Q288,61.7188 287.6563,62.125 Q287.1563,62.7188 286.3594,63.0469 Q285.3125,63.5 284.0313,63.5 Q282.5313,63.5 281.3281,62.9063 Q280.3594,62.4375 279.6719,61.4219 Q279,60.4063 279,59.2031 L279,58.1094 Q279,56.8594 279.5938,55.7656 Q280.2031,54.6719 281.25,54.0938 Q282.3125,53.5 283.5,53.5 Q284.2188,53.5 284.8438,53.75 Q285.4688,54 286,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="298" y="62.9102">EnergyUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="270" x2="350" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="270" x2="350" y1="82" y2="82"/><!--MD5=[c431b8fbb310faa6e8b409abceaea74b]
+class EnergyController--><rect codeLine="11" fill="#FEFECE" filter="url(#f1al7bn84nc81u)" height="61.8359" id="EnergyController" style="stroke:#A80036;stroke-width:1.5;" width="187" x="216.5" y="166"/><ellipse cx="259.85" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M261.85,178.5 Q262.0531,178 262.2875,177.75 Q262.5219,177.5 262.7875,177.5 Q263.2563,177.5 263.5531,177.7813 Q263.85,178.0625 263.85,178.7188 L263.85,180.2813 Q263.85,180.9375 263.5688,181.2188 Q263.2875,181.5 262.85,181.5 Q262.4594,181.5 262.2094,181.3281 Q261.9594,181.1563 261.85,180.7031 Q261.8031,180.3906 261.6313,180.2188 Q261.3188,179.8906 260.7563,179.7031 Q260.1938,179.5 259.6313,179.5 Q258.9281,179.5 258.3344,179.7813 Q257.7563,180.0625 257.3031,180.6875 Q256.85,181.3125 256.85,182.1719 L256.85,183.0938 Q256.85,184.125 257.6938,184.8125 Q258.5375,185.5 260.0375,185.5 Q260.9281,185.5 261.5531,185.2969 Q261.9125,185.1875 262.3188,184.8281 Q262.5844,184.625 262.725,184.5625 Q262.8656,184.5 263.0375,184.5 Q263.3656,184.5 263.6,184.7656 Q263.85,185.0156 263.85,185.375 Q263.85,185.7188 263.5063,186.125 Q263.0063,186.7188 262.2094,187.0469 Q261.1625,187.5 259.8813,187.5 Q258.3813,187.5 257.1781,186.9063 Q256.2094,186.4375 255.5219,185.4219 Q254.85,184.4063 254.85,183.2031 L254.85,182.1094 Q254.85,180.8594 255.4438,179.7656 Q256.0531,178.6719 257.1,178.0938 Q258.1625,177.5 259.35,177.5 Q260.0688,177.5 260.6938,177.75 Q261.3188,178 261.85,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="280.15" y="186.9102">EnergyController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="217.5" x2="402.5" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="217.5" x2="402.5" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="175" x="222.5" y="221.4189">+getEnergy(segundos, temperature)</text><!--MD5=[74d4f6d08803cf10722a02715f5c50bf]
+class FsiapStore--><rect codeLine="17" fill="#FEFECE" filter="url(#f1al7bn84nc81u)" height="61.8359" id="FsiapStore" style="stroke:#A80036;stroke-width:1.5;" width="334" x="449" y="348"/><ellipse cx="581.75" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M583.75,360.5 Q583.9531,360 584.1875,359.75 Q584.4219,359.5 584.6875,359.5 Q585.1563,359.5 585.4531,359.7813 Q585.75,360.0625 585.75,360.7188 L585.75,362.2813 Q585.75,362.9375 585.4688,363.2188 Q585.1875,363.5 584.75,363.5 Q584.3594,363.5 584.1094,363.3281 Q583.8594,363.1563 583.75,362.7031 Q583.7031,362.3906 583.5313,362.2188 Q583.2188,361.8906 582.6563,361.7031 Q582.0938,361.5 581.5313,361.5 Q580.8281,361.5 580.2344,361.7813 Q579.6563,362.0625 579.2031,362.6875 Q578.75,363.3125 578.75,364.1719 L578.75,365.0938 Q578.75,366.125 579.5938,366.8125 Q580.4375,367.5 581.9375,367.5 Q582.8281,367.5 583.4531,367.2969 Q583.8125,367.1875 584.2188,366.8281 Q584.4844,366.625 584.625,366.5625 Q584.7656,366.5 584.9375,366.5 Q585.2656,366.5 585.5,366.7656 Q585.75,367.0156 585.75,367.375 Q585.75,367.7188 585.4063,368.125 Q584.9063,368.7188 584.1094,369.0469 Q583.0625,369.5 581.7813,369.5 Q580.2813,369.5 579.0781,368.9063 Q578.1094,368.4375 577.4219,367.4219 Q576.75,366.4063 576.75,365.2031 L576.75,364.1094 Q576.75,362.8594 577.3438,361.7656 Q577.9531,360.6719 579,360.0938 Q580.0625,359.5 581.25,359.5 Q581.9688,359.5 582.5938,359.75 Q583.2188,360 583.75,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="60" x="602.25" y="368.9102">FsiapStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="450" x2="782" y1="380" y2="380"/><line style="stroke:#A80036;stroke-width:1.5;" x1="450" x2="782" y1="388" y2="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="322" x="455" y="403.4189">+getEnergyFromATripToNegativeContainer(segundos,temperature)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="21" fill="#FEFECE" filter="url(#f1al7bn84nc81u)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="207" x="206.5" y="348"/><ellipse cx="287.75" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M289.75,360.5 Q289.9531,360 290.1875,359.75 Q290.4219,359.5 290.6875,359.5 Q291.1563,359.5 291.4531,359.7813 Q291.75,360.0625 291.75,360.7188 L291.75,362.2813 Q291.75,362.9375 291.4688,363.2188 Q291.1875,363.5 290.75,363.5 Q290.3594,363.5 290.1094,363.3281 Q289.8594,363.1563 289.75,362.7031 Q289.7031,362.3906 289.5313,362.2188 Q289.2188,361.8906 288.6563,361.7031 Q288.0938,361.5 287.5313,361.5 Q286.8281,361.5 286.2344,361.7813 Q285.6563,362.0625 285.2031,362.6875 Q284.75,363.3125 284.75,364.1719 L284.75,365.0938 Q284.75,366.125 285.5938,366.8125 Q286.4375,367.5 287.9375,367.5 Q288.8281,367.5 289.4531,367.2969 Q289.8125,367.1875 290.2188,366.8281 Q290.4844,366.625 290.625,366.5625 Q290.7656,366.5 290.9375,366.5 Q291.2656,366.5 291.5,366.7656 Q291.75,367.0156 291.75,367.375 Q291.75,367.7188 291.4063,368.125 Q290.9063,368.7188 290.1094,369.0469 Q289.0625,369.5 287.7813,369.5 Q286.2813,369.5 285.0781,368.9063 Q284.1094,368.4375 283.4219,367.4219 Q282.75,366.4063 282.75,365.2031 L282.75,364.1094 Q282.75,362.8594 283.3438,361.7656 Q283.9531,360.6719 285,360.0938 Q286.0625,359.5 287.25,359.5 Q287.9688,359.5 288.5938,359.75 Q289.2188,360 289.75,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="308.25" y="368.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="207.5" x2="412.5" y1="380" y2="380"/><line style="stroke:#A80036;stroke-width:1.5;" x1="207.5" x2="412.5" y1="388" y2="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="195" x="212.5" y="403.4189">+print(Energy to maintain,energy,US412)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="26" fill="#FEFECE" filter="url(#f1al7bn84nc81u)" height="61.8359" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="93" x="56.5" y="348"/><ellipse cx="75.1" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M77.1,360.5 Q77.3031,360 77.5375,359.75 Q77.7719,359.5 78.0375,359.5 Q78.5063,359.5 78.8031,359.7813 Q79.1,360.0625 79.1,360.7188 L79.1,362.2813 Q79.1,362.9375 78.8188,363.2188 Q78.5375,363.5 78.1,363.5 Q77.7094,363.5 77.4594,363.3281 Q77.2094,363.1563 77.1,362.7031 Q77.0531,362.3906 76.8813,362.2188 Q76.5688,361.8906 76.0063,361.7031 Q75.4438,361.5 74.8813,361.5 Q74.1781,361.5 73.5844,361.7813 Q73.0063,362.0625 72.5531,362.6875 Q72.1,363.3125 72.1,364.1719 L72.1,365.0938 Q72.1,366.125 72.9438,366.8125 Q73.7875,367.5 75.2875,367.5 Q76.1781,367.5 76.8031,367.2969 Q77.1625,367.1875 77.5688,366.8281 Q77.8344,366.625 77.975,366.5625 Q78.1156,366.5 78.2875,366.5 Q78.6156,366.5 78.85,366.7656 Q79.1,367.0156 79.1,367.375 Q79.1,367.7188 78.7563,368.125 Q78.2563,368.7188 77.4594,369.0469 Q76.4125,369.5 75.1313,369.5 Q73.6313,369.5 72.4281,368.9063 Q71.4594,368.4375 70.7719,367.4219 Q70.1,366.4063 70.1,365.2031 L70.1,364.1094 Q70.1,362.8594 70.6938,361.7656 Q71.3031,360.6719 72.35,360.0938 Q73.4125,359.5 74.6,359.5 Q75.3188,359.5 75.9438,359.75 Q76.5688,360 77.1,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="89.9" y="368.9102">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="148.5" y1="380" y2="380"/><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="148.5" y1="388" y2="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="81" x="62.5" y="403.4189">+getFsiapStore()</text><!--MD5=[67cec28aef3dd5816501e65f24726192]
+link EnergyUI to EnergyController--><path codeLine="32" d="M310,90.06 C310,109.65 310,138.09 310,160.57 " fill="none" id="EnergyUI-to-EnergyController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="310,165.85,314,156.85,310,160.85,306,156.85,310,165.85" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[78aaec40b77380d1f681cc07f12f0989]
+link EnergyController to Company--><path codeLine="33" d="M238.7,228.03 C221.77,236.94 204.45,247.67 190,260 C162.17,283.73 138.18,318 122.48,343.5 " fill="none" id="EnergyController-to-Company" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="119.84,347.83,127.9363,342.222,122.4397,343.559,121.1027,338.0624,119.84,347.83" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[92106cc844be3a1017498996ee63fb3e]
+link EnergyController to FsiapStore--><path codeLine="34" d="M371.54,228.12 C390.78,237.91 411.96,249.08 431,260 C478.16,287.04 530.23,320.6 567.08,345.01 " fill="none" id="EnergyController-to-FsiapStore" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="571.49,347.94,566.2005,339.6321,567.3232,345.1764,561.7788,346.299,571.49,347.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b583865f9aa51ff5b61ac6fc8719e707]
+link EnergyController to Printer--><path codeLine="35" d="M310,228.13 C310,259.67 310,309.16 310,342.56 " fill="none" id="EnergyController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="310,347.77,314,338.77,310,342.77,306,338.77,310,347.77" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7fcbd6d1d91cd770e840727e9f7fb4d2]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class EnergyUI{
+}
+}
+
+package "controllers" {
+class EnergyController{
++getEnergy(segundos, temperature)
+}
+}
+package utils{
+package "stores"{
+class FsiapStore{
++getEnergyFromATripToNegativeContainer(segundos,temperature)
+}
+
+class Printer{
++print(Energy to maintain,energy,US412)
+}
+}
+package "model"{
+class Company{
++getFsiapStore()
+}
+
+}
+
+EnergyUI ..> EnergyController
+EnergyController ..> Company
+EnergyController ..> FsiapStore
+EnergyController ..> Printer
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class EnergyUI{
+}
+}
+
+package "controllers" {
+class EnergyController{
++getEnergy(segundos, temperature)
+}
+}
+package utils{
+package "stores"{
+class FsiapStore{
++getEnergyFromATripToNegativeContainer(segundos,temperature)
+}
+
+class Printer{
++print(Energy to maintain,energy,US412)
+}
+}
+package "model"{
+class Company{
++getFsiapStore()
+}
+
+}
+
+EnergyUI ..> EnergyController
+EnergyController ..> Company
+EnergyController ..> FsiapStore
+EnergyController ..> Printer
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

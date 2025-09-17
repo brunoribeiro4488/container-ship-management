@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:449px;height:403px;" version="1.1" viewBox="0 0 449 403" width="449px" zoomAndPan="magnify"><defs><filter height="300%" id="fb96fiaz5hrp7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#fb96fiaz5hrp7)" points="93,6,112,6,119,29.6094,295,29.6094,295,106,93,106,93,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="93" x2="119" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="97" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#fb96fiaz5hrp7)" points="72,130,155,130,162,153.6094,316,153.6094,316,258,72,258,72,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="72" x2="162" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="76" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#fb96fiaz5hrp7)" points="16,282,52,282,59,305.6094,116,305.6094,116,396,16,396,16,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="298.5332">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#fb96fiaz5hrp7)" points="140,282,176,282,183,305.6094,432,305.6094,432,396,140,396,140,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="140" x2="183" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="144" y="298.5332">data</text><!--MD5=[10a4c23e606244dc85785f283017a12a]
+class LoadingUnloadingMapUI--><rect codeLine="6" fill="#FEFECE" filter="url(#fb96fiaz5hrp7)" height="48" id="LoadingUnloadingMapUI" style="stroke:#A80036;stroke-width:1.5;" width="169" x="109.5" y="42"/><ellipse cx="124.5" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M126.5,54.5 Q126.7031,54 126.9375,53.75 Q127.1719,53.5 127.4375,53.5 Q127.9063,53.5 128.2031,53.7813 Q128.5,54.0625 128.5,54.7188 L128.5,56.2813 Q128.5,56.9375 128.2188,57.2188 Q127.9375,57.5 127.5,57.5 Q127.1094,57.5 126.8594,57.3281 Q126.6094,57.1563 126.5,56.7031 Q126.4531,56.3906 126.2813,56.2188 Q125.9688,55.8906 125.4063,55.7031 Q124.8438,55.5 124.2813,55.5 Q123.5781,55.5 122.9844,55.7813 Q122.4063,56.0625 121.9531,56.6875 Q121.5,57.3125 121.5,58.1719 L121.5,59.0938 Q121.5,60.125 122.3438,60.8125 Q123.1875,61.5 124.6875,61.5 Q125.5781,61.5 126.2031,61.2969 Q126.5625,61.1875 126.9688,60.8281 Q127.2344,60.625 127.375,60.5625 Q127.5156,60.5 127.6875,60.5 Q128.0156,60.5 128.25,60.7656 Q128.5,61.0156 128.5,61.375 Q128.5,61.7188 128.1563,62.125 Q127.6563,62.7188 126.8594,63.0469 Q125.8125,63.5 124.5313,63.5 Q123.0313,63.5 121.8281,62.9063 Q120.8594,62.4375 120.1719,61.4219 Q119.5,60.4063 119.5,59.2031 L119.5,58.1094 Q119.5,56.8594 120.0938,55.7656 Q120.7031,54.6719 121.75,54.0938 Q122.8125,53.5 124,53.5 Q124.7188,53.5 125.3438,53.75 Q125.9688,54 126.5,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="137" x="138.5" y="62.9102">LoadingUnloadingMapUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="110.5" x2="277.5" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="110.5" x2="277.5" y1="82" y2="82"/><!--MD5=[8e69e3364d1f5f167a6f19af79b6ba08]
+class LoadingUnloadingMapController--><rect codeLine="11" fill="#FEFECE" filter="url(#fb96fiaz5hrp7)" height="75.6719" id="LoadingUnloadingMapController" style="stroke:#A80036;stroke-width:1.5;" width="211" x="88.5" y="166"/><ellipse cx="103.5" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M105.5,178.5 Q105.7031,178 105.9375,177.75 Q106.1719,177.5 106.4375,177.5 Q106.9063,177.5 107.2031,177.7813 Q107.5,178.0625 107.5,178.7188 L107.5,180.2813 Q107.5,180.9375 107.2188,181.2188 Q106.9375,181.5 106.5,181.5 Q106.1094,181.5 105.8594,181.3281 Q105.6094,181.1563 105.5,180.7031 Q105.4531,180.3906 105.2813,180.2188 Q104.9688,179.8906 104.4063,179.7031 Q103.8438,179.5 103.2813,179.5 Q102.5781,179.5 101.9844,179.7813 Q101.4063,180.0625 100.9531,180.6875 Q100.5,181.3125 100.5,182.1719 L100.5,183.0938 Q100.5,184.125 101.3438,184.8125 Q102.1875,185.5 103.6875,185.5 Q104.5781,185.5 105.2031,185.2969 Q105.5625,185.1875 105.9688,184.8281 Q106.2344,184.625 106.375,184.5625 Q106.5156,184.5 106.6875,184.5 Q107.0156,184.5 107.25,184.7656 Q107.5,185.0156 107.5,185.375 Q107.5,185.7188 107.1563,186.125 Q106.6563,186.7188 105.8594,187.0469 Q104.8125,187.5 103.5313,187.5 Q102.0313,187.5 100.8281,186.9063 Q99.8594,186.4375 99.1719,185.4219 Q98.5,184.4063 98.5,183.2031 L98.5,182.1094 Q98.5,180.8594 99.0938,179.7656 Q99.7031,178.6719 100.75,178.0938 Q101.8125,177.5 103,177.5 Q103.7188,177.5 104.3438,177.75 Q104.9688,178 105.5,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="179" x="117.5" y="186.9102">LoadingUnloadingMapController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="89.5" x2="298.5" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="89.5" x2="298.5" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="146" x="94.5" y="221.4189">+LoadingUnloadingMap(portId)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="94.5" y="235.2549">+printer(fileName, stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#fb96fiaz5hrp7)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="68" x="32" y="318"/><ellipse cx="47" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M49,330.5 Q49.2031,330 49.4375,329.75 Q49.6719,329.5 49.9375,329.5 Q50.4063,329.5 50.7031,329.7813 Q51,330.0625 51,330.7188 L51,332.2813 Q51,332.9375 50.7188,333.2188 Q50.4375,333.5 50,333.5 Q49.6094,333.5 49.3594,333.3281 Q49.1094,333.1563 49,332.7031 Q48.9531,332.3906 48.7813,332.2188 Q48.4688,331.8906 47.9063,331.7031 Q47.3438,331.5 46.7813,331.5 Q46.0781,331.5 45.4844,331.7813 Q44.9063,332.0625 44.4531,332.6875 Q44,333.3125 44,334.1719 L44,335.0938 Q44,336.125 44.8438,336.8125 Q45.6875,337.5 47.1875,337.5 Q48.0781,337.5 48.7031,337.2969 Q49.0625,337.1875 49.4688,336.8281 Q49.7344,336.625 49.875,336.5625 Q50.0156,336.5 50.1875,336.5 Q50.5156,336.5 50.75,336.7656 Q51,337.0156 51,337.375 Q51,337.7188 50.6563,338.125 Q50.1563,338.7188 49.3594,339.0469 Q48.3125,339.5 47.0313,339.5 Q45.5313,339.5 44.3281,338.9063 Q43.3594,338.4375 42.6719,337.4219 Q42,336.4063 42,335.2031 L42,334.1094 Q42,332.8594 42.5938,331.7656 Q43.2031,330.6719 44.25,330.0938 Q45.3125,329.5 46.5,329.5 Q47.2188,329.5 47.8438,329.75 Q48.4688,330 49,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="61" y="338.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="38" y="373.4189">+print()</text><!--MD5=[273708730992ac47cdf7cb0e3ceb13e4]
+class LoadingUnloadingMap--><rect codeLine="23" fill="#FEFECE" filter="url(#fb96fiaz5hrp7)" height="61.8359" id="LoadingUnloadingMap" style="stroke:#A80036;stroke-width:1.5;" width="260" x="156" y="318"/><ellipse cx="219.25" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M221.25,330.5 Q221.4531,330 221.6875,329.75 Q221.9219,329.5 222.1875,329.5 Q222.6563,329.5 222.9531,329.7813 Q223.25,330.0625 223.25,330.7188 L223.25,332.2813 Q223.25,332.9375 222.9688,333.2188 Q222.6875,333.5 222.25,333.5 Q221.8594,333.5 221.6094,333.3281 Q221.3594,333.1563 221.25,332.7031 Q221.2031,332.3906 221.0313,332.2188 Q220.7188,331.8906 220.1563,331.7031 Q219.5938,331.5 219.0313,331.5 Q218.3281,331.5 217.7344,331.7813 Q217.1563,332.0625 216.7031,332.6875 Q216.25,333.3125 216.25,334.1719 L216.25,335.0938 Q216.25,336.125 217.0938,336.8125 Q217.9375,337.5 219.4375,337.5 Q220.3281,337.5 220.9531,337.2969 Q221.3125,337.1875 221.7188,336.8281 Q221.9844,336.625 222.125,336.5625 Q222.2656,336.5 222.4375,336.5 Q222.7656,336.5 223,336.7656 Q223.25,337.0156 223.25,337.375 Q223.25,337.7188 222.9063,338.125 Q222.4063,338.7188 221.6094,339.0469 Q220.5625,339.5 219.2813,339.5 Q217.7813,339.5 216.5781,338.9063 Q215.6094,338.4375 214.9219,337.4219 Q214.25,336.4063 214.25,335.2031 L214.25,334.1094 Q214.25,332.8594 214.8438,331.7656 Q215.4531,330.6719 216.5,330.0938 Q217.5625,329.5 218.75,329.5 Q219.4688,329.5 220.0938,329.75 Q220.7188,330 221.25,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="125" x="239.75" y="338.9102">LoadingUnloadingMap</text><line style="stroke:#A80036;stroke-width:1.5;" x1="157" x2="415" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="157" x2="415" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="248" x="162" y="373.4189">+LoadingUnloadingMap(databaseConnection,portId)</text><!--MD5=[b23a8e2a33be0795d34b7de5212afbc8]
+link LoadingUnloadingMapUI to LoadingUnloadingMapController--><path codeLine="30" d="M194,90.07 C194,109.38 194,137.42 194,160.74 " fill="none" id="LoadingUnloadingMapUI-to-LoadingUnloadingMapController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="194,165.94,198,156.94,194,160.94,190,156.94,194,165.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7b4a70ccd68ef4f536100bd79440ec72]
+link LoadingUnloadingMapController to Printer--><path codeLine="31" d="M160.7,242.2 C140.9,264.32 115.95,292.19 96.64,313.77 " fill="none" id="LoadingUnloadingMapController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="93.1,317.73,102.0862,313.6991,96.4377,314.0072,96.1296,308.3587,93.1,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[6ce47f6a12f117bc583baf096fcf98f3]
+link LoadingUnloadingMapController to LoadingUnloadingMap--><path codeLine="32" d="M217.93,242.2 C232.11,264.23 249.95,291.96 263.81,313.5 " fill="none" id="LoadingUnloadingMapController-to-LoadingUnloadingMap" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="266.52,317.73,264.9945,308,263.8061,313.5306,258.2755,312.3422,266.52,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8346415f81198bf1b06f6ec86b456e82]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class LoadingUnloadingMapUI{
+}
+}
+
+package "controllers" {
+class LoadingUnloadingMapController{
++LoadingUnloadingMap(portId)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class LoadingUnloadingMap{
++LoadingUnloadingMap(databaseConnection,portId)
+}
+}
+
+
+
+LoadingUnloadingMapUI ..> LoadingUnloadingMapController
+LoadingUnloadingMapController ..> Printer
+LoadingUnloadingMapController ..> LoadingUnloadingMap
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class LoadingUnloadingMapUI{
+}
+}
+
+package "controllers" {
+class LoadingUnloadingMapController{
++LoadingUnloadingMap(portId)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class LoadingUnloadingMap{
++LoadingUnloadingMap(databaseConnection,portId)
+}
+}
+
+
+
+LoadingUnloadingMapUI ..> LoadingUnloadingMapController
+LoadingUnloadingMapController ..> Printer
+LoadingUnloadingMapController ..> LoadingUnloadingMap
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

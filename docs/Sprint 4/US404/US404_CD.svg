@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:465px;height:403px;" version="1.1" viewBox="0 0 465 403" width="465px" zoomAndPan="magnify"><defs><filter height="300%" id="f97r7tr8q1p9z" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f97r7tr8q1p9z)" points="170,6,189,6,196,29.6094,298,29.6094,298,106,170,106,170,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="170" x2="196" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="174" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f97r7tr8q1p9z)" points="142,130,225,130,232,153.6094,326,153.6094,326,258,142,258,142,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="142" x2="232" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="146" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f97r7tr8q1p9z)" points="16,282,52,282,59,305.6094,224,305.6094,224,396,16,396,16,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="298.5332">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#f97r7tr8q1p9z)" points="248,282,284,282,291,305.6094,448,305.6094,448,396,248,396,248,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="248" x2="291" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="252" y="298.5332">data</text><!--MD5=[37b9ca29ac12c955174801c74b8ff27e]
+class IdleShipsUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f97r7tr8q1p9z)" height="48" id="IdleShipsUI" style="stroke:#A80036;stroke-width:1.5;" width="96" x="186" y="42"/><ellipse cx="201" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M203,54.5 Q203.2031,54 203.4375,53.75 Q203.6719,53.5 203.9375,53.5 Q204.4063,53.5 204.7031,53.7813 Q205,54.0625 205,54.7188 L205,56.2813 Q205,56.9375 204.7188,57.2188 Q204.4375,57.5 204,57.5 Q203.6094,57.5 203.3594,57.3281 Q203.1094,57.1563 203,56.7031 Q202.9531,56.3906 202.7813,56.2188 Q202.4688,55.8906 201.9063,55.7031 Q201.3438,55.5 200.7813,55.5 Q200.0781,55.5 199.4844,55.7813 Q198.9063,56.0625 198.4531,56.6875 Q198,57.3125 198,58.1719 L198,59.0938 Q198,60.125 198.8438,60.8125 Q199.6875,61.5 201.1875,61.5 Q202.0781,61.5 202.7031,61.2969 Q203.0625,61.1875 203.4688,60.8281 Q203.7344,60.625 203.875,60.5625 Q204.0156,60.5 204.1875,60.5 Q204.5156,60.5 204.75,60.7656 Q205,61.0156 205,61.375 Q205,61.7188 204.6563,62.125 Q204.1563,62.7188 203.3594,63.0469 Q202.3125,63.5 201.0313,63.5 Q199.5313,63.5 198.3281,62.9063 Q197.3594,62.4375 196.6719,61.4219 Q196,60.4063 196,59.2031 L196,58.1094 Q196,56.8594 196.5938,55.7656 Q197.2031,54.6719 198.25,54.0938 Q199.3125,53.5 200.5,53.5 Q201.2188,53.5 201.8438,53.75 Q202.4688,54 203,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="215" y="62.9102">IdleShipsUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="187" x2="281" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="187" x2="281" y1="82" y2="82"/><!--MD5=[5d225b7558717d3b282da2490e5ab359]
+class IdleShipsController--><rect codeLine="11" fill="#FEFECE" filter="url(#f97r7tr8q1p9z)" height="75.6719" id="IdleShipsController" style="stroke:#A80036;stroke-width:1.5;" width="151" x="158.5" y="166"/><ellipse cx="179.35" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M181.35,178.5 Q181.5531,178 181.7875,177.75 Q182.0219,177.5 182.2875,177.5 Q182.7563,177.5 183.0531,177.7813 Q183.35,178.0625 183.35,178.7188 L183.35,180.2813 Q183.35,180.9375 183.0688,181.2188 Q182.7875,181.5 182.35,181.5 Q181.9594,181.5 181.7094,181.3281 Q181.4594,181.1563 181.35,180.7031 Q181.3031,180.3906 181.1313,180.2188 Q180.8188,179.8906 180.2563,179.7031 Q179.6938,179.5 179.1313,179.5 Q178.4281,179.5 177.8344,179.7813 Q177.2563,180.0625 176.8031,180.6875 Q176.35,181.3125 176.35,182.1719 L176.35,183.0938 Q176.35,184.125 177.1938,184.8125 Q178.0375,185.5 179.5375,185.5 Q180.4281,185.5 181.0531,185.2969 Q181.4125,185.1875 181.8188,184.8281 Q182.0844,184.625 182.225,184.5625 Q182.3656,184.5 182.5375,184.5 Q182.8656,184.5 183.1,184.7656 Q183.35,185.0156 183.35,185.375 Q183.35,185.7188 183.0063,186.125 Q182.5063,186.7188 181.7094,187.0469 Q180.6625,187.5 179.3813,187.5 Q177.8813,187.5 176.6781,186.9063 Q175.7094,186.4375 175.0219,185.4219 Q174.35,184.4063 174.35,183.2031 L174.35,182.1094 Q174.35,180.8594 174.9438,179.7656 Q175.5531,178.6719 176.6,178.0938 Q177.6625,177.5 178.85,177.5 Q179.5688,177.5 180.1938,177.75 Q180.8188,178 181.35,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="106" x="194.65" y="186.9102">IdleShipsController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="159.5" x2="308.5" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="159.5" x2="308.5" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="164.5" y="221.4189">+idleships()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="164.5" y="235.2549">+print(fileName,stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#f97r7tr8q1p9z)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="175" x="32.5" y="318"/><ellipse cx="97.75" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M99.75,330.5 Q99.9531,330 100.1875,329.75 Q100.4219,329.5 100.6875,329.5 Q101.1563,329.5 101.4531,329.7813 Q101.75,330.0625 101.75,330.7188 L101.75,332.2813 Q101.75,332.9375 101.4688,333.2188 Q101.1875,333.5 100.75,333.5 Q100.3594,333.5 100.1094,333.3281 Q99.8594,333.1563 99.75,332.7031 Q99.7031,332.3906 99.5313,332.2188 Q99.2188,331.8906 98.6563,331.7031 Q98.0938,331.5 97.5313,331.5 Q96.8281,331.5 96.2344,331.7813 Q95.6563,332.0625 95.2031,332.6875 Q94.75,333.3125 94.75,334.1719 L94.75,335.0938 Q94.75,336.125 95.5938,336.8125 Q96.4375,337.5 97.9375,337.5 Q98.8281,337.5 99.4531,337.2969 Q99.8125,337.1875 100.2188,336.8281 Q100.4844,336.625 100.625,336.5625 Q100.7656,336.5 100.9375,336.5 Q101.2656,336.5 101.5,336.7656 Q101.75,337.0156 101.75,337.375 Q101.75,337.7188 101.4063,338.125 Q100.9063,338.7188 100.1094,339.0469 Q99.0625,339.5 97.7813,339.5 Q96.2813,339.5 95.0781,338.9063 Q94.1094,338.4375 93.4219,337.4219 Q92.75,336.4063 92.75,335.2031 L92.75,334.1094 Q92.75,332.8594 93.3438,331.7656 Q93.9531,330.6719 95,330.0938 Q96.0625,329.5 97.25,329.5 Q97.9688,329.5 98.5938,329.75 Q99.2188,330 99.75,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="118.25" y="338.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="206.5" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="206.5" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="38.5" y="373.4189">+print(fileName,stringToPrint,path)</text><!--MD5=[057f5dffc24c2806c514308f86e1f6c2]
+class IdleShips--><rect codeLine="23" fill="#FEFECE" filter="url(#f97r7tr8q1p9z)" height="61.8359" id="IdleShips" style="stroke:#A80036;stroke-width:1.5;" width="167" x="264.5" y="318"/><ellipse cx="317.75" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M319.75,330.5 Q319.9531,330 320.1875,329.75 Q320.4219,329.5 320.6875,329.5 Q321.1563,329.5 321.4531,329.7813 Q321.75,330.0625 321.75,330.7188 L321.75,332.2813 Q321.75,332.9375 321.4688,333.2188 Q321.1875,333.5 320.75,333.5 Q320.3594,333.5 320.1094,333.3281 Q319.8594,333.1563 319.75,332.7031 Q319.7031,332.3906 319.5313,332.2188 Q319.2188,331.8906 318.6563,331.7031 Q318.0938,331.5 317.5313,331.5 Q316.8281,331.5 316.2344,331.7813 Q315.6563,332.0625 315.2031,332.6875 Q314.75,333.3125 314.75,334.1719 L314.75,335.0938 Q314.75,336.125 315.5938,336.8125 Q316.4375,337.5 317.9375,337.5 Q318.8281,337.5 319.4531,337.2969 Q319.8125,337.1875 320.2188,336.8281 Q320.4844,336.625 320.625,336.5625 Q320.7656,336.5 320.9375,336.5 Q321.2656,336.5 321.5,336.7656 Q321.75,337.0156 321.75,337.375 Q321.75,337.7188 321.4063,338.125 Q320.9063,338.7188 320.1094,339.0469 Q319.0625,339.5 317.7813,339.5 Q316.2813,339.5 315.0781,338.9063 Q314.1094,338.4375 313.4219,337.4219 Q312.75,336.4063 312.75,335.2031 L312.75,334.1094 Q312.75,332.8594 313.3438,331.7656 Q313.9531,330.6719 315,330.0938 Q316.0625,329.5 317.25,329.5 Q317.9688,329.5 318.5938,329.75 Q319.2188,330 319.75,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="52" x="338.25" y="338.9102">IdleShips</text><line style="stroke:#A80036;stroke-width:1.5;" x1="265.5" x2="430.5" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="265.5" x2="430.5" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="155" x="270.5" y="373.4189">+idleships(databaseConnection)</text><!--MD5=[076abfe7cb8d1d03868136438a56511b]
+link IdleShipsUI to IdleShipsController--><path codeLine="30" d="M234,90.07 C234,109.38 234,137.42 234,160.74 " fill="none" id="IdleShipsUI-to-IdleShipsController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="234,165.94,238,156.94,234,160.94,230,156.94,234,165.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[afdaf8384892c49d25ac351db2f953d4]
+link IdleShipsController to Printer--><path codeLine="31" d="M204.35,242.2 C186.71,264.32 164.49,292.19 147.29,313.77 " fill="none" id="IdleShipsController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="144.14,317.73,152.8837,313.1971,147.2617,313.8243,146.6345,308.2023,144.14,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4276b7d78ec85b02b7198b88213709c5]
+link IdleShipsController to IdleShips--><path codeLine="32" d="M263.65,242.2 C281.29,264.32 303.51,292.19 320.71,313.77 " fill="none" id="IdleShipsController-to-IdleShips" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="323.86,317.73,321.3655,308.2023,320.7383,313.8243,315.1163,313.1971,323.86,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9a280612035e060a0fdcd3300fba5e05]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class IdleShipsUI{
+}
+}
+
+package "controllers" {
+class IdleShipsController{
++idleships()
++print(fileName,stringToPrint)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+}
+
+package data{
+class IdleShips{
++idleships(databaseConnection)
+}
+}
+
+
+
+IdleShipsUI ..> IdleShipsController
+IdleShipsController ..> Printer
+IdleShipsController ..> IdleShips
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class IdleShipsUI{
+}
+}
+
+package "controllers" {
+class IdleShipsController{
++idleships()
++print(fileName,stringToPrint)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+}
+
+package data{
+class IdleShips{
++idleships(databaseConnection)
+}
+}
+
+
+
+IdleShipsUI ..> IdleShipsController
+IdleShipsController ..> Printer
+IdleShipsController ..> IdleShips
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

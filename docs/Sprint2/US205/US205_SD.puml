@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as SC
+participant ":getOffLoadContainersUI" as OLCUI
+participant ":getOffLoadContainersController" as OLCC
+participant ":ContainersToOffLoad" as OLC
+participant ":Printer" as P
+
+activate SC
+SC -> OLCUI: asks to know the containers to off load on next port
+activate OLCUI
+OLCUI --> SC: requests data (shipMMSI)
+deactivate OLCUI
+
+SC -> OLCUI: types requested data
+activate OLCUI
+OLCUI -> OLCC : getContainersToOffLoadOnNextPort(shipMMSI)
+activate OLCC
+OLCC -> OLC : result = getContainersToOffLoadOnNextPort(shipMMSI)
+activate OLC
+deactivate OLC
+OLCC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate OLCC
+OLCUI --> SC : shows the data and informs operation success
+deactivate OLCC
+deactivate OLCUI
+deactivate SC
+@enduml

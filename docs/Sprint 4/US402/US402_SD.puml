@@ -1,0 +1,70 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ShortestPathBetween2PlacesUI" as SPBPUI
+participant ":ShortestPathBetween2PlacesController" as SPBPC
+participant ":Company" as COMP
+participant ":NetworkStore" as NS
+participant ":Printer" as P
+
+activate TM
+TM -> SPBPUI: asks to know the shortest path between two locals
+activate SPBPUI
+SPBPUI -> TM : requests data (i.e.: n)
+deactivate SPBPUI
+TM -> SPBPUI: types requested data
+
+activate SPBPUI
+alt n>0 && n<4
+SPBPUI --> TM : requests data (i.e.: local1 and local2)
+end
+deactivate SPBPC
+alt n=4
+SPBPUI --> TM : requests data (i.e.: local1,local2 and locais)
+end
+deactivate SPBPUI
+TM -> SPBPUI: types requested data
+activate SPBPUI
+
+
+alt n>0 && n<4
+deactivate SPBPC
+SPBPUI -> SPBPC : shortestPathBetween2Places123(local1,local2,n)
+activate SPBPC
+SPBPC -> COMP : nStore = getNetworkStore()
+activate COMP
+deactivate COMP
+SPBPC -> NS : result = shortestPathBetweenTwoLocals(local1,local2,n)
+activate NS
+deactivate NS
+SPBPC -> P : print(filename,result,path)
+activate P
+deactivate P
+deactivate SPBPC
+end
+
+
+alt n=4
+deactivate SPBPC
+SPBPUI -> SPBPC : shortestPathBetween2Places4(local1,local2,locais)
+activate SPBPC
+SPBPC -> COMP : nStore = getNetworkStore()
+activate COMP
+deactivate COMP
+SPBPC -> NS : result = shortestPathBetweenTwoLocals4(local1,local2,locais)
+activate NS
+deactivate NS
+SPBPC -> P : print(filename,result,path)
+activate P
+deactivate P
+deactivate SPBPC
+end
+
+
+SPBPUI --> TM : shows the data (map) and informs operation success
+deactivate SPBPC
+deactivate SPBPUI
+deactivate TM
+@enduml

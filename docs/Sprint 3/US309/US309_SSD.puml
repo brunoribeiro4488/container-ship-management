@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as C
+activate C
+
+C -> ":System": asks to create a cargo manifest for a ship
+activate ":System"
+":System" --> C: requests data
+deactivate ":System"
+
+C -> ":System": types requested data
+activate ":System"
+":System" --> C : shows if the success of the operation
+deactivate ":System"
+@enduml

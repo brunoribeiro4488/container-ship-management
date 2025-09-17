@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as FM
+participant ":VesselTypeUI" as AORUI
+participant ":VesselTypeController" as AORC
+participant ":LaprStore" as AOR
+participant ":Printer" as P
+activate FM
+FM -> AORUI: asks to know the best vessel type for the task
+activate AORUI
+AORUI --> FM : requests data (numberOfContainers)
+deactivate AORUI
+
+FM -> AORUI: types requested data
+activate AORUI
+AORUI -> AORC : getVesselType(numberOfContainers)
+activate AORC
+AORC -> AOR : result = getTypeOfVessel(numberOfContainers)
+activate AOR
+deactivate AOR
+AORC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate AORC
+AORUI --> FM : shows the data and informs operation success
+deactivate AORC
+deactivate AORUI
+deactivate FM
+@enduml

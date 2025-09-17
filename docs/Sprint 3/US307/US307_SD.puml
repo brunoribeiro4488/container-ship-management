@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port Manager" as PM
+participant ":WarehouseCapacityUI" as WCUI
+participant ":WarehouseCapacityController" as WCC
+participant ":WarehouseCapacity" as WC
+participant ":Printer" as P
+
+activate PM
+PM -> WCUI: asks to issue a cargo manifest destined for a warehouse
+activate WCUI
+WCUI -> WCC : warehouseCapacity()
+activate WCC
+WCC -> WC : result = warehouseCapacity(databaseConnection)
+activate WC
+deactivate WC
+WCC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate WCC
+WCUI --> PM : shows the result (if the warehouse is full or not) and informs operation success
+deactivate WCC
+deactivate WCUI
+deactivate PM
+@enduml

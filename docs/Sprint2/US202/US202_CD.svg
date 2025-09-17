@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="577.6px" preserveAspectRatio="none" style="width:915px;height:577px;" version="1.1" viewBox="0 0 915 577" width="915.04px" zoomAndPan="magnify"><defs><filter height="300%" id="fyshs16ajofnd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.52"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="3.04" dy="3.04" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="289.56,4.56,304,4.56,309.32,22.5031,382.28,22.5031,382.28,80.56,289.56,80.56,289.56,4.56" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="289.56" x2="309.32" y1="22.5031" y2="22.5031"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="9.88" x="292.6" y="17.1252">ui</text><!--MD5=[01435ace8273dc3cae88e7f376e4d373]
+cluster core--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="12.16,98.8,41.04,98.8,46.36,116.7431,902.12,116.7431,902.12,572.28,12.16,572.28,12.16,98.8" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="12.16" x2="46.36" y1="116.7431" y2="116.7431"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="24.32" x="15.2" y="111.3652">core</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="254.6,132.24,317.68,132.24,323,150.1831,417.24,150.1831,417.24,218.88,254.6,218.88,254.6,132.24" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="254.6" x2="323" y1="150.1831" y2="150.1831"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="58.52" x="257.64" y="144.8052">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="30.4,237.12,57.76,237.12,63.08,255.0631,631.56,255.0631,631.56,554.04,30.4,554.04,30.4,237.12" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="30.4" x2="63.08" y1="255.0631" y2="255.0631"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="22.8" x="33.44" y="249.6852">utils</text><!--MD5=[e484dff12bc7e3f9ae9e3c87a060152b]
+cluster mappers--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="108.68,275.88,159.6,275.88,164.92,293.8231,210.52,293.8231,210.52,362.52,108.68,362.52,108.68,275.88" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="108.68" x2="164.92" y1="293.8231" y2="293.8231"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="46.36" x="111.72" y="288.4452">mappers</text><!--MD5=[e6eced616a98d47334dd1aaaa829ffd5]
+cluster dto--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="117.04,396.72,139.08,396.72,144.4,414.6631,202.16,414.6631,202.16,535.8,117.04,535.8,117.04,396.72" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="117.04" x2="144.4" y1="414.6631" y2="414.6631"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="17.48" x="120.08" y="409.2852">dto</text><!--MD5=[fbca5634cbc0239920b500cad9c4bedb]
+cluster stores--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="228.76,270.56,267.52,270.56,272.84,288.5031,613.32,288.5031,613.32,367.84,228.76,367.84,228.76,270.56" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="228.76" x2="272.84" y1="288.5031" y2="288.5031"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="34.2" x="231.8" y="283.1252">stores</text><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#fyshs16ajofnd)" points="649.8,386.08,687.04,386.08,692.36,404.0231,883.88,404.0231,883.88,546.44,649.8,546.44,649.8,386.08" style="stroke:#000000;stroke-width:1.1400000000000001;"/><line style="stroke:#000000;stroke-width:1.1400000000000001;" x1="649.8" x2="692.36" y1="404.0231" y2="404.0231"/><text fill="#000000" font-family="sans-serif" font-size="10.64" font-weight="bold" lengthAdjust="spacing" textLength="32.68" x="652.84" y="398.6452">model</text><!--MD5=[8ac8170e3b2b4338643c318d13d45674]
+class FindPortUI--><rect codeLine="6" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="36.48" id="FindPortUI" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="68.4" x="301.72" y="31.92"/><ellipse cx="313.12" cy="44.08" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M314.64,41.42 Q314.7944,41.04 314.9725,40.85 Q315.1506,40.66 315.3525,40.66 Q315.7088,40.66 315.9344,40.8738 Q316.16,41.0875 316.16,41.5863 L316.16,42.7738 Q316.16,43.2725 315.9463,43.4863 Q315.7325,43.7 315.4,43.7 Q315.1031,43.7 314.9131,43.5694 Q314.7231,43.4388 314.64,43.0944 Q314.6044,42.8569 314.4738,42.7263 Q314.2363,42.4769 313.8088,42.3344 Q313.3813,42.18 312.9538,42.18 Q312.4194,42.18 311.9681,42.3938 Q311.5288,42.6075 311.1844,43.0825 Q310.84,43.5575 310.84,44.2106 L310.84,44.9113 Q310.84,45.695 311.4813,46.2175 Q312.1225,46.74 313.2625,46.74 Q313.9394,46.74 314.4144,46.5856 Q314.6875,46.5025 314.9963,46.2294 Q315.1981,46.075 315.305,46.0275 Q315.4119,45.98 315.5425,45.98 Q315.7919,45.98 315.97,46.1819 Q316.16,46.3719 316.16,46.645 Q316.16,46.9063 315.8988,47.215 Q315.5188,47.6663 314.9131,47.9156 Q314.1175,48.26 313.1438,48.26 Q312.0038,48.26 311.0894,47.8088 Q310.3531,47.4525 309.8306,46.6806 Q309.32,45.9088 309.32,44.9944 L309.32,44.1631 Q309.32,43.2131 309.7713,42.3819 Q310.2344,41.5506 311.03,41.1113 Q311.8375,40.66 312.74,40.66 Q313.2863,40.66 313.7613,40.85 Q314.2363,41.04 314.64,41.42 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="44.08" x="323.76" y="47.8117">FindPortUI</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="302.48" x2="369.36" y1="56.24" y2="56.24"/><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="302.48" x2="369.36" y1="62.32" y2="62.32"/><!--MD5=[846a179fe15d22e2f3a24398fe178337]
+class FindPortController--><rect codeLine="12" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="46.9953" id="FindPortController" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="138.32" x="266.76" y="159.6"/><ellipse cx="295.26" cy="171.76" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M296.78,169.1 Q296.9344,168.72 297.1125,168.53 Q297.2906,168.34 297.4925,168.34 Q297.8488,168.34 298.0744,168.5538 Q298.3,168.7675 298.3,169.2663 L298.3,170.4538 Q298.3,170.9525 298.0863,171.1663 Q297.8725,171.38 297.54,171.38 Q297.2431,171.38 297.0531,171.2494 Q296.8631,171.1188 296.78,170.7744 Q296.7444,170.5369 296.6138,170.4063 Q296.3763,170.1569 295.9488,170.0144 Q295.5213,169.86 295.0938,169.86 Q294.5594,169.86 294.1081,170.0738 Q293.6688,170.2875 293.3244,170.7625 Q292.98,171.2375 292.98,171.8906 L292.98,172.5913 Q292.98,173.375 293.6213,173.8975 Q294.2625,174.42 295.4025,174.42 Q296.0794,174.42 296.5544,174.2656 Q296.8275,174.1825 297.1363,173.9094 Q297.3381,173.755 297.445,173.7075 Q297.5519,173.66 297.6825,173.66 Q297.9319,173.66 298.11,173.8619 Q298.3,174.0519 298.3,174.325 Q298.3,174.5863 298.0388,174.895 Q297.6588,175.3463 297.0531,175.5956 Q296.2575,175.94 295.2838,175.94 Q294.1438,175.94 293.2294,175.4888 Q292.4931,175.1325 291.9706,174.3606 Q291.46,173.5888 291.46,172.6744 L291.46,171.8431 Q291.46,170.8931 291.9113,170.0619 Q292.3744,169.2306 293.17,168.7913 Q293.9775,168.34 294.88,168.34 Q295.4263,168.34 295.9013,168.53 Q296.3763,168.72 296.78,169.1 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="76" x="309.7" y="175.4917">FindPortController</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="267.52" x2="404.32" y1="183.92" y2="183.92"/><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="267.52" x2="404.32" y1="190" y2="190"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="129.2" x="271.32" y="201.7184">+getClosestPort(callSign, dateTime)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="45" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="46.9953" id="Printer" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="51.68" x="42.56" y="303.24"/><ellipse cx="53.96" cy="315.4" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M55.48,312.74 Q55.6344,312.36 55.8125,312.17 Q55.9906,311.98 56.1925,311.98 Q56.5488,311.98 56.7744,312.1938 Q57,312.4075 57,312.9063 L57,314.0938 Q57,314.5925 56.7863,314.8063 Q56.5725,315.02 56.24,315.02 Q55.9431,315.02 55.7531,314.8894 Q55.5631,314.7588 55.48,314.4144 Q55.4444,314.1769 55.3138,314.0463 Q55.0763,313.7969 54.6488,313.6544 Q54.2213,313.5 53.7938,313.5 Q53.2594,313.5 52.8081,313.7138 Q52.3688,313.9275 52.0244,314.4025 Q51.68,314.8775 51.68,315.5306 L51.68,316.2313 Q51.68,317.015 52.3213,317.5375 Q52.9625,318.06 54.1025,318.06 Q54.7794,318.06 55.2544,317.9056 Q55.5275,317.8225 55.8363,317.5494 Q56.0381,317.395 56.145,317.3475 Q56.2519,317.3 56.3825,317.3 Q56.6319,317.3 56.81,317.5019 Q57,317.6919 57,317.965 Q57,318.2263 56.7388,318.535 Q56.3588,318.9863 55.7531,319.2356 Q54.9575,319.58 53.9838,319.58 Q52.8438,319.58 51.9294,319.1288 Q51.1931,318.7725 50.6706,318.0006 Q50.16,317.2288 50.16,316.3144 L50.16,315.4831 Q50.16,314.5331 50.6113,313.7019 Q51.0744,312.8706 51.87,312.4313 Q52.6775,311.98 53.58,311.98 Q54.1263,311.98 54.6013,312.17 Q55.0763,312.36 55.48,312.74 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="27.36" x="64.6" y="319.1317">Printer</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="43.32" x2="93.48" y1="327.56" y2="327.56"/><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="43.32" x2="93.48" y1="333.64" y2="333.64"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="26.6" x="47.12" y="345.3584">+print()</text><!--MD5=[979cb6dbd48cc2bd714268fe809af963]
+class PortMapper--><rect codeLine="18" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="46.9953" id="PortMapper" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="76.76" x="121.22" y="303.24"/><ellipse cx="134.672" cy="315.4" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M136.192,312.74 Q136.3464,312.36 136.5245,312.17 Q136.7026,311.98 136.9045,311.98 Q137.2608,311.98 137.4864,312.1938 Q137.712,312.4075 137.712,312.9063 L137.712,314.0938 Q137.712,314.5925 137.4982,314.8063 Q137.2845,315.02 136.952,315.02 Q136.6551,315.02 136.4651,314.8894 Q136.2751,314.7588 136.192,314.4144 Q136.1564,314.1769 136.0258,314.0463 Q135.7883,313.7969 135.3608,313.6544 Q134.9333,313.5 134.5058,313.5 Q133.9714,313.5 133.5201,313.7138 Q133.0808,313.9275 132.7364,314.4025 Q132.392,314.8775 132.392,315.5306 L132.392,316.2313 Q132.392,317.015 133.0332,317.5375 Q133.6745,318.06 134.8145,318.06 Q135.4914,318.06 135.9664,317.9056 Q136.2395,317.8225 136.5483,317.5494 Q136.7501,317.395 136.857,317.3475 Q136.9639,317.3 137.0945,317.3 Q137.3439,317.3 137.522,317.5019 Q137.712,317.6919 137.712,317.965 Q137.712,318.2263 137.4508,318.535 Q137.0708,318.9863 136.4651,319.2356 Q135.6695,319.58 134.6958,319.58 Q133.5558,319.58 132.6414,319.1288 Q131.9051,318.7725 131.3826,318.0006 Q130.872,317.2288 130.872,316.3144 L130.872,315.4831 Q130.872,314.5331 131.3233,313.7019 Q131.7864,312.8706 132.582,312.4313 Q133.3895,311.98 134.292,311.98 Q134.8383,311.98 135.3132,312.17 Q135.7883,312.36 136.192,312.74 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="47.88" x="145.768" y="319.1317">PortMapper</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="121.98" x2="197.22" y1="327.56" y2="327.56"/><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="121.98" x2="197.22" y1="333.64" y2="333.64"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="67.64" x="125.78" y="345.3584">+modelToDto(port)</text><!--MD5=[78ad57971404b11a3bc495548c0b1111]
+class PortDTO--><rect codeLine="24" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="99.5719" id="PortDTO" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="60.04" x="129.58" y="424.08"/><ellipse cx="140.98" cy="436.24" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M142.5,433.58 Q142.6544,433.2 142.8325,433.01 Q143.0106,432.82 143.2125,432.82 Q143.5688,432.82 143.7944,433.0338 Q144.02,433.2475 144.02,433.7463 L144.02,434.9338 Q144.02,435.4325 143.8063,435.6463 Q143.5925,435.86 143.26,435.86 Q142.9631,435.86 142.7731,435.7294 Q142.5831,435.5988 142.5,435.2544 Q142.4644,435.0169 142.3338,434.8863 Q142.0963,434.6369 141.6688,434.4944 Q141.2413,434.34 140.8138,434.34 Q140.2794,434.34 139.8281,434.5538 Q139.3888,434.7675 139.0444,435.2425 Q138.7,435.7175 138.7,436.3706 L138.7,437.0713 Q138.7,437.855 139.3413,438.3775 Q139.9825,438.9 141.1225,438.9 Q141.7994,438.9 142.2744,438.7456 Q142.5475,438.6625 142.8563,438.3894 Q143.0581,438.235 143.165,438.1875 Q143.2719,438.14 143.4025,438.14 Q143.6519,438.14 143.83,438.3419 Q144.02,438.5319 144.02,438.805 Q144.02,439.0663 143.7588,439.375 Q143.3788,439.8263 142.7731,440.0756 Q141.9775,440.42 141.0038,440.42 Q139.8638,440.42 138.9494,439.9688 Q138.2131,439.6125 137.6906,438.8406 Q137.18,438.0688 137.18,437.1544 L137.18,436.3231 Q137.18,435.3731 137.6313,434.5419 Q138.0944,433.7106 138.89,433.2713 Q139.6975,432.82 140.6,432.82 Q141.1463,432.82 141.6213,433.01 Q142.0963,433.2 142.5,433.58 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="35.72" x="151.62" y="439.9717">PortDTO</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="130.34" x2="188.86" y1="448.4" y2="448.4"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="9.12" x="134.14" y="460.1184">-id</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="22.8" x="134.14" y="470.6337">-name</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="36.48" x="134.14" y="481.149">-continent</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="31.16" x="134.14" y="491.6643">-country</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="28.88" x="134.14" y="502.1796">-latitude</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="35.72" x="134.14" y="512.695">-longitude</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="130.34" x2="188.86" y1="517.5719" y2="517.5719"/><!--MD5=[ea2206eefe09474e90beb17e18e6b3d8]
+class ShipStore--><rect codeLine="35" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="57.5106" id="ShipStore" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="143.64" x="457.14" y="297.92"/><ellipse cx="505.21" cy="310.08" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M506.73,307.42 Q506.8844,307.04 507.0625,306.85 Q507.2406,306.66 507.4425,306.66 Q507.7988,306.66 508.0244,306.8738 Q508.25,307.0875 508.25,307.5863 L508.25,308.7738 Q508.25,309.2725 508.0363,309.4863 Q507.8225,309.7 507.49,309.7 Q507.1931,309.7 507.0031,309.5694 Q506.8131,309.4388 506.73,309.0944 Q506.6944,308.8569 506.5638,308.7263 Q506.3263,308.4769 505.8988,308.3344 Q505.4713,308.18 505.0438,308.18 Q504.5094,308.18 504.0581,308.3938 Q503.6188,308.6075 503.2744,309.0825 Q502.93,309.5575 502.93,310.2106 L502.93,310.9113 Q502.93,311.695 503.5713,312.2175 Q504.2125,312.74 505.3525,312.74 Q506.0294,312.74 506.5044,312.5856 Q506.7775,312.5025 507.0863,312.2294 Q507.2881,312.075 507.395,312.0275 Q507.5019,311.98 507.6325,311.98 Q507.8819,311.98 508.06,312.1819 Q508.25,312.3719 508.25,312.645 Q508.25,312.9063 507.9888,313.215 Q507.6088,313.6663 507.0031,313.9156 Q506.2075,314.26 505.2338,314.26 Q504.0938,314.26 503.1794,313.8088 Q502.4431,313.4525 501.9206,312.6806 Q501.41,311.9088 501.41,310.9944 L501.41,310.1631 Q501.41,309.2131 501.8613,308.3819 Q502.3244,307.5506 503.12,307.1113 Q503.9275,306.66 504.83,306.66 Q505.3763,306.66 505.8513,306.85 Q506.3263,307.04 506.73,307.42 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="41.04" x="520.79" y="313.8117">ShipStore</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="457.9" x2="600.02" y1="322.24" y2="322.24"/><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="457.9" x2="600.02" y1="328.32" y2="328.32"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="104.88" x="461.7" y="340.0384">+getShipByCallSign(callSign)</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="134.52" x="461.7" y="350.5537">+getShipPositionByDate(s, dateTime)</text><!--MD5=[f70d2b281f9eefc1b49373c49159755a]
+class PortStore--><rect codeLine="40" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="46.9953" id="PortStore" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="189.24" x="241.3" y="303.24"/><ellipse cx="313.31" cy="315.4" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M314.83,312.74 Q314.9844,312.36 315.1625,312.17 Q315.3406,311.98 315.5425,311.98 Q315.8988,311.98 316.1244,312.1938 Q316.35,312.4075 316.35,312.9063 L316.35,314.0938 Q316.35,314.5925 316.1363,314.8063 Q315.9225,315.02 315.59,315.02 Q315.2931,315.02 315.1031,314.8894 Q314.9131,314.7588 314.83,314.4144 Q314.7944,314.1769 314.6638,314.0463 Q314.4263,313.7969 313.9988,313.6544 Q313.5713,313.5 313.1438,313.5 Q312.6094,313.5 312.1581,313.7138 Q311.7188,313.9275 311.3744,314.4025 Q311.03,314.8775 311.03,315.5306 L311.03,316.2313 Q311.03,317.015 311.6713,317.5375 Q312.3125,318.06 313.4525,318.06 Q314.1294,318.06 314.6044,317.9056 Q314.8775,317.8225 315.1863,317.5494 Q315.3881,317.395 315.495,317.3475 Q315.6019,317.3 315.7325,317.3 Q315.9819,317.3 316.16,317.5019 Q316.35,317.6919 316.35,317.965 Q316.35,318.2263 316.0888,318.535 Q315.7088,318.9863 315.1031,319.2356 Q314.3075,319.58 313.3338,319.58 Q312.1938,319.58 311.2794,319.1288 Q310.5431,318.7725 310.0206,318.0006 Q309.51,317.2288 309.51,316.3144 L309.51,315.4831 Q309.51,314.5331 309.9613,313.7019 Q310.4244,312.8706 311.22,312.4313 Q312.0275,311.98 312.93,311.98 Q313.4763,311.98 313.9513,312.17 Q314.4263,312.36 314.83,312.74 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="38.76" x="328.89" y="319.1317">PortStore</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="242.06" x2="429.78" y1="327.56" y2="327.56"/><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="242.06" x2="429.78" y1="333.64" y2="333.64"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="180.12" x="245.86" y="345.3584">+getClosestPort(shipPositionLat, shipPositionLon)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="51" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="57.5106" id="Company" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="66.88" x="804.84" y="444.98"/><ellipse cx="817.266" cy="457.14" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M818.786,454.48 Q818.9404,454.1 819.1185,453.91 Q819.2966,453.72 819.4985,453.72 Q819.8548,453.72 820.0804,453.9338 Q820.306,454.1475 820.306,454.6463 L820.306,455.8338 Q820.306,456.3325 820.0922,456.5463 Q819.8785,456.76 819.546,456.76 Q819.2491,456.76 819.0591,456.6294 Q818.8691,456.4988 818.786,456.1544 Q818.7504,455.9169 818.6198,455.7863 Q818.3822,455.5369 817.9548,455.3944 Q817.5273,455.24 817.0998,455.24 Q816.5654,455.24 816.1141,455.4538 Q815.6747,455.6675 815.3304,456.1425 Q814.986,456.6175 814.986,457.2706 L814.986,457.9713 Q814.986,458.755 815.6272,459.2775 Q816.2685,459.8 817.4085,459.8 Q818.0854,459.8 818.5604,459.6456 Q818.8335,459.5625 819.1423,459.2894 Q819.3441,459.135 819.451,459.0875 Q819.5579,459.04 819.6885,459.04 Q819.9379,459.04 820.116,459.2419 Q820.306,459.4319 820.306,459.705 Q820.306,459.9663 820.0447,460.275 Q819.6647,460.7263 819.0591,460.9756 Q818.2635,461.32 817.2897,461.32 Q816.1497,461.32 815.2354,460.8688 Q814.4991,460.5125 813.9766,459.7406 Q813.466,458.9688 813.466,458.0544 L813.466,457.2231 Q813.466,456.2731 813.9173,455.4419 Q814.3804,454.6106 815.176,454.1713 Q815.9835,453.72 816.886,453.72 Q817.4323,453.72 817.9073,453.91 Q818.3822,454.1 818.786,454.48 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="40.28" x="828.134" y="460.8717">Company</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="805.6" x2="870.96" y1="469.3" y2="469.3"/><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="805.6" x2="870.96" y1="475.38" y2="475.38"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="57.76" x="809.4" y="487.0984">+getShipStore()</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="56.24" x="809.4" y="497.6137">+getPortStore()</text><!--MD5=[a0bfe97ac0a38e6e74cc1c7c7b744b71]
+class Port--><rect codeLine="56" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="99.5719" id="Port" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="45.6" x="661.96" y="424.08"/><ellipse cx="675.412" cy="436.24" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M676.932,433.58 Q677.0864,433.2 677.2645,433.01 Q677.4426,432.82 677.6445,432.82 Q678.0008,432.82 678.2264,433.0338 Q678.452,433.2475 678.452,433.7463 L678.452,434.9338 Q678.452,435.4325 678.2383,435.6463 Q678.0245,435.86 677.692,435.86 Q677.3951,435.86 677.2051,435.7294 Q677.0151,435.5988 676.932,435.2544 Q676.8964,435.0169 676.7658,434.8863 Q676.5283,434.6369 676.1008,434.4944 Q675.6733,434.34 675.2458,434.34 Q674.7114,434.34 674.2601,434.5538 Q673.8208,434.7675 673.4764,435.2425 Q673.132,435.7175 673.132,436.3706 L673.132,437.0713 Q673.132,437.855 673.7733,438.3775 Q674.4145,438.9 675.5545,438.9 Q676.2314,438.9 676.7064,438.7456 Q676.9795,438.6625 677.2883,438.3894 Q677.4901,438.235 677.597,438.1875 Q677.7039,438.14 677.8345,438.14 Q678.0839,438.14 678.262,438.3419 Q678.452,438.5319 678.452,438.805 Q678.452,439.0663 678.1908,439.375 Q677.8108,439.8263 677.2051,440.0756 Q676.4095,440.42 675.4358,440.42 Q674.2958,440.42 673.3814,439.9688 Q672.6451,439.6125 672.1226,438.8406 Q671.612,438.0688 671.612,437.1544 L671.612,436.3231 Q671.612,435.3731 672.0633,434.5419 Q672.5264,433.7106 673.322,433.2713 Q674.1295,432.82 675.032,432.82 Q675.5783,432.82 676.0533,433.01 Q676.5283,433.2 676.932,433.58 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="16.72" x="686.508" y="439.9717">Port</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="662.72" x2="706.8" y1="448.4" y2="448.4"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="9.12" x="666.52" y="460.1184">-id</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="22.8" x="666.52" y="470.6337">-name</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="36.48" x="666.52" y="481.149">-continent</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="31.16" x="666.52" y="491.6643">-country</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="28.88" x="666.52" y="502.1796">-latitude</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="35.72" x="666.52" y="512.695">-longitude</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="662.72" x2="706.8" y1="517.5719" y2="517.5719"/><!--MD5=[0dc7f2ddb409b58bcf52b12238c25399]
+class Ship--><rect codeLine="65" fill="#FEFECE" filter="url(#fyshs16ajofnd)" height="120.6025" id="Ship" style="stroke:#A80036;stroke-width:1.1400000000000001;" width="43.32" x="734.54" y="413.44"/><ellipse cx="745.94" cy="425.6" fill="#ADD1B2" rx="8.36" ry="8.36" style="stroke:#A80036;stroke-width:0.76;"/><path d="M747.46,422.94 Q747.6144,422.56 747.7925,422.37 Q747.9706,422.18 748.1725,422.18 Q748.5288,422.18 748.7544,422.3938 Q748.98,422.6075 748.98,423.1063 L748.98,424.2938 Q748.98,424.7925 748.7663,425.0063 Q748.5525,425.22 748.22,425.22 Q747.9231,425.22 747.7331,425.0894 Q747.5431,424.9588 747.46,424.6144 Q747.4244,424.3769 747.2938,424.2463 Q747.0563,423.9969 746.6288,423.8544 Q746.2013,423.7 745.7738,423.7 Q745.2394,423.7 744.7881,423.9138 Q744.3488,424.1275 744.0044,424.6025 Q743.66,425.0775 743.66,425.7306 L743.66,426.4313 Q743.66,427.215 744.3013,427.7375 Q744.9425,428.26 746.0825,428.26 Q746.7594,428.26 747.2344,428.1056 Q747.5075,428.0225 747.8163,427.7494 Q748.0181,427.595 748.125,427.5475 Q748.2319,427.5 748.3625,427.5 Q748.6119,427.5 748.79,427.7019 Q748.98,427.8919 748.98,428.165 Q748.98,428.4263 748.7188,428.735 Q748.3388,429.1863 747.7331,429.4356 Q746.9375,429.78 745.9638,429.78 Q744.8238,429.78 743.9094,429.3288 Q743.1731,428.9725 742.6506,428.2006 Q742.14,427.4288 742.14,426.5144 L742.14,425.6831 Q742.14,424.7331 742.5913,423.9019 Q743.0544,423.0706 743.85,422.6313 Q744.6575,422.18 745.56,422.18 Q746.1063,422.18 746.5813,422.37 Q747.0563,422.56 747.46,422.94 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="9.12" lengthAdjust="spacing" textLength="19" x="756.58" y="429.3317">Ship</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="735.3" x2="777.1" y1="437.76" y2="437.76"/><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="22.04" x="739.1" y="449.4784">-MMSI</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="22.8" x="739.1" y="459.9937">-name</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="16.72" x="739.1" y="470.509">-IMO</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="30.4" x="739.1" y="481.0243">-callsign</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="19" x="739.1" y="491.5396">-type</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="25.08" x="739.1" y="502.055">-length</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="23.56" x="739.1" y="512.5703">-width</text><text fill="#000000" font-family="sans-serif" font-size="8.36" lengthAdjust="spacing" textLength="20.52" x="739.1" y="523.0856">-draft</text><line style="stroke:#A80036;stroke-width:1.1400000000000001;" x1="735.3" x2="777.1" y1="527.9625" y2="527.9625"/><!--MD5=[9c050c9c6b37bb84274b297a6dba3e62]
+link FindPortUI to FindPortController--><path codeLine="78" d="M335.92,68.6508 C335.92,90.9416 335.92,129.4204 335.92,155.382 " fill="none" id="FindPortUI-to-FindPortController" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="335.92,159.4328,338.96,152.5928,335.92,155.6328,332.88,152.5928,335.92,159.4328" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[15ab8651c65aeda37bfb508722515549]
+link FindPortController to Company--><path codeLine="79" d="M405.2928,185.6756 C463.2732,189.4528 546.9112,200.3588 613.32,231.04 C706.9216,274.2764 727.054,299.25 791.16,380 C805.8356,398.4908 817.7828,422.2788 825.9756,441.18 " fill="none" id="FindPortController-to-Company" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="827.564,444.8964,827.6638,437.4119,826.0671,441.4036,822.0754,439.807,827.564,444.8964" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[996314549176cf5ba23b2453a9cfd423]
+link FindPortController to PortStore--><path codeLine="80" d="M335.92,206.7504 C335.92,231.9596 335.92,272.4828 335.92,299.1892 " fill="none" id="FindPortController-to-PortStore" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="335.92,303.0272,338.96,296.1872,335.92,299.2272,332.88,296.1872,335.92,303.0272" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[af797a1da6de000dac25911bcf173442]
+link FindPortController to ShipStore--><path codeLine="81" d="M400.5808,206.7808 C415.4616,213.4688 430.7528,221.578 443.84,231.04 C468.2892,248.71 490.8156,274.474 506.5476,294.7128 " fill="none" id="FindPortController-to-ShipStore" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="509.01,297.9124,507.234,290.641,506.6868,294.9053,502.4226,294.3581,509.01,297.9124" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[413bd867db461106d2cc7b39c6b00de0]
+link FindPortController to PortMapper--><path codeLine="82" d="M269.0476,206.8112 C254.9344,213.37 240.7148,221.4184 228.76,231.04 C205.2532,249.9716 185.82,278.7452 173.5992,299.668 " fill="none" id="FindPortController-to-PortMapper" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="171.5548,303.2172,177.6082,298.8145,173.4553,299.9266,172.3432,295.7737,171.5548,303.2172" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[c7efa5a33dc277138d94d18f66351fac]
+link FindPortController to Printer--><path codeLine="83" d="M266.7372,191.1704 C209.0228,198.474 132.506,211.4928 108.68,231.04 C88.0156,247.9956 77.7556,277.4608 72.7928,299.0904 " fill="none" id="FindPortController-to-Printer" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="71.9264,303.0348,76.361,297.0048,72.7404,299.323,70.4221,295.7024,71.9264,303.0348" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[f04e04ecc6998d67821b33eb17256457]
+link ShipStore to Ship--><path codeLine="84" d="M601.0156,331.474 C640.8092,337.1664 688.6284,350.2916 721.24,380 C730.0712,388.0408 736.6756,398.5364 741.6232,409.5716 " fill="none" id="ShipStore-to-Ship" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="743.242,413.3336,743.3334,405.849,741.7412,409.8425,737.7477,408.2504,743.242,413.3336" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[c8440d88291d09ff9b1204d56899ac6f]
+link PortStore to Port--><path codeLine="85" d="M388.8236,350.474 C406.3112,357.998 425.8888,366.3732 443.84,373.92 C521.5044,406.5848 613.6924,444.22 658.1524,462.3004 " fill="none" id="PortStore-to-Port" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="661.7928,463.7824,656.6053,458.3864,658.2736,462.3487,654.3113,464.017,661.7928,463.7824" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[16659995fae9f0427e36cef32dd0c8b2]
+link PortMapper to PortDTO--><path codeLine="86" d="M159.6,350.6184 C159.6,369.2612 159.6,396.2336 159.6,420.128 " fill="none" id="PortMapper-to-PortDTO" style="stroke:#A80036;stroke-width:0.76;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="159.6,423.9356,162.64,417.0956,159.6,420.1356,156.56,417.0956,159.6,423.9356" style="stroke:#A80036;stroke-width:0.76;"/><!--MD5=[3f135f59ff2995242764e976c66eb5ce]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class FindPortUI{
+}
+}
+
+package "core" {
+package "controllers" {
+class FindPortController{
++getClosestPort(callSign, dateTime)
+}
+}
+package utils{
+package "mappers"{
+class PortMapper{
++modelToDto(port)
+}
+}
+
+package dto{
+class PortDTO{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+}
+
+package "stores"{
+class ShipStore{
++getShipByCallSign(callSign)
++getShipPositionByDate(s, dateTime)
+}
+
+class PortStore{
++getClosestPort(shipPositionLat, shipPositionLon)
+}
+}
+
+class Printer{
++print()
+}
+}
+
+package "model"{
+class Company{
++getShipStore()
++getPortStore()
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+}
+}
+
+FindPortUI ..> FindPortController
+FindPortController ..> Company
+FindPortController ..> PortStore
+FindPortController ..> ShipStore
+FindPortController ..> PortMapper
+FindPortController ..> Printer
+ShipStore ..> Ship
+PortStore ..> Port
+PortMapper ..> PortDTO
+
+
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class FindPortUI{
+}
+}
+
+package "core" {
+package "controllers" {
+class FindPortController{
++getClosestPort(callSign, dateTime)
+}
+}
+package utils{
+package "mappers"{
+class PortMapper{
++modelToDto(port)
+}
+}
+
+package dto{
+class PortDTO{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+}
+
+package "stores"{
+class ShipStore{
++getShipByCallSign(callSign)
++getShipPositionByDate(s, dateTime)
+}
+
+class PortStore{
++getClosestPort(shipPositionLat, shipPositionLon)
+}
+}
+
+class Printer{
++print()
+}
+}
+
+package "model"{
+class Company{
++getShipStore()
++getPortStore()
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+}
+}
+
+FindPortUI ..> FindPortController
+FindPortController ..> Company
+FindPortController ..> PortStore
+FindPortController ..> ShipStore
+FindPortController ..> PortMapper
+FindPortController ..> Printer
+ShipStore ..> Ship
+PortStore ..> Port
+PortMapper ..> PortDTO
+
+
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

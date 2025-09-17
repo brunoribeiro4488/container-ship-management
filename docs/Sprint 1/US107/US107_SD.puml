@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ShipPairUI" as SPUI
+participant ":ShipPairController" as SPC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "listPairShips: List<Pair<Ship, Ship>>" as lps
+
+activate TM
+TM -> SPUI : asks to see the pairs of ships organized by mmsi and travelled distance difference
+activate SPUI
+SPUI -> SPC : listPairShips = PairOfShips()
+activate SPC
+SPC -> COMP : getShipStore()
+activate COMP
+deactivate COMP
+SPC -> SS : listPairShips = pairOfShips()
+activate SS
+SS -> SS : listPairShips = orderList(ListPairShips)
+activate SS
+deactivate SS
+deactivate SS
+deactivate SPC
+SPUI --> TM : shows the data (pairs of ships) and informs operation success
+deactivate SPUI
+deactivate TM
+
+@enduml

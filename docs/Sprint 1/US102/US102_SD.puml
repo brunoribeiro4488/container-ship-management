@@ -1,0 +1,64 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":SearchShipUI" as SSUI
+participant ":SearchShipController" as SSC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "ShipMapper" as SM
+participant "s: Ship" as S
+
+activate TM
+TM -> SSUI : asks to search for a ship
+activate SSUI
+SSUI --> TM : requests data (i.e.: mmsi, imo or callSign)
+deactivate SSUI
+TM -> SSUI : types requested data
+activate SSUI
+alt mmsi
+SSUI -> SSC : sDto = getShipByMMSI(mmsi)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByMMSI(mmsi)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+else imo
+SSUI -> SSC : sDto = getShipByIMO(imo)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByIMO(imo)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+else callSign
+SSUI -> SSC : sDto = getShipByCallSign(callSign)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByCallSign(callSign)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+end
+deactivate SSC
+SSUI --> TM : shows the data (chosen ship and its information) and informs operation success
+deactivate SSUI
+deactivate TM
+@enduml

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="486.25px" preserveAspectRatio="none" style="width:518px;height:486px;" version="1.1" viewBox="0 0 518 486" width="518.75px" zoomAndPan="magnify"><defs><filter height="300%" id="frw369r7xn0oz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#frw369r7xn0oz)" points="105,7.5,128.75,7.5,137.5,37.0117,362.5,37.0117,362.5,132.5,105,132.5,105,7.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="105" x2="137.5" y1="37.0117" y2="37.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="16.25" x="110" y="28.1665">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#frw369r7xn0oz)" points="72.5,162.5,176.25,162.5,185,192.0117,395,192.0117,395,305,72.5,305,72.5,162.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="72.5" x2="185" y1="192.0117" y2="192.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="96.25" x="77.5" y="183.1665">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#frw369r7xn0oz)" points="20,335,65,335,73.75,364.5117,145,364.5117,145,477.5,20,477.5,20,335" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="20" x2="73.75" y1="364.5117" y2="364.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="37.5" x="25" y="355.6665">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#frw369r7xn0oz)" points="175,335,220,335,228.75,364.5117,497.5,364.5117,497.5,477.5,175,477.5,175,335" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="175" x2="228.75" y1="364.5117" y2="364.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="37.5" x="180" y="355.6665">data</text><!--MD5=[fbda62d674fcb1a2c52ad81a50944523]
+class OccupancyRateMomentUI--><rect codeLine="6" fill="#FEFECE" filter="url(#frw369r7xn0oz)" height="60" id="OccupancyRateMomentUI" style="stroke:#A80036;stroke-width:1.875;" width="217.5" x="125" y="52.5"/><ellipse cx="143.75" cy="72.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M146.25,68.125 Q146.5039,67.5 146.7969,67.1875 Q147.0898,66.875 147.4219,66.875 Q148.0078,66.875 148.3789,67.2266 Q148.75,67.5781 148.75,68.3984 L148.75,70.3516 Q148.75,71.1719 148.3984,71.5234 Q148.0469,71.875 147.5,71.875 Q147.0117,71.875 146.6992,71.6602 Q146.3867,71.4453 146.25,70.8789 Q146.1914,70.4883 145.9766,70.2734 Q145.5859,69.8633 144.8828,69.6289 Q144.1797,69.375 143.4766,69.375 Q142.5977,69.375 141.8555,69.7266 Q141.1328,70.0781 140.5664,70.8594 Q140,71.6406 140,72.7148 L140,73.8672 Q140,75.1563 141.0547,76.0156 Q142.1094,76.875 143.9844,76.875 Q145.0977,76.875 145.8789,76.6211 Q146.3281,76.4844 146.8359,76.0352 Q147.168,75.7813 147.3438,75.7031 Q147.5195,75.625 147.7344,75.625 Q148.1445,75.625 148.4375,75.957 Q148.75,76.2695 148.75,76.7188 Q148.75,77.1484 148.3203,77.6563 Q147.6953,78.3984 146.6992,78.8086 Q145.3906,79.375 143.7891,79.375 Q141.9141,79.375 140.4102,78.6328 Q139.1992,78.0469 138.3398,76.7773 Q137.5,75.5078 137.5,74.0039 L137.5,72.6367 Q137.5,71.0742 138.2422,69.707 Q139.0039,68.3398 140.3125,67.6172 Q141.6406,66.875 143.125,66.875 Q144.0234,66.875 144.8047,67.1875 Q145.5859,67.5 146.25,68.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="177.5" x="161.25" y="78.6377">OccupancyRateMomentUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="126.25" x2="341.25" y1="92.5" y2="92.5"/><line style="stroke:#A80036;stroke-width:1.875;" x1="126.25" x2="341.25" y1="102.5" y2="102.5"/><!--MD5=[630f64e4fab677d02010bc13e1253bd2]
+class OccupancyRateMomentController--><rect codeLine="11" fill="#FEFECE" filter="url(#frw369r7xn0oz)" height="77.2949" id="OccupancyRateMomentController" style="stroke:#A80036;stroke-width:1.875;" width="282.5" x="92.5" y="207.5"/><ellipse cx="116.875" cy="227.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M119.375,223.125 Q119.6289,222.5 119.9219,222.1875 Q120.2148,221.875 120.5469,221.875 Q121.1328,221.875 121.5039,222.2266 Q121.875,222.5781 121.875,223.3984 L121.875,225.3516 Q121.875,226.1719 121.5234,226.5234 Q121.1719,226.875 120.625,226.875 Q120.1367,226.875 119.8242,226.6602 Q119.5117,226.4453 119.375,225.8789 Q119.3164,225.4883 119.1016,225.2734 Q118.7109,224.8633 118.0078,224.6289 Q117.3047,224.375 116.6016,224.375 Q115.7227,224.375 114.9805,224.7266 Q114.2578,225.0781 113.6914,225.8594 Q113.125,226.6406 113.125,227.7148 L113.125,228.8672 Q113.125,230.1563 114.1797,231.0156 Q115.2344,231.875 117.1094,231.875 Q118.2227,231.875 119.0039,231.6211 Q119.4531,231.4844 119.9609,231.0352 Q120.293,230.7813 120.4688,230.7031 Q120.6445,230.625 120.8594,230.625 Q121.2695,230.625 121.5625,230.957 Q121.875,231.2695 121.875,231.7188 Q121.875,232.1484 121.4453,232.6563 Q120.8203,233.3984 119.8242,233.8086 Q118.5156,234.375 116.9141,234.375 Q115.0391,234.375 113.5352,233.6328 Q112.3242,233.0469 111.4648,231.7773 Q110.625,230.5078 110.625,229.0039 L110.625,227.6367 Q110.625,226.0742 111.3672,224.707 Q112.1289,223.3398 113.4375,222.6172 Q114.7656,221.875 116.25,221.875 Q117.1484,221.875 117.9297,222.1875 Q118.7109,222.5 119.375,223.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="230" x="135.625" y="233.6377">OccupancyRateMomentController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="93.75" x2="373.75" y1="247.5" y2="247.5"/><line style="stroke:#A80036;stroke-width:1.875;" x1="93.75" x2="373.75" y1="257.5" y2="257.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="267.5" x="100" y="276.7737">+OccupancyRateMoment(shipMMSI,moment)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="16" fill="#FEFECE" filter="url(#frw369r7xn0oz)" height="77.2949" id="Printer" style="stroke:#A80036;stroke-width:1.875;" width="85" x="40" y="380"/><ellipse cx="58.75" cy="400" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M61.25,395.625 Q61.5039,395 61.7969,394.6875 Q62.0898,394.375 62.4219,394.375 Q63.0078,394.375 63.3789,394.7266 Q63.75,395.0781 63.75,395.8984 L63.75,397.8516 Q63.75,398.6719 63.3984,399.0234 Q63.0469,399.375 62.5,399.375 Q62.0117,399.375 61.6992,399.1602 Q61.3867,398.9453 61.25,398.3789 Q61.1914,397.9883 60.9766,397.7734 Q60.5859,397.3633 59.8828,397.1289 Q59.1797,396.875 58.4766,396.875 Q57.5977,396.875 56.8555,397.2266 Q56.1328,397.5781 55.5664,398.3594 Q55,399.1406 55,400.2148 L55,401.3672 Q55,402.6563 56.0547,403.5156 Q57.1094,404.375 58.9844,404.375 Q60.0977,404.375 60.8789,404.1211 Q61.3281,403.9844 61.8359,403.5352 Q62.168,403.2813 62.3438,403.2031 Q62.5195,403.125 62.7344,403.125 Q63.1445,403.125 63.4375,403.457 Q63.75,403.7695 63.75,404.2188 Q63.75,404.6484 63.3203,405.1563 Q62.6953,405.8984 61.6992,406.3086 Q60.3906,406.875 58.7891,406.875 Q56.9141,406.875 55.4102,406.1328 Q54.1992,405.5469 53.3398,404.2773 Q52.5,403.0078 52.5,401.5039 L52.5,400.1367 Q52.5,398.5742 53.2422,397.207 Q54.0039,395.8398 55.3125,395.1172 Q56.6406,394.375 58.125,394.375 Q59.0234,394.375 59.8047,394.6875 Q60.5859,395 61.25,395.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="45" x="76.25" y="406.1377">Printer</text><line style="stroke:#A80036;stroke-width:1.875;" x1="41.25" x2="123.75" y1="420" y2="420"/><line style="stroke:#A80036;stroke-width:1.875;" x1="41.25" x2="123.75" y1="430" y2="430"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="43.75" x="47.5" y="449.2737">+print()</text><!--MD5=[3d5511891fb88063e80ce00a28f5394e]
+class OccupancyRateMoment--><rect codeLine="21" fill="#FEFECE" filter="url(#frw369r7xn0oz)" height="77.2949" id="OccupancyRateMoment" style="stroke:#A80036;stroke-width:1.875;" width="282.5" x="195" y="380"/><ellipse cx="249.75" cy="400" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M252.25,395.625 Q252.5039,395 252.7969,394.6875 Q253.0898,394.375 253.4219,394.375 Q254.0078,394.375 254.3789,394.7266 Q254.75,395.0781 254.75,395.8984 L254.75,397.8516 Q254.75,398.6719 254.3984,399.0234 Q254.0469,399.375 253.5,399.375 Q253.0117,399.375 252.6992,399.1602 Q252.3867,398.9453 252.25,398.3789 Q252.1914,397.9883 251.9766,397.7734 Q251.5859,397.3633 250.8828,397.1289 Q250.1797,396.875 249.4766,396.875 Q248.5977,396.875 247.8555,397.2266 Q247.1328,397.5781 246.5664,398.3594 Q246,399.1406 246,400.2148 L246,401.3672 Q246,402.6563 247.0547,403.5156 Q248.1094,404.375 249.9844,404.375 Q251.0977,404.375 251.8789,404.1211 Q252.3281,403.9844 252.8359,403.5352 Q253.168,403.2813 253.3438,403.2031 Q253.5195,403.125 253.7344,403.125 Q254.1445,403.125 254.4375,403.457 Q254.75,403.7695 254.75,404.2188 Q254.75,404.6484 254.3203,405.1563 Q253.6953,405.8984 252.6992,406.3086 Q251.3906,406.875 249.7891,406.875 Q247.9141,406.875 246.4102,406.1328 Q245.1992,405.5469 244.3398,404.2773 Q243.5,403.0078 243.5,401.5039 L243.5,400.1367 Q243.5,398.5742 244.2422,397.207 Q245.0039,395.8398 246.3125,395.1172 Q247.6406,394.375 249.125,394.375 Q250.0234,394.375 250.8047,394.6875 Q251.5859,395 252.25,395.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="162.5" x="275.25" y="406.1377">OccupancyRateMoment</text><line style="stroke:#A80036;stroke-width:1.875;" x1="196.25" x2="476.25" y1="420" y2="420"/><line style="stroke:#A80036;stroke-width:1.875;" x1="196.25" x2="476.25" y1="430" y2="430"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="267.5" x="202.5" y="449.2737">+OccupancyRateMoment(shipMMSI,moment)</text><!--MD5=[71c74bdb7e4b4be5bc4f63b9b195ef6a]
+link OccupancyRateMomentUI to OccupancyRateMomentController--><path codeLine="25" d="M233.75,112.575 C233.75,137.0625 233.75,172.6125 233.75,200.7125 " fill="none" id="OccupancyRateMomentUI-to-OccupancyRateMomentController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="233.75,207.3125,238.75,196.0625,233.75,201.0625,228.75,196.0625,233.75,207.3125" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[31a16e0c46e150e843717ac68bd00d16]
+link OccupancyRateMomentController to Printer--><path codeLine="26" d="M200.1875,285.225 C176.4875,311.8625 144.7125,347.5625 120.1625,375.175 " fill="none" id="OccupancyRateMomentController-to-Printer" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="115.975,379.875,127.1873,374.7911,120.1284,375.2047,119.7148,368.1457,115.975,379.875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[249bb224ac25d7de78f67560b47a0c51]
+link OccupancyRateMomentController to OccupancyRateMoment--><path codeLine="27" d="M256.5,285.225 C272.425,311.6375 293.725,346.975 310.3125,374.4875 " fill="none" id="OccupancyRateMomentController-to-OccupancyRateMoment" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="313.5625,379.875,312.0619,367.6557,310.3469,374.5157,303.487,372.8007,313.5625,379.875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[fb8d44964494e60dab687c07393e5879]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class OccupancyRateMomentUI{
+}
+}
+
+package "controllers" {
+class OccupancyRateMomentController{
++OccupancyRateMoment(shipMMSI,moment)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class OccupancyRateMoment{
++OccupancyRateMoment(shipMMSI,moment)
+}
+
+OccupancyRateMomentUI ..> OccupancyRateMomentController
+OccupancyRateMomentController ..> Printer
+OccupancyRateMomentController ..> OccupancyRateMoment
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class OccupancyRateMomentUI{
+}
+}
+
+package "controllers" {
+class OccupancyRateMomentController{
++OccupancyRateMoment(shipMMSI,moment)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class OccupancyRateMoment{
++OccupancyRateMoment(shipMMSI,moment)
+}
+
+OccupancyRateMomentUI ..> OccupancyRateMomentController
+OccupancyRateMomentController ..> Printer
+OccupancyRateMomentController ..> OccupancyRateMoment
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

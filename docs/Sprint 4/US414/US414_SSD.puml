@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+activate SCEE
+
+SCEE -> ":System": asks to know how much energy to supply to the container cargo, in a voyage (or route),\n depending on the position of the containers on the ship. Admitting that the interior containers,\n or the sides not exposed directly to the "sun", maintain the initial temperature, or of departure.\n However, the exposed sides may present temperature variations during the trip.
+activate ":System"
+":System" --> SCEE : shows the data (energy values required) and informs operation success
+deactivate ":System"
+@enduml

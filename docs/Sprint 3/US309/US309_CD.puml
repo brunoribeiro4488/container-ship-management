@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ShipOccupiedWarningUI{
+}
+}
+
+package "controllers" {
+class ShipOccupiedWarningController{
++insertCargoManifestForShip(cargomanifestid, partialid, dateload, done, portid)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class ShipOccupiedWarning{
++insertCargoManifestForShip(cargomanifestid, partialid, dateload, done, portid)
+}
+}
+
+
+
+
+ShipOccupiedWarningUI ..> ShipOccupiedWarningController
+ShipOccupiedWarningController ..> Printer
+ShipOccupiedWarningController ..> ShipOccupiedWarning
+@enduml

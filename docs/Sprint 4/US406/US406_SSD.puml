@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Fleet Manager" as FM
+activate FM
+
+FM -> ":System": asks to know which ship voyages – place and date of origin and\n destination – had an occupancy rate below a certain threshold
+activate ":System"
+":System" --> FM : shows the data (places and dates of origin and destination,\n which have below 66% occupancy rate) and informs operation success
+deactivate ":System"
+@enduml

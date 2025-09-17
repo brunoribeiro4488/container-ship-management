@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class CMTransportedUI{
+}
+}
+
+package "controllers" {
+class CMTransportedController{
++CMTransported(year)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class CMTransported{
++avgContainers(year)
++manifestInYear(year)
+}
+
+CMTransportedUI ..> CMTransportedController
+CMTransportedController ..> Printer
+CMTransportedController ..> CMTransported
+
+@enduml

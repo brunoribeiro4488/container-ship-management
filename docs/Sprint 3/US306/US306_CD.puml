@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class WarehouseRateUI{
+}
+}
+
+package "controllers" {
+class WarehouseRateController{
++warehouseRate()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class WarehouseRate{
++warehouseRate(databaseConnection)
+}
+}
+
+
+
+WarehouseRateUI ..> WarehouseRateController
+WarehouseRateController ..> Printer
+WarehouseRateController ..> WarehouseRate
+@enduml

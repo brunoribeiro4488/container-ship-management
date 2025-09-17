@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Captain" as SC
+participant ":EnergyWithSidesUI" as EWSUI
+participant ":EnergyWithSidesController" as EWSC
+participant ":Company" as COMP
+participant "fsiapStore: FsiapStore" as FS
+participant "p: Printer" as P
+participant "generators: int"
+participant "positivecontainers: int"
+participant "lateralsidespositive: int"
+participant "frontalsidespositive: int"
+participant "negativecontainers: int"
+participant "lateralsidesnegative: int"
+participant "frontalsidesnegative: int"
+participant "temperatura: int"
+
+activate SC
+SC -> EWSUI: asks to know how many auxiliary power equipment are needed for the voyage,\n knowing that each one supplies a maximum of 75 KW
+activate EWSUI
+EWSUI -> EWSC : generators = getgenerators(positivecontainers, lateralsidespositive, frontalsidespositive,\n negativecontainers, lateralsidesnegative, frontalsidesnegative, temperatura)
+activate EWSC
+EWSC -> COMP : fsiapStore = getFsiapStore()
+activate COMP
+deactivate COMP
+EWSC -> FS : generators = getFluxoWithSides(positivecontainers,lateralsidespositive,frontalsidespositive,\nnegativecontainers,lateralsidesnegative,frontalsidesnegative,temperatura)
+activate FS
+deactivate FS
+EWSC -> P : print(Needed generators,generators,US415)
+activate P
+deactivate P
+deactivate EWSC
+EWSUI --> SC : shows the data (generators) and informs operation success
+deactivate EWSUI
+deactivate SC
+@enduml

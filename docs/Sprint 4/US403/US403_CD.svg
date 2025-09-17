@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="619px" preserveAspectRatio="none" style="width:800px;height:619px;" version="1.1" viewBox="0 0 800 619" width="800px" zoomAndPan="magnify"><defs><filter height="300%" id="f1x9946w0avq4s" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f1x9946w0avq4s)" points="270,6,289,6,296,29.6094,450,29.6094,450,106,270,106,270,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="270" x2="296" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="274" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f1x9946w0avq4s)" points="240,130,323,130,330,153.6094,480,153.6094,480,244,240,244,240,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="240" x2="330" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="244" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f1x9946w0avq4s)" points="16,268,52,268,59,291.6094,783,291.6094,783,612,16,612,16,268" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="291.6094" y2="291.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="284.5332">utils</text><!--MD5=[fbca5634cbc0239920b500cad9c4bedb]
+cluster stores--><polygon fill="#FFFFFF" filter="url(#f1x9946w0avq4s)" points="204,312,255,312,262,335.6094,759,335.6094,759,588,204,588,204,312" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="204" x2="262" y1="335.6094" y2="335.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="208" y="328.5332">stores</text><!--MD5=[6c90033dafc7844095e13a44c223efdf]
+cluster matrix--><polygon fill="#FFFFFF" filter="url(#f1x9946w0avq4s)" points="449,450,498,450,505,473.6094,735,473.6094,735,564,449,564,449,450" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="449" x2="505" y1="473.6094" y2="473.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="453" y="466.5332">matrix</text><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#f1x9946w0avq4s)" points="40,312,89,312,96,335.6094,180,335.6094,180,426,40,426,40,312" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="96" y1="335.6094" y2="335.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="44" y="328.5332">model</text><!--MD5=[1a67bdc3901319a7f9438df097cc2784]
+class MostEfficientCircuitUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f1x9946w0avq4s)" height="48" id="MostEfficientCircuitUI" style="stroke:#A80036;stroke-width:1.5;" width="148" x="286" y="42"/><ellipse cx="301" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M303,54.5 Q303.2031,54 303.4375,53.75 Q303.6719,53.5 303.9375,53.5 Q304.4063,53.5 304.7031,53.7813 Q305,54.0625 305,54.7188 L305,56.2813 Q305,56.9375 304.7188,57.2188 Q304.4375,57.5 304,57.5 Q303.6094,57.5 303.3594,57.3281 Q303.1094,57.1563 303,56.7031 Q302.9531,56.3906 302.7813,56.2188 Q302.4688,55.8906 301.9063,55.7031 Q301.3438,55.5 300.7813,55.5 Q300.0781,55.5 299.4844,55.7813 Q298.9063,56.0625 298.4531,56.6875 Q298,57.3125 298,58.1719 L298,59.0938 Q298,60.125 298.8438,60.8125 Q299.6875,61.5 301.1875,61.5 Q302.0781,61.5 302.7031,61.2969 Q303.0625,61.1875 303.4688,60.8281 Q303.7344,60.625 303.875,60.5625 Q304.0156,60.5 304.1875,60.5 Q304.5156,60.5 304.75,60.7656 Q305,61.0156 305,61.375 Q305,61.7188 304.6563,62.125 Q304.1563,62.7188 303.3594,63.0469 Q302.3125,63.5 301.0313,63.5 Q299.5313,63.5 298.3281,62.9063 Q297.3594,62.4375 296.6719,61.4219 Q296,60.4063 296,59.2031 L296,58.1094 Q296,56.8594 296.5938,55.7656 Q297.2031,54.6719 298.25,54.0938 Q299.3125,53.5 300.5,53.5 Q301.2188,53.5 301.8438,53.75 Q302.4688,54 303,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="315" y="62.9102">MostEfficientCircuitUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="287" x2="433" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="287" x2="433" y1="82" y2="82"/><!--MD5=[82b452ac5d89fed3c3bddab4a88118e6]
+class MostEfficientCircuitController--><rect codeLine="11" fill="#FEFECE" filter="url(#f1x9946w0avq4s)" height="61.8359" id="MostEfficientCircuitController" style="stroke:#A80036;stroke-width:1.5;" width="208" x="256" y="166"/><ellipse cx="279.1" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M281.1,178.5 Q281.3031,178 281.5375,177.75 Q281.7719,177.5 282.0375,177.5 Q282.5063,177.5 282.8031,177.7813 Q283.1,178.0625 283.1,178.7188 L283.1,180.2813 Q283.1,180.9375 282.8188,181.2188 Q282.5375,181.5 282.1,181.5 Q281.7094,181.5 281.4594,181.3281 Q281.2094,181.1563 281.1,180.7031 Q281.0531,180.3906 280.8813,180.2188 Q280.5688,179.8906 280.0063,179.7031 Q279.4438,179.5 278.8813,179.5 Q278.1781,179.5 277.5844,179.7813 Q277.0063,180.0625 276.5531,180.6875 Q276.1,181.3125 276.1,182.1719 L276.1,183.0938 Q276.1,184.125 276.9438,184.8125 Q277.7875,185.5 279.2875,185.5 Q280.1781,185.5 280.8031,185.2969 Q281.1625,185.1875 281.5688,184.8281 Q281.8344,184.625 281.975,184.5625 Q282.1156,184.5 282.2875,184.5 Q282.6156,184.5 282.85,184.7656 Q283.1,185.0156 283.1,185.375 Q283.1,185.7188 282.7563,186.125 Q282.2563,186.7188 281.4594,187.0469 Q280.4125,187.5 279.1313,187.5 Q277.6313,187.5 276.4281,186.9063 Q275.4594,186.4375 274.7719,185.4219 Q274.1,184.4063 274.1,183.2031 L274.1,182.1094 Q274.1,180.8594 274.6938,179.7656 Q275.3031,178.6719 276.35,178.0938 Q277.4125,177.5 278.6,177.5 Q279.3188,177.5 279.9438,177.75 Q280.5688,178 281.1,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="158" x="294.9" y="186.9102">MostEfficientCircuitController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="257" x2="463" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="257" x2="463" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="262" y="221.4189">+getMostEfficientCircuit(sourceLocation)</text><!--MD5=[2cc01888644921b61c356dbf1e5a52f4]
+class NetworkStore--><rect codeLine="17" fill="#FEFECE" filter="url(#f1x9946w0avq4s)" height="61.8359" id="NetworkStore" style="stroke:#A80036;stroke-width:1.5;" width="208" x="535" y="348"/><ellipse cx="597.75" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M599.75,360.5 Q599.9531,360 600.1875,359.75 Q600.4219,359.5 600.6875,359.5 Q601.1563,359.5 601.4531,359.7813 Q601.75,360.0625 601.75,360.7188 L601.75,362.2813 Q601.75,362.9375 601.4688,363.2188 Q601.1875,363.5 600.75,363.5 Q600.3594,363.5 600.1094,363.3281 Q599.8594,363.1563 599.75,362.7031 Q599.7031,362.3906 599.5313,362.2188 Q599.2188,361.8906 598.6563,361.7031 Q598.0938,361.5 597.5313,361.5 Q596.8281,361.5 596.2344,361.7813 Q595.6563,362.0625 595.2031,362.6875 Q594.75,363.3125 594.75,364.1719 L594.75,365.0938 Q594.75,366.125 595.5938,366.8125 Q596.4375,367.5 597.9375,367.5 Q598.8281,367.5 599.4531,367.2969 Q599.8125,367.1875 600.2188,366.8281 Q600.4844,366.625 600.625,366.5625 Q600.7656,366.5 600.9375,366.5 Q601.2656,366.5 601.5,366.7656 Q601.75,367.0156 601.75,367.375 Q601.75,367.7188 601.4063,368.125 Q600.9063,368.7188 600.1094,369.0469 Q599.0625,369.5 597.7813,369.5 Q596.2813,369.5 595.0781,368.9063 Q594.1094,368.4375 593.4219,367.4219 Q592.75,366.4063 592.75,365.2031 L592.75,364.1094 Q592.75,362.8594 593.3438,361.7656 Q593.9531,360.6719 595,360.0938 Q596.0625,359.5 597.25,359.5 Q597.9688,359.5 598.5938,359.75 Q599.2188,360 599.75,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="618.25" y="368.9102">NetworkStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="536" x2="742" y1="380" y2="380"/><line style="stroke:#A80036;stroke-width:1.5;" x1="536" x2="742" y1="388" y2="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="541" y="403.4189">+getMostEfficientCircuit(sourceLocation)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="27" fill="#FEFECE" filter="url(#f1x9946w0avq4s)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="280" x="220" y="348"/><ellipse cx="337.75" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M339.75,360.5 Q339.9531,360 340.1875,359.75 Q340.4219,359.5 340.6875,359.5 Q341.1563,359.5 341.4531,359.7813 Q341.75,360.0625 341.75,360.7188 L341.75,362.2813 Q341.75,362.9375 341.4688,363.2188 Q341.1875,363.5 340.75,363.5 Q340.3594,363.5 340.1094,363.3281 Q339.8594,363.1563 339.75,362.7031 Q339.7031,362.3906 339.5313,362.2188 Q339.2188,361.8906 338.6563,361.7031 Q338.0938,361.5 337.5313,361.5 Q336.8281,361.5 336.2344,361.7813 Q335.6563,362.0625 335.2031,362.6875 Q334.75,363.3125 334.75,364.1719 L334.75,365.0938 Q334.75,366.125 335.5938,366.8125 Q336.4375,367.5 337.9375,367.5 Q338.8281,367.5 339.4531,367.2969 Q339.8125,367.1875 340.2188,366.8281 Q340.4844,366.625 340.625,366.5625 Q340.7656,366.5 340.9375,366.5 Q341.2656,366.5 341.5,366.7656 Q341.75,367.0156 341.75,367.375 Q341.75,367.7188 341.4063,368.125 Q340.9063,368.7188 340.1094,369.0469 Q339.0625,369.5 337.7813,369.5 Q336.2813,369.5 335.0781,368.9063 Q334.1094,368.4375 333.4219,367.4219 Q332.75,366.4063 332.75,365.2031 L332.75,364.1094 Q332.75,362.8594 333.3438,361.7656 Q333.9531,360.6719 335,360.0938 Q336.0625,359.5 337.25,359.5 Q337.9688,359.5 338.5938,359.75 Q339.2188,360 339.75,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="358.25" y="368.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="221" x2="499" y1="380" y2="380"/><line style="stroke:#A80036;stroke-width:1.5;" x1="221" x2="499" y1="388" y2="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="268" x="226" y="403.4189">+print(Most efficient circuit, mostEfficientCircuit, US403)</text><!--MD5=[4533588fb66c6fa31a6e04bf29ae6161]
+class Algorithms--><rect codeLine="22" fill="#FEFECE" filter="url(#f1x9946w0avq4s)" height="61.8359" id="Algorithms" style="stroke:#A80036;stroke-width:1.5;" width="253" x="465.5" y="486"/><ellipse cx="558.25" cy="502" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M560.25,498.5 Q560.4531,498 560.6875,497.75 Q560.9219,497.5 561.1875,497.5 Q561.6563,497.5 561.9531,497.7813 Q562.25,498.0625 562.25,498.7188 L562.25,500.2813 Q562.25,500.9375 561.9688,501.2188 Q561.6875,501.5 561.25,501.5 Q560.8594,501.5 560.6094,501.3281 Q560.3594,501.1563 560.25,500.7031 Q560.2031,500.3906 560.0313,500.2188 Q559.7188,499.8906 559.1563,499.7031 Q558.5938,499.5 558.0313,499.5 Q557.3281,499.5 556.7344,499.7813 Q556.1563,500.0625 555.7031,500.6875 Q555.25,501.3125 555.25,502.1719 L555.25,503.0938 Q555.25,504.125 556.0938,504.8125 Q556.9375,505.5 558.4375,505.5 Q559.3281,505.5 559.9531,505.2969 Q560.3125,505.1875 560.7188,504.8281 Q560.9844,504.625 561.125,504.5625 Q561.2656,504.5 561.4375,504.5 Q561.7656,504.5 562,504.7656 Q562.25,505.0156 562.25,505.375 Q562.25,505.7188 561.9063,506.125 Q561.4063,506.7188 560.6094,507.0469 Q559.5625,507.5 558.2813,507.5 Q556.7813,507.5 555.5781,506.9063 Q554.6094,506.4375 553.9219,505.4219 Q553.25,504.4063 553.25,503.2031 L553.25,502.1094 Q553.25,500.8594 553.8438,499.7656 Q554.4531,498.6719 555.5,498.0938 Q556.5625,497.5 557.75,497.5 Q558.4688,497.5 559.0938,497.75 Q559.7188,498 560.25,498.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="578.75" y="506.9102">Algorithms</text><line style="stroke:#A80036;stroke-width:1.5;" x1="466.5" x2="717.5" y1="518" y2="518"/><line style="stroke:#A80036;stroke-width:1.5;" x1="466.5" x2="717.5" y1="526" y2="526"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="241" x="471.5" y="541.4189">+depthFirstSearch(graph, sourceLocation, circuit)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="32" fill="#FEFECE" filter="url(#f1x9946w0avq4s)" height="61.8359" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="108" x="56" y="348"/><ellipse cx="81.35" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M83.35,360.5 Q83.5531,360 83.7875,359.75 Q84.0219,359.5 84.2875,359.5 Q84.7563,359.5 85.0531,359.7813 Q85.35,360.0625 85.35,360.7188 L85.35,362.2813 Q85.35,362.9375 85.0688,363.2188 Q84.7875,363.5 84.35,363.5 Q83.9594,363.5 83.7094,363.3281 Q83.4594,363.1563 83.35,362.7031 Q83.3031,362.3906 83.1313,362.2188 Q82.8188,361.8906 82.2563,361.7031 Q81.6938,361.5 81.1313,361.5 Q80.4281,361.5 79.8344,361.7813 Q79.2563,362.0625 78.8031,362.6875 Q78.35,363.3125 78.35,364.1719 L78.35,365.0938 Q78.35,366.125 79.1938,366.8125 Q80.0375,367.5 81.5375,367.5 Q82.4281,367.5 83.0531,367.2969 Q83.4125,367.1875 83.8188,366.8281 Q84.0844,366.625 84.225,366.5625 Q84.3656,366.5 84.5375,366.5 Q84.8656,366.5 85.1,366.7656 Q85.35,367.0156 85.35,367.375 Q85.35,367.7188 85.0063,368.125 Q84.5063,368.7188 83.7094,369.0469 Q82.6625,369.5 81.3813,369.5 Q79.8813,369.5 78.6781,368.9063 Q77.7094,368.4375 77.0219,367.4219 Q76.35,366.4063 76.35,365.2031 L76.35,364.1094 Q76.35,362.8594 76.9438,361.7656 Q77.5531,360.6719 78.6,360.0938 Q79.6625,359.5 80.85,359.5 Q81.5688,359.5 82.1938,359.75 Q82.8188,360 83.35,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="97.65" y="368.9102">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57" x2="163" y1="380" y2="380"/><line style="stroke:#A80036;stroke-width:1.5;" x1="57" x2="163" y1="388" y2="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="96" x="62" y="403.4189">+getNetworkStore()</text><!--MD5=[77bc45a3d464fa93d602a719156ca22a]
+link MostEfficientCircuitUI to MostEfficientCircuitController--><path codeLine="38" d="M360,90.06 C360,109.65 360,138.09 360,160.57 " fill="none" id="MostEfficientCircuitUI-to-MostEfficientCircuitController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="360,165.85,364,156.85,360,160.85,356,156.85,360,165.85" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9c6d47ab964d752fbe6e2d5dbbbbc2c7]
+link MostEfficientCircuitController to Company--><path codeLine="39" d="M261.42,228.15 C241.39,236.69 221.2,247.24 204,260 C173.48,282.64 147.35,317.53 130.45,343.5 " fill="none" id="MostEfficientCircuitController-to-Company" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="127.61,347.92,135.8332,342.4997,130.3073,343.7099,129.0971,338.1841,127.61,347.92" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f13167809afbf13d8b8dac1cf3515fff]
+link MostEfficientCircuitController to NetworkStore--><path codeLine="40" d="M454.93,228.16 C476.48,236.91 498.69,247.53 518,260 C553.8,283.12 587.92,317.98 610.75,343.83 " fill="none" id="MostEfficientCircuitController-to-NetworkStore" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="614.31,347.89,611.3761,338.4883,611.0104,344.1333,605.3654,343.7676,614.31,347.89" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9798bea7cf1e1966f40e1c593ef97ca0]
+link MostEfficientCircuitController to Printer--><path codeLine="41" d="M360,228.13 C360,259.67 360,309.16 360,342.56 " fill="none" id="MostEfficientCircuitController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="360,347.77,364,338.77,360,342.77,356,338.77,360,347.77" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5a5bcb3a922441d5533118b0b6025222]
+link NetworkStore to Algorithms--><path codeLine="42" d="M628.57,410.18 C621.33,431.14 611.66,459.11 604.08,481.04 " fill="none" id="NetworkStore-to-Algorithms" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="602.4,485.9,609.1321,478.7112,604.0409,481.1769,601.5752,476.0857,602.4,485.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0e7decafcbd264954df933bdc3638f98]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class MostEfficientCircuitUI{
+}
+}
+
+package "controllers" {
+class MostEfficientCircuitController{
++getMostEfficientCircuit(sourceLocation)
+}
+}
+package utils{
+package "stores"{
+class NetworkStore{
++getMostEfficientCircuit(sourceLocation)
+}
+
+package "matrix"{
+class Algorithms{
++depthFirstSearch(graph, sourceLocation, circuit)
+}
+}
+
+class Printer{
++print(Most efficient circuit, mostEfficientCircuit, US403)
+}
+}
+package "model"{
+class Company{
++getNetworkStore()
+}
+
+}
+
+MostEfficientCircuitUI ..> MostEfficientCircuitController
+MostEfficientCircuitController ..> Company
+MostEfficientCircuitController ..> NetworkStore
+MostEfficientCircuitController ..> Printer
+NetworkStore ..> Algorithms
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class MostEfficientCircuitUI{
+}
+}
+
+package "controllers" {
+class MostEfficientCircuitController{
++getMostEfficientCircuit(sourceLocation)
+}
+}
+package utils{
+package "stores"{
+class NetworkStore{
++getMostEfficientCircuit(sourceLocation)
+}
+
+package "matrix"{
+class Algorithms{
++depthFirstSearch(graph, sourceLocation, circuit)
+}
+}
+
+class Printer{
++print(Most efficient circuit, mostEfficientCircuit, US403)
+}
+}
+package "model"{
+class Company{
++getNetworkStore()
+}
+
+}
+
+MostEfficientCircuitUI ..> MostEfficientCircuitController
+MostEfficientCircuitController ..> Company
+MostEfficientCircuitController ..> NetworkStore
+MostEfficientCircuitController ..> Printer
+NetworkStore ..> Algorithms
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

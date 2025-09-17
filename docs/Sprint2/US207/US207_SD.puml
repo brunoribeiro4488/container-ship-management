@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as SC
+participant ":CMTransportedUI" as CTUI
+participant ":CMTransportedController" as CTC
+participant ":CMTransported" as CT
+participant ":Printer" as P
+
+activate SC
+SC -> CTUI: asks to see how many cargo manifests he has transported during a given year and the average number of containers per manifest
+activate CTUI
+CTUI --> SC: requests data (i.e.: year)
+deactivate CTUI
+
+SC -> CTUI: types requested data
+activate CTUI
+CTUI -> CTC : CMTransported(year)
+activate CTC
+CTC -> CT : cont = avgContainers(year)
+activate CT
+deactivate CT
+CTC -> CT : average = manifestInYear(year)
+activate CT
+deactivate CT
+CTC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate CTC
+CTUI --> SC : shows the data (number of cargo manifests in that year \n and the average of container percargo manifests ) and informs operation success
+deactivate CTUI
+deactivate SC
+
+@enduml

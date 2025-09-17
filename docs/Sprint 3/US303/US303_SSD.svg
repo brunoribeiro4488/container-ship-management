@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="255px" preserveAspectRatio="none" style="width:692px;height:255px;" version="1.1" viewBox="0 0 692 255" width="692px" zoomAndPan="magnify"><defs><filter height="300%" id="fvjcicfwbeuec" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fvjcicfwbeuec)" height="61.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fvjcicfwbeuec)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="643" y="121.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="170.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="648" x2="648" y1="89.6094" y2="170.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#fvjcicfwbeuec)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#fvjcicfwbeuec)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="183.8457">Traffic Manager</text><ellipse cx="58" cy="196.9219" fill="#FEFECE" filter="url(#fvjcicfwbeuec)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,204.9219 L58,231.9219 M45,212.9219 L71,212.9219 M58,231.9219 L45,246.9219 M58,231.9219 L71,246.9219 " fill="none" filter="url(#fvjcicfwbeuec)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fvjcicfwbeuec)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="614" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="621" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#fvjcicfwbeuec)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="614" y="169.3125"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="621" y="190.8457">:System</text><rect fill="#FFFFFF" filter="url(#fvjcicfwbeuec)" height="61.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fvjcicfwbeuec)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="643" y="121.9609"/><polygon fill="#A80036" points="631,117.9609,641,121.9609,631,125.9609,635,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="637" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="550" x="81" y="117.1045">asks to know which n places (cities or ports) are closest to all other places (closeness places))</text><polygon fill="#A80036" points="74,148.3125,64,152.3125,74,156.3125,70,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="647" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="508" x="91" y="147.4561">shows the data (cities or ports and its closeness places) and informs operation success</text><!--MD5=[0550236072c48a6649377d31cc0b48ca]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to know which n places (cities or ports) are closest to all other places (closeness places))
+activate ":System"
+":System" - -> TM : shows the data (cities or ports and its closeness places) and informs operation success
+deactivate ":System"
+
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to know which n places (cities or ports) are closest to all other places (closeness places))
+activate ":System"
+":System" - -> TM : shows the data (cities or ports and its closeness places) and informs operation success
+deactivate ":System"
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

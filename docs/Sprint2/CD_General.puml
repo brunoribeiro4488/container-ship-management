@@ -1,0 +1,373 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "controller"{
+class ListAllShipsInformationController
+class TopShipsWithTravelledDistanceController
+class MakeSummaryController
+class MessagesOrganizedController
+class SearchShipController
+class ImportFileController
+class ShipPairController{
+    +PairOfShips()
+}
+class FindPortController{
++getClosestPort(callSign, dateTime)
+}
+class ImportPortController{
++read(file)
+}
+class CurrentSituationController{
++CurrentSituation(ContainerNumber,ContainerISOCode)
+}
+class ContainersToOffLoadController{
++getContainersToOffLoadOnNextPort(ContainerNumber,ContainerISOCode)
++printer(fileName, tringToPrint)
+}
+class ContainersToLoadController{
++getContainersToLoadOnNextPort(shipMMSI)
++printer(fileName, tringToPrint)
+}
+class CMTransportedController{
++CMTransported(year)
+}
+class OccupancyRateController{
++OccupancyRate(shipMMSI,cargoManifestID)
+}
+class OccupancyRateMomentController{
++OccupancyRateMoment(shipMMSI,moment)
+}
+class ShipsAvailableController{
++getShipsAvailable()
++printer(fileName, tringToPrint)
+}
+}
+
+package "ui"{
+class ListAllShipsInformationUI
+class TopShipsWithTravelledDistanceUI
+class MakeSummaryUI
+class MessagesOrganizedUI
+class SearchShipUI
+class ImportFileUI
+class ShipPairUI
+class ImportPortUI
+class FindPortUI
+class CurrentSituationUI
+class ContainersToOffLoadUI
+class ContainersToLoadUI
+class CMTransportedUI
+class OccupancyRateUI
+class OccupancyRateMomentUI
+class ShipsAvailableUI
+}
+
+package "model"{
+class Ship
+class Company
+class ShipPosition
+class Summary
+class Port
+}
+
+package "data"{
+class CurrentSituation{
++CurrentSituation(ContainerNumber,ContainerISOCode)
+}
+class ContainersToOffLoad{
++getContainersToOffLoadOnNextPort(ContainerNumber,shipMMSI)
+}
+class ContainersToLoad{
++getContainersToLoadOnNextPort(shipMMSI)
+}
+class CMTransported{
++avgContainers(year)
++manifestInYear(year)
+}
+class OccupancyRate{
++OccupancyRate(shipMMSI,cargoManifestID)
+}
+class OccupancyRateMoment{
++OccupancyRateMoment(shipMMSI,moment)
+}
+class ShipsAvailable{
++getShipsAvailable()
+}
+}
+
+package utils{
+class Printer
+package store{
+class ShipStore
+class PortStore{
++savePortInKdt(port)
++getPortById(id)
++createPort(id,name,continent,country,latitude,longitude)
++getClosestPort(shipPositionLat, shipPositionLon)
+}
+}
+}
+
+package "mappers"{
+class ShipPositionMapper{
++toDTO(ShipPosition shipposition)
++toDTO(List<ShipPositionDTO> list)
+}
+class ShipMapper{
+    +modelToDto(s)
+}
+class PortMapper{
+    +modelToDto(port)
+}
+}
+
+package dto{
+class ShipPositionDTO
+class ShipDTO
+class PortDTO
+}
+
+package BST{
+class BST
+class KDT
+}
+
+class SearchShipController{
+    +getShipByMMSI(mmsi)
+    +getShipByIMO(imo)
+    +getShipByCallSign(callSign)
+}
+
+class MessagesOrganizedController{
++List<ShipPositionDTO> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
+}
+
+
+class ShipStore{
++String getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
++List<ShipPosition> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
++pairOfShips()
+-orderList()
+}
+
+class BST{
++findListInAnInterval(firstposition,lastposition)
+}
+
+
+class TopShipsWithTravelledDistanceController{
++boolean getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
+}
+
+class ShipPosition{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
++getLatitude()
++getLongitude()
+}
+
+class ShipPositionDTO{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
+}
+
+class ImportFileController{
++read(file)
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getMMSI()
++getSp()
++getVesselName()
+}
+
+class ShipDTO{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Company{
++getShipStore()
++getPortStore()
+}
+
+class BST{
++smallestElement()
++biggestElement()
++size()
++inOrder()
++findListInAnInterval(firstposition,lastposition)
+}
+
+class MakeSummaryController{
++makeSummary(shipCode)
++print(summary)
+}
+
+class ListAllShipsInformationController{
++getInformation()
++print(summary)
+}
+
+class ShipStore{
++getShipByMMSI(MMSI)
++getTravelDistance(list)
++getDeltaDistance(list)
++String getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
++getShipByIMO(IMO)
++getShipByCallSign(callSign)
++getTotalMovementTime(startBaseDateTime, endBaseDateTime)
++getMaxSOG(list)
++getMeanSOG(list)
++getMaxCOG(list)
++getMeanCOG(list)
++getShipPositionByDate(s, dateTime)
+}
+
+class Summary{
+-shipCode
+-vesselName
+-startBaseDateTime
+-endBaseDateTime
+-totalMovementTime
+-totalMovements
+-maxSOG
+-meanSOG
+-maxCOG
+-meanCOG
+-depLat
+-depLong
+-arrivalLat
+-arrivalLong
+-travelDistance
+-deltaDistance
+}
+
+
+class Printer{
++print(string)
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class PortDTO{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+ListAllShipsInformationUI .-> ListAllShipsInformationController
+ListAllShipsInformationController .--> Company
+ListAllShipsInformationController .--> ShipStore
+Company "1"-->"1" ShipStore : Knows
+Company "1"-->"1" PortStore : Knows
+ShipStore "1"->"*" Ship : registers
+PortStore "1"->"*" Port : registers
+ShipStore "1"->"*" ShipPosition : registers
+Ship "*"->"1" BST : stored
+Port "*"->"1" KDT : stored
+TopShipsWithTravelledDistanceUI ..> TopShipsWithTravelledDistanceController
+TopShipsWithTravelledDistanceController ..> Company
+TopShipsWithTravelledDistanceController ..> ShipStore
+MakeSummaryUI .-> MakeSummaryController
+MakeSummaryController .--> Company
+MakeSummaryController .--> ShipStore
+ShipStore .-> BST
+Summary --> Printer
+MessagesOrganizedUI ..> MessagesOrganizedController
+MessagesOrganizedController ..> Company
+MessagesOrganizedController ..> ShipStore
+MessagesOrganizedController ..> ShipPositionMapper
+SearchShipUI ..> SearchShipController
+SearchShipController ..> Company
+SearchShipController ..> ShipStore
+SearchShipController ..> ShipMapper
+ImportFileUI .-> ImportFileController
+ImportFileController .--> Company
+ImportFileController .-> ShipStore
+ImportFileController .--> BST
+ImportFileController .--> Ship
+ImportFileController .--> ShipPosition
+ShipPairUI ..> ShipPairController
+ShipPairController ..> Company
+ShipPairController ..> ShipStore
+ShipPositionMapper ..> ShipPosition
+ShipPositionMapper ..> ShipPositionDTO
+ShipMapper ..> Ship
+ShipMapper ..> ShipDTO
+ImportPortUI .-> ImportPortController
+ImportPortController .--> Company
+ImportPortController .-> PortStore
+ImportPortController .--> KDT
+ImportPortController .--> Port
+PortStore .-> KDT
+FindPortUI ..> FindPortController
+FindPortController ..> Company
+FindPortController ..> PortStore
+FindPortController ..> ShipStore
+FindPortController ..> PortMapper
+PortMapper ..> PortDTO
+FindPortController ..> Printer
+CurrentSituationUI ..> CurrentSituationController
+CurrentSituationController ..> Printer
+CurrentSituationController ..> CurrentSituation
+ContainersToOffLoadUI ..> ContainersToOffLoadController
+ContainersToOffLoadController ..> Printer
+ContainersToOffLoadController ..> ContainersToOffLoad
+ContainersToLoadUI ..> ContainersToLoadController
+ContainersToLoadController ..> Printer
+ContainersToLoadController ..> ContainersToLoad
+CMTransportedUI ..> CMTransportedController
+CMTransportedController ..> Printer
+CMTransportedController ..> CMTransported
+OccupancyRateUI ..> OccupancyRateController
+OccupancyRateController ..> Printer
+OccupancyRateController ..> OccupancyRate
+OccupancyRateMomentUI ..> OccupancyRateMomentController
+OccupancyRateMomentController ..> Printer
+OccupancyRateMomentController ..> OccupancyRateMoment
+ShipsAvailableUI ..> ShipsAvailableController
+ShipsAvailableController ..> Printer
+ShipsAvailableController ..> ShipsAvailable
+
+@enduml

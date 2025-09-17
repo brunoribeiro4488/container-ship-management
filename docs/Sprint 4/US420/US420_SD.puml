@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Captain" as SC
+participant ":VesselSinkUI" as VSUI
+participant ":VesselSinkController" as VSC
+participant ":Company" as COMP
+participant "laprStore: LaprStore" as LS
+participant "shipStore: ShipStore" as SS
+participant "ship: Ship" as S
+participant "p: Printer" as P
+participant "vesselSink: List<Double>" as VS
+participant "totalMass: Double" as TM
+participant "height: Double" as H
+participant "draft: Double" as D
+participant "width: Double" as W
+participant "length: Double" as L
+participant "pressure: Double" as PR
+
+
+activate SC
+
+SC -> VSUI : asks to know for a specific vessel, how much did the vessel sink,\nassuming that each container has half a ton of mass.
+activate VSUI
+VSUI -> VSC : vesselSink = getVesselSink(mmsi, nContainers)
+activate VSC
+VSC -> COMP : laprStore = getLaprStore()
+activate COMP
+deactivate COMP
+VSC -> COMP : shipStore = getShipStore()
+activate COMP
+deactivate COMP
+VSC -> LS : totalMass = getTotalMass(nContainers)
+activate LS
+deactivate LS
+VSC -> SS : ship = getShipByMMSI(mmsi)
+activate SS
+deactivate SS
+VSC -> LS : height = getHeight(width, length, totalMass)
+activate LS
+deactivate LS
+VSC -> LS : pressure = getPressure(height)
+activate LS
+deactivate LS
+VSC -> P : print(Vessel Sink, vesselSink, US420)
+activate P
+deactivate P
+deactivate VSC
+VSUI --> SC : shows the data (total mass placed on the vessel, pressure exerted by it on the water\n and difference in height that the vessel has suffered) and informs operation success
+deactivate VSUI
+deactivate SC
+@enduml

@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class FreightNetworkUI{
+}
+}
+
+package "controllers" {
+class FreightNetworkController{
++freightNetwork(n)
+}
+}
+package utils{
+class Printer{
++print()
+}
+package stores{
+class NetworkStore{
++createGraph(n);
+-fillVertices(vertices,portList,countryList)
+-fillArestas(arestas,vertices,portList,countryList,seaDistanceList,borderList,n,ps)
+-getDistanceBetweenTwoPoints(lat1,lon1,lat2,lon2)
+}
+}
+package data{
+class MatrixGraph{
++MatrixGraph(directed,vs,m)
+}
+
+}
+
+
+FreightNetworkUI ..> FreightNetworkController
+FreightNetworkController ..> Printer
+FreightNetworkController ..> MatrixGraph
+FreightNetworkController ..> NetworkStore
+NetworkStore "1"->"1" MatrixGraph : creates
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class CurrentSituationUI{
+}
+}
+
+package "controllers" {
+class CurrentSituationController{
++CurrentSituation(ContainerNumber,ContainerISOCode)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class CurrentSituation{
++CurrentSituation(ContainerNumber,ContainerISOCode)
+}
+}
+
+
+
+
+CurrentSituationUI ..> CurrentSituationController
+CurrentSituationController ..> Printer
+CurrentSituationController ..> CurrentSituation
+
+
+
+@enduml

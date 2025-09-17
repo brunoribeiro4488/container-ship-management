@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ContainerCapacityUI{
+}
+}
+
+package "controllers" {
+class ContainerCapacityController{
++containerCapacity()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class ContainerCapacity{
++containerCapacity(databaseConnection)
+}
+}
+
+
+
+ContainerCapacityUI ..> ContainerCapacityController
+ContainerCapacityController ..> Printer
+ContainerCapacityController ..> ContainerCapacity
+@enduml

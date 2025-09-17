@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port Staff" as PS
+participant ":ArqcpUI" as AUI
+participant ":ArqcpController" as AC
+participant ":Arqcp" as A
+participant ":Printer" as P
+
+activate PS
+PS -> AUI: asks to to fill a statically reserved matrix in memory with each container's ID in its respective place
+activate AUI
+AUI -> PS : requests data (i.e.: cargomanifestId)
+deactivate AUI
+PS -> AUI: types requested data
+activate AUI
+AUI -> AC : arqcp(cargomanifestId)
+activate AC
+AC -> A : result =arqcp(databaseConnection,cargomanifestId)
+activate A
+deactivate A
+AC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate AC
+AUI --> PS : shows the data (matrix) and informs operation success
+deactivate AC
+deactivate AUI
+deactivate PS
+@enduml

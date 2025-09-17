@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class WarehouseCapacityUI{
+}
+}
+
+package "controllers" {
+class WarehouseCapacityController{
++warehouseCapacity()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class WarehouseCapacity{
++warehouseCapacity(databaseConnection)
+}
+}
+
+
+
+WarehouseCapacityUI ..> WarehouseCapacityController
+WarehouseCapacityController ..> Printer
+WarehouseCapacityController ..> WarehouseCapacity
+@enduml

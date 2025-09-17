@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Fleet Manager" as FM
+participant ":AvgOcuppancyRateUI" as AORUI
+participant ":AvgOcuppancyRateController" as AORC
+participant ":AvgOcuppancyRate" as AOR
+participant ":Printer" as P
+activate FM
+FM -> AORUI: asks to know the average occupancy rate per manifest of a given ship during a given period
+activate AORUI
+AORUI --> FM : requests data (i.e.: shipmmsi,startdate,enddate)
+deactivate AORUI
+
+FM -> AORUI: types requested data
+activate AORUI
+AORUI -> AORC : avgOcuppancyRate(shipmmsi,startdate,enddate)
+activate AORC
+AORC -> AOR : result = avgOcuppancyRate(databaseConnection,shipmmsi,startdate,enddate)
+activate AOR
+deactivate AOR
+AORC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate AORC
+AORUI --> FM : shows the data (average occupancy rate) and informs operation success
+deactivate AORC
+deactivate AORUI
+deactivate FM
+@enduml

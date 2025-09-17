@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="485px" preserveAspectRatio="none" style="width:839px;height:485px;" version="1.1" viewBox="0 0 839 485" width="839px" zoomAndPan="magnify"><defs><filter height="300%" id="ffawxbfzxxmkp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#ffawxbfzxxmkp)" points="347,6,366,6,373,29.6094,485,29.6094,485,106,347,106,347,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="347" x2="373" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="351" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#ffawxbfzxxmkp)" points="308,130,391,130,398,153.6094,524,153.6094,524,244,308,244,308,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="308" x2="398" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="312" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#ffawxbfzxxmkp)" points="16,268,52,268,59,291.6094,822,291.6094,822,478,16,478,16,268" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="291.6094" y2="291.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="284.5332">utils</text><!--MD5=[fbca5634cbc0239920b500cad9c4bedb]
+cluster stores--><polygon fill="#FFFFFF" filter="url(#ffawxbfzxxmkp)" points="186,312,237,312,244,335.6094,798,335.6094,798,454,186,454,186,312" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="186" x2="244" y1="335.6094" y2="335.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="45" x="190" y="328.5332">stores</text><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#ffawxbfzxxmkp)" points="40,319,89,319,96,342.6094,162,342.6094,162,447,40,447,40,319" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="40" x2="96" y1="342.6094" y2="342.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="44" y="335.5332">model</text><!--MD5=[766207ea4aa877590b35e55890423626]
+class VesselSinkUI--><rect codeLine="6" fill="#FEFECE" filter="url(#ffawxbfzxxmkp)" height="48" id="VesselSinkUI" style="stroke:#A80036;stroke-width:1.5;" width="106" x="363" y="42"/><ellipse cx="378" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M380,54.5 Q380.2031,54 380.4375,53.75 Q380.6719,53.5 380.9375,53.5 Q381.4063,53.5 381.7031,53.7813 Q382,54.0625 382,54.7188 L382,56.2813 Q382,56.9375 381.7188,57.2188 Q381.4375,57.5 381,57.5 Q380.6094,57.5 380.3594,57.3281 Q380.1094,57.1563 380,56.7031 Q379.9531,56.3906 379.7813,56.2188 Q379.4688,55.8906 378.9063,55.7031 Q378.3438,55.5 377.7813,55.5 Q377.0781,55.5 376.4844,55.7813 Q375.9063,56.0625 375.4531,56.6875 Q375,57.3125 375,58.1719 L375,59.0938 Q375,60.125 375.8438,60.8125 Q376.6875,61.5 378.1875,61.5 Q379.0781,61.5 379.7031,61.2969 Q380.0625,61.1875 380.4688,60.8281 Q380.7344,60.625 380.875,60.5625 Q381.0156,60.5 381.1875,60.5 Q381.5156,60.5 381.75,60.7656 Q382,61.0156 382,61.375 Q382,61.7188 381.6563,62.125 Q381.1563,62.7188 380.3594,63.0469 Q379.3125,63.5 378.0313,63.5 Q376.5313,63.5 375.3281,62.9063 Q374.3594,62.4375 373.6719,61.4219 Q373,60.4063 373,59.2031 L373,58.1094 Q373,56.8594 373.5938,55.7656 Q374.2031,54.6719 375.25,54.0938 Q376.3125,53.5 377.5,53.5 Q378.2188,53.5 378.8438,53.75 Q379.4688,54 380,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="392" y="62.9102">VesselSinkUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="364" x2="468" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="364" x2="468" y1="82" y2="82"/><!--MD5=[6004fd4a2bba73edda8141a9dbe3a971]
+class VesselSinkController--><rect codeLine="11" fill="#FEFECE" filter="url(#ffawxbfzxxmkp)" height="61.8359" id="VesselSinkController" style="stroke:#A80036;stroke-width:1.5;" width="183" x="324.5" y="166"/><ellipse cx="355.25" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M357.25,178.5 Q357.4531,178 357.6875,177.75 Q357.9219,177.5 358.1875,177.5 Q358.6563,177.5 358.9531,177.7813 Q359.25,178.0625 359.25,178.7188 L359.25,180.2813 Q359.25,180.9375 358.9688,181.2188 Q358.6875,181.5 358.25,181.5 Q357.8594,181.5 357.6094,181.3281 Q357.3594,181.1563 357.25,180.7031 Q357.2031,180.3906 357.0313,180.2188 Q356.7188,179.8906 356.1563,179.7031 Q355.5938,179.5 355.0313,179.5 Q354.3281,179.5 353.7344,179.7813 Q353.1563,180.0625 352.7031,180.6875 Q352.25,181.3125 352.25,182.1719 L352.25,183.0938 Q352.25,184.125 353.0938,184.8125 Q353.9375,185.5 355.4375,185.5 Q356.3281,185.5 356.9531,185.2969 Q357.3125,185.1875 357.7188,184.8281 Q357.9844,184.625 358.125,184.5625 Q358.2656,184.5 358.4375,184.5 Q358.7656,184.5 359,184.7656 Q359.25,185.0156 359.25,185.375 Q359.25,185.7188 358.9063,186.125 Q358.4063,186.7188 357.6094,187.0469 Q356.5625,187.5 355.2813,187.5 Q353.7813,187.5 352.5781,186.9063 Q351.6094,186.4375 350.9219,185.4219 Q350.25,184.4063 350.25,183.2031 L350.25,182.1094 Q350.25,180.8594 350.8438,179.7656 Q351.4531,178.6719 352.5,178.0938 Q353.5625,177.5 354.75,177.5 Q355.4688,177.5 356.0938,177.75 Q356.7188,178 357.25,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="372.75" y="186.9102">VesselSinkController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="325.5" x2="506.5" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="325.5" x2="506.5" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="171" x="330.5" y="221.4189">+getVesselSink(mmsi, nContainers)</text><!--MD5=[ea2206eefe09474e90beb17e18e6b3d8]
+class ShipStore--><rect codeLine="17" fill="#FEFECE" filter="url(#ffawxbfzxxmkp)" height="61.8359" id="ShipStore" style="stroke:#A80036;stroke-width:1.5;" width="124" x="658" y="362"/><ellipse cx="690.1" cy="378" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M692.1,374.5 Q692.3031,374 692.5375,373.75 Q692.7719,373.5 693.0375,373.5 Q693.5063,373.5 693.8031,373.7813 Q694.1,374.0625 694.1,374.7188 L694.1,376.2813 Q694.1,376.9375 693.8188,377.2188 Q693.5375,377.5 693.1,377.5 Q692.7094,377.5 692.4594,377.3281 Q692.2094,377.1563 692.1,376.7031 Q692.0531,376.3906 691.8813,376.2188 Q691.5688,375.8906 691.0063,375.7031 Q690.4438,375.5 689.8813,375.5 Q689.1781,375.5 688.5844,375.7813 Q688.0063,376.0625 687.5531,376.6875 Q687.1,377.3125 687.1,378.1719 L687.1,379.0938 Q687.1,380.125 687.9438,380.8125 Q688.7875,381.5 690.2875,381.5 Q691.1781,381.5 691.8031,381.2969 Q692.1625,381.1875 692.5688,380.8281 Q692.8344,380.625 692.975,380.5625 Q693.1156,380.5 693.2875,380.5 Q693.6156,380.5 693.85,380.7656 Q694.1,381.0156 694.1,381.375 Q694.1,381.7188 693.7563,382.125 Q693.2563,382.7188 692.4594,383.0469 Q691.4125,383.5 690.1313,383.5 Q688.6313,383.5 687.4281,382.9063 Q686.4594,382.4375 685.7719,381.4219 Q685.1,380.4063 685.1,379.2031 L685.1,378.1094 Q685.1,376.8594 685.6938,375.7656 Q686.3031,374.6719 687.35,374.0938 Q688.4125,373.5 689.6,373.5 Q690.3188,373.5 690.9438,373.75 Q691.5688,374 692.1,374.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="707.9" y="382.9102">ShipStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="659" x2="781" y1="394" y2="394"/><line style="stroke:#A80036;stroke-width:1.5;" x1="659" x2="781" y1="402" y2="402"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="664" y="417.4189">+getShipByMMSI(mmsi)</text><!--MD5=[96e60f0d960b37f19a148b746e790fb4]
+class LaprStore--><rect codeLine="20" fill="#FEFECE" filter="url(#ffawxbfzxxmkp)" height="89.5078" id="LaprStore" style="stroke:#A80036;stroke-width:1.5;" width="185" x="437.5" y="348"/><ellipse cx="498.75" cy="364" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M500.75,360.5 Q500.9531,360 501.1875,359.75 Q501.4219,359.5 501.6875,359.5 Q502.1563,359.5 502.4531,359.7813 Q502.75,360.0625 502.75,360.7188 L502.75,362.2813 Q502.75,362.9375 502.4688,363.2188 Q502.1875,363.5 501.75,363.5 Q501.3594,363.5 501.1094,363.3281 Q500.8594,363.1563 500.75,362.7031 Q500.7031,362.3906 500.5313,362.2188 Q500.2188,361.8906 499.6563,361.7031 Q499.0938,361.5 498.5313,361.5 Q497.8281,361.5 497.2344,361.7813 Q496.6563,362.0625 496.2031,362.6875 Q495.75,363.3125 495.75,364.1719 L495.75,365.0938 Q495.75,366.125 496.5938,366.8125 Q497.4375,367.5 498.9375,367.5 Q499.8281,367.5 500.4531,367.2969 Q500.8125,367.1875 501.2188,366.8281 Q501.4844,366.625 501.625,366.5625 Q501.7656,366.5 501.9375,366.5 Q502.2656,366.5 502.5,366.7656 Q502.75,367.0156 502.75,367.375 Q502.75,367.7188 502.4063,368.125 Q501.9063,368.7188 501.1094,369.0469 Q500.0625,369.5 498.7813,369.5 Q497.2813,369.5 496.0781,368.9063 Q495.1094,368.4375 494.4219,367.4219 Q493.75,366.4063 493.75,365.2031 L493.75,364.1094 Q493.75,362.8594 494.3438,361.7656 Q494.9531,360.6719 496,360.0938 Q497.0625,359.5 498.25,359.5 Q498.9688,359.5 499.5938,359.75 Q500.2188,360 500.75,360.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="54" x="519.25" y="368.9102">LaprStore</text><line style="stroke:#A80036;stroke-width:1.5;" x1="438.5" x2="621.5" y1="380" y2="380"/><line style="stroke:#A80036;stroke-width:1.5;" x1="438.5" x2="621.5" y1="388" y2="388"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="443.5" y="403.4189">+getTotalMass(nContainers)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="173" x="443.5" y="417.2549">+getHeight(width, length, totalMass)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="443.5" y="431.0908">+getPressure(height)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="26" fill="#FEFECE" filter="url(#ffawxbfzxxmkp)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="200" x="202" y="362"/><ellipse cx="279.75" cy="378" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M281.75,374.5 Q281.9531,374 282.1875,373.75 Q282.4219,373.5 282.6875,373.5 Q283.1563,373.5 283.4531,373.7813 Q283.75,374.0625 283.75,374.7188 L283.75,376.2813 Q283.75,376.9375 283.4688,377.2188 Q283.1875,377.5 282.75,377.5 Q282.3594,377.5 282.1094,377.3281 Q281.8594,377.1563 281.75,376.7031 Q281.7031,376.3906 281.5313,376.2188 Q281.2188,375.8906 280.6563,375.7031 Q280.0938,375.5 279.5313,375.5 Q278.8281,375.5 278.2344,375.7813 Q277.6563,376.0625 277.2031,376.6875 Q276.75,377.3125 276.75,378.1719 L276.75,379.0938 Q276.75,380.125 277.5938,380.8125 Q278.4375,381.5 279.9375,381.5 Q280.8281,381.5 281.4531,381.2969 Q281.8125,381.1875 282.2188,380.8281 Q282.4844,380.625 282.625,380.5625 Q282.7656,380.5 282.9375,380.5 Q283.2656,380.5 283.5,380.7656 Q283.75,381.0156 283.75,381.375 Q283.75,381.7188 283.4063,382.125 Q282.9063,382.7188 282.1094,383.0469 Q281.0625,383.5 279.7813,383.5 Q278.2813,383.5 277.0781,382.9063 Q276.1094,382.4375 275.4219,381.4219 Q274.75,380.4063 274.75,379.2031 L274.75,378.1094 Q274.75,376.8594 275.3438,375.7656 Q275.9531,374.6719 277,374.0938 Q278.0625,373.5 279.25,373.5 Q279.9688,373.5 280.5938,373.75 Q281.2188,374 281.75,374.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="300.25" y="382.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="203" x2="401" y1="394" y2="394"/><line style="stroke:#A80036;stroke-width:1.5;" x1="203" x2="401" y1="402" y2="402"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="188" x="208" y="417.4189">+print(Vessel Sink, vesselSink, US420)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="31" fill="#FEFECE" filter="url(#ffawxbfzxxmkp)" height="75.6719" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="89" x="56.5" y="355"/><ellipse cx="73.3" cy="371" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M75.3,367.5 Q75.5031,367 75.7375,366.75 Q75.9719,366.5 76.2375,366.5 Q76.7063,366.5 77.0031,366.7813 Q77.3,367.0625 77.3,367.7188 L77.3,369.2813 Q77.3,369.9375 77.0188,370.2188 Q76.7375,370.5 76.3,370.5 Q75.9094,370.5 75.6594,370.3281 Q75.4094,370.1563 75.3,369.7031 Q75.2531,369.3906 75.0813,369.2188 Q74.7688,368.8906 74.2063,368.7031 Q73.6438,368.5 73.0813,368.5 Q72.3781,368.5 71.7844,368.7813 Q71.2063,369.0625 70.7531,369.6875 Q70.3,370.3125 70.3,371.1719 L70.3,372.0938 Q70.3,373.125 71.1438,373.8125 Q71.9875,374.5 73.4875,374.5 Q74.3781,374.5 75.0031,374.2969 Q75.3625,374.1875 75.7688,373.8281 Q76.0344,373.625 76.175,373.5625 Q76.3156,373.5 76.4875,373.5 Q76.8156,373.5 77.05,373.7656 Q77.3,374.0156 77.3,374.375 Q77.3,374.7188 76.9563,375.125 Q76.4563,375.7188 75.6594,376.0469 Q74.6125,376.5 73.3313,376.5 Q71.8313,376.5 70.6281,375.9063 Q69.6594,375.4375 68.9719,374.4219 Q68.3,373.4063 68.3,372.2031 L68.3,371.1094 Q68.3,369.8594 68.8938,368.7656 Q69.5031,367.6719 70.55,367.0938 Q71.6125,366.5 72.8,366.5 Q73.5188,366.5 74.1438,366.75 Q74.7688,367 75.3,367.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="53" x="87.7" y="375.9102">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="144.5" y1="387" y2="387"/><line style="stroke:#A80036;stroke-width:1.5;" x1="57.5" x2="144.5" y1="395" y2="395"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="62.5" y="410.4189">+getLaprStore()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="62.5" y="424.2549">+getShipStore()</text><!--MD5=[53e41376344186a77dfc22630c47e900]
+link VesselSinkUI to VesselSinkController--><path codeLine="38" d="M416,90.06 C416,109.65 416,138.09 416,160.57 " fill="none" id="VesselSinkUI-to-VesselSinkController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="416,165.85,420,156.85,416,160.85,412,156.85,416,165.85" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3628293afdc42104dca536d1c11cc922]
+link VesselSinkController to Company--><path codeLine="39" d="M324.44,207.06 C279.33,215.21 226.15,230.66 186,260 C154.77,282.82 132.04,320.9 117.99,350.31 " fill="none" id="VesselSinkController-to-Company" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="115.81,354.95,123.2585,348.5064,117.9369,350.4249,116.0184,345.1033,115.81,354.95" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[456aac57054b280436b3d12b390eebd5]
+link VesselSinkController to LaprStore--><path codeLine="40" d="M433.81,228.31 C451.93,259.14 480.27,307.37 501.51,343.51 " fill="none" id="VesselSinkController-to-LaprStore" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="504.06,347.86,502.9601,338.0727,501.5318,343.5463,496.0582,342.1179,504.06,347.86" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7cf64a9d51e9296af068a5d9ac045e27]
+link VesselSinkController to ShipStore--><path codeLine="41" d="M507.73,207.52 C551.26,215.78 601.96,231.2 640,260 C672.75,284.79 694.97,327.23 707.52,357.28 " fill="none" id="VesselSinkController-to-ShipStore" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="709.45,362,709.7587,352.156,707.5635,357.3695,702.35,355.1744,709.45,362" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[a3a9c67f3486ee7dd23ff9ac44a232a1]
+link VesselSinkController to Printer--><path codeLine="42" d="M398.19,228.31 C377.61,263.33 343.82,320.84 322.25,357.53 " fill="none" id="VesselSinkController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="319.69,361.9,327.7059,356.1776,322.2288,357.5925,320.8139,352.1155,319.69,361.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f9a57fd1b7e8a8a5ed85a2e0a8c408ba]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class VesselSinkUI{
+}
+}
+
+package "controllers" {
+class VesselSinkController{
++getVesselSink(mmsi, nContainers)
+}
+}
+package utils{
+package "stores"{
+class ShipStore{
++getShipByMMSI(mmsi)
+}
+class LaprStore{
++getTotalMass(nContainers)
++getHeight(width, length, totalMass)
++getPressure(height)
+}
+
+class Printer{
++print(Vessel Sink, vesselSink, US420)
+}
+}
+package "model"{
+class Company{
++getLaprStore()
++getShipStore()
+}
+
+}
+
+VesselSinkUI ..> VesselSinkController
+VesselSinkController ..> Company
+VesselSinkController ..> LaprStore
+VesselSinkController ..> ShipStore
+VesselSinkController ..> Printer
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class VesselSinkUI{
+}
+}
+
+package "controllers" {
+class VesselSinkController{
++getVesselSink(mmsi, nContainers)
+}
+}
+package utils{
+package "stores"{
+class ShipStore{
++getShipByMMSI(mmsi)
+}
+class LaprStore{
++getTotalMass(nContainers)
++getHeight(width, length, totalMass)
++getPressure(height)
+}
+
+class Printer{
++print(Vessel Sink, vesselSink, US420)
+}
+}
+package "model"{
+class Company{
++getLaprStore()
++getShipStore()
+}
+
+}
+
+VesselSinkUI ..> VesselSinkController
+VesselSinkController ..> Company
+VesselSinkController ..> LaprStore
+VesselSinkController ..> ShipStore
+VesselSinkController ..> Printer
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,91 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "Controller"{
+class ListAllShipsInformationController
+}
+
+package "UI"{
+class ListAllShipsInformationUI
+}
+
+package "Model"{
+class Ship
+class Company
+class ShipPosition
+}
+
+package utils{
+class Printer
+package store{
+class ShipStore
+}
+}
+
+package BST{
+class BST
+}
+
+class ShipPosition{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
++getLatitude()
++getLongitude()
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getMMSI()
++getSp()
+}
+
+class Company{
++getShipStore()
+}
+
+class BST{
++smallestElement()
++biggestElement()
++size()
++inOrder()
+}
+
+class ListAllShipsInformationController{
++getInformation()
++print(summary)
+}
+
+class ShipStore{
++getShipByMMSI(MMSI)
++getTravelDistance(list)
++getDeltaDistance(list)
+}
+
+
+class Printer{
++print(string)
+}
+
+ListAllShipsInformationUI .-> ListAllShipsInformationController
+ListAllShipsInformationController .--> Company
+ListAllShipsInformationController .--> ShipStore
+Company "1"-->"1" ShipStore : Knows
+ShipStore "1"->"*" Ship : registers
+ShipStore "1"->"*" ShipPosition : registers
+Ship "*"->"1" BST : stored
+ShipStore .-> BST
+@enduml

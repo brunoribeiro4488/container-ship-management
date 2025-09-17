@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as FM
+activate FM
+
+FM -> ":System": asks to know where to position containers on the vessel, such that the center of mass remains at xx and yy
+activate ":System"
+":System" --> FM: requests data (i.e.: containers)
+deactivate ":System"
+
+FM -> ":System": types requested data
+activate ":System"
+":System" --> FM : shows the data and informs operation success
+deactivate ":System"
+@enduml

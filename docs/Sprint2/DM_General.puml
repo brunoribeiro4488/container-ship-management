@@ -1,0 +1,82 @@
+@startuml
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+
+class Company {
+  
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Containers{
+-ContainerNumber
+-ISOCode
+-MaxWeight
+-ContainerWeight
+-MaxWeightPacked
+-MaxVolumePacked
+-Certificates
+-RepairRecomendation
+-Temperature
+}
+
+class ShipPosition {
+   -shipMMSI
+   -date
+   -latitude
+   -longitude
+   -sog
+   -cog
+   -heading
+   -cargo
+   -transciever
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class TrafficManager{
+}
+
+class PortManager{
+}
+
+class CargoManifest{
+-id
+-shipMMSI
+-portID
+}
+
+TrafficManager "*" -- "1" Company : knows <
+TrafficManager "1" -- "*" Ship : manages >
+Company "1" -- "*" Ship : owns >
+Ship "1" -- "*" ShipPosition : has >
+PortManager "*" -- "1" Company : knows <
+PortManager "1" -- "*" Port : manages >
+Company "1" -- "*" Port : knows >
+Port "*" -- "*" Ship : docks <
+Port "1" -- "*" Containers: has >
+Ship "1" -- "*" Containers: has >
+CargoManifest "*" -- "1" Ship : assigned to >
+CargoManifest "1" -- "*" Containers : has >
+CargoManifest "1" -- "1" Port: assigned to >
+
+
+@enduml

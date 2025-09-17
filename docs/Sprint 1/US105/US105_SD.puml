@@ -1,0 +1,102 @@
+@startuml
+autonumber
+'hide footbox
+actor "Traffic Manager" as TM
+
+participant ":ListAllShipsInformationUI" as UI
+participant ":ListAllShipsInformationController" as CTRL
+participant ":Company" as ML
+participant "store\n:ShipStore" as STORE
+participant "ship\n:Ship" as SHIP
+participant "shipPositions\n:BST<ShipPositions>" as SP
+participant "startBaseDateTime\n:ShipPosition" as SBDT
+participant "endBaseDateTime\n:ShipPosition" as EBDT
+
+activate TM
+TM -> UI : ask list for all ships the MMSI, total number of movements, travelled distance and delta distance
+activate UI
+UI --> TM : requests confirmation
+deactivate UI
+
+TM -> UI : confirm
+activate UI
+
+UI -> CTRL : getInformation()
+activate CTRL
+
+CTRL -> ML : shipStore = getShipStore()
+activate ML
+|||
+deactivate ML
+
+CTRL -> STORE : information = getInformationAllShips
+activate STORE
+
+loop
+STORE -> STORE : ship = getshipByMMSI(shiCode)
+activate STORE
+|||
+deactivate STORE
+
+
+STORE -> SHIP : totalMovements = getTotalMovements()
+activate SHIP
+SHIP -> SP : totalMovements = size()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> SHIP : list = getSP()
+activate SHIP
+SHIP -> SP : list = inOrder()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> SBDT : depLat = getLatitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> SBDT :depLong = getLongitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> EBDT : arrivalLat = getLatitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> EBDT :arrivalLong = getLongitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> STORE : travelDistance = gettravelDistance()
+activate STORE
+|||
+deactivate STORE
+
+STORE -> STORE : deltaDistance = getDeltaDistance(ship)
+activate STORE
+|||
+deactivate STORE
+deactivate STORE
+
+
+CTRL -> PRINT : print(information)
+activate PRINT
+|||
+deactivate PRINT
+
+
+
+UI --> TM : informs operation success
+deactivate CTRL
+deactivate UI
+
+deactivate TM
+@enduml

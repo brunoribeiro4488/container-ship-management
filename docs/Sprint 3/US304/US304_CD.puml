@@ -1,0 +1,51 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class GetAuditTrailUI{
+}
+}
+
+package "controllers" {
+class GetAuditTrailController{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+class AuditTrailDTO{
+-date
+-operation
+-containerNumber
+-containerISOCode
+-cargoManifestID
+-cargoManifestPartialID
+-cargoManifestType
+}
+}
+
+package data{
+class AuditTrail{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
+}
+}
+
+package mapper{
+class AuditTrailMapper{
++toDTO(auditTrailList)
+}
+}
+
+
+
+GetAuditTrailUI ..> GetAuditTrailController
+GetAuditTrailController ..> Printer
+GetAuditTrailController ..> AuditTrail
+GetAuditTrailController ..> AuditTrailMapper
+AuditTrailMapper ..> AuditTrailDTO
+@enduml

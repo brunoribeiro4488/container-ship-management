@@ -1,0 +1,74 @@
+@startuml
+autonumber
+'hide footbox
+actor "Port Manager" as PM
+
+participant ": ImportPortUI" as UI
+participant ": ImportPortController" as CTRL
+participant ": Company" as COMP
+participant "pstore : PortStore" as PS
+participant "port : Port" as P
+
+
+activate PM
+PM -> UI : Initiates the process of Importing ports
+activate UI
+UI --> PM : Asks to choose the text file
+deactivate UI
+
+PM -> UI: Selects the text file
+activate UI
+UI --> PM : Requests confirmation
+deactivate UI
+
+
+PM -> UI : Confirms the data
+activate UI
+
+UI -> CTRL : getFile()
+activate CTRL
+
+CTRL->COMP : pstore = getPortStore()
+activate COMP
+deactivate COMP
+
+CTRL -> PS : read()
+activate PS
+
+loop
+PS -> PS : line = readLine()
+activate PS
+deactivate PS
+PS -> PS : lineContent = split()
+activate PS
+deactivate PS
+
+
+PS -> PS : port = getPortByKdt()
+activate PS
+deactivate PS
+alt ship = null
+PS -> PS : port = createPort(tempArr[2], tempArr[3], tempArr[0], tempArr[1], tempArr[4], tempArr[5])
+activate PS
+PS -> P** : createPort(tempArr[2], tempArr[3], tempArr[0], tempArr[1], tempArr[4], tempArr[5])
+PS -> PS : savePortInKdt(port)
+activate PS
+deactivate PS
+deactivate PS
+end
+
+activate PS
+activate PS
+deactivate PS
+deactivate PS
+deactivate PS
+end
+
+deactivate CTRL
+
+UI --> PM : Informs the operation sucess.
+deactivate UI
+
+deactivate PM
+
+@enduml

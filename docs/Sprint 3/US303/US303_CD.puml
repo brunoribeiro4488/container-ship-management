@@ -1,0 +1,67 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class PlacesClosenessPlacesUI{
+}
+}
+
+package "controllers" {
+class PlacesClosenessPlacesController{
++getNClosestPlaces(n)
+}
+}
+package utils{
+package "stores"{
+class NetworkStore{
++getNClosestPlaces(n)
+}
+
+package "matrix"{
+class Algorithms{
++shortestPath(grafo, obj, obj2, shortPath)
+}
+}
+
+class Printer{
++print(Closest Places,listPlaceDistance, US303)
+}
+}
+package "model"{
+class Company{
++getNetworkStore()
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class Country{
+-continent
+-alpha2_Code
+-alpha3_Code
+-country
+-population
+-capital
+-latitude
+-longitude
+}
+
+}
+
+PlacesClosenessPlacesUI ..> PlacesClosenessPlacesController
+PlacesClosenessPlacesController ..> Company
+PlacesClosenessPlacesController ..> NetworkStore
+PlacesClosenessPlacesController ..> Printer
+NetworkStore ..> Port
+NetworkStore ..> Country
+NetworkStore ..> Algorithms
+
+@enduml

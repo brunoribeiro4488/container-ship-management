@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to get the critical port/s
+activate ":System"
+":System" --> TM: requests data(number of ports)
+deactivate ":System"
+
+TM -> ":System": types requested data
+activate ":System"
+":System" --> TM : shows the data (port/s) and informs operation success
+deactivate ":System"
+@enduml

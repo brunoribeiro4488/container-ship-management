@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Client" as C
+activate C
+
+C -> ":System": asks to know the current situation of a specific container
+activate ":System"
+":System" --> C: requests data (ContainerNumber ,ContainerISOCode, clientRegistrationCode)
+deactivate ":System"
+
+C -> ":System": types requested data
+activate ":System"
+":System" --> C : shows the data (Type of location and name) and informs operation success
+deactivate ":System"
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+activate SCEE
+
+SCEE -> ":System": asks to know how much energy to supply, for each container, in a determined trip,\n with an exterior temperature of 20 ºC, and a travel time of 2h30.
+activate ":System"
+":System" --> SCEE : shows the data (energy values) and informs operation success
+deactivate ":System"
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic manager" as C
+activate C
+
+C -> ":System": asks to add a container to a cargo manifest
+activate ":System"
+":System" --> C : shows the result (if its full or not) and informs operation success
+deactivate ":System"
+
+deactivate C
+@enduml

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="288px" preserveAspectRatio="none" style="width:555px;height:288px;" version="1.1" viewBox="0 0 555 288" width="555px" zoomAndPan="magnify"><defs><filter height="300%" id="f5h76wr8v4b7n" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f5h76wr8v4b7n)" height="94.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="49" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f5h76wr8v4b7n)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="506" y="138.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="54" x2="54" y1="89.6094" y2="203.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="511" x2="511" y1="89.6094" y2="203.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="86.5332">Fleet Manager</text><ellipse cx="54" cy="15" fill="#FEFECE" filter="url(#f5h76wr8v4b7n)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,23 L54,50 M41,31 L67,31 M54,50 L41,65 M54,50 L67,65 " fill="none" filter="url(#f5h76wr8v4b7n)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="216.5488">Fleet Manager</text><ellipse cx="54" cy="229.625" fill="#FEFECE" filter="url(#f5h76wr8v4b7n)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,237.625 L54,264.625 M41,245.625 L67,245.625 M54,264.625 L41,279.625 M54,264.625 L67,279.625 " fill="none" filter="url(#f5h76wr8v4b7n)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f5h76wr8v4b7n)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="477" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="484" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#f5h76wr8v4b7n)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="477" y="202.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="484" y="223.5488">:System</text><rect fill="#FFFFFF" filter="url(#f5h76wr8v4b7n)" height="94.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="49" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f5h76wr8v4b7n)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="506" y="138.3125"/><polygon fill="#A80036" points="494,134.3125,504,138.3125,494,142.3125,498,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="59" x2="500" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="125.2803">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="364" x="77" y="117.1045">asks to know which ship voyages - place and date of origin and</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="355" x="81" y="133.4561">destination - had an occupancy rate below a certain threshold</text><polygon fill="#A80036" points="70,181.0156,60,185.0156,70,189.0156,66,185.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="64" x2="510" y1="185.0156" y2="185.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="76" y="171.9834">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="340" x="87" y="163.8076">shows the data (places and dates of origin and destination,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="408" x="91" y="180.1592">which have below 66% occupancy rate) and informs operation success</text><!--MD5=[f308ef00698a8e28564636e4634fee0a]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Fleet Manager" as FM
+activate FM
+
+FM -> ":System": asks to know which ship voyages - place and date of origin and\n destination - had an occupancy rate below a certain threshold
+activate ":System"
+":System" - -> FM : shows the data (places and dates of origin and destination,\n which have below 66% occupancy rate) and informs operation success
+deactivate ":System"
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Fleet Manager" as FM
+activate FM
+
+FM -> ":System": asks to know which ship voyages - place and date of origin and\n destination - had an occupancy rate below a certain threshold
+activate ":System"
+":System" - -> FM : shows the data (places and dates of origin and destination,\n which have below 66% occupancy rate) and informs operation success
+deactivate ":System"
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

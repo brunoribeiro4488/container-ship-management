@@ -1,0 +1,674 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "controller"{
+class ListAllShipsInformationController{
++getInformation()
++print(summary)
+}
+class TopShipsWithTravelledDistanceController{
++boolean getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
+}
+class MakeSummaryController{
++makeSummary(shipCode)
++print(summary)
+}
+class MessagesOrganizedController{
++List<ShipPositionDTO> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
+}
+class SearchShipController{
+    +getShipByMMSI(mmsi)
+    +getShipByIMO(imo)
+    +getShipByCallSign(callSign)
+}
+class ImportFileController{
++read(file)
+}
+class ShipPairController{
+    +PairOfShips()
+}
+class FindPortController{
++getClosestPort(callSign, dateTime)
+}
+class ImportPortController{
++read(file)
+}
+class CurrentSituationController{
++CurrentSituation(ContainerNumber,ContainerISOCode)
+}
+class ContainersToOffLoadController{
++getContainersToOffLoadOnNextPort(ContainerNumber,ContainerISOCode)
++printer(fileName, tringToPrint)
+}
+class ContainersToLoadController{
++getContainersToLoadOnNextPort(shipMMSI)
++printer(fileName, tringToPrint)
+}
+class CMTransportedController{
++CMTransported(year)
+}
+class OccupancyRateController{
++OccupancyRate(shipMMSI,cargoManifestID)
+}
+class OccupancyRateMomentController{
++OccupancyRateMoment(shipMMSI,moment)
+}
+class ShipsAvailableController{
++getShipsAvailable()
++printer(fileName, tringToPrint)
+}
+class PlacesClosenessPlacesController{
++getNClosestPlaces(n)
+}
+class FreightNetworkController{
++freightNetwork(n)
+}
+class ColourMapController{
++ColourMap()
+}
+class GetAuditTrailController{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
++printer(fileName, stringToPrint)
+}
+class GetRouteOfAContainerController{
++getRouteOfAContainer(clientRegistration, containerNumber, ISOCode)
++printer(fileName, stringToPrint)
+}
+class WarehouseRateController{
++warehouseRate()
++printer(fileName, stringToPrint)
+}
+class WarehouseCapacityController{
++warehouseCapacity()
++printer(fileName, stringToPrint)
+}
+class ContainerCapacityController{
++containerCapacity()
++printer(fileName, stringToPrint)
+}
+class ShipOccupiedWarningController{
++insertCargoManifestForShip(cargomanifestid, partialid, dateload, done, portid)
+}
+class OccupationmapPortController{
++occupationmapPort(portId,date)
++printer(fileName, stringToPrint)
+}
+class ContainerSituationWarmingController{
++getContainerSituation(ContainerNumber,ContainerISOCode, RegistrationCode)
+}
+class ArqcpController{
++arqcp(cargomanifestId)
++printer(fileName, stringToPrint)
+}
+class ThermalResistancesController{
++getThermalResistances()
+}
+class CriticalPortController{
++getCriticalPort(n)
+}
+class ShortestPathBetween2PlacesController{
++shortestPathBetween2Places123(local1,local2,n)
++shortestPathBetween2Places4(local1,local2,locais)
+}
+class MostEfficientCircuitController{
++getMostEfficientCircuit(sourceLocation)
+}
+class IdleShipsController{
++idleships()
++print(fileName,stringToPrint)
+}
+class AvgOcuppancyRateController{
++avgOcuppancyRate(shipmmsi,startdate,enddate)
++print(fileName,stringToPrint)
+}
+class ShipVoyagesController{
++shipVoyages(mmsi)
++print(fileName,stringToPrint)
+}
+class LoadingUnloadingMapController{
++LoadingUnloadingMap(portId)
++printer(fileName, stringToPrint)
+}
+class EnergyController{
++getEnergy(segundos, temperature)
+}
+class EnergyWithSidesController{
++getEnergy(lateralsides, frontalsides, segundos, temperature)
++getgenerators(positivecontainers, lateralsidespositive, frontalsidespositive, negativecontainers, lateralsidesnegative, frontalsidesnegative, temperatura)
+}
+class VesselTypeController{
++getVesselType(numberOfContainers)
++print(fileName,stringToPrint)
+}
+class UnlandenShipcenterController{
++getCenterOfMassOfShips()
+}
+class AddContainersController{
++addContainers(containers)
+}
+class VesselSinkController{
++getVesselSink(mmsi, nContainers)
+}
+class InformacoesContentoresController{
++InformacoesContentores(cargomanifestId)
++printer(fileName, stringToPrint)
+}
+}
+
+package "ui"{
+class ListAllShipsInformationUI
+class TopShipsWithTravelledDistanceUI
+class MakeSummaryUI
+class MessagesOrganizedUI
+class SearchShipUI
+class ImportFileUI
+class ShipPairUI
+class ImportPortUI
+class FindPortUI
+class CurrentSituationUI
+class ContainersToOffLoadUI
+class ContainersToLoadUI
+class CMTransportedUI
+class OccupancyRateUI
+class OccupancyRateMomentUI
+class ShipsAvailableUI
+class PlacesClosenessPlacesUI
+class FreightNetworkUI
+class ColourMapUI
+class GetAuditTrailUI
+class GetRouteOfAContainerUI
+class WarehouseRateUI
+class WarehouseCapacityUI
+class ContainerCapacityUI
+class ShipOccupiedWarningUI
+class OccupationmapPortUI
+class ContainerSituationWarmingUI
+class ArqcpUI
+class ThermalResistancesUI
+class CriticalPortUI
+class ShortestPathBetween2PlacesUI
+class MostEfficientCircuitUI
+class IdleShipsUI
+class AvgOcuppancyRateUI
+class ShipVoyagesUI
+class LoadingUnloadingMapUI
+class EnergyUI
+class EnergyWithSidesUI
+class VesselTypeUI
+class UnlandenShipcenterUI
+class AddContainersUI
+class VesselSinkUI
+class InformacoesContentoresUI
+}
+
+package "model"{
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getMMSI()
++getSp()
++getVesselName()
+}
+class Company{
++getShipStore()
++getPortStore()
++getNetworkStore()
++getFsiapStore()
++getLaprStore()
+}
+class ShipPosition{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
++getLatitude()
++getLongitude()
+}
+class Summary{
+-shipCode
+-vesselName
+-startBaseDateTime
+-endBaseDateTime
+-totalMovementTime
+-totalMovements
+-maxSOG
+-meanSOG
+-maxCOG
+-meanCOG
+-depLat
+-depLong
+-arrivalLat
+-arrivalLong
+-travelDistance
+-deltaDistance
+}
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+class Country{
+-continent
+-alpha2_Code
+-alpha3_Code
+-country
+-population
+-capital
+-latitude
+-longitude
+}
+class PositiveContainer{
++getThermalResistance()
+}
+class NegativeContainer{
++getThermalResistance()
+}
+}
+
+package "data"{
+class CurrentSituation{
++CurrentSituation(ContainerNumber,ContainerISOCode)
+}
+class ContainersToOffLoad{
++getContainersToOffLoadOnNextPort(ContainerNumber,shipMMSI)
+}
+class ContainersToLoad{
++getContainersToLoadOnNextPort(shipMMSI)
+}
+class CMTransported{
++avgContainers(year)
++manifestInYear(year)
+}
+class OccupancyRate{
++OccupancyRate(shipMMSI,cargoManifestID)
+}
+class OccupancyRateMoment{
++OccupancyRateMoment(shipMMSI,moment)
+}
+class ShipsAvailable{
++getShipsAvailable()
+}
+class AuditTrail{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
+}
+class RouteOfContainer{
++getRouteOfAContainer(clientRegistration, containerNumber, ISOCode)
+}
+class WarehouseRate{
++warehouseRate(databaseConnection)
+}
+class WarehouseCapacity{
++warehouseCapacity(databaseConnection)
+}
+class ContainerCapacity{
++containerCapacity(databaseConnection)
+}
+class ShipOccupiedWarning{
++insertCargoManifestForShip(cargomanifestid, partialid, dateload, done, portid)
+}
+class OccupationmapPort{
++occupationmapPort(databaseConnection,portId,date)
+}
+class ContainerSituationWarming{
++getContainerSituation(ContainerNumber,ContainerISOCode, RegistrationCode)
+}
+class Arqcp{
++arqcp(databaseConnection,cargomanifestId)
+}
+class IdleShips{
++idleships(databaseConnection)
+}
+class AvgOcuppancyRate{
++avgOcuppancyRate(databaseConnection,shipmmsi,startdate,enddate)
+}
+class ShipVoyages{
++shipVoyages(databaseConnection,mmsi)
+}
+class LoadingUnloadingMap{
++LoadingUnloadingMap(databaseConnection,portId)
+}
+class InformacoesContentores{
++InformacoesContentores(databaseConnection,cargomanifestId)
+}
+}
+
+package utils{
+class Printer{
++print(string)
+}
+
+package store{
+class ShipStore{
++String getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
++List<ShipPosition> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
++pairOfShips()
+-orderList()
++getShipByMMSI(MMSI)
++getTravelDistance(list)
++getDeltaDistance(list)
++String getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
++getShipByIMO(IMO)
++getShipByCallSign(callSign)
++getTotalMovementTime(startBaseDateTime, endBaseDateTime)
++getMaxSOG(list)
++getMeanSOG(list)
++getMaxCOG(list)
++getMeanCOG(list)
++getShipPositionByDate(s, dateTime)
+}
+class PortStore{
++savePortInKdt(port)
++getPortById(id)
++createPort(id,name,continent,country,latitude,longitude)
++getClosestPort(shipPositionLat, shipPositionLon)
+}
+class NetworkStore{
++getNClosestPlaces(n)
++createGraph(n)
+-fillVertices(vertices,portList,countryList)
+-fillArestas(arestas,vertices,portList,countryList,seaDistanceList,borderList,n,ps)
+-getDistanceBetweenTwoPoints(lat1,lon1,lat2,lon2)
++colourMap()
++getCriticalPort(n);
+-isNumeric(str)
+-getMaxValue(list)
++shortestPathBetweenTwoLocals(local1,local2,n)
++shortestPathBetweenTwoLocals4(local1,local2,locais)
++getMostEfficientCircuit(sourceLocation)
+}
+class FsiapStore{
++getEnergyFromATripToNegativeContainer(segundos,temperature)
++getEnergyFromATripToPositiveContainer(segundos,temperature)
++getEnergyFromATripToNegativeContainerWithSides(lateralsides,frontalsides,segundos,temperature)
++getEnergyFromATripToPositiveContainerWithSides(lateralsides,frontalsides,segundos,temperature)
++getFluxoWithSides(positivecontainers,lateralsidespositive,frontalsidespositive,negativecontainers,lateralsidesnegative,frontalsidesnegative,temperatura)
+}
+class LaprStore{
++getTypeOfVessel(numberOfContainers)
++getCenterOfMassPanamax()
++getCenterOfMassNewPanamax()
++getCenterOfMassUltraLargeVessel()
++keepCenterOfMassPanamax()
++keepCenterOfMassNewPanamax()
++keepCenterOfMassUltraLargeVessel()
++addContainersMatrix(m,cm,containers)
++getTotalMass(nContainers)
++getHeight(width, length, totalMass)
++getPressure(height)
+}
+}
+}
+
+package "mappers"{
+class ShipPositionMapper{
++toDTO(ShipPosition shipposition)
++toDTO(List<ShipPositionDTO> list)
+}
+class ShipMapper{
+    +modelToDto(s)
+}
+class PortMapper{
+    +modelToDto(port)
+}
+class AuditTrailMapper{
++toDTO(auditTrailList)
+}
+}
+
+package dto{
+class ShipPositionDTO{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
+}
+class ShipDTO{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+class PortDTO{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+class AuditTrailDTO{
+-date
+-operation
+-containerNumber
+-containerISOCode
+-cargoManifestID
+-cargoManifestPartialID
+-cargoManifestType
+}
+}
+
+package BST{
+class BST{
++findListInAnInterval(firstposition,lastposition)
++smallestElement()
++biggestElement()
++size()
++inOrder()
++findListInAnInterval(firstposition,lastposition)
+}
+class KDT
+}
+
+
+package "matrix"{
+class Algorithms{
++shortestPath(grafo, obj, obj2, shortPath)
++shortestPaths(graph, vert, path, dist)
++depthFirstSearch(graph, sourceLocation, circuit)
+}
+class MatrixGraph{
++MatrixGraph(directed,vs,m)
++ColourMap()
+}
+}
+
+
+ListAllShipsInformationUI .-> ListAllShipsInformationController
+ListAllShipsInformationController .--> Company
+ListAllShipsInformationController .--> ShipStore
+Company "1"-->"1" ShipStore : Knows
+Company "1"-->"1" PortStore : Knows
+ShipStore "1"->"*" Ship : registers
+PortStore "1"->"*" Port : registers
+ShipStore "1"->"*" ShipPosition : registers
+Ship "*"->"1" BST : stored
+Port "*"->"1" KDT : stored
+TopShipsWithTravelledDistanceUI ..> TopShipsWithTravelledDistanceController
+TopShipsWithTravelledDistanceController ..> Company
+TopShipsWithTravelledDistanceController ..> ShipStore
+MakeSummaryUI .-> MakeSummaryController
+MakeSummaryController .--> Company
+MakeSummaryController .--> ShipStore
+ShipStore .-> BST
+Summary --> Printer
+MessagesOrganizedUI ..> MessagesOrganizedController
+MessagesOrganizedController ..> Company
+MessagesOrganizedController ..> ShipStore
+MessagesOrganizedController ..> ShipPositionMapper
+SearchShipUI ..> SearchShipController
+SearchShipController ..> Company
+SearchShipController ..> ShipStore
+SearchShipController ..> ShipMapper
+ImportFileUI .-> ImportFileController
+ImportFileController .--> Company
+ImportFileController .-> ShipStore
+ImportFileController .--> BST
+ImportFileController .--> Ship
+ImportFileController .--> ShipPosition
+ShipPairUI ..> ShipPairController
+ShipPairController ..> Company
+ShipPairController ..> ShipStore
+ShipPositionMapper ..> ShipPosition
+ShipPositionMapper ..> ShipPositionDTO
+ShipMapper ..> Ship
+ShipMapper ..> ShipDTO
+ImportPortUI .-> ImportPortController
+ImportPortController .--> Company
+ImportPortController .-> PortStore
+ImportPortController .--> KDT
+ImportPortController .--> Port
+PortStore .-> KDT
+FindPortUI ..> FindPortController
+FindPortController ..> Company
+FindPortController ..> PortStore
+FindPortController ..> ShipStore
+FindPortController ..> PortMapper
+PortMapper ..> PortDTO
+FindPortController ..> Printer
+CurrentSituationUI ..> CurrentSituationController
+CurrentSituationController ..> Printer
+CurrentSituationController ..> CurrentSituation
+ContainersToOffLoadUI ..> ContainersToOffLoadController
+ContainersToOffLoadController ..> Printer
+ContainersToOffLoadController ..> ContainersToOffLoad
+ContainersToLoadUI ..> ContainersToLoadController
+ContainersToLoadController ..> Printer
+ContainersToLoadController ..> ContainersToLoad
+CMTransportedUI ..> CMTransportedController
+CMTransportedController ..> Printer
+CMTransportedController ..> CMTransported
+OccupancyRateUI ..> OccupancyRateController
+OccupancyRateController ..> Printer
+OccupancyRateController ..> OccupancyRate
+OccupancyRateMomentUI ..> OccupancyRateMomentController
+OccupancyRateMomentController ..> Printer
+OccupancyRateMomentController ..> OccupancyRateMoment
+ShipsAvailableUI ..> ShipsAvailableController
+ShipsAvailableController ..> Printer
+ShipsAvailableController ..> ShipsAvailable
+PlacesClosenessPlacesUI ..> PlacesClosenessPlacesController
+PlacesClosenessPlacesController ..> Company
+PlacesClosenessPlacesController ..> NetworkStore
+PlacesClosenessPlacesController ..> Printer
+NetworkStore ..> Port
+NetworkStore ..> Country
+NetworkStore ..> Algorithms
+FreightNetworkUI ..> FreightNetworkController
+FreightNetworkController ..> Printer
+FreightNetworkController ..> MatrixGraph
+FreightNetworkController ..> NetworkStore
+NetworkStore "1"->"1" MatrixGraph : creates
+ColourMapUI ..> ColourMapController
+ColourMapController ..> Printer
+ColourMapController ..> MatrixGraph
+ColourMapController ..> NetworkStore
+GetAuditTrailUI ..> GetAuditTrailController
+GetAuditTrailController ..> Printer
+GetAuditTrailController ..> AuditTrail
+GetAuditTrailController ..> AuditTrailMapper
+AuditTrailMapper ..> AuditTrailDTO
+GetRouteOfAContainerUI ..> GetRouteOfAContainerController
+GetRouteOfAContainerController ..> Printer
+GetRouteOfAContainerController ..> RouteOfContainer
+WarehouseRateUI ..> WarehouseRateController
+WarehouseRateController ..> Printer
+WarehouseRateController ..> WarehouseRate
+WarehouseCapacityUI ..> WarehouseCapacityController
+WarehouseCapacityController ..> Printer
+WarehouseCapacityController ..> WarehouseCapacity
+ContainerCapacityUI ..> ContainerCapacityController
+ContainerCapacityController ..> Printer
+ContainerCapacityController ..> ContainerCapacity
+ShipOccupiedWarningUI ..> ShipOccupiedWarningController
+ShipOccupiedWarningController ..> Printer
+ShipOccupiedWarningController ..> ShipOccupiedWarning
+OccupationmapPortUI ..> OccupationmapPortController
+OccupationmapPortController ..> Printer
+OccupationmapPortController ..> OccupationmapPort
+ContainerSituationWarmingUI ..> ContainerSituationWarmingController
+ContainerSituationWarmingController ..> Printer
+ContainerSituationWarmingController ..> ContainerSituationWarming
+ArqcpUI ..> ArqcpController
+ArqcpController ..> Printer
+ArqcpController ..> Arqcp
+ThermalResistancesUI ..> ThermalResistancesController
+ThermalResistancesController ..> PositiveContainer
+ThermalResistancesController ..> NegativeContainer
+ThermalResistancesController ..> Printer
+CriticalPortUI ..> CriticalPortController
+CriticalPortController ..> Printer
+CriticalPortController ..> NetworkStore
+NetworkStore ..> Algorithms
+ShortestPathBetween2PlacesUI ..> ShortestPathBetween2PlacesController
+ShortestPathBetween2PlacesController ..> Company
+ShortestPathBetween2PlacesController ..> NetworkStore
+ShortestPathBetween2PlacesController ..> Printer
+MostEfficientCircuitUI ..> MostEfficientCircuitController
+MostEfficientCircuitController ..> Company
+MostEfficientCircuitController ..> NetworkStore
+MostEfficientCircuitController ..> Printer
+NetworkStore ..> Algorithms
+IdleShipsUI ..> IdleShipsController
+IdleShipsController ..> Printer
+IdleShipsController ..> IdleShips
+AvgOcuppancyRateUI ..> AvgOcuppancyRateController
+AvgOcuppancyRateController ..> Printer
+AvgOcuppancyRateController ..> AvgOcuppancyRate
+ShipVoyagesUI ..> ShipVoyagesController
+ShipVoyagesController ..> Printer
+ShipVoyagesController ..> ShipVoyages
+LoadingUnloadingMapUI ..> LoadingUnloadingMapController
+LoadingUnloadingMapController ..> Printer
+LoadingUnloadingMapController ..> LoadingUnloadingMap
+EnergyUI ..> EnergyController
+EnergyController ..> Company
+EnergyController ..> FsiapStore
+EnergyController ..> Printer
+EnergyWithSidesUI ..> EnergyWithSidesController
+EnergyWithSidesController ..> Company
+EnergyWithSidesController ..> FsiapStore
+EnergyWithSidesController ..> Printer
+VesselTypeUI ..> VesselTypeController
+VesselTypeController ..> Printer
+VesselTypeController ..> LaprStore
+UnlandenShipcenterUI ..> UnlandenShipcenterController
+UnlandenShipcenterController ..> Printer
+UnlandenShipcenterController ..> LaprStore
+AddContainersUI ..> AddContainersController
+AddContainersController ..> Printer
+AddContainersController ..> LaprStore
+VesselSinkUI ..> VesselSinkController
+VesselSinkController ..> Company
+VesselSinkController ..> LaprStore
+VesselSinkController ..> ShipStore
+VesselSinkController ..> Printer
+InformacoesContentoresUI ..> InformacoesContentoresController
+InformacoesContentoresController ..> Printer
+InformacoesContentoresController ..> InformacoesContentores
+
+@enduml

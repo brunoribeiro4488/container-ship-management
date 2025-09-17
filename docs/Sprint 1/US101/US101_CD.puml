@@ -1,0 +1,74 @@
+@startuml
+
+package ui{
+class ImportFileUI
+}
+
+package controller{
+class ImportFileController
+}
+
+package utils{
+package store{
+class ShipStore
+}
+}
+package model{
+class Ship
+class Company
+class ShipPosition
+}
+
+package BST{
+class BST
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getMMSI()
++getSp
+}
+
+class ShipStore{
++addShipPosition(MMSI,date,LAT,LON,SOG,COG,heading,cargo,transciever)
++saveShipInBST(ship)
++getShipByMMSI(MMSI)
++createShip(MMSI,name,IMO,callsign,type,length,width,draft)
+}
+class ShipPosition{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
+}
+class Company{
++getshipStore()
+}
+class ImportFileController{
++read(file)
+}
+
+ImportFileUI .-> ImportFileController
+ImportFileController .--> Company
+ImportFileController .-> ShipStore
+ImportFileController .--> BST
+ImportFileController .--> Ship
+ImportFileController .--> ShipPosition
+Company "1"-->"1" ShipStore : Knows
+ShipStore "1"-->"*" Ship : registers
+ShipStore "1"->"*" ShipPosition : registers
+Ship "*"->"1" BST : stored
+ShipStore .-> BST
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Company {
+
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Country{
+-continent
+-alpha2_Code
+-alpha3_Code
+-country
+-population
+-capital
+-latitude
+-longitude
+}
+
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+Company "1" -- "*" Ship : owns >
+Company "1" -- "*" Port : knows >
+Ship "*" -- "1" Port : docks >
+Country "1" -- "*" Port : has >
+TrafficManager "*" -- "1" Ship : assigned to >
+
+@enduml

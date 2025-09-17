@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ThermalResistancesUI{
+}
+}
+
+package "controllers" {
+class ThermalResistancesController{
++getThermalResistances()
+}
+}
+package utils{
+class Printer{
++print(Thermal Resistances,stringThermalResistances, US319)
+}
+}
+package "model"{
+class PositiveContainer{
++getThermalResistance()
+}
+class NegativeContainer{
++getThermalResistance()
+}
+}
+
+ThermalResistancesUI ..> ThermalResistancesController
+ThermalResistancesController ..> PositiveContainer
+ThermalResistancesController ..> NegativeContainer
+ThermalResistancesController ..> Printer
+
+
+@enduml

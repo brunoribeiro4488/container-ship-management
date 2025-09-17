@@ -1,0 +1,149 @@
+@startuml
+autonumber
+'hide footbox
+actor "Traffic Manager" as TM
+
+participant ":MakeSummaryUI" as UI
+participant ":MakeSummaryController" as CTRL
+participant ":Company" as ML
+participant "store\n:ShipStore" as STORE
+participant "ship\n:Ship" as SHIP
+participant "shipPositions\n:BST<ShipPositions>" as SP
+participant "startBaseDateTime\n:ShipPosition" as SBDT
+participant "endBaseDateTime\n:ShipPosition" as EBDT
+participant "summary\n:Summary" as SUM
+participant "printer\n:Printer" as PRINT
+
+activate TM
+TM -> UI : ask to make a summary of a ship's movements
+activate UI
+UI --> TM : requests data (shipCode)
+deactivate UI
+
+TM -> UI : types requested data
+activate UI
+
+UI -> CTRL : makeSummary(shipCode)
+activate CTRL
+
+CTRL -> ML : shipStore = getShipStore()
+activate ML
+|||
+deactivate ML
+
+CTRL -> STORE : summary = createSummary(shipCode)
+activate STORE
+
+STORE -> STORE : ship = getshipByMMSI(shiCode)
+activate STORE
+|||
+deactivate STORE
+
+STORE -> SHIP : startBaseDateTime = getSp()
+activate SHIP
+SHIP -> SP : smallestElement
+|||
+activate SP
+SP --> SHIP : startBaseDateTime
+deactivate SP
+deactivate SHIP
+
+STORE -> SHIP : endBaseDateTime = getSp()
+activate SHIP
+SHIP -> SP : biggestElement
+|||
+activate SP
+SP --> SHIP : endBaseDateTime
+deactivate SP
+deactivate SHIP
+
+STORE -> STORE : totalMovementTime = getTotalMovementTime(startBaseDateTime, endBaseDateTime)
+activate STORE
+|||
+deactivate STORE
+
+STORE -> SHIP : totalMovements = getTotalMovements()
+activate SHIP
+SHIP -> SP : totalMovements = size()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> SHIP : list = getSP()
+activate SHIP
+SHIP -> SP : list = inOrder()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> STORE : maxSOG = getMaxSog(list)
+activate STORE
+|||
+deactivate STORE
+
+STORE -> STORE : meanSOG = getMeanSOG(list)
+activate STORE
+|||
+deactivate STORE
+
+STORE -> STORE : maxCOG = getmaxCOG(list)
+activate STORE
+|||
+deactivate STORE
+
+STORE -> STORE : meanCOG = getMeanCOG(list)
+activate STORE
+|||
+deactivate STORE
+
+STORE -> SBDT : depLat = getLatitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> SBDT :depLong = getLongitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> EBDT : arrivalLat = getLatitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> EBDT :arrivalLong = getLongitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> STORE : travelDistance = gettravelDistance()
+activate STORE
+|||
+deactivate STORE
+
+STORE -> STORE : deltaDistance = getDeltaDistance(ship)
+activate STORE
+|||
+deactivate STORE
+
+STORE -> SUM** : createSummary(vesselName, startBaseDateTime, endBaseDateTime, totalMovementTime, totalMovements, maxSOG, meanSOG, maxCOG, meanCOG, depLat, depLong, arrivalLat, arrivalLong, travelDistance, deltaDistance)
+deactivate STORE
+
+
+
+CTRL -> PRINT : print(summary)
+activate PRINT
+|||
+deactivate PRINT
+
+
+
+UI --> TM : informs operation success
+deactivate STORE
+deactivate CTRL
+deactivate UI
+
+deactivate TM
+@enduml

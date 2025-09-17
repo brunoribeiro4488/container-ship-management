@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SC
+participant ":EnergyWithSidesUI" as EWSUI
+participant ":EnergyWithSidesController" as EWSC
+participant ":Company" as COMP
+participant "fsiapStore: FsiapStore" as FS
+participant "p: Printer" as P
+participant "energy: double"
+participant "lateralsides: int"
+participant "frontalsides: int"
+participant "segundos: int"
+participant "temperature: int"
+
+activate SC
+SC -> EWSUI: asks to know how much energy to supply to the container cargo, in a voyage (or route),\n depending on the position of the containers on the ship. Admitting that the interior containers,\n or the sides not exposed directly to the "sun", maintain the initial temperature, or of departure.\n However, the exposed sides may present temperature variations during the trip
+activate EWSUI
+EWSUI -> EWSC : energy = getEnergy(lateralsides, frontalsides, segundos, temperature)
+activate EWSC
+EWSC -> COMP : fsiapStore = getFsiapStore()
+activate COMP
+deactivate COMP
+EWSC -> FS : energy = getEnergyFromATripToNegativeContainerWithSides(lateralsides,frontalsides,segundos,temperature)
+activate FS
+deactivate FS
+EWSC -> P : print(Energy to maintain,energy,US414)
+activate P
+deactivate P
+deactivate EWSC
+EWSUI --> SC : shows the data (energy) and informs operation success
+deactivate EWSUI
+deactivate SC
+@enduml

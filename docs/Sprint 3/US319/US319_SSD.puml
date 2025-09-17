@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+activate SCEE
+
+SCEE -> ":System": asks to know the thermal resistances, for each operating temperature, of each container
+activate ":System"
+":System" --> SCEE : shows the data (thermal resistances) and informs operation success
+deactivate ":System"
+
+deactivate SCEE
+
+@enduml

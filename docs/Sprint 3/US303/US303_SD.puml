@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+participant ":PlacesClosenessPlacesUI" as PCPUI
+participant ":PlacesClosenessPlacesController" as PCPC
+participant ":Company" as COMP
+participant "nStore: NetworkStore" as NS
+participant ":Algorithms" as A
+participant "p: Printer" as P
+participant "listPlaceDistance: List<Pair<String,Pair<Object, Double>>>"
+participant "grafo: MatrixGraph"
+participant "obj: String"
+participant "obj2: String"
+participant "shortPath: LinkedListr<String>"
+
+activate TM
+TM -> PCPUI : asks to know which n places (cities or ports) are closest to all other places (closeness places))
+activate PCPUI
+PCPUI -> PCPC : listPlaceDistance = getNClosestPlaces(n)
+activate PCPC
+PCPC -> COMP : nStore = getNetworkStore()
+activate COMP
+deactivate COMP
+PCPC -> NS : listPlaceDistance = getNClosestPlaces(n)
+activate NS
+NS -> A : dist = shortestPath(grafo, obj, obj2, shortPath)
+activate A
+deactivate A
+deactivate NS
+PCPC -> P : print(Closest Places,listPlaceDistance, US303)
+activate P
+deactivate P
+deactivate PCPC
+PCPUI --> TM : shows the data (cities or ports and its closeness places) and informs operation success
+deactivate PCPUI
+
+@enduml

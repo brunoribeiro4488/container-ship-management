@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="316px" preserveAspectRatio="none" style="width:661px;height:316px;" version="1.1" viewBox="0 0 661 316" width="661px" zoomAndPan="magnify"><defs><filter height="300%" id="fyf8wzz55jjdm" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fyf8wzz55jjdm)" height="122.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="49" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fyf8wzz55jjdm)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="612" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fyf8wzz55jjdm)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="612" y="182.6641"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="54" x2="54" y1="89.6094" y2="231.0156"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="617" x2="617" y1="89.6094" y2="231.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="86.5332">Fleet Manager</text><ellipse cx="54" cy="15" fill="#FEFECE" filter="url(#fyf8wzz55jjdm)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,23 L54,50 M41,31 L67,31 M54,50 L41,65 M54,50 L67,65 " fill="none" filter="url(#fyf8wzz55jjdm)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="5" y="244.5488">Fleet Manager</text><ellipse cx="54" cy="257.625" fill="#FEFECE" filter="url(#fyf8wzz55jjdm)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M54,265.625 L54,292.625 M41,273.625 L67,273.625 M54,292.625 L41,307.625 M54,292.625 L67,307.625 " fill="none" filter="url(#fyf8wzz55jjdm)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fyf8wzz55jjdm)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="583" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="590" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#fyf8wzz55jjdm)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="583" y="230.0156"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="590" y="251.5488">:System</text><rect fill="#FFFFFF" filter="url(#fyf8wzz55jjdm)" height="122.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="49" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fyf8wzz55jjdm)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="612" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fyf8wzz55jjdm)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="612" y="182.6641"/><polygon fill="#A80036" points="600,117.9609,610,121.9609,600,125.9609,604,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="59" x2="606" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="523" x="77" y="117.1045">asks to know the average occupancy rate per manifest of a given ship during a given period</text><polygon fill="#A80036" points="70,148.3125,60,152.3125,70,156.3125,66,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="64" x2="616" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="76" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="278" x="87" y="147.4561">requests data (i.e.: shipmmsi,startdate,enddate)</text><polygon fill="#A80036" points="600,178.6641,610,182.6641,600,186.6641,604,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="59" x2="606" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="66" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="77" y="177.8076">types requested data</text><polygon fill="#A80036" points="70,209.0156,60,213.0156,70,217.0156,66,213.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="64" x2="616" y1="213.0156" y2="213.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="76" y="208.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="418" x="87" y="208.1592">shows the data (average occupancy rate) and informs operation success</text><!--MD5=[99ecf04bf31100c891ffe86ecd344ba2]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Fleet Manager" as FM
+activate FM
+
+FM -> ":System": asks to know the average occupancy rate per manifest of a given ship during a given period
+activate ":System"
+":System" - -> FM: requests data (i.e.: shipmmsi,startdate,enddate)
+deactivate ":System"
+
+FM -> ":System": types requested data
+activate ":System"
+":System" - -> FM : shows the data (average occupancy rate) and informs operation success
+deactivate ":System"
+
+@enduml
+
+@startuml
+
+autonumber
+actor "Fleet Manager" as FM
+activate FM
+
+FM -> ":System": asks to know the average occupancy rate per manifest of a given ship during a given period
+activate ":System"
+":System" - -> FM: requests data (i.e.: shipmmsi,startdate,enddate)
+deactivate ":System"
+
+FM -> ":System": types requested data
+activate ":System"
+":System" - -> FM : shows the data (average occupancy rate) and informs operation success
+deactivate ":System"
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

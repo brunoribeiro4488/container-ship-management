@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":MessagesOrganizedUI" as MOUI
+participant ":MessagesOrganizedController" as MOC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "ShipPositionMapper" as SPM
+participant "s: Ship" as S
+
+activate TM
+TM -> MOUI : asks see the top-N ships \nwith the most kilometres travelled
+activate MOUI
+MOUI --> TM : request data
+deactivate MOUI
+TM -> MOUI : types requested data
+activate MOUI
+MOUI -> MOC : getMostDistanceTravelled(firstDateAndTime\n,lastDateAndTime,number of ships)
+activate MOC
+MOC -> COMP : shipStore = getShipStore()
+activate COMP
+deactivate COMP
+MOC -> SS : list = getTopShipsWithTravelledDistance(Date firstDateAndTime,\n Date lastDateAndTime,int number_of_ships)
+activate SS
+deactivate SS
+deactivate MOC
+deactivate MOUI
+deactivate TM
+@enduml

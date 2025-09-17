@@ -1,0 +1,45 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class VesselSinkUI{
+}
+}
+
+package "controllers" {
+class VesselSinkController{
++getVesselSink(mmsi, nContainers)
+}
+}
+package utils{
+package "stores"{
+class ShipStore{
++getShipByMMSI(mmsi)
+}
+class LaprStore{
++getTotalMass(nContainers)
++getHeight(width, length, totalMass)
++getPressure(height)
+}
+
+class Printer{
++print(Vessel Sink, vesselSink, US420)
+}
+}
+package "model"{
+class Company{
++getLaprStore()
++getShipStore()
+}
+
+}
+
+VesselSinkUI ..> VesselSinkController
+VesselSinkController ..> Company
+VesselSinkController ..> LaprStore
+VesselSinkController ..> ShipStore
+VesselSinkController ..> Printer
+
+@enduml

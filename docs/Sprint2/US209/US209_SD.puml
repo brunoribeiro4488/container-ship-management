@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as SC
+participant ":OccupancyRateMomentUI" as ORMUI
+participant ":OccupancyRateMomentController" as ORMC
+participant ":OccupancyRateMoment" as ORM
+participant ":Printer" as P
+
+activate SC
+SC -> ORMUI: asks to know the occupancy rate of a ship at a specific moment
+activate ORMUI
+ORMUI --> SC: requests data (i.e.: shipMMSI and moment)
+deactivate ORMUI
+
+SC -> ORMUI: types requested data
+activate ORMUI
+ORMUI -> ORMC : OccupancyRateMoment(shipMMSI,moment)
+activate ORMC
+ORMC -> ORM : rate =  OccupancyRateMoment(shipMMSI,moment)
+activate ORM
+deactivate ORM
+ORMC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate ORMC
+ORMUI --> SC : shows the data (occupancy rate) and informs operation success
+deactivate ORMUI
+deactivate SC
+
+@enduml

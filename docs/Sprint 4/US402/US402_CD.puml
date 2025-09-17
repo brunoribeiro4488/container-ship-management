@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ShortestPathBetween2PlacesUI{
+}
+}
+
+package "controllers" {
+class ShortestPathBetween2PlacesController{
++shortestPathBetween2Places123(local1,local2,n)
++shortestPathBetween2Places4(local1,local2,locais)
+}
+}
+package utils{
+package "stores"{
+class NetworkStore{
++shortestPathBetweenTwoLocals(local1,local2,n)
++shortestPathBetweenTwoLocals4(local1,local2,locais)
+}
+}
+class Printer{
++print(filename,result,path)
+}
+package "model"{
+class Company{
++getNetworkStore()
+}
+
+}
+
+ShortestPathBetween2PlacesUI ..> ShortestPathBetween2PlacesController
+ShortestPathBetween2PlacesController ..> Company
+ShortestPathBetween2PlacesController ..> NetworkStore
+ShortestPathBetween2PlacesController ..> Printer
+
+@enduml

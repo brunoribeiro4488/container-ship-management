@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to  to import data from countries, ports, borders and seadists files from the database to build a freight network
+activate ":System"
+":System" --> TM: requests data
+deactivate ":System"
+
+TM -> ":System": types requested data
+activate ":System"
+":System" --> TM : shows the data (adjacency matrix) and informs operation success
+deactivate ":System"
+
+@enduml

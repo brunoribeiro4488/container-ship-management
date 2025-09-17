@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to know the containers to load on next port
+activate ":System"
+":System" --> SC: requests data (shipMMSI)
+deactivate ":System"
+
+SC -> ":System": types requested data
+activate ":System"
+":System" --> SC : shows the containers and informs operation success
+deactivate ":System"
+
+deactivate SC
+@enduml

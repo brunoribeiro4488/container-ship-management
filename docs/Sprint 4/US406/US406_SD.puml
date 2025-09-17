@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Fleet Manager" as FM
+participant ":ShipVoyagesUI" as SVUI
+participant ":ShipVoyagesController" as SVC
+participant ":ShipVoyages" as SV
+participant ":Printer" as P
+
+activate FM
+FM -> SVUI: asks to know which ship voyages – place and date of origin and\n destination – had an occupancy rate below a certain threshold
+activate SVUI
+SVUI -> SVC : shipVoyages(mmsi)
+activate SVC
+SVC -> SV : result = shipVoyages(databaseConnection,mmsi)
+activate SV
+deactivate SV
+SVC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate SVC
+SVUI --> FM : shows the data (places and dates of origin and destination,\n which have below 66% occupancy rate) and informs operation success
+deactivate SVC
+deactivate SVUI
+deactivate FM
+@enduml

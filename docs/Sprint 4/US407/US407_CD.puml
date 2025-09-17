@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class LoadingUnloadingMapUI{
+}
+}
+
+package "controllers" {
+class LoadingUnloadingMapController{
++LoadingUnloadingMap(portId)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class LoadingUnloadingMap{
++LoadingUnloadingMap(databaseConnection,portId)
+}
+}
+
+
+
+LoadingUnloadingMapUI ..> LoadingUnloadingMapController
+LoadingUnloadingMapController ..> Printer
+LoadingUnloadingMapController ..> LoadingUnloadingMap
+@enduml

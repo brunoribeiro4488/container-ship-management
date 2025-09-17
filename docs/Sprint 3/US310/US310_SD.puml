@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port Manager" as PM
+participant ":OccupationmapPortUI" as OPUI
+participant ":OccupationmapPortController" as OPC
+participant ":OccupationmapPort" as OP
+participant ":Printer" as P
+
+activate PM
+PM -> OPUI: asks for a map of the occupation of the existing resources in the port during a given month.
+activate OPUI
+OPUI -> PM : requests data (i.e.: portId and date)
+deactivate OPUI
+PM -> OPUI: types requested data
+activate OPUI
+OPUI -> OPC : occupationmapPort(portId,date)
+activate OPC
+OPC -> OP : result = occupationmapPort(databaseConnection,portId,date)
+activate OP
+deactivate OP
+OPC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate OPC
+OPUI --> PM : shows the data (map) and informs operation success
+deactivate OPC
+deactivate OPUI
+deactivate PM
+@enduml

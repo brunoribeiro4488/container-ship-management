@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="133.92px" preserveAspectRatio="none" style="width:315px;height:133px;background:#FFFFFF;" version="1.1" viewBox="0 0 315 133" width="315.58px" zoomAndPan="magnify"><defs><filter height="300%" id="f1413uvxzbubdi" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="1.24"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="2.48" dy="2.48" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[0dc7f2ddb409b58bcf52b12238c25399]
+class Ship--><rect codeLine="7" fill="#FEFECE" filter="url(#f1413uvxzbubdi)" height="93.4263" id="Ship" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="35.34" x="153.76" y="4.34"/><ellipse cx="163.06" cy="14.26" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M164.3,12.09 Q164.4259,11.78 164.5713,11.625 Q164.7166,11.47 164.8813,11.47 Q165.1719,11.47 165.3559,11.6444 Q165.54,11.8188 165.54,12.2256 L165.54,13.1944 Q165.54,13.6013 165.3656,13.7756 Q165.1913,13.95 164.92,13.95 Q164.6778,13.95 164.5228,13.8434 Q164.3678,13.7369 164.3,13.4559 Q164.2709,13.2622 164.1644,13.1556 Q163.9706,12.9522 163.6219,12.8359 Q163.2731,12.71 162.9244,12.71 Q162.4884,12.71 162.1203,12.8844 Q161.7619,13.0588 161.4809,13.4463 Q161.2,13.8338 161.2,14.3666 L161.2,14.9381 Q161.2,15.5775 161.7231,16.0038 Q162.2463,16.43 163.1763,16.43 Q163.7284,16.43 164.1159,16.3041 Q164.3388,16.2363 164.5906,16.0134 Q164.7553,15.8875 164.8425,15.8487 Q164.9297,15.81 165.0363,15.81 Q165.2397,15.81 165.385,15.9747 Q165.54,16.1297 165.54,16.3525 Q165.54,16.5656 165.3269,16.8175 Q165.0169,17.1856 164.5228,17.3891 Q163.8738,17.67 163.0794,17.67 Q162.1494,17.67 161.4034,17.3019 Q160.8028,17.0113 160.3766,16.3816 Q159.96,15.7519 159.96,15.0059 L159.96,14.3278 Q159.96,13.5528 160.3281,12.8747 Q160.7059,12.1966 161.355,11.8381 Q162.0138,11.47 162.75,11.47 Q163.1956,11.47 163.5831,11.625 Q163.9706,11.78 164.3,12.09 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacing" textLength="15.5" x="171.74" y="17.3043">Ship</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="154.38" x2="188.48" y1="24.18" y2="24.18"/><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="17.98" x="157.48" y="33.7397">-MMSI</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="18.6" x="157.48" y="42.318">-name</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="13.64" x="157.48" y="50.8963">-IMO</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="24.8" x="157.48" y="59.4746">-callsign</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="15.5" x="157.48" y="68.0529">-type</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="20.46" x="157.48" y="76.6312">-length</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="19.22" x="157.48" y="85.2094">-width</text><text fill="#000000" font-family="sans-serif" font-size="6.82" lengthAdjust="spacing" textLength="16.74" x="157.48" y="93.7877">-draft</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="18" fill="#FEFECE" filter="url(#f1413uvxzbubdi)" height="24.8" id="Company" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="52.7" x="254.2" y="100.75"/><ellipse cx="263.5" cy="110.67" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M264.74,108.5 Q264.8659,108.19 265.0113,108.035 Q265.1566,107.88 265.3213,107.88 Q265.6119,107.88 265.7959,108.0544 Q265.98,108.2288 265.98,108.6356 L265.98,109.6044 Q265.98,110.0113 265.8056,110.1856 Q265.6313,110.36 265.36,110.36 Q265.1178,110.36 264.9628,110.2534 Q264.8078,110.1469 264.74,109.8659 Q264.7109,109.6722 264.6044,109.5656 Q264.4106,109.3622 264.0619,109.2459 Q263.7131,109.12 263.3644,109.12 Q262.9284,109.12 262.5603,109.2944 Q262.2019,109.4688 261.9209,109.8563 Q261.64,110.2438 261.64,110.7766 L261.64,111.3481 Q261.64,111.9875 262.1631,112.4138 Q262.6863,112.84 263.6163,112.84 Q264.1684,112.84 264.5559,112.7141 Q264.7788,112.6463 265.0306,112.4234 Q265.1953,112.2975 265.2825,112.2588 Q265.3697,112.22 265.4763,112.22 Q265.6797,112.22 265.825,112.3847 Q265.98,112.5397 265.98,112.7625 Q265.98,112.9756 265.7669,113.2275 Q265.4569,113.5956 264.9628,113.7991 Q264.3137,114.08 263.5194,114.08 Q262.5894,114.08 261.8434,113.7119 Q261.2428,113.4213 260.8166,112.7916 Q260.4,112.1619 260.4,111.4159 L260.4,110.7378 Q260.4,109.9628 260.7681,109.2847 Q261.1459,108.6066 261.795,108.2481 Q262.4538,107.88 263.19,107.88 Q263.6356,107.88 264.0231,108.035 Q264.4106,108.19 264.74,108.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacing" textLength="32.86" x="272.18" y="113.7143">Company</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="254.82" x2="306.28" y1="120.59" y2="120.59"/><!--MD5=[ddaf6f62b0bc30921877ec9fb9463c9f]
+class TrafficManager--><rect codeLine="21" fill="#FEFECE" filter="url(#f1413uvxzbubdi)" height="24.8" id="TrafficManager" style="stroke:#A80036;stroke-width:0.9299999999999999;" width="70.06" x="4.34" y="100.75"/><ellipse cx="13.64" cy="110.67" fill="#ADD1B2" rx="6.82" ry="6.82" style="stroke:#A80036;stroke-width:0.62;"/><path d="M14.88,108.5 Q15.0059,108.19 15.1513,108.035 Q15.2966,107.88 15.4613,107.88 Q15.7519,107.88 15.9359,108.0544 Q16.12,108.2288 16.12,108.6356 L16.12,109.6044 Q16.12,110.0113 15.9456,110.1856 Q15.7713,110.36 15.5,110.36 Q15.2578,110.36 15.1028,110.2534 Q14.9478,110.1469 14.88,109.8659 Q14.8509,109.6722 14.7444,109.5656 Q14.5506,109.3622 14.2019,109.2459 Q13.8531,109.12 13.5044,109.12 Q13.0684,109.12 12.7003,109.2944 Q12.3419,109.4688 12.0609,109.8563 Q11.78,110.2438 11.78,110.7766 L11.78,111.3481 Q11.78,111.9875 12.3031,112.4138 Q12.8263,112.84 13.7563,112.84 Q14.3084,112.84 14.6959,112.7141 Q14.9188,112.6463 15.1706,112.4234 Q15.3353,112.2975 15.4225,112.2588 Q15.5097,112.22 15.6162,112.22 Q15.8197,112.22 15.965,112.3847 Q16.12,112.5397 16.12,112.7625 Q16.12,112.9756 15.9069,113.2275 Q15.5969,113.5956 15.1028,113.7991 Q14.4538,114.08 13.6594,114.08 Q12.7294,114.08 11.9834,113.7119 Q11.3828,113.4213 10.9566,112.7916 Q10.54,112.1619 10.54,111.4159 L10.54,110.7378 Q10.54,109.9628 10.9081,109.2847 Q11.2859,108.6066 11.935,108.2481 Q12.5938,107.88 13.33,107.88 Q13.7756,107.88 14.1631,108.035 Q14.5506,108.19 14.88,108.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="7.44" lengthAdjust="spacing" textLength="50.22" x="22.32" y="113.7143">TrafficManager</text><line style="stroke:#A80036;stroke-width:0.9299999999999999;" x1="4.96" x2="73.78" y1="120.59" y2="120.59"/><!--MD5=[bc71c62128aaf75a155dd6adc8e1dfa9]
+link TrafficManager to Company--><path codeLine="24" d="M74.6294,116.3678 C104.8482,118.7858 149.8664,121.4394 189.1,119.97 C211.0666,119.1454 235.9534,117.2048 254.1194,115.6052 " fill="none" id="TrafficManager-Company" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="155.31,114.5122,160.9257,116.3104,160.9102,112.6662,155.31,114.5122" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="22.94" x="163.99" y="117.797">knows</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="3.1" x="79.3456" y="125.7965">*</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="4.34" x="244.8637" y="125.2654">1</text><!--MD5=[40e2b5717560220ad35e84810a8f1b44]
+link TrafficManager to Ship--><path codeLine="25" d="M66.309,100.6818 C92.3428,88.3376 131.44,69.8058 153.698,59.2596 " fill="none" id="TrafficManager-Ship" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="98.9012,62.9512,93.0533,63.7067,94.6142,66.9997,98.9012,62.9512" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="32.86" x="101.68" y="67.577">manages</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="4.34" x="69.2449" y="94.0413">1</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="3.1" x="145.657" y="71.0284">*</text><!--MD5=[389796ac32ae4487431fb62f292ee219]
+link Ship to Company--><path codeLine="26" d="M189.1434,60.977 C207.8612,71.7278 237.9064,89.001 258.261,100.7004 " fill="none" id="Ship-Company" style="stroke:#A80036;stroke-width:0.62;"/><polygon fill="#000000" points="208.1123,66.4543,212.0665,70.8285,213.8824,67.6689,208.1123,66.4543" style="stroke:#000000;stroke-width:0.62;"/><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="18.6" x="216.38" y="71.297">owns</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="3.1" x="194.0796" y="73.1859">*</text><text fill="#000000" font-family="sans-serif" font-size="8.06" lengthAdjust="spacing" textLength="4.34" x="246.7362" y="94.0653">1</text><!--MD5=[ab828e0bc7adcfa8e5c5d7b8c8d13911]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+left to right direction
+hide methods
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Company{
+}
+
+class TrafficManager{
+}
+
+TrafficManager "*" - - "1" Company : knows <
+TrafficManager "1" - - "*" Ship : manages >
+Ship "*" - - "1" Company : < owns
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+left to right direction
+hide methods
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Company{
+}
+
+class TrafficManager{
+}
+
+TrafficManager "*" - - "1" Company : knows <
+TrafficManager "1" - - "*" Ship : manages >
+Ship "*" - - "1" Company : < owns
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 13:40:07 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

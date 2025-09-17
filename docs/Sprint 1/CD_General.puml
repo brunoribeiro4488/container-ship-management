@@ -1,0 +1,241 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "Controller"{
+class ListAllShipsInformationController
+class TopShipsWithTravelledDistanceController
+class MakeSummaryController
+class MessagesOrganizedController
+class SearchShipController
+class ImportFileController
+class ShipPairController{
+    +PairOfShips()
+}
+}
+
+package "UI"{
+class ListAllShipsInformationUI
+class TopShipsWithTravelledDistanceUI
+class MakeSummaryUI
+class MessagesOrganizedUI
+class SearchShipUI
+class ImportFileUI
+class ShipPairUI
+}
+
+package "Model"{
+class Ship
+class Company
+class ShipPosition
+class Summary
+}
+
+package utils{
+class Printer
+package store{
+class ShipStore
+}
+}
+
+package "Mappers"{
+class ShipPositionMapper{
++toDTO(ShipPosition shipposition)
++toDTO(List<ShipPositionDTO> list)
+}
+class ShipMapper{
+    +modelToDto(s)
+}
+}
+
+package dto{
+class ShipPositionDTO
+class ShipDTO
+}
+
+package BST{
+class BST
+}
+
+class SearchShipController{
+    +getShipByMMSI(mmsi)
+    +getShipByIMO(imo)
+    +getShipByCallSign(callSign)
+}
+
+class MessagesOrganizedController{
++List<ShipPositionDTO> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
+}
+
+
+class ShipStore{
++String getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
++List<ShipPosition> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
++pairOfShips()
+-orderList()
+}
+
+class BST{
++findListInAnInterval(firstposition,lastposition)
+}
+
+
+class TopShipsWithTravelledDistanceController{
++boolean getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
+}
+
+class ShipPosition{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
++getLatitude()
++getLongitude()
+}
+
+class ShipPositionDTO{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
+}
+
+class ImportFileController{
++read(file)
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getMMSI()
++getSp()
++getVesselName()
+}
+
+class ShipDTO{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Company{
++getShipStore()
+}
+
+class BST{
++smallestElement()
++biggestElement()
++size()
++inOrder()
++findListInAnInterval(firstposition,lastposition)
+}
+
+class MakeSummaryController{
++makeSummary(shipCode)
++print(summary)
+}
+
+class ListAllShipsInformationController{
++getInformation()
++print(summary)
+}
+
+class ShipStore{
++getShipByMMSI(MMSI)
++getTravelDistance(list)
++getDeltaDistance(list)
++String getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
++getShipByIMO(IMO)
++getShipByCallSign(callSign)
++getTotalMovementTime(startBaseDateTime, endBaseDateTime)
++getMaxSOG(list)
++getMeanSOG(list)
++getMaxCOG(list)
++getMeanCOG(list)
+}
+
+class Summary{
+-shipCode
+-vesselName
+-startBaseDateTime
+-endBaseDateTime
+-totalMovementTime
+-totalMovements
+-maxSOG
+-meanSOG
+-maxCOG
+-meanCOG
+-depLat
+-depLong
+-arrivalLat
+-arrivalLong
+-travelDistance
+-deltaDistance
+}
+
+
+class Printer{
++print(string)
+}
+
+ListAllShipsInformationUI .-> ListAllShipsInformationController
+ListAllShipsInformationController .--> Company
+ListAllShipsInformationController .--> ShipStore
+Company "1"-->"1" ShipStore : Knows
+ShipStore "1"->"*" Ship : registers
+ShipStore "1"->"*" ShipPosition : registers
+Ship "*"->"1" BST : stored
+TopShipsWithTravelledDistanceUI ..> TopShipsWithTravelledDistanceController
+TopShipsWithTravelledDistanceController ..> Company
+TopShipsWithTravelledDistanceController ..> ShipStore
+MakeSummaryUI .-> MakeSummaryController
+MakeSummaryController .--> Company
+MakeSummaryController .--> ShipStore
+ShipStore .-> BST
+Summary --> Printer
+MessagesOrganizedUI ..> MessagesOrganizedController
+MessagesOrganizedController ..> Company
+MessagesOrganizedController ..> ShipStore
+MessagesOrganizedController ..> ShipPositionMapper
+SearchShipUI ..> SearchShipController
+SearchShipController ..> Company
+SearchShipController ..> ShipStore
+SearchShipController ..> ShipMapper
+ImportFileUI .-> ImportFileController
+ImportFileController .--> Company
+ImportFileController .-> ShipStore
+ImportFileController .--> BST
+ImportFileController .--> Ship
+ImportFileController .--> ShipPosition
+ShipPairUI ..> ShipPairController
+ShipPairController ..> Company
+ShipPairController ..> ShipStore
+ShipPositionMapper ..> ShipPosition
+ShipPositionMapper ..> ShipPositionDTO
+ShipMapper ..> Ship
+ShipMapper ..> ShipDTO
+
+
+@enduml

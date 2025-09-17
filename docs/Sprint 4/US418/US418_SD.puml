@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as FM
+participant ":UnlandenShipcenterUI" as UNLSUI
+participant ":UnlandenShipcenterController" as UNLSC
+participant ":LaprStore" as LP
+participant ":Printer" as P
+activate FM
+FM -> UNLSUI: asks to asks to determine the unladen center of mass for each vessel \n(if different) according to its characteristics.\nFor calculation purposes, consider known geometric figures
+activate UNLSUI
+UNLSUI -> UNLSC : getCenterOfMassOfShips()
+activate UNLSC
+UNLSC -> LP : result += getCenterOfMassPanamax()
+activate LP
+deactivate LP
+UNLSC -> LP : result += getCenterOfMassNewPanamax()
+activate LP
+deactivate LP
+UNLSC -> LP : result += getCenterOfMassUltraLargeVessel()
+activate LP
+deactivate LP
+UNLSC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate UNLSC
+UNLSUI --> FM : shows the data and informs operation success
+deactivate UNLSC
+deactivate UNLSUI
+deactivate FM
+@enduml

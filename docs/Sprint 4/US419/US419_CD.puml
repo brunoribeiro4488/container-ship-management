@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class AddContainersUI{
+}
+}
+
+package "controllers" {
+class AddContainersController{
++addContainers(containers)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+package stores{
+class LaprStore{
++keepCenterOfMassPanamax()
++keepCenterOfMassNewPanamax()
++keepCenterOfMassUltraLargeVessel()
++addContainersMatrix(m,cm,containers)
+}
+}
+}
+
+AddContainersUI ..> AddContainersController
+AddContainersController ..> Printer
+AddContainersController ..> LaprStore
+@enduml

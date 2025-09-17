@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port manager" as C
+activate C
+
+C -> ":System": asks to issue a cargo manifest destined for a warehouse
+activate ":System"
+":System" --> C : shows the result (if the warehouse is full or not) and informs operation success
+deactivate ":System"
+
+deactivate C
+@enduml

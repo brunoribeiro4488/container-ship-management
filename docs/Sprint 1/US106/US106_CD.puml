@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "UI" {
+class TopShipsWithTravelledDistanceUI{
+}
+}
+
+package "Core" {
+package "Controllers" {
+class TopShipsWithTravelledDistanceController{
++boolean getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
+}
+}
+
+package BST{
+class BST{
++findListInAnInterval(firstposition,lastposition)
+}
+}
+
+
+package "Stores"{
+class ShipStore{
++String getTopShipsWithTravelledDistance(Date firstDateAndTime, Date lastDateAndTime,int number_of_ships)
+}
+}
+
+package "Model"{
+class Company{
+    +getShipStore()
+}
+
+class "Ship"{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getSp()
+}
+}
+}
+
+
+
+TopShipsWithTravelledDistanceUI ..> TopShipsWithTravelledDistanceController
+TopShipsWithTravelledDistanceController ..> Company
+TopShipsWithTravelledDistanceController ..> ShipStore
+ShipStore --> Ship
+Ship ..> BST
+
+@enduml

@@ -1,0 +1,56 @@
+@startuml
+
+package ui{
+class ImportPortUI
+}
+
+package controller{
+class ImportPortController
+}
+
+package utils{
+package store{
+class PortStore
+}
+}
+package model{
+class Port
+class Company
+}
+
+package kdt{
+class KDT
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class PortStore{
++savePortInKdt(port)
++getPortById(id)
++createPort(id,name,continent,country,latitude,longitude)
+}
+
+class Company{
++getPortStore()
+}
+class ImportPortController{
++read(file)
+}
+
+ImportPortUI .-> ImportPortController
+ImportPortController .--> Company
+ImportPortController .-> PortStore
+ImportPortController .--> KDT
+ImportPortController .--> Port
+Company "1"-->"1" PortStore : Knows
+PortStore "1"-->"*" Port : registers
+Port "*"->"1" KDT : stored
+PortStore .-> KDT
+@enduml

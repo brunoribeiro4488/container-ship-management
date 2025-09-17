@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to see the pairs of ships organized by mmsi and travelled distance difference
+activate ":System"
+":System" --> TM: shows the data (pairs of ships) and informs operation success
+deactivate ":System"
+
+@enduml

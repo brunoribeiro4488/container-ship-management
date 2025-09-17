@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class IdleShipsUI{
+}
+}
+
+package "controllers" {
+class IdleShipsController{
++idleships()
++print(fileName,stringToPrint)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+}
+
+package data{
+class IdleShips{
++idleships(databaseConnection)
+}
+}
+
+
+
+IdleShipsUI ..> IdleShipsController
+IdleShipsController ..> Printer
+IdleShipsController ..> IdleShips
+@enduml

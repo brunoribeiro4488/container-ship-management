@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:653px;height:403px;" version="1.1" viewBox="0 0 653 403" width="653px" zoomAndPan="magnify"><defs><filter height="300%" id="f1tv7fyp779anl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f1tv7fyp779anl)" points="200,6,219,6,226,29.6094,382,29.6094,382,106,200,106,200,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="200" x2="226" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="204" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f1tv7fyp779anl)" points="148,130,231,130,238,153.6094,434,153.6094,434,258,148,258,148,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="148" x2="238" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="152" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f1tv7fyp779anl)" points="16,282,52,282,59,305.6094,224,305.6094,224,396,16,396,16,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="298.5332">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#f1tv7fyp779anl)" points="248,282,284,282,291,305.6094,636,305.6094,636,396,248,396,248,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="248" x2="291" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="252" y="298.5332">data</text><!--MD5=[122df12c93c3090bb60c1d4f9f6fd910]
+class AvgOcuppancyRateUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f1tv7fyp779anl)" height="48" id="AvgOcuppancyRateUI" style="stroke:#A80036;stroke-width:1.5;" width="150" x="216" y="42"/><ellipse cx="231" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M233,54.5 Q233.2031,54 233.4375,53.75 Q233.6719,53.5 233.9375,53.5 Q234.4063,53.5 234.7031,53.7813 Q235,54.0625 235,54.7188 L235,56.2813 Q235,56.9375 234.7188,57.2188 Q234.4375,57.5 234,57.5 Q233.6094,57.5 233.3594,57.3281 Q233.1094,57.1563 233,56.7031 Q232.9531,56.3906 232.7813,56.2188 Q232.4688,55.8906 231.9063,55.7031 Q231.3438,55.5 230.7813,55.5 Q230.0781,55.5 229.4844,55.7813 Q228.9063,56.0625 228.4531,56.6875 Q228,57.3125 228,58.1719 L228,59.0938 Q228,60.125 228.8438,60.8125 Q229.6875,61.5 231.1875,61.5 Q232.0781,61.5 232.7031,61.2969 Q233.0625,61.1875 233.4688,60.8281 Q233.7344,60.625 233.875,60.5625 Q234.0156,60.5 234.1875,60.5 Q234.5156,60.5 234.75,60.7656 Q235,61.0156 235,61.375 Q235,61.7188 234.6563,62.125 Q234.1563,62.7188 233.3594,63.0469 Q232.3125,63.5 231.0313,63.5 Q229.5313,63.5 228.3281,62.9063 Q227.3594,62.4375 226.6719,61.4219 Q226,60.4063 226,59.2031 L226,58.1094 Q226,56.8594 226.5938,55.7656 Q227.2031,54.6719 228.25,54.0938 Q229.3125,53.5 230.5,53.5 Q231.2188,53.5 231.8438,53.75 Q232.4688,54 233,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="118" x="245" y="62.9102">AvgOcuppancyRateUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="217" x2="365" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="217" x2="365" y1="82" y2="82"/><!--MD5=[c8fdaeb4fae09a55151b48ed454c0f6b]
+class AvgOcuppancyRateController--><rect codeLine="11" fill="#FEFECE" filter="url(#f1tv7fyp779anl)" height="75.6719" id="AvgOcuppancyRateController" style="stroke:#A80036;stroke-width:1.5;" width="254" x="164" y="166"/><ellipse cx="206.9" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M208.9,178.5 Q209.1031,178 209.3375,177.75 Q209.5719,177.5 209.8375,177.5 Q210.3063,177.5 210.6031,177.7813 Q210.9,178.0625 210.9,178.7188 L210.9,180.2813 Q210.9,180.9375 210.6188,181.2188 Q210.3375,181.5 209.9,181.5 Q209.5094,181.5 209.2594,181.3281 Q209.0094,181.1563 208.9,180.7031 Q208.8531,180.3906 208.6813,180.2188 Q208.3688,179.8906 207.8063,179.7031 Q207.2438,179.5 206.6813,179.5 Q205.9781,179.5 205.3844,179.7813 Q204.8063,180.0625 204.3531,180.6875 Q203.9,181.3125 203.9,182.1719 L203.9,183.0938 Q203.9,184.125 204.7438,184.8125 Q205.5875,185.5 207.0875,185.5 Q207.9781,185.5 208.6031,185.2969 Q208.9625,185.1875 209.3688,184.8281 Q209.6344,184.625 209.775,184.5625 Q209.9156,184.5 210.0875,184.5 Q210.4156,184.5 210.65,184.7656 Q210.9,185.0156 210.9,185.375 Q210.9,185.7188 210.5563,186.125 Q210.0563,186.7188 209.2594,187.0469 Q208.2125,187.5 206.9313,187.5 Q205.4313,187.5 204.2281,186.9063 Q203.2594,186.4375 202.5719,185.4219 Q201.9,184.4063 201.9,183.2031 L201.9,182.1094 Q201.9,180.8594 202.4938,179.7656 Q203.1031,178.6719 204.15,178.0938 Q205.2125,177.5 206.4,177.5 Q207.1188,177.5 207.7438,177.75 Q208.3688,178 208.9,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="160" x="227.1" y="186.9102">AvgOcuppancyRateController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="165" x2="417" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="165" x2="417" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="242" x="170" y="221.4189">+avgOcuppancyRate(shipmmsi,startdate,enddate)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="139" x="170" y="235.2549">+print(fileName,stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#f1tv7fyp779anl)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="175" x="32.5" y="318"/><ellipse cx="97.75" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M99.75,330.5 Q99.9531,330 100.1875,329.75 Q100.4219,329.5 100.6875,329.5 Q101.1563,329.5 101.4531,329.7813 Q101.75,330.0625 101.75,330.7188 L101.75,332.2813 Q101.75,332.9375 101.4688,333.2188 Q101.1875,333.5 100.75,333.5 Q100.3594,333.5 100.1094,333.3281 Q99.8594,333.1563 99.75,332.7031 Q99.7031,332.3906 99.5313,332.2188 Q99.2188,331.8906 98.6563,331.7031 Q98.0938,331.5 97.5313,331.5 Q96.8281,331.5 96.2344,331.7813 Q95.6563,332.0625 95.2031,332.6875 Q94.75,333.3125 94.75,334.1719 L94.75,335.0938 Q94.75,336.125 95.5938,336.8125 Q96.4375,337.5 97.9375,337.5 Q98.8281,337.5 99.4531,337.2969 Q99.8125,337.1875 100.2188,336.8281 Q100.4844,336.625 100.625,336.5625 Q100.7656,336.5 100.9375,336.5 Q101.2656,336.5 101.5,336.7656 Q101.75,337.0156 101.75,337.375 Q101.75,337.7188 101.4063,338.125 Q100.9063,338.7188 100.1094,339.0469 Q99.0625,339.5 97.7813,339.5 Q96.2813,339.5 95.0781,338.9063 Q94.1094,338.4375 93.4219,337.4219 Q92.75,336.4063 92.75,335.2031 L92.75,334.1094 Q92.75,332.8594 93.3438,331.7656 Q93.9531,330.6719 95,330.0938 Q96.0625,329.5 97.25,329.5 Q97.9688,329.5 98.5938,329.75 Q99.2188,330 99.75,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="118.25" y="338.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="206.5" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33.5" x2="206.5" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="163" x="38.5" y="373.4189">+print(fileName,stringToPrint,path)</text><!--MD5=[03794b8e9b6f7bf50f6dfbf28961be96]
+class AvgOcuppancyRate--><rect codeLine="23" fill="#FEFECE" filter="url(#f1tv7fyp779anl)" height="61.8359" id="AvgOcuppancyRate" style="stroke:#A80036;stroke-width:1.5;" width="356" x="264" y="318"/><ellipse cx="384.75" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M386.75,330.5 Q386.9531,330 387.1875,329.75 Q387.4219,329.5 387.6875,329.5 Q388.1563,329.5 388.4531,329.7813 Q388.75,330.0625 388.75,330.7188 L388.75,332.2813 Q388.75,332.9375 388.4688,333.2188 Q388.1875,333.5 387.75,333.5 Q387.3594,333.5 387.1094,333.3281 Q386.8594,333.1563 386.75,332.7031 Q386.7031,332.3906 386.5313,332.2188 Q386.2188,331.8906 385.6563,331.7031 Q385.0938,331.5 384.5313,331.5 Q383.8281,331.5 383.2344,331.7813 Q382.6563,332.0625 382.2031,332.6875 Q381.75,333.3125 381.75,334.1719 L381.75,335.0938 Q381.75,336.125 382.5938,336.8125 Q383.4375,337.5 384.9375,337.5 Q385.8281,337.5 386.4531,337.2969 Q386.8125,337.1875 387.2188,336.8281 Q387.4844,336.625 387.625,336.5625 Q387.7656,336.5 387.9375,336.5 Q388.2656,336.5 388.5,336.7656 Q388.75,337.0156 388.75,337.375 Q388.75,337.7188 388.4063,338.125 Q387.9063,338.7188 387.1094,339.0469 Q386.0625,339.5 384.7813,339.5 Q383.2813,339.5 382.0781,338.9063 Q381.1094,338.4375 380.4219,337.4219 Q379.75,336.4063 379.75,335.2031 L379.75,334.1094 Q379.75,332.8594 380.3438,331.7656 Q380.9531,330.6719 382,330.0938 Q383.0625,329.5 384.25,329.5 Q384.9688,329.5 385.5938,329.75 Q386.2188,330 386.75,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="106" x="405.25" y="338.9102">AvgOcuppancyRate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="265" x2="619" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="265" x2="619" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="344" x="270" y="373.4189">+avgOcuppancyRate(databaseConnection,shipmmsi,startdate,enddate)</text><!--MD5=[df654d0aea9f3ae565821478ca4dbbdd]
+link AvgOcuppancyRateUI to AvgOcuppancyRateController--><path codeLine="30" d="M291,90.07 C291,109.38 291,137.42 291,160.74 " fill="none" id="AvgOcuppancyRateUI-to-AvgOcuppancyRateController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="291,165.94,295,156.94,291,160.94,287,156.94,291,165.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[71307c38c91819dd05f142051b3c19f9]
+link AvgOcuppancyRateController to Printer--><path codeLine="31" d="M246.52,242.2 C219.75,264.59 185.95,292.85 160.02,314.54 " fill="none" id="AvgOcuppancyRateController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="155.92,317.96,165.3908,315.2573,159.7564,314.7534,160.2603,309.1191,155.92,317.96" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8a6ea1873729e9dd53890e813fa2b937]
+link AvgOcuppancyRateController to AvgOcuppancyRate--><path codeLine="32" d="M330.28,242.2 C353.74,264.42 383.31,292.42 406.14,314.04 " fill="none" id="AvgOcuppancyRateController-to-AvgOcuppancyRate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="410.03,317.73,406.2355,308.6415,406.3957,314.296,400.7411,314.4563,410.03,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[c22846c8885d5f52f9199e100f35f0d8]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class AvgOcuppancyRateUI{
+}
+}
+
+package "controllers" {
+class AvgOcuppancyRateController{
++avgOcuppancyRate(shipmmsi,startdate,enddate)
++print(fileName,stringToPrint)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+}
+
+package data{
+class AvgOcuppancyRate{
++avgOcuppancyRate(databaseConnection,shipmmsi,startdate,enddate)
+}
+}
+
+
+
+AvgOcuppancyRateUI ..> AvgOcuppancyRateController
+AvgOcuppancyRateController ..> Printer
+AvgOcuppancyRateController ..> AvgOcuppancyRate
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class AvgOcuppancyRateUI{
+}
+}
+
+package "controllers" {
+class AvgOcuppancyRateController{
++avgOcuppancyRate(shipmmsi,startdate,enddate)
++print(fileName,stringToPrint)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+}
+
+package data{
+class AvgOcuppancyRate{
++avgOcuppancyRate(databaseConnection,shipmmsi,startdate,enddate)
+}
+}
+
+
+
+AvgOcuppancyRateUI ..> AvgOcuppancyRateController
+AvgOcuppancyRateController ..> Printer
+AvgOcuppancyRateController ..> AvgOcuppancyRate
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

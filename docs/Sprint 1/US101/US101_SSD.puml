@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": Initiates the process of Importing ships
+activate ":System"
+":System" --> TM: Asks to choose the text file
+deactivate ":System"
+
+TM -> ":System": Selects the text file
+activate ":System"
+":System" --> TM : Requests confirmation
+deactivate ":System"
+
+TM -> ":System" : Confirms the data
+activate ":System"
+":System" --> TM : Informs the operation sucess
+deactivate ":System"
+@enduml

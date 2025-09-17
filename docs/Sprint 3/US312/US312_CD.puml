@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ContainerSituationWarmingUI{
+}
+}
+
+package "controllers" {
+class ContainerSituationWarmingController{
++getContainerSituation(ContainerNumber,ContainerISOCode, RegistrationCode)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class ContainerSituationWarming{
++getContainerSituation(ContainerNumber,ContainerISOCode, RegistrationCode)
+}
+}
+
+
+
+
+ContainerSituationWarmingUI ..> ContainerSituationWarmingController
+ContainerSituationWarmingController ..> Printer
+ContainerSituationWarmingController ..> ContainerSituationWarming
+@enduml

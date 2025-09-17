@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="398px" preserveAspectRatio="none" style="width:1041px;height:398px;background:#FFFFFF;" version="1.1" viewBox="0 0 1041 398" width="1041px" zoomAndPan="magnify"><defs><filter height="300%" id="f16x5nn55703be" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="197.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="59" y="98.2969"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="176.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418" y="119.4297"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="147.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="596" y="148.5625"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="814" y="177.6953"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="923" y="236.8281"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="64" x2="64" y1="88.2969" y2="313.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="423" x2="423" y1="88.2969" y2="313.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="601" x2="601" y1="88.2969" y2="313.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="818.5" x2="818.5" y1="88.2969" y2="313.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="927.5" x2="927.5" y1="88.2969" y2="313.9609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1002.5" x2="1002.5" y1="88.2969" y2="313.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="5" y="84.9951">Traffic Manager</text><ellipse cx="64" cy="15" fill="#FEFECE" filter="url(#f16x5nn55703be)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M64,23 L64,50 M51,31 L77,31 M64,50 L51,65 M64,50 L77,65 " fill="none" filter="url(#f16x5nn55703be)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112" x="5" y="325.9561">Traffic Manager</text><ellipse cx="64" cy="339.2578" fill="#FEFECE" filter="url(#f16x5nn55703be)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M64,347.2578 L64,374.2578 M51,355.2578 L77,355.2578 M64,374.2578 L51,389.2578 M64,374.2578 L77,389.2578 " fill="none" filter="url(#f16x5nn55703be)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="134" x="354" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="361" y="72.9951">:shipsAvailableUI</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="134" x="354" y="312.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="120" x="361" y="332.9561">:shipsAvailableUI</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="194" x="502" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="509" y="72.9951">:shipsAvailableController</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="194" x="502" y="312.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="509" y="332.9561">:shipsAvailableController</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="121" x="756.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="763.5" y="72.9951">:shipsAvailable</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="121" x="756.5" y="312.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="763.5" y="332.9561">:shipsAvailable</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="69" x="891.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="898.5" y="72.9951">:Printer</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="69" x="891.5" y="312.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="898.5" y="332.9561">:Printer</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="53" x="974.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="981.5" y="72.9951">OLCC</text><rect fill="#FEFECE" filter="url(#f16x5nn55703be)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="53" x="974.5" y="312.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="981.5" y="332.9561">OLCC</text><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="197.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="59" y="98.2969"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="176.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="418" y="119.4297"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="147.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="596" y="148.5625"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="814" y="177.6953"/><rect fill="#FFFFFF" filter="url(#f16x5nn55703be)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="923" y="236.8281"/><polygon fill="#A80036" points="406,115.4297,416,119.4297,406,123.4297,410,119.4297" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="69" x2="412" y1="119.4297" y2="119.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="76" y="114.3638">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="317" x="89" y="114.3638">asks to know the ships available on next monday</text><polygon fill="#A80036" points="584,144.5625,594,148.5625,584,152.5625,588,148.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="428" x2="590" y1="148.5625" y2="148.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="435" y="143.4966">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="448" y="143.4966">getShipsAvailable()</text><polygon fill="#A80036" points="802,173.6953,812,177.6953,802,181.6953,806,177.6953" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="606" x2="808" y1="177.6953" y2="177.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="8" x="613" y="172.6294">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="625" y="172.6294">result = getShipsAvailable()</text><polygon fill="#A80036" points="911,232.8281,921,236.8281,911,240.8281,915,236.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="606" x2="917" y1="236.8281" y2="236.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="613" y="231.7622">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="135" x="626" y="231.7622">print(filename,result)</text><polygon fill="#A80036" points="75,291.9609,65,295.9609,75,299.9609,71,295.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="69" x2="422" y1="295.9609" y2="295.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="9" x="81" y="290.895">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="300" x="94" y="290.895">shows the data and informs operation success</text><!--MD5=[0867116d4c5ec2e19315d42ee17222b7]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":shipsAvailableUI" as SAUI
+participant ":shipsAvailableController" as SAC
+participant ":shipsAvailable" as SA
+participant ":Printer" as P
+
+activate TM
+TM -> SAUI: asks to know the ships available on next monday
+activate SAUI
+
+SAUI -> SAC : getShipsAvailable()
+activate SAC
+SAC -> SA : result = getShipsAvailable()
+activate SA
+deactivate SA
+SAC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate OLCC
+SAUI - -> TM : shows the data and informs operation success
+deactivate SAC
+deactivate SAUI
+deactivate TM
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":shipsAvailableUI" as SAUI
+participant ":shipsAvailableController" as SAC
+participant ":shipsAvailable" as SA
+participant ":Printer" as P
+
+activate TM
+TM -> SAUI: asks to know the ships available on next monday
+activate SAUI
+
+SAUI -> SAC : getShipsAvailable()
+activate SAC
+SAC -> SA : result = getShipsAvailable()
+activate SA
+deactivate SA
+SAC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate OLCC
+SAUI - -> TM : shows the data and informs operation success
+deactivate SAC
+deactivate SAUI
+deactivate TM
+@enduml
+
+PlantUML version 1.2021.16beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ColourMapUI" as CMUI
+participant ":ColourMapController" as CMC
+participant ":NetworkStore" AS NS
+participant ":MatrixGraph" as MG
+participant ":Printer" as P
+
+activate TM
+TM -> CMUI: asks to colour the map using as few colours as possible
+activate CMUI
+CMUI -> CMC : colourMap()
+activate CMC
+CMC -> NS : result =  ColourMap()
+activate NS
+NS -> MG : MatrixGraph(directed,vertices,arestas)
+activate MG
+deactivate MG
+NS -> MG : colourMap()
+activate MG
+deactivate MG
+deactivate NS
+CMC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate CMC
+CMUI --> TM: shows the data (The countries and it's colours) and informs operation success
+deactivate CMUI
+deactivate TM
+
+@enduml

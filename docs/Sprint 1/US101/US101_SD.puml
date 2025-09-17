@@ -1,0 +1,79 @@
+@startuml
+autonumber
+'hide footbox
+actor "Traffic Manager" as TM
+
+    participant ": ImportFileUI" as UI
+participant ": ImportFileController" as CTRL
+participant ": Company" as COMP
+participant "sstore : ShipStore" as SS
+participant "ship : Ship" as S
+participant "shipPosition : ShipPosition" as SP
+
+
+activate TM
+TM -> UI : Initiates the process of Importing ships
+activate UI
+UI --> TM : Asks to choose the text file
+deactivate UI
+
+TM -> UI: Selects the text file
+activate UI
+UI --> TM : Requests confirmation
+deactivate UI
+
+
+TM -> UI : Confirms the data
+activate UI
+
+UI -> CTRL : getFile()
+activate CTRL
+
+CTRL->COMP : sstore = getShipStore()
+activate COMP
+deactivate COMP
+
+CTRL -> SS : read()
+activate SS
+
+loop
+SS -> SS : line = readLine()
+activate SS
+deactivate SS
+SS -> SS : lineContent = split()
+activate SS
+deactivate SS
+
+
+SS -> SS : ship = getShipByMMSI()
+activate SS
+deactivate SS
+alt ship = null
+SS -> SS : ship = createShip(tempArr[0], tempArr[7], tempArr[8], tempArr[9], tempArr[10], tempArr[11], tempArr[12], tempArr[13])
+activate SS
+SS -> S** : createShip(tempArr[0], tempArr[7], tempArr[8], tempArr[9], tempArr[10], tempArr[11], tempArr[12], tempArr[13])
+SS -> SS : saveShipInBST(ship)
+activate SS
+deactivate SS
+deactivate SS
+end
+
+SS -> SS : addShipPosition(tempArr[0], tempArr[1], tempArr[2], tempArr[3], tempArr[4], tempArr[5], tempArr[6], tempArr[14], tempArr[15])
+activate SS
+SS -> SP** : shipPosition = ShipPosition(tempArr[0], tempArr[1], tempArr[2], tempArr[3], tempArr[4], tempArr[5], tempArr[6], tempArr[14], tempArr[15])
+
+SS -> SS : getShipByMMSI(tempArr[0]).getSp().insert(shipPosition)
+activate SS
+deactivate SS
+deactivate SS
+deactivate SS
+end
+
+deactivate CTRL
+
+UI --> TM : Informs the operation sucess.
+deactivate UI
+
+deactivate TM
+
+@enduml

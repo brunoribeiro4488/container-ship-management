@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":FindPortUI" as FPUI
+participant ":FindPortController" as FPC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "pStore: PortStore" as PS
+participant "PortMapper" as PM
+participant "s: Ship" as S
+participant "shipPosition: ShipPosition" as SP
+participant "port: Port" as P
+participant "portDTO: PortDTO" as pDTO
+
+TM -> FPUI: asks to find the closest port of a ship
+activate FPUI
+FPUI --> TM: requests data (i.e.: callSign and dateTime)
+deactivate FPUI
+
+TM -> FPUI: types requested data
+activate FPUI
+FPUI -> FPC : portDTO = getClosestPort(callSign, dateTime)
+activate FPC
+FPC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+FPC -> SS : s = getShipByCallSign(callSign)
+activate SS
+deactivate SS
+FPC -> SS : shipPosition = getShipPositionByDate(s, dateTime)
+activate SS
+deactivate SS
+FPC -> COMP : pStore = getPortStore()
+activate COMP
+deactivate COMP
+FPC -> PS : port = getClosestPort(shipPositionLat, shipPositionLon)
+activate PS
+deactivate PS
+FPC -> PM : portDTO = modelToDto(port)
+activate PM
+deactivate PM
+deactivate FPC
+FPUI --> TM : shows the data (found port) and informs operation success
+deactivate FPUI
+
+@enduml

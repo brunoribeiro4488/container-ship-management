@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SC
+participant ":EnergyUI" as EUI
+participant ":EnergyController" as EC
+participant ":Company" as COMP
+participant "fsiapStore: FsiapStore" as FS
+participant "p: Printer" as P
+participant "energy: double"
+participant "segundos: int"
+participant "temperature: int"
+
+activate SC
+SC -> EUI: asks to know how much energy to supply, for each container, in a determined trip,\n with an exterior temperature of 20 ºC, and a travel time of 2h30.
+activate EUI
+EUI -> EC : energy = getEnergy(segundos, temperature)
+activate EC
+EC -> COMP : fsiapStore = getFsiapStore()
+activate COMP
+deactivate COMP
+EC -> FS : energy = getEnergyFromATripToNegativeContainer(segundos,temperature)
+activate FS
+deactivate FS
+EC -> P : print(Energy to maintain,energy,US412)
+activate P
+deactivate P
+deactivate EC
+EUI --> SC : shows the data (energy values) and informs operation success
+deactivate EUI
+deactivate SC
+@enduml

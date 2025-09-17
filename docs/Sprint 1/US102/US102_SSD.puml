@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to search for a ship
+activate ":System"
+":System" --> TM: requests data (i.e.: mmsi, imo or callSign)
+deactivate ":System"
+
+TM -> ":System": types requested data
+activate ":System"
+":System" --> TM : shows the data (chosen ship and its information) and informs operation success
+deactivate ":System"
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":FreightNetworkUI" as FNUI
+participant ":FreightNetworkController" as FNC
+participant ":NetworkStore" AS NS
+participant ":MatrixGraph" as MG
+participant ":Printer" as P
+
+activate TM
+TM -> FNUI: asks to  to import data from countries, ports, borders and seadists files from the database to build a freight network
+activate FNUI
+FNUI --> TM: requests data
+deactivate FNUI
+
+TM -> FNUI: types requested data
+activate FNUI
+FNUI -> FNC : freightNetwork(n)
+activate FNC
+FNC -> NS : result =  createGraph(n)
+activate NS
+NS -> MG : MatrixGraph(directed,vertices,arestas)
+activate MG
+deactivate MG
+deactivate NS
+FNC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate FNC
+FNUI --> TM: shows the data (adjacency matrix) and informs operation success
+deactivate FNUI
+deactivate TM
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as FM
+activate FM
+
+FM -> ":System": asks to determine the unladen center of mass for each vessel (if different) according to its characteristics. For calculation purposes, consider known geometric figures
+activate ":System"
+":System" --> FM : shows the data and informs operation success
+deactivate ":System"
+@enduml

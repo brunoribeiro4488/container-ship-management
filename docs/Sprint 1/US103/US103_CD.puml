@@ -1,0 +1,98 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "UI" {
+class MessagesOrganizedUI{
+}
+}
+
+package "Core" {
+package "Controllers" {
+class MessagesOrganizedController{
++List<ShipPositionDTO> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
+}
+}
+
+package BST{
+class BST{
++findListInAnInterval(firstposition,lastposition)
+}
+}
+
+package "Mappers"{
+class ShipPositionMapper{
++toDTO(ShipPosition shipposition)
++toDTO(List<ShipPositionDTO> list)
+}
+}
+
+package dto{
+class ShipPositionDTO
+}
+
+package "Stores"{
+class ShipStore{
++List<ShipPosition> getMessagesOrganized(Date date)
++List<ShipPositionDTO> getMessagesOrganized(Date firstdate, Date lastdate)
+}
+}
+
+package "Model"{
+class Company{
+    +getShipStore()
+}
+class ShipPosition{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
++getLatitude()
++getLongitude()
+}
+
+class ShipPositionDTO{
+-MMSI
+-date
+-LAT
+-LON
+-SOG
+-COG
+-heading
+-cargo
+-transciever
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
++getSp()
+}
+}
+}
+
+
+
+MessagesOrganizedUI ..> MessagesOrganizedController
+MessagesOrganizedController ..> Company
+MessagesOrganizedController ..> ShipStore
+MessagesOrganizedController ..> ShipPositionMapper
+ShipStore --> Ship
+ShipStore "1"->"*" ShipPosition : registers
+ShipPositionMapper..> ShipPosition
+ShipPositionMapper..> ShipPositionDTO
+
+@enduml

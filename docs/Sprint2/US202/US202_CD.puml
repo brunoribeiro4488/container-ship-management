@@ -1,0 +1,91 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class FindPortUI{
+}
+}
+
+package "core" {
+package "controllers" {
+class FindPortController{
++getClosestPort(callSign, dateTime)
+}
+}
+package utils{
+package "mappers"{
+class PortMapper{
++modelToDto(port)
+}
+}
+
+package dto{
+class PortDTO{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+}
+
+package "stores"{
+class ShipStore{
++getShipByCallSign(callSign)
++getShipPositionByDate(s, dateTime)
+}
+
+class PortStore{
++getClosestPort(shipPositionLat, shipPositionLon)
+}
+}
+
+class Printer{
++print()
+}
+}
+
+package "model"{
+class Company{
++getShipStore()
++getPortStore()
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+}
+}
+
+FindPortUI ..> FindPortController
+FindPortController ..> Company
+FindPortController ..> PortStore
+FindPortController ..> ShipStore
+FindPortController ..> PortMapper
+FindPortController ..> Printer
+ShipStore ..> Ship
+PortStore ..> Port
+PortMapper ..> PortDTO
+
+
+
+@enduml

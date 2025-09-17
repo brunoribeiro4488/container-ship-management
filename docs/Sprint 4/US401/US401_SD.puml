@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":CriticalPortUI" as FNUI
+participant ":CriticalPortController" as FNC
+participant ":NetworkStore" AS NS
+participant ":Printer" as P
+
+activate TM
+TM -> FNUI: asks to get the critical port/s
+activate FNUI
+FNUI --> TM: requests data(number of ports)
+deactivate FNUI
+
+TM -> FNUI: types requested data
+activate FNUI
+FNUI -> FNC : getCriticalPort(n)
+activate FNC
+FNC -> NS : result = getCriticalPort(n)
+activate NS
+deactivate NS
+FNC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate FNC
+FNUI --> TM: shows the data (port/s) and informs operation success
+deactivate FNUI
+deactivate TM
+@enduml

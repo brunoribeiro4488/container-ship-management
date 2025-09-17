@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Client" as C
+participant ":ShipOccupiedWarningUI" as CSUI
+participant ":ShipOccupiedWarningController" as CSC
+participant ":ShipOccupiedWarning" as CS
+participant ":Printer" as P
+
+activate C
+C -> CSUI: asks to create a cargo manifest for a ship
+activate CSUI
+CSUI --> C: requests data
+deactivate CSUI
+
+C -> CSUI: types requested data
+activate CSUI
+CSUI -> CSC : insertCargoManifestForShip(cargomanifestid, partialid, dateload, done, portid)
+activate CSC
+CSC -> CS : result = insertCargoManifestForShip(cargomanifestid, partialid, dateload, done, portid)
+activate CS
+deactivate CS
+CSC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate CSC
+CSUI --> C : shows if the success of the operation
+deactivate CSUI
+deactivate C
+@enduml

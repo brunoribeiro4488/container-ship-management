@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class OccupancyRateMomentUI{
+}
+}
+
+package "controllers" {
+class OccupancyRateMomentController{
++OccupancyRateMoment(shipMMSI,moment)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class OccupancyRateMoment{
++OccupancyRateMoment(shipMMSI,moment)
+}
+
+OccupancyRateMomentUI ..> OccupancyRateMomentController
+OccupancyRateMomentController ..> Printer
+OccupancyRateMomentController ..> OccupancyRateMoment
+
+@enduml

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:393px;height:403px;" version="1.1" viewBox="0 0 393 403" width="393px" zoomAndPan="magnify"><defs><filter height="300%" id="f1bubrbcfmm6rh" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f1bubrbcfmm6rh)" points="92,6,111,6,118,29.6094,258,29.6094,258,106,92,106,92,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="92" x2="118" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="96" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f1bubrbcfmm6rh)" points="71,130,154,130,161,153.6094,279,153.6094,279,258,71,258,71,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="71" x2="161" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="75" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f1bubrbcfmm6rh)" points="16,282,52,282,59,305.6094,116,305.6094,116,396,16,396,16,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="298.5332">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#f1bubrbcfmm6rh)" points="140,282,176,282,183,305.6094,376,305.6094,376,396,140,396,140,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="140" x2="183" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="144" y="298.5332">data</text><!--MD5=[eaed21814083c1b261aedea35a00fd9b]
+class WarehouseRateUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f1bubrbcfmm6rh)" height="48" id="WarehouseRateUI" style="stroke:#A80036;stroke-width:1.5;" width="134" x="108" y="42"/><ellipse cx="123" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M125,54.5 Q125.2031,54 125.4375,53.75 Q125.6719,53.5 125.9375,53.5 Q126.4063,53.5 126.7031,53.7813 Q127,54.0625 127,54.7188 L127,56.2813 Q127,56.9375 126.7188,57.2188 Q126.4375,57.5 126,57.5 Q125.6094,57.5 125.3594,57.3281 Q125.1094,57.1563 125,56.7031 Q124.9531,56.3906 124.7813,56.2188 Q124.4688,55.8906 123.9063,55.7031 Q123.3438,55.5 122.7813,55.5 Q122.0781,55.5 121.4844,55.7813 Q120.9063,56.0625 120.4531,56.6875 Q120,57.3125 120,58.1719 L120,59.0938 Q120,60.125 120.8438,60.8125 Q121.6875,61.5 123.1875,61.5 Q124.0781,61.5 124.7031,61.2969 Q125.0625,61.1875 125.4688,60.8281 Q125.7344,60.625 125.875,60.5625 Q126.0156,60.5 126.1875,60.5 Q126.5156,60.5 126.75,60.7656 Q127,61.0156 127,61.375 Q127,61.7188 126.6563,62.125 Q126.1563,62.7188 125.3594,63.0469 Q124.3125,63.5 123.0313,63.5 Q121.5313,63.5 120.3281,62.9063 Q119.3594,62.4375 118.6719,61.4219 Q118,60.4063 118,59.2031 L118,58.1094 Q118,56.8594 118.5938,55.7656 Q119.2031,54.6719 120.25,54.0938 Q121.3125,53.5 122.5,53.5 Q123.2188,53.5 123.8438,53.75 Q124.4688,54 125,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="137" y="62.9102">WarehouseRateUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="109" x2="241" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="109" x2="241" y1="82" y2="82"/><!--MD5=[1e7a1ad676c76d3ff6cac6d0d68bf1ac]
+class WarehouseRateController--><rect codeLine="11" fill="#FEFECE" filter="url(#f1bubrbcfmm6rh)" height="75.6719" id="WarehouseRateController" style="stroke:#A80036;stroke-width:1.5;" width="176" x="87" y="166"/><ellipse cx="102" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M104,178.5 Q104.2031,178 104.4375,177.75 Q104.6719,177.5 104.9375,177.5 Q105.4063,177.5 105.7031,177.7813 Q106,178.0625 106,178.7188 L106,180.2813 Q106,180.9375 105.7188,181.2188 Q105.4375,181.5 105,181.5 Q104.6094,181.5 104.3594,181.3281 Q104.1094,181.1563 104,180.7031 Q103.9531,180.3906 103.7813,180.2188 Q103.4688,179.8906 102.9063,179.7031 Q102.3438,179.5 101.7813,179.5 Q101.0781,179.5 100.4844,179.7813 Q99.9063,180.0625 99.4531,180.6875 Q99,181.3125 99,182.1719 L99,183.0938 Q99,184.125 99.8438,184.8125 Q100.6875,185.5 102.1875,185.5 Q103.0781,185.5 103.7031,185.2969 Q104.0625,185.1875 104.4688,184.8281 Q104.7344,184.625 104.875,184.5625 Q105.0156,184.5 105.1875,184.5 Q105.5156,184.5 105.75,184.7656 Q106,185.0156 106,185.375 Q106,185.7188 105.6563,186.125 Q105.1563,186.7188 104.3594,187.0469 Q103.3125,187.5 102.0313,187.5 Q100.5313,187.5 99.3281,186.9063 Q98.3594,186.4375 97.6719,185.4219 Q97,184.4063 97,183.2031 L97,182.1094 Q97,180.8594 97.5938,179.7656 Q98.2031,178.6719 99.25,178.0938 Q100.3125,177.5 101.5,177.5 Q102.2188,177.5 102.8438,177.75 Q103.4688,178 104,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="116" y="186.9102">WarehouseRateController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="88" x2="262" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="88" x2="262" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="93" y="221.4189">+warehouseRate()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="93" y="235.2549">+printer(fileName, stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#f1bubrbcfmm6rh)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="68" x="32" y="318"/><ellipse cx="47" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M49,330.5 Q49.2031,330 49.4375,329.75 Q49.6719,329.5 49.9375,329.5 Q50.4063,329.5 50.7031,329.7813 Q51,330.0625 51,330.7188 L51,332.2813 Q51,332.9375 50.7188,333.2188 Q50.4375,333.5 50,333.5 Q49.6094,333.5 49.3594,333.3281 Q49.1094,333.1563 49,332.7031 Q48.9531,332.3906 48.7813,332.2188 Q48.4688,331.8906 47.9063,331.7031 Q47.3438,331.5 46.7813,331.5 Q46.0781,331.5 45.4844,331.7813 Q44.9063,332.0625 44.4531,332.6875 Q44,333.3125 44,334.1719 L44,335.0938 Q44,336.125 44.8438,336.8125 Q45.6875,337.5 47.1875,337.5 Q48.0781,337.5 48.7031,337.2969 Q49.0625,337.1875 49.4688,336.8281 Q49.7344,336.625 49.875,336.5625 Q50.0156,336.5 50.1875,336.5 Q50.5156,336.5 50.75,336.7656 Q51,337.0156 51,337.375 Q51,337.7188 50.6563,338.125 Q50.1563,338.7188 49.3594,339.0469 Q48.3125,339.5 47.0313,339.5 Q45.5313,339.5 44.3281,338.9063 Q43.3594,338.4375 42.6719,337.4219 Q42,336.4063 42,335.2031 L42,334.1094 Q42,332.8594 42.5938,331.7656 Q43.2031,330.6719 44.25,330.0938 Q45.3125,329.5 46.5,329.5 Q47.2188,329.5 47.8438,329.75 Q48.4688,330 49,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="61" y="338.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="38" y="373.4189">+print()</text><!--MD5=[e35fc626a907aeb1f814fc4c3e12f892]
+class WarehouseRate--><rect codeLine="23" fill="#FEFECE" filter="url(#f1bubrbcfmm6rh)" height="61.8359" id="WarehouseRate" style="stroke:#A80036;stroke-width:1.5;" width="203" x="156.5" y="318"/><ellipse cx="208.75" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M210.75,330.5 Q210.9531,330 211.1875,329.75 Q211.4219,329.5 211.6875,329.5 Q212.1563,329.5 212.4531,329.7813 Q212.75,330.0625 212.75,330.7188 L212.75,332.2813 Q212.75,332.9375 212.4688,333.2188 Q212.1875,333.5 211.75,333.5 Q211.3594,333.5 211.1094,333.3281 Q210.8594,333.1563 210.75,332.7031 Q210.7031,332.3906 210.5313,332.2188 Q210.2188,331.8906 209.6563,331.7031 Q209.0938,331.5 208.5313,331.5 Q207.8281,331.5 207.2344,331.7813 Q206.6563,332.0625 206.2031,332.6875 Q205.75,333.3125 205.75,334.1719 L205.75,335.0938 Q205.75,336.125 206.5938,336.8125 Q207.4375,337.5 208.9375,337.5 Q209.8281,337.5 210.4531,337.2969 Q210.8125,337.1875 211.2188,336.8281 Q211.4844,336.625 211.625,336.5625 Q211.7656,336.5 211.9375,336.5 Q212.2656,336.5 212.5,336.7656 Q212.75,337.0156 212.75,337.375 Q212.75,337.7188 212.4063,338.125 Q211.9063,338.7188 211.1094,339.0469 Q210.0625,339.5 208.7813,339.5 Q207.2813,339.5 206.0781,338.9063 Q205.1094,338.4375 204.4219,337.4219 Q203.75,336.4063 203.75,335.2031 L203.75,334.1094 Q203.75,332.8594 204.3438,331.7656 Q204.9531,330.6719 206,330.0938 Q207.0625,329.5 208.25,329.5 Q208.9688,329.5 209.5938,329.75 Q210.2188,330 210.75,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="90" x="229.25" y="338.9102">WarehouseRate</text><line style="stroke:#A80036;stroke-width:1.5;" x1="157.5" x2="358.5" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="157.5" x2="358.5" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="191" x="162.5" y="373.4189">+warehouseRate(databaseConnection)</text><!--MD5=[2604f0d8ab4be36d341de4ad1fcd4198]
+link WarehouseRateUI to WarehouseRateController--><path codeLine="30" d="M175,90.07 C175,109.38 175,137.42 175,160.74 " fill="none" id="WarehouseRateUI-to-WarehouseRateController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="175,165.94,179,156.94,175,160.94,171,156.94,175,165.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7b60a66c7015bdd8dc5d5cd12411bfb8]
+link WarehouseRateController to Printer--><path codeLine="31" d="M146.65,242.2 C129.85,264.23 108.72,291.96 92.3,313.5 " fill="none" id="WarehouseRateController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="89.08,317.73,97.7182,312.999,92.1119,313.7542,91.3568,308.1479,89.08,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[924e3fcb1d73d9d1ee9ce7d43717ba04]
+link WarehouseRateController to WarehouseRate--><path codeLine="32" d="M196.59,242.2 C209.33,264.14 225.34,291.73 237.82,313.23 " fill="none" id="WarehouseRateController-to-WarehouseRate" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="240.43,317.73,239.3684,307.9385,237.9186,313.4065,232.4507,311.9567,240.43,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8962bdbe93cc9d9673e2c022969b7739]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class WarehouseRateUI{
+}
+}
+
+package "controllers" {
+class WarehouseRateController{
++warehouseRate()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class WarehouseRate{
++warehouseRate(databaseConnection)
+}
+}
+
+
+
+WarehouseRateUI ..> WarehouseRateController
+WarehouseRateController ..> Printer
+WarehouseRateController ..> WarehouseRate
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class WarehouseRateUI{
+}
+}
+
+package "controllers" {
+class WarehouseRateController{
++warehouseRate()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class WarehouseRate{
++warehouseRate(databaseConnection)
+}
+}
+
+
+
+WarehouseRateUI ..> WarehouseRateController
+WarehouseRateController ..> Printer
+WarehouseRateController ..> WarehouseRate
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

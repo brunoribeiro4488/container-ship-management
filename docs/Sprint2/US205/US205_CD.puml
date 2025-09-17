@@ -1,0 +1,33 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ContainersToOffLoadUI{
+}
+}
+
+package "controllers" {
+class ContainersToOffLoadController{
++getContainersToOffLoadOnNextPort(ContainerNumber,ContainerISOCode)
++printer(fileName, tringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+package data{
+class ContainersToOffLoad{
++getContainersToOffLoadOnNextPort(ContainerNumber,shipMMSI)
+}
+}
+
+
+
+ContainersToOffLoadUI ..> ContainersToOffLoadController
+ContainersToOffLoadController ..> Printer
+ContainersToOffLoadController ..> ContainersToOffLoad
+@enduml

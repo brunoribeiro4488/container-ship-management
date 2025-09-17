@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1441px" preserveAspectRatio="none" style="width:2059px;height:1441px;" version="1.1" viewBox="0 0 2059 1441" width="2059px" zoomAndPan="magnify"><defs><filter height="300%" id="f1t0svbvbahr6p" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="1238.0313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="68" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="662" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="1154.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="662" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="1124.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="873" y="213.0156"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1067" y="243.3672"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="861.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1160" y="328.7188"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="392.4219"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="1063.5859"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="1161.9375"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1428" y="482.7734"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1428" y="598.4766"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1607" y="513.125"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1607" y="628.8281"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1761.5" y="714.1797"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1761.5" y="799.5313"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1908.5" y="884.8828"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1908.5" y="970.2344"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2015" y="1252.2891"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="73" x2="73" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="667" x2="667" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="878" x2="878" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1072" x2="1072" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1165" x2="1165" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1433" x2="1433" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1612" x2="1612" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1766" x2="1766" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1913" x2="1913" y1="89.6094" y2="1355.6406"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2020" x2="2020" y1="89.6094" y2="1355.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="20" y="86.5332">Traffic Manager</text><ellipse cx="73" cy="15" fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M73,23 L73,50 M60,31 L86,31 M73,50 L60,65 M73,50 L86,65 " fill="none" filter="url(#f1t0svbvbahr6p)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="20" y="1369.1738">Traffic Manager</text><ellipse cx="73" cy="1382.25" fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M73,1390.25 L73,1417.25 M60,1398.25 L86,1398.25 M73,1417.25 L60,1432.25 M73,1417.25 L86,1432.25 " fill="none" filter="url(#f1t0svbvbahr6p)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="172" x="579" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="586" y="74.5332">:ListAllShipsInformationUI</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="172" x="579" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="158" x="586" y="1376.1738">:ListAllShipsInformationUI</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="222" x="765" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="772" y="74.5332">:ListAllShipsInformationController</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="222" x="765" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="772" y="1376.1738">:ListAllShipsInformationController</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="1031" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="1038" y="74.5332">:Company</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="1031" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="1038" y="1376.1738">:Company</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1123" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1147" y="56.9238">store</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1130" y="74.5332">:ShipStore</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="80" x="1123" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1147" y="1376.1738">store</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="1130" y="1393.7832">:ShipStore</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="46" x="1408" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="1418" y="56.9238">ship</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1415" y="74.5332">:Ship</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="46" x="1408" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="1418" y="1376.1738">ship</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="1415" y="1393.7832">:Ship</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="146" x="1537" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1568.5" y="56.9238">shipPositions</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="1544" y="74.5332">:BST&lt;ShipPositions&gt;</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="146" x="1537" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="1568.5" y="1376.1738">shipPositions</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="1544" y="1393.7832">:BST&lt;ShipPositions&gt;</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="135" x="1697" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1704" y="56.9238">startBaseDateTime</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1723.5" y="74.5332">:ShipPosition</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="135" x="1697" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="121" x="1704" y="1376.1738">startBaseDateTime</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1723.5" y="1393.7832">:ShipPosition</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="131" x="1846" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="1853" y="56.9238">endBaseDateTime</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1870.5" y="74.5332">:ShipPosition</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="131" x="1846" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="1853" y="1376.1738">endBaseDateTime</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="1870.5" y="1393.7832">:ShipPosition</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="54" x="1991" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="1998" y="74.5332">PRINT</text><rect fill="#FEFECE" filter="url(#f1t0svbvbahr6p)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="54" x="1991" y="1354.6406"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="1998" y="1376.1738">PRINT</text><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="1238.0313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="68" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="662" y="121.9609"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="1154.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="662" y="182.6641"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="1124.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="873" y="213.0156"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1067" y="243.3672"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="861.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1160" y="328.7188"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="392.4219"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="1063.5859"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="28" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1165" y="1161.9375"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1428" y="482.7734"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="60.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1428" y="598.4766"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1607" y="513.125"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1607" y="628.8281"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1761.5" y="714.1797"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1761.5" y="799.5313"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1908.5" y="884.8828"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1908.5" y="970.2344"/><rect fill="#FFFFFF" filter="url(#f1t0svbvbahr6p)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2015" y="1252.2891"/><polygon fill="#A80036" points="650,117.9609,660,121.9609,650,125.9609,654,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="78" x2="656" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="85" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="554" x="96" y="117.1045">ask list for all ships the MMSI, total number of movements, travelled distance and delta distance</text><polygon fill="#A80036" points="89,148.3125,79,152.3125,89,156.3125,85,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="83" x2="666" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="95" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="106" y="147.4561">requests confirmation</text><polygon fill="#A80036" points="650,178.6641,660,182.6641,650,186.6641,654,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="78" x2="656" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="85" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="96" y="177.8076">confirm</text><polygon fill="#A80036" points="861,209.0156,871,213.0156,861,217.0156,865,213.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="672" x2="867" y1="213.0156" y2="213.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="679" y="208.1592">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="690" y="208.1592">getInformation()</text><polygon fill="#A80036" points="1055,239.3672,1065,243.3672,1055,247.3672,1059,243.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="883" x2="1061" y1="243.3672" y2="243.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="890" y="238.5107">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="154" x="901" y="238.5107">shipStore = getShipStore()</text><polygon fill="#A80036" points="1148,324.7188,1158,328.7188,1148,332.7188,1152,328.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="883" x2="1154" y1="328.7188" y2="328.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="890" y="323.8623">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="901" y="323.8623">information = getInformationAllShips</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1175" x2="1217" y1="384.4219" y2="384.4219"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1217" x2="1217" y1="384.4219" y2="397.4219"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1176" x2="1217" y1="397.4219" y2="397.4219"/><polygon fill="#A80036" points="1186,393.4219,1176,397.4219,1186,401.4219,1182,397.4219" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1182" y="379.5654">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="1193" y="379.5654">ship = getshipByMMSI(shiCode)</text><polygon fill="#A80036" points="1416,478.7734,1426,482.7734,1416,486.7734,1420,482.7734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1170" x2="1422" y1="482.7734" y2="482.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1177" y="477.917">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="1188" y="477.917">totalMovements = getTotalMovements()</text><polygon fill="#A80036" points="1595,509.125,1605,513.125,1595,517.125,1599,513.125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1438" x2="1601" y1="513.125" y2="513.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1445" y="508.2686">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="1456" y="508.2686">totalMovements = size()</text><polygon fill="#A80036" points="1416,594.4766,1426,598.4766,1416,602.4766,1420,598.4766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1170" x2="1422" y1="598.4766" y2="598.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1177" y="593.6201">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="77" x="1195" y="593.6201">list = getSP()</text><polygon fill="#A80036" points="1595,624.8281,1605,628.8281,1595,632.8281,1599,628.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1438" x2="1601" y1="628.8281" y2="628.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1445" y="623.9717">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="1463" y="623.9717">list = inOrder()</text><polygon fill="#A80036" points="1749.5,710.1797,1759.5,714.1797,1749.5,718.1797,1753.5,714.1797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1170" x2="1755.5" y1="714.1797" y2="714.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1177" y="709.3232">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="1195" y="709.3232">depLat = getLatitude()</text><polygon fill="#A80036" points="1749.5,795.5313,1759.5,799.5313,1749.5,803.5313,1753.5,799.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1170" x2="1755.5" y1="799.5313" y2="799.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1177" y="794.6748">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="1195" y="794.6748">depLong = getLongitude()</text><polygon fill="#A80036" points="1896.5,880.8828,1906.5,884.8828,1896.5,888.8828,1900.5,884.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1170" x2="1902.5" y1="884.8828" y2="884.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1177" y="880.0264">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="1195" y="880.0264">arrivalLat = getLatitude()</text><polygon fill="#A80036" points="1896.5,966.2344,1906.5,970.2344,1896.5,974.2344,1900.5,970.2344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1170" x2="1902.5" y1="970.2344" y2="970.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1177" y="965.3779">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="159" x="1195" y="965.3779">arrivalLong = getLongitude()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1175" x2="1217" y1="1055.5859" y2="1055.5859"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1217" x2="1217" y1="1055.5859" y2="1068.5859"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1176" x2="1217" y1="1068.5859" y2="1068.5859"/><polygon fill="#A80036" points="1186,1064.5859,1176,1068.5859,1186,1072.5859,1182,1068.5859" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1182" y="1050.7295">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="204" x="1200" y="1050.7295">travelDistance = gettravelDistance()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1175" x2="1217" y1="1153.9375" y2="1153.9375"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1217" x2="1217" y1="1153.9375" y2="1166.9375"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1176" x2="1217" y1="1166.9375" y2="1166.9375"/><polygon fill="#A80036" points="1186,1162.9375,1176,1166.9375,1186,1170.9375,1182,1166.9375" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1182" y="1149.0811">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="1200" y="1149.0811">deltaDistance = getDeltaDistance(ship)</text><polygon fill="#A80036" points="2003,1248.2891,2013,1252.2891,2003,1256.2891,2007,1252.2891" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="883" x2="2009" y1="1252.2891" y2="1252.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="890" y="1247.4326">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="908" y="1247.4326">print(information)</text><polygon fill="#A80036" points="84,1333.6406,74,1337.6406,84,1341.6406,80,1337.6406" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="78" x2="666" y1="1337.6406" y2="1337.6406"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="90" y="1332.7842">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="152" x="108" y="1332.7842">informs operation success</text><!--MD5=[d06b7667b36128e7dc733e2faf56981d]
+@startuml
+autonumber
+'hide footbox
+actor "Traffic Manager" as TM
+
+participant ":ListAllShipsInformationUI" as UI
+participant ":ListAllShipsInformationController" as CTRL
+participant ":Company" as ML
+participant "store\n:ShipStore" as STORE
+participant "ship\n:Ship" as SHIP
+participant "shipPositions\n:BST<ShipPositions>" as SP
+participant "startBaseDateTime\n:ShipPosition" as SBDT
+participant "endBaseDateTime\n:ShipPosition" as EBDT
+
+activate TM
+TM -> UI : ask list for all ships the MMSI, total number of movements, travelled distance and delta distance
+activate UI
+UI - -> TM : requests confirmation
+deactivate UI
+
+TM -> UI : confirm
+activate UI
+
+UI -> CTRL : getInformation()
+activate CTRL
+
+CTRL -> ML : shipStore = getShipStore()
+activate ML
+|||
+deactivate ML
+
+CTRL -> STORE : information = getInformationAllShips
+activate STORE
+
+loop
+STORE -> STORE : ship = getshipByMMSI(shiCode)
+activate STORE
+|||
+deactivate STORE
+
+
+STORE -> SHIP : totalMovements = getTotalMovements()
+activate SHIP
+SHIP -> SP : totalMovements = size()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> SHIP : list = getSP()
+activate SHIP
+SHIP -> SP : list = inOrder()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> SBDT : depLat = getLatitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> SBDT :depLong = getLongitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> EBDT : arrivalLat = getLatitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> EBDT :arrivalLong = getLongitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> STORE : travelDistance = gettravelDistance()
+activate STORE
+|||
+deactivate STORE
+
+STORE -> STORE : deltaDistance = getDeltaDistance(ship)
+activate STORE
+|||
+deactivate STORE
+deactivate STORE
+
+
+CTRL -> PRINT : print(information)
+activate PRINT
+|||
+deactivate PRINT
+
+
+
+UI - -> TM : informs operation success
+deactivate CTRL
+deactivate UI
+
+deactivate TM
+@enduml
+
+@startuml
+autonumber
+actor "Traffic Manager" as TM
+
+participant ":ListAllShipsInformationUI" as UI
+participant ":ListAllShipsInformationController" as CTRL
+participant ":Company" as ML
+participant "store\n:ShipStore" as STORE
+participant "ship\n:Ship" as SHIP
+participant "shipPositions\n:BST<ShipPositions>" as SP
+participant "startBaseDateTime\n:ShipPosition" as SBDT
+participant "endBaseDateTime\n:ShipPosition" as EBDT
+
+activate TM
+TM -> UI : ask list for all ships the MMSI, total number of movements, travelled distance and delta distance
+activate UI
+UI - -> TM : requests confirmation
+deactivate UI
+
+TM -> UI : confirm
+activate UI
+
+UI -> CTRL : getInformation()
+activate CTRL
+
+CTRL -> ML : shipStore = getShipStore()
+activate ML
+|||
+deactivate ML
+
+CTRL -> STORE : information = getInformationAllShips
+activate STORE
+
+loop
+STORE -> STORE : ship = getshipByMMSI(shiCode)
+activate STORE
+|||
+deactivate STORE
+
+
+STORE -> SHIP : totalMovements = getTotalMovements()
+activate SHIP
+SHIP -> SP : totalMovements = size()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> SHIP : list = getSP()
+activate SHIP
+SHIP -> SP : list = inOrder()
+activate SP
+|||
+deactivate SP
+deactivate SHIP
+
+STORE -> SBDT : depLat = getLatitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> SBDT :depLong = getLongitude()
+activate SBDT
+|||
+deactivate SBDT
+
+STORE -> EBDT : arrivalLat = getLatitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> EBDT :arrivalLong = getLongitude()
+activate EBDT
+|||
+deactivate EBDT
+
+STORE -> STORE : travelDistance = gettravelDistance()
+activate STORE
+|||
+deactivate STORE
+
+STORE -> STORE : deltaDistance = getDeltaDistance(ship)
+activate STORE
+|||
+deactivate STORE
+deactivate STORE
+
+
+CTRL -> PRINT : print(information)
+activate PRINT
+|||
+deactivate PRINT
+
+
+
+UI - -> TM : informs operation success
+deactivate CTRL
+deactivate UI
+
+deactivate TM
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

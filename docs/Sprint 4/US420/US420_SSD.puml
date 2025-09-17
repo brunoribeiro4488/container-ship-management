@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to know for a specific vessel, how much did the vessel sink,\nassuming that each container has half a ton of mass.
+activate ":System"
+":System" --> SC : shows the data (total mass placed on the vessel, pressure exerted by it on the water\n and difference in height that the vessel has suffered) and informs operation success
+deactivate ":System"
+
+@enduml

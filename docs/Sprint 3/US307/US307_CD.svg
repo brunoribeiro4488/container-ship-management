@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:413px;height:403px;" version="1.1" viewBox="0 0 413 403" width="413px" zoomAndPan="magnify"><defs><filter height="300%" id="f148hiv2o27dzj" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f148hiv2o27dzj)" points="89,6,108,6,115,29.6094,277,29.6094,277,106,89,106,89,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="89" x2="115" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="93" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f148hiv2o27dzj)" points="68,130,151,130,158,153.6094,298,153.6094,298,258,68,258,68,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="68" x2="158" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="72" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f148hiv2o27dzj)" points="16,282,52,282,59,305.6094,116,305.6094,116,396,16,396,16,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="298.5332">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#f148hiv2o27dzj)" points="140,282,176,282,183,305.6094,396,305.6094,396,396,140,396,140,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="140" x2="183" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="144" y="298.5332">data</text><!--MD5=[fc4af707c1467db3592ab5792237fdeb]
+class WarehouseCapacityUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f148hiv2o27dzj)" height="48" id="WarehouseCapacityUI" style="stroke:#A80036;stroke-width:1.5;" width="155" x="105.5" y="42"/><ellipse cx="120.5" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M122.5,54.5 Q122.7031,54 122.9375,53.75 Q123.1719,53.5 123.4375,53.5 Q123.9063,53.5 124.2031,53.7813 Q124.5,54.0625 124.5,54.7188 L124.5,56.2813 Q124.5,56.9375 124.2188,57.2188 Q123.9375,57.5 123.5,57.5 Q123.1094,57.5 122.8594,57.3281 Q122.6094,57.1563 122.5,56.7031 Q122.4531,56.3906 122.2813,56.2188 Q121.9688,55.8906 121.4063,55.7031 Q120.8438,55.5 120.2813,55.5 Q119.5781,55.5 118.9844,55.7813 Q118.4063,56.0625 117.9531,56.6875 Q117.5,57.3125 117.5,58.1719 L117.5,59.0938 Q117.5,60.125 118.3438,60.8125 Q119.1875,61.5 120.6875,61.5 Q121.5781,61.5 122.2031,61.2969 Q122.5625,61.1875 122.9688,60.8281 Q123.2344,60.625 123.375,60.5625 Q123.5156,60.5 123.6875,60.5 Q124.0156,60.5 124.25,60.7656 Q124.5,61.0156 124.5,61.375 Q124.5,61.7188 124.1563,62.125 Q123.6563,62.7188 122.8594,63.0469 Q121.8125,63.5 120.5313,63.5 Q119.0313,63.5 117.8281,62.9063 Q116.8594,62.4375 116.1719,61.4219 Q115.5,60.4063 115.5,59.2031 L115.5,58.1094 Q115.5,56.8594 116.0938,55.7656 Q116.7031,54.6719 117.75,54.0938 Q118.8125,53.5 120,53.5 Q120.7188,53.5 121.3438,53.75 Q121.9688,54 122.5,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="134.5" y="62.9102">WarehouseCapacityUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="106.5" x2="259.5" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="106.5" x2="259.5" y1="82" y2="82"/><!--MD5=[1bfa335ec67155b72021183ae1354691]
+class WarehouseCapacityController--><rect codeLine="11" fill="#FEFECE" filter="url(#f148hiv2o27dzj)" height="75.6719" id="WarehouseCapacityController" style="stroke:#A80036;stroke-width:1.5;" width="197" x="84.5" y="166"/><ellipse cx="99.5" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M101.5,178.5 Q101.7031,178 101.9375,177.75 Q102.1719,177.5 102.4375,177.5 Q102.9063,177.5 103.2031,177.7813 Q103.5,178.0625 103.5,178.7188 L103.5,180.2813 Q103.5,180.9375 103.2188,181.2188 Q102.9375,181.5 102.5,181.5 Q102.1094,181.5 101.8594,181.3281 Q101.6094,181.1563 101.5,180.7031 Q101.4531,180.3906 101.2813,180.2188 Q100.9688,179.8906 100.4063,179.7031 Q99.8438,179.5 99.2813,179.5 Q98.5781,179.5 97.9844,179.7813 Q97.4063,180.0625 96.9531,180.6875 Q96.5,181.3125 96.5,182.1719 L96.5,183.0938 Q96.5,184.125 97.3438,184.8125 Q98.1875,185.5 99.6875,185.5 Q100.5781,185.5 101.2031,185.2969 Q101.5625,185.1875 101.9688,184.8281 Q102.2344,184.625 102.375,184.5625 Q102.5156,184.5 102.6875,184.5 Q103.0156,184.5 103.25,184.7656 Q103.5,185.0156 103.5,185.375 Q103.5,185.7188 103.1563,186.125 Q102.6563,186.7188 101.8594,187.0469 Q100.8125,187.5 99.5313,187.5 Q98.0313,187.5 96.8281,186.9063 Q95.8594,186.4375 95.1719,185.4219 Q94.5,184.4063 94.5,183.2031 L94.5,182.1094 Q94.5,180.8594 95.0938,179.7656 Q95.7031,178.6719 96.75,178.0938 Q97.8125,177.5 99,177.5 Q99.7188,177.5 100.3438,177.75 Q100.9688,178 101.5,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="165" x="113.5" y="186.9102">WarehouseCapacityController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="85.5" x2="280.5" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="85.5" x2="280.5" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="90.5" y="221.4189">+warehouseCapacity()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="90.5" y="235.2549">+printer(fileName, stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#f148hiv2o27dzj)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="68" x="32" y="318"/><ellipse cx="47" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M49,330.5 Q49.2031,330 49.4375,329.75 Q49.6719,329.5 49.9375,329.5 Q50.4063,329.5 50.7031,329.7813 Q51,330.0625 51,330.7188 L51,332.2813 Q51,332.9375 50.7188,333.2188 Q50.4375,333.5 50,333.5 Q49.6094,333.5 49.3594,333.3281 Q49.1094,333.1563 49,332.7031 Q48.9531,332.3906 48.7813,332.2188 Q48.4688,331.8906 47.9063,331.7031 Q47.3438,331.5 46.7813,331.5 Q46.0781,331.5 45.4844,331.7813 Q44.9063,332.0625 44.4531,332.6875 Q44,333.3125 44,334.1719 L44,335.0938 Q44,336.125 44.8438,336.8125 Q45.6875,337.5 47.1875,337.5 Q48.0781,337.5 48.7031,337.2969 Q49.0625,337.1875 49.4688,336.8281 Q49.7344,336.625 49.875,336.5625 Q50.0156,336.5 50.1875,336.5 Q50.5156,336.5 50.75,336.7656 Q51,337.0156 51,337.375 Q51,337.7188 50.6563,338.125 Q50.1563,338.7188 49.3594,339.0469 Q48.3125,339.5 47.0313,339.5 Q45.5313,339.5 44.3281,338.9063 Q43.3594,338.4375 42.6719,337.4219 Q42,336.4063 42,335.2031 L42,334.1094 Q42,332.8594 42.5938,331.7656 Q43.2031,330.6719 44.25,330.0938 Q45.3125,329.5 46.5,329.5 Q47.2188,329.5 47.8438,329.75 Q48.4688,330 49,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="61" y="338.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="38" y="373.4189">+print()</text><!--MD5=[36d125edc5bbfee180d5fdfc2546ac3d]
+class WarehouseCapacity--><rect codeLine="23" fill="#FEFECE" filter="url(#f148hiv2o27dzj)" height="61.8359" id="WarehouseCapacity" style="stroke:#A80036;stroke-width:1.5;" width="223" x="156.5" y="318"/><ellipse cx="208.25" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M210.25,330.5 Q210.4531,330 210.6875,329.75 Q210.9219,329.5 211.1875,329.5 Q211.6563,329.5 211.9531,329.7813 Q212.25,330.0625 212.25,330.7188 L212.25,332.2813 Q212.25,332.9375 211.9688,333.2188 Q211.6875,333.5 211.25,333.5 Q210.8594,333.5 210.6094,333.3281 Q210.3594,333.1563 210.25,332.7031 Q210.2031,332.3906 210.0313,332.2188 Q209.7188,331.8906 209.1563,331.7031 Q208.5938,331.5 208.0313,331.5 Q207.3281,331.5 206.7344,331.7813 Q206.1563,332.0625 205.7031,332.6875 Q205.25,333.3125 205.25,334.1719 L205.25,335.0938 Q205.25,336.125 206.0938,336.8125 Q206.9375,337.5 208.4375,337.5 Q209.3281,337.5 209.9531,337.2969 Q210.3125,337.1875 210.7188,336.8281 Q210.9844,336.625 211.125,336.5625 Q211.2656,336.5 211.4375,336.5 Q211.7656,336.5 212,336.7656 Q212.25,337.0156 212.25,337.375 Q212.25,337.7188 211.9063,338.125 Q211.4063,338.7188 210.6094,339.0469 Q209.5625,339.5 208.2813,339.5 Q206.7813,339.5 205.5781,338.9063 Q204.6094,338.4375 203.9219,337.4219 Q203.25,336.4063 203.25,335.2031 L203.25,334.1094 Q203.25,332.8594 203.8438,331.7656 Q204.4531,330.6719 205.5,330.0938 Q206.5625,329.5 207.75,329.5 Q208.4688,329.5 209.0938,329.75 Q209.7188,330 210.25,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="228.75" y="338.9102">WarehouseCapacity</text><line style="stroke:#A80036;stroke-width:1.5;" x1="157.5" x2="378.5" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="157.5" x2="378.5" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="211" x="162.5" y="373.4189">+warehouseCapacity(databaseConnection)</text><!--MD5=[afeeab4d81796e2e887e26205c684067]
+link WarehouseCapacityUI to WarehouseCapacityController--><path codeLine="30" d="M183,90.07 C183,109.38 183,137.42 183,160.74 " fill="none" id="WarehouseCapacityUI-to-WarehouseCapacityController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="183,165.94,187,156.94,183,160.94,179,156.94,183,165.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[cc7a7e4d45b9c08f3ea32d9e18930176]
+link WarehouseCapacityController to Printer--><path codeLine="31" d="M152.57,242.2 C134.46,264.32 111.66,292.19 94,313.77 " fill="none" id="WarehouseCapacityController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="90.77,317.73,99.5578,313.2832,93.93,313.8551,93.358,308.2273,90.77,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[f07547f3d7f5a27cdec909801076c469]
+link WarehouseCapacityController to WarehouseCapacity--><path codeLine="32" d="M205.11,242.2 C218.15,264.14 234.55,291.73 247.33,313.23 " fill="none" id="WarehouseCapacityController-to-WarehouseCapacity" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="250,317.73,248.8235,307.9517,247.4381,313.4362,241.9535,312.0508,250,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[73cb03cff28229572b00084f0161643e]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class WarehouseCapacityUI{
+}
+}
+
+package "controllers" {
+class WarehouseCapacityController{
++warehouseCapacity()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class WarehouseCapacity{
++warehouseCapacity(databaseConnection)
+}
+}
+
+
+
+WarehouseCapacityUI ..> WarehouseCapacityController
+WarehouseCapacityController ..> Printer
+WarehouseCapacityController ..> WarehouseCapacity
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class WarehouseCapacityUI{
+}
+}
+
+package "controllers" {
+class WarehouseCapacityController{
++warehouseCapacity()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class WarehouseCapacity{
++warehouseCapacity(databaseConnection)
+}
+}
+
+
+
+WarehouseCapacityUI ..> WarehouseCapacityController
+WarehouseCapacityController ..> Printer
+WarehouseCapacityController ..> WarehouseCapacity
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

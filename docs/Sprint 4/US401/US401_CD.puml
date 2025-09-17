@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class CriticalPortUI{
+}
+}
+
+package "controllers" {
+class CriticalPortController{
++getCriticalPort(n)
+}
+}
+package utils{
+class Printer{
++print()
+}
+package stores{
+class NetworkStore{
++getCriticalPort(n);
+-isNumeric(str)
+-getMaxValue(list)
+}
+}
+package matrix{
+class Algorithms{
++shortestPaths(graph, vert, path, dist)
+}
+}
+
+}
+
+
+CriticalPortUI ..> CriticalPortController
+CriticalPortController ..> Printer
+CriticalPortController ..> NetworkStore
+NetworkStore ..> Algorithms
+@enduml

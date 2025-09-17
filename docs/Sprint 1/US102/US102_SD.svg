@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1014px" preserveAspectRatio="none" style="width:1372px;height:1014px;" version="1.1" viewBox="0 0 1372 1014" width="1372px" zoomAndPan="magnify"><defs><filter height="300%" id="fgsncl30zvk3l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="811.6484" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="728.5938" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="182.6641"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818" y="238.3672"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818" y="465.6094"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818" y="692.8516"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1002" y="268.7188"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1002" y="495.9609"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1002" y="723.2031"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1117.5" y="329.0703"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1117.5" y="556.3125"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1117.5" y="783.5547"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="389.4219"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="616.6641"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="843.9063"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="684.2422" style="stroke:#000000;stroke-width:2.0;" width="793.5" x="507.5" y="197.6641"/><rect fill="#FFFFFF" height="227.2422" style="stroke:none;stroke-width:1.0;" width="793.5" x="507.5" y="427.4219"/><rect fill="#FFFFFF" height="227.2422" style="stroke:none;stroke-width:1.0;" width="793.5" x="507.5" y="654.6641"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="58" x2="58" y1="89.6094" y2="929.2578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="570.5" x2="570.5" y1="89.6094" y2="929.2578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="822.5" x2="822.5" y1="89.6094" y2="929.2578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1007" x2="1007" y1="89.6094" y2="929.2578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1122" x2="1122" y1="89.6094" y2="929.2578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1244" x2="1244" y1="89.6094" y2="929.2578"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1331" x2="1331" y1="89.6094" y2="929.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="86.5332">Traffic Manager</text><ellipse cx="58" cy="15" fill="#FEFECE" filter="url(#fgsncl30zvk3l)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,23 L58,50 M45,31 L71,31 M58,50 L45,65 M58,50 L71,65 " fill="none" filter="url(#fgsncl30zvk3l)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="5" y="942.791">Traffic Manager</text><ellipse cx="58" cy="955.8672" fill="#FEFECE" filter="url(#fgsncl30zvk3l)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M58,963.8672 L58,990.8672 M45,971.8672 L71,971.8672 M58,990.8672 L45,1005.8672 M58,990.8672 L71,1005.8672 " fill="none" filter="url(#fgsncl30zvk3l)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="103" x="517.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="524.5" y="74.5332">:SearchShipUI</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="103" x="517.5" y="928.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="524.5" y="949.791">:SearchShipUI</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="153" x="744.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="751.5" y="74.5332">:SearchShipController</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="153" x="744.5" y="928.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="751.5" y="949.791">:SearchShipController</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="966" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="973" y="74.5332">:Company</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="78" x="966" y="928.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="973" y="949.791">:Company</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="125" x="1058" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1065" y="74.5332">sStore: ShipStore</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="125" x="1058" y="928.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111" x="1065" y="949.791">sStore: ShipStore</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="90" x="1197" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1204" y="74.5332">ShipMapper</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="90" x="1197" y="928.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="1204" y="949.791">ShipMapper</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="57" x="1301" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="1308" y="74.5332">s: Ship</text><rect fill="#FEFECE" filter="url(#fgsncl30zvk3l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="57" x="1301" y="928.2578"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="1308" y="949.791">s: Ship</text><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="811.6484" style="stroke:#A80036;stroke-width:1.0;" width="10" x="53" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="728.5938" style="stroke:#A80036;stroke-width:1.0;" width="10" x="566" y="182.6641"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818" y="238.3672"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818" y="465.6094"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="181.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="818" y="692.8516"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1002" y="268.7188"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1002" y="495.9609"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1002" y="723.2031"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1117.5" y="329.0703"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1117.5" y="556.3125"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1117.5" y="783.5547"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="389.4219"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="616.6641"/><rect fill="#FFFFFF" filter="url(#fgsncl30zvk3l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1239" y="843.9063"/><polygon fill="#A80036" points="554,117.9609,564,121.9609,554,125.9609,558,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="560" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="143" x="81" y="117.1045">asks to search for a ship</text><polygon fill="#A80036" points="74,148.3125,64,152.3125,74,156.3125,70,152.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="68" x2="570" y1="152.3125" y2="152.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="80" y="147.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="91" y="147.4561">requests data (i.e.: mmsi, imo or callSign)</text><polygon fill="#A80036" points="554,178.6641,564,182.6641,554,186.6641,558,182.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="63" x2="560" y1="182.6641" y2="182.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="70" y="177.8076">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="81" y="177.8076">types requested data</text><path d="M507.5,197.6641 L568.5,197.6641 L568.5,205.6641 L558.5,215.6641 L507.5,215.6641 L507.5,197.6641 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="684.2422" style="stroke:#000000;stroke-width:2.0;" width="793.5" x="507.5" y="197.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="522.5" y="212.1592">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="40" x="583.5" y="211.083">[mmsi]</text><polygon fill="#A80036" points="806,234.3672,816,238.3672,806,242.3672,810,238.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="812" y1="238.3672" y2="238.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="583" y="233.5107">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="594" y="233.5107">sDto = getShipByMMSI(mmsi)</text><polygon fill="#A80036" points="990,264.7188,1000,268.7188,990,272.7188,994,268.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="996" y1="268.7188" y2="268.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="835" y="263.8623">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="846" y="263.8623">sStore = getShipStore()</text><polygon fill="#A80036" points="1105.5,325.0703,1115.5,329.0703,1105.5,333.0703,1109.5,329.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="1111.5" y1="329.0703" y2="329.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="835" y="324.2139">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157" x="846" y="324.2139">s = getShipByMMSI(mmsi)</text><polygon fill="#A80036" points="1227,385.4219,1237,389.4219,1227,393.4219,1231,389.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="1233" y1="389.4219" y2="389.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="835" y="384.5654">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="846" y="384.5654">sDto = modelToDto(s)</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="507.5" x2="1301" y1="428.4219" y2="428.4219"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="29" x="512.5" y="439.8408">[imo]</text><polygon fill="#A80036" points="806,461.6094,816,465.6094,806,469.6094,810,465.6094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="812" y1="465.6094" y2="465.6094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="583" y="460.7529">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="594" y="460.7529">sDto = getShipByIMO(imo)</text><polygon fill="#A80036" points="990,491.9609,1000,495.9609,990,499.9609,994,495.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="996" y1="495.9609" y2="495.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="835" y="491.1045">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="846" y="491.1045">sStore = getShipStore()</text><polygon fill="#A80036" points="1105.5,552.3125,1115.5,556.3125,1105.5,560.3125,1109.5,556.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="1111.5" y1="556.3125" y2="556.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="835" y="551.4561">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="853" y="551.4561">s = getShipByIMO(imo)</text><polygon fill="#A80036" points="1227,612.6641,1237,616.6641,1227,620.6641,1231,616.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="1233" y1="616.6641" y2="616.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="835" y="611.8076">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="853" y="611.8076">sDto = modelToDto(s)</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="507.5" x2="1301" y1="655.6641" y2="655.6641"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="50" x="512.5" y="667.083">[callSign]</text><polygon fill="#A80036" points="806,688.8516,816,692.8516,806,696.8516,810,692.8516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="812" y1="692.8516" y2="692.8516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="583" y="687.9951">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="601" y="687.9951">sDto = getShipByCallSign(callSign)</text><polygon fill="#A80036" points="990,719.2031,1000,723.2031,990,727.2031,994,723.2031" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="996" y1="723.2031" y2="723.2031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="835" y="718.3467">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="853" y="718.3467">sStore = getShipStore()</text><polygon fill="#A80036" points="1105.5,779.5547,1115.5,783.5547,1105.5,787.5547,1109.5,783.5547" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="1111.5" y1="783.5547" y2="783.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="835" y="778.6982">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="853" y="778.6982">s = getShipByCallSign(callSign)</text><polygon fill="#A80036" points="1227,839.9063,1237,843.9063,1227,847.9063,1231,843.9063" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="828" x2="1233" y1="843.9063" y2="843.9063"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="835" y="839.0498">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="853" y="839.0498">sDto = modelToDto(s)</text><polygon fill="#A80036" points="69,907.2578,59,911.2578,69,915.2578,65,911.2578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="63" x2="570" y1="911.2578" y2="911.2578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="75" y="906.4014">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="461" x="93" y="906.4014">shows the data (chosen ship and its information) and informs operation success</text><!--MD5=[70b7afed8d55866a7d8ada7e1dd24ed7]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":SearchShipUI" as SSUI
+participant ":SearchShipController" as SSC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "ShipMapper" as SM
+participant "s: Ship" as S
+
+activate TM
+TM -> SSUI : asks to search for a ship
+activate SSUI
+SSUI - -> TM : requests data (i.e.: mmsi, imo or callSign)
+deactivate SSUI
+TM -> SSUI : types requested data
+activate SSUI
+alt mmsi
+SSUI -> SSC : sDto = getShipByMMSI(mmsi)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByMMSI(mmsi)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+else imo
+SSUI -> SSC : sDto = getShipByIMO(imo)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByIMO(imo)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+else callSign
+SSUI -> SSC : sDto = getShipByCallSign(callSign)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByCallSign(callSign)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+end
+deactivate SSC
+SSUI - -> TM : shows the data (chosen ship and its information) and informs operation success
+deactivate SSUI
+deactivate TM
+@enduml
+
+@startuml
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":SearchShipUI" as SSUI
+participant ":SearchShipController" as SSC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "ShipMapper" as SM
+participant "s: Ship" as S
+
+activate TM
+TM -> SSUI : asks to search for a ship
+activate SSUI
+SSUI - -> TM : requests data (i.e.: mmsi, imo or callSign)
+deactivate SSUI
+TM -> SSUI : types requested data
+activate SSUI
+alt mmsi
+SSUI -> SSC : sDto = getShipByMMSI(mmsi)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByMMSI(mmsi)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+else imo
+SSUI -> SSC : sDto = getShipByIMO(imo)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByIMO(imo)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+else callSign
+SSUI -> SSC : sDto = getShipByCallSign(callSign)
+activate SSC
+SSC -> COMP : sStore = getShipStore()
+activate COMP
+deactivate COMP
+SSC -> SS : s = getShipByCallSign(callSign)
+activate SS
+deactivate SS
+SSC -> SM : sDto = modelToDto(s)
+activate SM
+deactivate SM
+deactivate SSC
+end
+deactivate SSC
+SSUI - -> TM : shows the data (chosen ship and its information) and informs operation success
+deactivate SSUI
+deactivate TM
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,42 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "UI" {
+class ShipPairUI{
+}
+}
+
+package "Core" {
+package "Controllers" {
+class ShipPairController{
+    +PairOfShips()
+}
+}
+
+
+package "Stores"{
+class ShipStore{
+    +pairOfShips()
+    -orderList()
+}
+}
+
+package "Model"{
+class Company{
+    +getShipStore()
+}
+
+class "Ship"{
+}
+}
+}
+ShipPairUI ..> ShipPairController
+ShipPairController ..> Company
+ShipPairController ..> ShipStore
+ShipStore ..> Ship
+
+
+
+@enduml

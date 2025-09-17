@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as SC
+participant ":GetAuditTrailUI" as ATUI
+participant ":GetAuditTrailController" as ATC
+participant ":AuditTrail" as AT
+participant ":AuditTrailMapper" as MAPPER
+participant ":AuditTrailDTO" as ATDTO
+participant ":Printer" as P
+
+activate SC
+SC -> ATUI: asks to know the audit trail of a container of a cargo manifest
+activate ATUI
+ATUI --> SC: requests data (containerNumber, ISOCode, cargoManifestID)
+deactivate ATUI
+
+SC -> ATUI: types requested data
+activate ATUI
+ATUI -> ATC : getAuditTrail(containerNumber, ISOCode, cargoManifestID)
+activate ATC
+ATC -> AT : result = getAuditTrail(containerNumber, ISOCode, cargoManifestID)
+activate AT
+deactivate AT
+ATC -> MAPPER : dtoList = toDTO(auditTrailList)
+activate MAPPER
+MAPPER -> ATDTO** : create(date, operation, containerNumber, containerISOCode,\n cargoManifestID, cargoManifestPartialID, cargoManifestType) 
+deactivate MAPPER
+ATC -> P : print(filename, dto)
+activate P
+deactivate P
+ATUI --> SC : shows the data and informs operation success
+deactivate ATC
+deactivate ATUI
+deactivate SC
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class InformacoesContentoresUI{
+}
+}
+
+package "controllers" {
+class InformacoesContentoresController{
++InformacoesContentores(cargomanifestId)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class InformacoesContentores{
++InformacoesContentores(databaseConnection,cargomanifestId)
+}
+}
+
+
+
+InformacoesContentoresUI ..> InformacoesContentoresController
+InformacoesContentoresController ..> Printer
+InformacoesContentoresController ..> InformacoesContentores
+@enduml

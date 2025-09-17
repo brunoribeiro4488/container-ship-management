@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port staff" as PS
+activate PS
+
+PS -> ":System": asks to fill a dynamically reserved array in memory with all the container's information in its respective place
+activate ":System"
+":System" --> PS: requests data (i.e.: cargomanifestId)
+deactivate ":System"
+
+PS -> ":System": types requested data
+activate ":System"
+":System" --> PS : shows informs operation success
+deactivate ":System"
+
+deactivate PS
+@enduml

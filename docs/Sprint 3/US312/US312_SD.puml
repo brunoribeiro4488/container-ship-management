@@ -1,0 +1,31 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Client" as C
+participant ":ContainerSituationWarmingUI" as CSUI
+participant ":ContainerSituationWarmingController" as CSC
+participant ":ContainerSituationWarming" as CS
+participant ":Printer" as P
+
+activate C
+C -> CSUI: asks to know the current situation of a specific container
+activate CSUI
+CSUI --> C: requests data (ContainerNumber ,ContainerISOCode, RegistrationCode)
+deactivate CSUI
+
+C -> CSUI: types requested data
+activate CSUI
+CSUI -> CSC : CurrentSituation(ContainerNumber,ContainerISOCode, RegistrationCode)
+activate CSC
+CSC -> CS : result = CurrentSituation(ContainerNumber,ContainerISOCode, RegistrationCode)
+activate CS
+deactivate CS
+CSC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate CSC
+CSUI --> C : shows the data (Type of location and name) and informs operation success
+deactivate CSUI
+deactivate C
+@enduml

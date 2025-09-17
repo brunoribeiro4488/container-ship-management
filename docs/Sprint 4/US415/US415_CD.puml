@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class EnergyWithSidesUI{
+}
+}
+
+package "controllers" {
+class EnergyWithSidesController{
++getgenerators(positivecontainers, lateralsidespositive, frontalsidespositive, negativecontainers, lateralsidesnegative, frontalsidesnegative, temperatura)
+}
+}
+package utils{
+package "stores"{
+class FsiapStore{
++getFluxoWithSides(positivecontainers,lateralsidespositive,frontalsidespositive,negativecontainers,lateralsidesnegative,frontalsidesnegative,temperatura)
+}
+
+class Printer{
++print(Needed generators,generators,US415)
+}
+}
+package "model"{
+class Company{
++getFsiapStore()
+}
+
+}
+
+EnergyWithSidesUI ..> EnergyWithSidesController
+EnergyWithSidesController ..> Company
+EnergyWithSidesController ..> FsiapStore
+EnergyWithSidesController ..> Printer
+
+@enduml

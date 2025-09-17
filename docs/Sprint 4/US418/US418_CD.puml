@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class UnlandenShipcenterUI{
+}
+}
+
+package "controllers" {
+class UnlandenShipcenterController{
++getCenterOfMassOfShips()
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+package stores{
+class LaprStore{
++getCenterOfMassPanamax()
++getCenterOfMassNewPanamax()
++getCenterOfMassUltraLargeVessel()
+}
+}
+}
+
+
+
+
+
+UnlandenShipcenterUI ..> UnlandenShipcenterController
+UnlandenShipcenterController ..> Printer
+UnlandenShipcenterController ..> LaprStore
+@enduml

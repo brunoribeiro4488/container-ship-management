@@ -1,0 +1,55 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":MessagesOrganizedUI" as MOUI
+participant ":MessagesOrganizedController" as MOC
+participant ":Company" as COMP
+participant "sStore: ShipStore" as SS
+participant "ShipPositionMapper" as SPM
+participant "s: Ship" as S
+
+activate TM
+TM -> MOUI : asks see the positions of each ship
+
+activate MOUI
+MOUI --> TM : request data
+deactivate MOUI
+TM -> MOUI : types requested data
+activate MOUI
+alt user introduces a date
+MOUI -> MOC : getMessagesOrganized(date)
+activate MOC
+MOC -> COMP : shipStore = getShipStore()
+activate COMP
+deactivate COMP
+MOC -> SS : list = getshippositionOrganized(date)
+activate SS
+deactivate SS
+MOC -> SPM : shippositionDtolist = modelToDto(list)
+activate SPM
+deactivate SPM
+MOC --> MOUI : shippositionDtolist
+deactivate MOC
+else user introduces a period of time
+MOUI -> MOC : getMessagesOrganized(firstdate,lastdate)
+activate MOC
+MOC -> COMP : shipStore = getShipStore()
+activate COMP
+deactivate COMP
+MOC -> SS : list = getshippositionOrganized(firstdate,lastdate)
+activate SS
+deactivate SS
+MOC -> SPM : shippositionDtolist = modelToDto(list)
+activate SPM
+deactivate SPM
+MOC --> MOUI : shippositionDtolist
+deactivate MOC
+
+
+end
+MOUI --> TM : shows data
+deactivate MOUI
+deactivate TM
+@enduml

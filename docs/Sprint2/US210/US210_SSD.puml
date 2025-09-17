@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to see which ships will be available on Monday next week and their location.
+activate ":System"
+":System" --> SC : shows the data (The monday next week, \nthe ships avaiable and it's location) and informs operation success
+deactivate ":System"
+@enduml

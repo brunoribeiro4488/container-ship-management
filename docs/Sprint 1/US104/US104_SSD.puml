@@ -1,0 +1,20 @@
+@startuml
+actor "Traffic Manager" as TF
+participant ":System" as System
+
+autonumber
+activate TF
+TF -> System: ask to make a summary of a ship's movements
+activate System
+System --> TF: request data(shipCode)
+deactivate System
+TF -> System: types requested data
+activate System
+System --> TF: shows the data and requests confirmation
+deactivate System
+TF -> System: confirms the data
+activate System
+System --> TF: informs operations success
+deactivate System
+deactivate TF
+@enduml

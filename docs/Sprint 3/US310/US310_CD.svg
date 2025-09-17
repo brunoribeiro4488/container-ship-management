@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:461px;height:403px;" version="1.1" viewBox="0 0 461 403" width="461px" zoomAndPan="magnify"><defs><filter height="300%" id="f9ac3q9isnvnp" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#f9ac3q9isnvnp)" points="102,6,121,6,128,29.6094,288,29.6094,288,106,102,106,102,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="102" x2="128" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="106" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#f9ac3q9isnvnp)" points="81,130,164,130,171,153.6094,309,153.6094,309,258,81,258,81,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="81" x2="171" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="85" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#f9ac3q9isnvnp)" points="16,282,52,282,59,305.6094,116,305.6094,116,396,16,396,16,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="298.5332">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#f9ac3q9isnvnp)" points="140,282,176,282,183,305.6094,444,305.6094,444,396,140,396,140,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="140" x2="183" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="144" y="298.5332">data</text><!--MD5=[a64585cc4b5bfe3711b3d47a9562ad87]
+class OccupationmapPortUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f9ac3q9isnvnp)" height="48" id="OccupationmapPortUI" style="stroke:#A80036;stroke-width:1.5;" width="153" x="118.5" y="42"/><ellipse cx="133.5" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M135.5,54.5 Q135.7031,54 135.9375,53.75 Q136.1719,53.5 136.4375,53.5 Q136.9063,53.5 137.2031,53.7813 Q137.5,54.0625 137.5,54.7188 L137.5,56.2813 Q137.5,56.9375 137.2188,57.2188 Q136.9375,57.5 136.5,57.5 Q136.1094,57.5 135.8594,57.3281 Q135.6094,57.1563 135.5,56.7031 Q135.4531,56.3906 135.2813,56.2188 Q134.9688,55.8906 134.4063,55.7031 Q133.8438,55.5 133.2813,55.5 Q132.5781,55.5 131.9844,55.7813 Q131.4063,56.0625 130.9531,56.6875 Q130.5,57.3125 130.5,58.1719 L130.5,59.0938 Q130.5,60.125 131.3438,60.8125 Q132.1875,61.5 133.6875,61.5 Q134.5781,61.5 135.2031,61.2969 Q135.5625,61.1875 135.9688,60.8281 Q136.2344,60.625 136.375,60.5625 Q136.5156,60.5 136.6875,60.5 Q137.0156,60.5 137.25,60.7656 Q137.5,61.0156 137.5,61.375 Q137.5,61.7188 137.1563,62.125 Q136.6563,62.7188 135.8594,63.0469 Q134.8125,63.5 133.5313,63.5 Q132.0313,63.5 130.8281,62.9063 Q129.8594,62.4375 129.1719,61.4219 Q128.5,60.4063 128.5,59.2031 L128.5,58.1094 Q128.5,56.8594 129.0938,55.7656 Q129.7031,54.6719 130.75,54.0938 Q131.8125,53.5 133,53.5 Q133.7188,53.5 134.3438,53.75 Q134.9688,54 135.5,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="147.5" y="62.9102">OccupationmapPortUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="119.5" x2="270.5" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="119.5" x2="270.5" y1="82" y2="82"/><!--MD5=[0572f067258e69a7918142fcf6cee28a]
+class OccupationmapPortController--><rect codeLine="11" fill="#FEFECE" filter="url(#f9ac3q9isnvnp)" height="75.6719" id="OccupationmapPortController" style="stroke:#A80036;stroke-width:1.5;" width="195" x="97.5" y="166"/><ellipse cx="112.5" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M114.5,178.5 Q114.7031,178 114.9375,177.75 Q115.1719,177.5 115.4375,177.5 Q115.9063,177.5 116.2031,177.7813 Q116.5,178.0625 116.5,178.7188 L116.5,180.2813 Q116.5,180.9375 116.2188,181.2188 Q115.9375,181.5 115.5,181.5 Q115.1094,181.5 114.8594,181.3281 Q114.6094,181.1563 114.5,180.7031 Q114.4531,180.3906 114.2813,180.2188 Q113.9688,179.8906 113.4063,179.7031 Q112.8438,179.5 112.2813,179.5 Q111.5781,179.5 110.9844,179.7813 Q110.4063,180.0625 109.9531,180.6875 Q109.5,181.3125 109.5,182.1719 L109.5,183.0938 Q109.5,184.125 110.3438,184.8125 Q111.1875,185.5 112.6875,185.5 Q113.5781,185.5 114.2031,185.2969 Q114.5625,185.1875 114.9688,184.8281 Q115.2344,184.625 115.375,184.5625 Q115.5156,184.5 115.6875,184.5 Q116.0156,184.5 116.25,184.7656 Q116.5,185.0156 116.5,185.375 Q116.5,185.7188 116.1563,186.125 Q115.6563,186.7188 114.8594,187.0469 Q113.8125,187.5 112.5313,187.5 Q111.0313,187.5 109.8281,186.9063 Q108.8594,186.4375 108.1719,185.4219 Q107.5,184.4063 107.5,183.2031 L107.5,182.1094 Q107.5,180.8594 108.0938,179.7656 Q108.7031,178.6719 109.75,178.0938 Q110.8125,177.5 112,177.5 Q112.7188,177.5 113.3438,177.75 Q113.9688,178 114.5,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="163" x="126.5" y="186.9102">OccupationmapPortController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="98.5" x2="291.5" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="98.5" x2="291.5" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="157" x="103.5" y="221.4189">+occupationmapPort(portId,date)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="103.5" y="235.2549">+printer(fileName, stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#f9ac3q9isnvnp)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="68" x="32" y="318"/><ellipse cx="47" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M49,330.5 Q49.2031,330 49.4375,329.75 Q49.6719,329.5 49.9375,329.5 Q50.4063,329.5 50.7031,329.7813 Q51,330.0625 51,330.7188 L51,332.2813 Q51,332.9375 50.7188,333.2188 Q50.4375,333.5 50,333.5 Q49.6094,333.5 49.3594,333.3281 Q49.1094,333.1563 49,332.7031 Q48.9531,332.3906 48.7813,332.2188 Q48.4688,331.8906 47.9063,331.7031 Q47.3438,331.5 46.7813,331.5 Q46.0781,331.5 45.4844,331.7813 Q44.9063,332.0625 44.4531,332.6875 Q44,333.3125 44,334.1719 L44,335.0938 Q44,336.125 44.8438,336.8125 Q45.6875,337.5 47.1875,337.5 Q48.0781,337.5 48.7031,337.2969 Q49.0625,337.1875 49.4688,336.8281 Q49.7344,336.625 49.875,336.5625 Q50.0156,336.5 50.1875,336.5 Q50.5156,336.5 50.75,336.7656 Q51,337.0156 51,337.375 Q51,337.7188 50.6563,338.125 Q50.1563,338.7188 49.3594,339.0469 Q48.3125,339.5 47.0313,339.5 Q45.5313,339.5 44.3281,338.9063 Q43.3594,338.4375 42.6719,337.4219 Q42,336.4063 42,335.2031 L42,334.1094 Q42,332.8594 42.5938,331.7656 Q43.2031,330.6719 44.25,330.0938 Q45.3125,329.5 46.5,329.5 Q47.2188,329.5 47.8438,329.75 Q48.4688,330 49,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="61" y="338.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="38" y="373.4189">+print()</text><!--MD5=[00733370e58d7e85f55b211d6c104de4]
+class OccupationmapPort--><rect codeLine="23" fill="#FEFECE" filter="url(#f9ac3q9isnvnp)" height="61.8359" id="OccupationmapPort" style="stroke:#A80036;stroke-width:1.5;" width="271" x="156.5" y="318"/><ellipse cx="233.25" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M235.25,330.5 Q235.4531,330 235.6875,329.75 Q235.9219,329.5 236.1875,329.5 Q236.6563,329.5 236.9531,329.7813 Q237.25,330.0625 237.25,330.7188 L237.25,332.2813 Q237.25,332.9375 236.9688,333.2188 Q236.6875,333.5 236.25,333.5 Q235.8594,333.5 235.6094,333.3281 Q235.3594,333.1563 235.25,332.7031 Q235.2031,332.3906 235.0313,332.2188 Q234.7188,331.8906 234.1563,331.7031 Q233.5938,331.5 233.0313,331.5 Q232.3281,331.5 231.7344,331.7813 Q231.1563,332.0625 230.7031,332.6875 Q230.25,333.3125 230.25,334.1719 L230.25,335.0938 Q230.25,336.125 231.0938,336.8125 Q231.9375,337.5 233.4375,337.5 Q234.3281,337.5 234.9531,337.2969 Q235.3125,337.1875 235.7188,336.8281 Q235.9844,336.625 236.125,336.5625 Q236.2656,336.5 236.4375,336.5 Q236.7656,336.5 237,336.7656 Q237.25,337.0156 237.25,337.375 Q237.25,337.7188 236.9063,338.125 Q236.4063,338.7188 235.6094,339.0469 Q234.5625,339.5 233.2813,339.5 Q231.7813,339.5 230.5781,338.9063 Q229.6094,338.4375 228.9219,337.4219 Q228.25,336.4063 228.25,335.2031 L228.25,334.1094 Q228.25,332.8594 228.8438,331.7656 Q229.4531,330.6719 230.5,330.0938 Q231.5625,329.5 232.75,329.5 Q233.4688,329.5 234.0938,329.75 Q234.7188,330 235.25,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="109" x="253.75" y="338.9102">OccupationmapPort</text><line style="stroke:#A80036;stroke-width:1.5;" x1="157.5" x2="426.5" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="157.5" x2="426.5" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="259" x="162.5" y="373.4189">+occupationmapPort(databaseConnection,portId,date)</text><!--MD5=[283b5fba175d24ee5237ff1333623b33]
+link OccupationmapPortUI to OccupationmapPortController--><path codeLine="30" d="M195,90.07 C195,109.38 195,137.42 195,160.74 " fill="none" id="OccupationmapPortUI-to-OccupationmapPortController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="195,165.94,199,156.94,195,160.94,191,156.94,195,165.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[eb59849b09f6a053a9e887624876d484]
+link OccupationmapPortController to Printer--><path codeLine="31" d="M161.44,242.2 C141.48,264.32 116.34,292.19 96.88,313.77 " fill="none" id="OccupationmapPortController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="93.31,317.73,102.3039,313.7162,96.6548,314.0135,96.3575,308.3645,93.31,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[07c43fa586843f52eac454968c69aef5]
+link OccupationmapPortController to OccupationmapPort--><path codeLine="32" d="M220.23,242.2 C235.18,264.23 253.99,291.96 268.6,313.5 " fill="none" id="OccupationmapPortController-to-OccupationmapPort" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="271.46,317.73,269.7344,308.0335,268.6602,313.5874,263.1063,312.5132,271.46,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fe20371f0ab99d681f975f737f9d3762]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class OccupationmapPortUI{
+}
+}
+
+package "controllers" {
+class OccupationmapPortController{
++occupationmapPort(portId,date)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class OccupationmapPort{
++occupationmapPort(databaseConnection,portId,date)
+}
+}
+
+
+
+OccupationmapPortUI ..> OccupationmapPortController
+OccupationmapPortController ..> Printer
+OccupationmapPortController ..> OccupationmapPort
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class OccupationmapPortUI{
+}
+}
+
+package "controllers" {
+class OccupationmapPortController{
++occupationmapPort(portId,date)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class OccupationmapPort{
++occupationmapPort(databaseConnection,portId,date)
+}
+}
+
+
+
+OccupationmapPortUI ..> OccupationmapPortController
+OccupationmapPortController ..> Printer
+OccupationmapPortController ..> OccupationmapPort
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

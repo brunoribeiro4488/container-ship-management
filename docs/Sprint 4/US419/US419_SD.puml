@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as FM
+participant ":AddContainersUI" as ACUI
+participant ":AddContainersController" as ACC
+participant ":LaprStore" as LP
+participant ":Printer" as P
+activate FM
+FM -> ACUI: asks to know where to position containers on the vessel, such that the center of mass remains at xx and yy
+activate ACUI
+ACUI --> FM : requests data (i.e.: containers)
+deactivate ACUI
+FM -> ACUI: types requested data
+activate ACUI
+ACUI -> ACC : addContainers(containers)
+activate ACC
+ACC -> LP : result += keepCenterOfMassPanamax()
+activate LP
+deactivate LP
+ACC -> LP : result += keepCenterOfMassNewPanamax()
+activate LP
+deactivate LP
+ACC -> LP : result += keepCenterOfMassUltraLargeVessel()
+activate LP
+deactivate LP
+ACC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate ACC
+ACUI --> FM : shows the data and informs operation success
+deactivate ACC
+deactivate ACUI
+deactivate FM
+@enduml

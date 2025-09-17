@@ -1,0 +1,14 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to colour the map using as few colours as possible
+activate ":System"
+":System" --> TM : shows the data (The countries and it's colours) and informs operation success
+deactivate ":System"
+
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Fleet Manager" as FM
+participant ":IdleShipsUI" as ISUI
+participant ":IdleShipsController" as ISC
+participant ":IdleShips" as IS
+participant ":Printer" as P
+
+activate FM
+FM -> ISUI: asks to know the number of days each ship has been idle since the beginning of the current year
+activate ISUI
+ISUI -> ISC : idleships()
+activate ISC
+ISC -> IS : result = idleships(databaseConnection)
+activate IS
+deactivate IS
+ISC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate ISC
+ISUI --> FM : shows the data (the number of days each ship has been idle) and informs operation success
+deactivate ISC
+deactivate ISUI
+deactivate FM
+@enduml

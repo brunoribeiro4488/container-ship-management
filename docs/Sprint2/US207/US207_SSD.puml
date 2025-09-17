@@ -1,0 +1,18 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to see how many cargo manifests he has transported during a given year and the average number of containers per manifest.
+activate ":System"
+":System" --> SC: requests data (i.e.: year)
+deactivate ":System"
+
+SC -> ":System": types requested data
+activate ":System"
+":System" --> SC : shows the data (number of cargo manifests in that year \n and the average of container percargo manifests ) and informs operation success
+deactivate ":System"
+
+@enduml

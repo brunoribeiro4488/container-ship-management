@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":ContainerCapacityUI" as CCUI
+participant ":ContainerCapacityController" as CCC
+participant ":ContainerCapacity" as CC
+participant ":Printer" as P
+
+activate TM
+TM -> CCUI:    asks to add a container to a cargo manifest
+activate CCUI
+CCUI -> CCC : containerCapacity()
+activate CCC
+CCC -> CC : result = containerCapacity(databaseConnection)
+activate CC
+deactivate CC
+CCC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate CCC
+CCUI --> TM : shows the result (if its full or not) and informs operation success
+deactivate CCC
+deactivate CCUI
+deactivate TM
+@enduml

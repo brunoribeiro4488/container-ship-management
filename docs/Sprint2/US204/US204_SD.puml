@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Client" as C
+participant ":CurrentSituationUI" as CSUI
+participant ":CurrentSituationController" as CSC
+participant ":CurrentSituation" as CS
+participant ":Printer" as P
+
+activate C
+C -> CSUI: asks to know the current situation of a specific container
+activate CSUI
+CSUI --> C: requests data (ContainerNumber ,ContainerISOCode)
+deactivate CSUI
+
+C -> CSUI: types requested data
+activate CSUI
+CSUI -> CSC : CurrentSituation(ContainerNumber,ContainerISOCode)
+activate CSC
+CSC -> CS : result = CurrentSituation(ContainerNumber,ContainerISOCode)
+activate CS
+deactivate CS
+CSC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate CSC
+CSUI --> C : shows the data (Type of location and name) and informs operation success
+deactivate CSUI
+deactivate C
+
+@enduml

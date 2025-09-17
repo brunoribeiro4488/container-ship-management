@@ -1,0 +1,16 @@
+@startuml
+actor "Traffic Manager" as TF
+participant ":System" as System
+
+autonumber
+activate TF
+TF -> System: ask list for all ships the MMSI, total number of movements, travelled distance and delta distance
+activate System
+System --> TF: request confimation
+deactivate System
+TF -> System: confirms
+activate System
+System -> TF: shows requested information
+deactivate System
+deactivate TF
+@enduml

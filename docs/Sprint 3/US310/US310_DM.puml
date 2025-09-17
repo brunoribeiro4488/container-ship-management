@@ -1,0 +1,73 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Company {
+
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class Containers{
+-ContainerNumber
+-ISOCode
+-MaxWeight
+-ContainerWeight
+-MaxWeightPacked
+-MaxVolumePacked
+-Certificates
+-RepairRecomendation
+-Temperature
+}
+
+class CargoManifest{
+-id
+-shipMMSI
+}
+
+class CargoManifestLoad{
+-cargoManifestid
+-dateLoad
+-done
+-portID
+}
+
+class CargoManifestUnload{
+-cargoManifestid
+-dateUnload
+-done
+-portID
+}
+
+Company "1" -- "*" Ship : owns >
+Company "1" -- "*" Port : knows >
+Ship "*" -- "1" Port : docks >
+Ship "1" -- "*" Containers: has >
+Ship "1" -- "*" CargoManifest: has >
+Port "1" -- "*" Containers: stores >
+CargoManifest "1" -- "*" CargoManifestLoad: has >
+CargoManifest "1" -- "*" CargoManifestUnload: has >
+CargoManifestLoad "*" -- "*" Containers: manages >
+CargoManifestUnload "*" -- "*" Containers: manages >
+@enduml

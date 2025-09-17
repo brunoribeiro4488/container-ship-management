@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="610px" preserveAspectRatio="none" style="width:633px;height:610px;background:#FFFFFF;" version="1.1" viewBox="0 0 633 610" width="633px" zoomAndPan="magnify"><defs><filter height="300%" id="fr85uhodbzljd" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#fr85uhodbzljd)" points="155.87,6,176.87,6,183.87,28.2969,307.87,28.2969,307.87,105,155.87,105,155.87,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="155.87" x2="183.87" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="159.87" y="20.9951">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#fr85uhodbzljd)" points="38.8701,129,133.8701,129,140.8701,151.2969,424.87,151.2969,424.87,254,38.8701,254,38.8701,129" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="38.8701" x2="140.8701" y1="151.2969" y2="151.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="89" x="42.8701" y="143.9951">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#fr85uhodbzljd)" points="165.87,414,208.87,414,215.87,436.2969,444.87,436.2969,444.87,603,165.87,603,165.87,414" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="165.87" x2="215.87" y1="436.2969" y2="436.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="169.87" y="428.9951">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#fr85uhodbzljd)" points="38.8701,278,82.8701,278,89.8701,300.2969,424.87,300.2969,424.87,390,38.8701,390,38.8701,278" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="38.8701" x2="89.8701" y1="300.2969" y2="300.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="38" x="42.8701" y="292.9951">data</text><!--MD5=[1969eb49accf14e28bce7c74db8cc840]
+cluster mapper--><polygon fill="#FFFFFF" filter="url(#fr85uhodbzljd)" points="448.87,278,515.87,278,522.87,300.2969,616.87,300.2969,616.87,390,448.87,390,448.87,278" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="448.87" x2="522.87" y1="300.2969" y2="300.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="61" x="452.87" y="292.9951">mapper</text><!--MD5=[7df6b39443f91b99c3441fc56fd4442c]
+class GetAuditTrailUI--><rect codeLine="6" fill="#FEFECE" filter="url(#fr85uhodbzljd)" height="48" id="GetAuditTrailUI" style="stroke:#A80036;stroke-width:1.5;" width="120" x="171.87" y="41"/><ellipse cx="186.87" cy="57" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M189.2137,52.6719 C188.2762,52.2344 187.6825,52.0938 186.8075,52.0938 C184.1825,52.0938 182.1825,54.1719 182.1825,56.8906 L182.1825,58.0156 C182.1825,60.5938 184.2919,62.4844 187.1825,62.4844 C188.4012,62.4844 189.5575,62.1875 190.3075,61.6406 C190.8856,61.2344 191.2137,60.7813 191.2137,60.3906 C191.2137,59.9375 190.8231,59.5469 190.3544,59.5469 C190.1356,59.5469 189.9325,59.625 189.745,59.8125 C189.2919,60.2969 189.2919,60.2969 189.1044,60.3906 C188.6825,60.6563 187.995,60.7813 187.2294,60.7813 C185.1825,60.7813 183.8856,59.6875 183.8856,57.9844 L183.8856,56.8906 C183.8856,55.1094 185.1356,53.7969 186.87,53.7969 C187.4481,53.7969 188.0575,53.9531 188.5262,54.2031 C189.0106,54.4844 189.1825,54.7031 189.2762,55.1094 C189.3387,55.5156 189.37,55.6406 189.5106,55.7656 C189.6512,55.9063 189.8856,56.0156 190.1044,56.0156 C190.37,56.0156 190.6356,55.875 190.8075,55.6563 C190.9169,55.5 190.9481,55.3125 190.9481,54.8906 L190.9481,53.4688 C190.9481,53.0313 190.9325,52.9063 190.8387,52.75 C190.6825,52.4844 190.4012,52.3438 190.1044,52.3438 C189.8075,52.3438 189.6044,52.4375 189.3856,52.75 L189.2137,52.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="200.87" y="61.1543">GetAuditTrailUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="172.87" x2="290.87" y1="73" y2="73"/><line style="stroke:#A80036;stroke-width:1.5;" x1="172.87" x2="290.87" y1="81" y2="81"/><!--MD5=[2edded7fdca25a1d15b1ed155465145b]
+class GetAuditTrailController--><rect codeLine="11" fill="#FEFECE" filter="url(#fr85uhodbzljd)" height="73.6094" id="GetAuditTrailController" style="stroke:#A80036;stroke-width:1.5;" width="354" x="54.8701" y="164"/><ellipse cx="160.1201" cy="180" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M162.4638,175.6719 C161.5263,175.2344 160.9326,175.0938 160.0576,175.0938 C157.4326,175.0938 155.4326,177.1719 155.4326,179.8906 L155.4326,181.0156 C155.4326,183.5938 157.542,185.4844 160.4326,185.4844 C161.6513,185.4844 162.8076,185.1875 163.5576,184.6406 C164.1357,184.2344 164.4638,183.7813 164.4638,183.3906 C164.4638,182.9375 164.0732,182.5469 163.6045,182.5469 C163.3857,182.5469 163.1826,182.625 162.9951,182.8125 C162.542,183.2969 162.542,183.2969 162.3545,183.3906 C161.9326,183.6563 161.2451,183.7813 160.4795,183.7813 C158.4326,183.7813 157.1357,182.6875 157.1357,180.9844 L157.1357,179.8906 C157.1357,178.1094 158.3857,176.7969 160.1201,176.7969 C160.6982,176.7969 161.3076,176.9531 161.7763,177.2031 C162.2607,177.4844 162.4326,177.7031 162.5263,178.1094 C162.5888,178.5156 162.6201,178.6406 162.7607,178.7656 C162.9013,178.9063 163.1357,179.0156 163.3545,179.0156 C163.6201,179.0156 163.8857,178.875 164.0576,178.6563 C164.167,178.5 164.1982,178.3125 164.1982,177.8906 L164.1982,176.4688 C164.1982,176.0313 164.1826,175.9063 164.0888,175.75 C163.9326,175.4844 163.6513,175.3438 163.3545,175.3438 C163.0576,175.3438 162.8545,175.4375 162.6357,175.75 L162.4638,175.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="180.6201" y="184.1543">GetAuditTrailController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="55.8701" x2="407.8701" y1="196" y2="196"/><line style="stroke:#A80036;stroke-width:1.5;" x1="55.8701" x2="407.8701" y1="204" y2="204"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="342" x="60.8701" y="218.2104">+getAuditTrail(containerNumber, ISOCode, cargoManifestID)</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="182" x="60.8701" y="231.0151">+printer(fileName, stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#fr85uhodbzljd)" height="60.8047" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="70" x="181.87" y="487.5"/><ellipse cx="196.87" cy="503.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M199.2137,499.1719 C198.2762,498.7344 197.6825,498.5938 196.8075,498.5938 C194.1825,498.5938 192.1825,500.6719 192.1825,503.3906 L192.1825,504.5156 C192.1825,507.0938 194.2919,508.9844 197.1825,508.9844 C198.4012,508.9844 199.5575,508.6875 200.3075,508.1406 C200.8856,507.7344 201.2137,507.2813 201.2137,506.8906 C201.2137,506.4375 200.8231,506.0469 200.3544,506.0469 C200.1356,506.0469 199.9325,506.125 199.745,506.3125 C199.2919,506.7969 199.2919,506.7969 199.1044,506.8906 C198.6825,507.1563 197.995,507.2813 197.2294,507.2813 C195.1825,507.2813 193.8856,506.1875 193.8856,504.4844 L193.8856,503.3906 C193.8856,501.6094 195.1356,500.2969 196.87,500.2969 C197.4481,500.2969 198.0575,500.4531 198.5262,500.7031 C199.0106,500.9844 199.1825,501.2031 199.2762,501.6094 C199.3387,502.0156 199.37,502.1406 199.5106,502.2656 C199.6512,502.4063 199.8856,502.5156 200.1044,502.5156 C200.37,502.5156 200.6356,502.375 200.8075,502.1563 C200.9169,502 200.9481,501.8125 200.9481,501.3906 L200.9481,499.9688 C200.9481,499.5313 200.9325,499.4063 200.8387,499.25 C200.6825,498.9844 200.4012,498.8438 200.1044,498.8438 C199.8075,498.8438 199.6044,498.9375 199.3856,499.25 L199.2137,499.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="38" x="210.87" y="507.6543">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="182.87" x2="250.87" y1="519.5" y2="519.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="182.87" x2="250.87" y1="527.5" y2="527.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="187.87" y="541.7104">+print()</text><!--MD5=[05cdbc8f58b470418cec852e21e876e7]
+class AuditTrailDTO--><rect codeLine="20" fill="#FEFECE" filter="url(#fr85uhodbzljd)" height="137.6328" id="AuditTrailDTO" style="stroke:#A80036;stroke-width:1.5;" width="141" x="287.37" y="449"/><ellipse cx="314.97" cy="465" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M317.3138,460.6719 C316.3763,460.2344 315.7825,460.0938 314.9075,460.0938 C312.2825,460.0938 310.2825,462.1719 310.2825,464.8906 L310.2825,466.0156 C310.2825,468.5938 312.3919,470.4844 315.2825,470.4844 C316.5013,470.4844 317.6575,470.1875 318.4075,469.6406 C318.9856,469.2344 319.3138,468.7813 319.3138,468.3906 C319.3138,467.9375 318.9231,467.5469 318.4544,467.5469 C318.2356,467.5469 318.0325,467.625 317.845,467.8125 C317.3919,468.2969 317.3919,468.2969 317.2044,468.3906 C316.7825,468.6563 316.095,468.7813 315.3294,468.7813 C313.2825,468.7813 311.9856,467.6875 311.9856,465.9844 L311.9856,464.8906 C311.9856,463.1094 313.2356,461.7969 314.97,461.7969 C315.5481,461.7969 316.1575,461.9531 316.6263,462.2031 C317.1106,462.4844 317.2825,462.7031 317.3763,463.1094 C317.4388,463.5156 317.47,463.6406 317.6106,463.7656 C317.7513,463.9063 317.9856,464.0156 318.2044,464.0156 C318.47,464.0156 318.7356,463.875 318.9075,463.6563 C319.0169,463.5 319.0481,463.3125 319.0481,462.8906 L319.0481,461.4688 C319.0481,461.0313 319.0325,460.9063 318.9388,460.75 C318.7825,460.4844 318.5013,460.3438 318.2044,460.3438 C317.9075,460.3438 317.7044,460.4375 317.4856,460.75 L317.3138,460.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="81" x="331.77" y="469.1543">AuditTrailDTO</text><line style="stroke:#A80036;stroke-width:1.5;" x1="288.37" x2="427.37" y1="481" y2="481"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="293.37" y="495.2104">-date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="293.37" y="508.0151">-operation</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="102" x="293.37" y="520.8198">-containerNumber</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="293.37" y="533.6245">-containerISOCode</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="95" x="293.37" y="546.4292">-cargoManifestID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="293.37" y="559.2339">-cargoManifestPartialID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="112" x="293.37" y="572.0386">-cargoManifestType</text><line style="stroke:#A80036;stroke-width:1.5;" x1="288.37" x2="427.37" y1="578.6328" y2="578.6328"/><!--MD5=[6cd388b5e3b7f2c93ced7931054d802c]
+class AuditTrail--><rect codeLine="32" fill="#FEFECE" filter="url(#fr85uhodbzljd)" height="60.8047" id="AuditTrail" style="stroke:#A80036;stroke-width:1.5;" width="354" x="54.8701" y="313"/><ellipse cx="200.1201" cy="329" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M202.4638,324.6719 C201.5263,324.2344 200.9326,324.0938 200.0576,324.0938 C197.4326,324.0938 195.4326,326.1719 195.4326,328.8906 L195.4326,330.0156 C195.4326,332.5938 197.542,334.4844 200.4326,334.4844 C201.6513,334.4844 202.8076,334.1875 203.5576,333.6406 C204.1357,333.2344 204.4638,332.7813 204.4638,332.3906 C204.4638,331.9375 204.0732,331.5469 203.6045,331.5469 C203.3857,331.5469 203.1826,331.625 202.9951,331.8125 C202.542,332.2969 202.542,332.2969 202.3545,332.3906 C201.9326,332.6563 201.2451,332.7813 200.4795,332.7813 C198.4326,332.7813 197.1357,331.6875 197.1357,329.9844 L197.1357,328.8906 C197.1357,327.1094 198.3857,325.7969 200.1201,325.7969 C200.6982,325.7969 201.3076,325.9531 201.7763,326.2031 C202.2607,326.4844 202.4326,326.7031 202.5263,327.1094 C202.5888,327.5156 202.6201,327.6406 202.7607,327.7656 C202.9013,327.9063 203.1357,328.0156 203.3545,328.0156 C203.6201,328.0156 203.8857,327.875 204.0576,327.6563 C204.167,327.5 204.1982,327.3125 204.1982,326.8906 L204.1982,325.4688 C204.1982,325.0313 204.1826,324.9063 204.0888,324.75 C203.9326,324.4844 203.6513,324.3438 203.3545,324.3438 C203.0576,324.3438 202.8545,324.4375 202.6357,324.75 L202.4638,324.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="220.6201" y="333.1543">AuditTrail</text><line style="stroke:#A80036;stroke-width:1.5;" x1="55.8701" x2="407.8701" y1="345" y2="345"/><line style="stroke:#A80036;stroke-width:1.5;" x1="55.8701" x2="407.8701" y1="353" y2="353"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="342" x="60.8701" y="367.2104">+getAuditTrail(containerNumber, ISOCode, cargoManifestID)</text><!--MD5=[3011d98cec72ca5fd0e0347bcf854869]
+class AuditTrailMapper--><rect codeLine="38" fill="#FEFECE" filter="url(#fr85uhodbzljd)" height="60.8047" id="AuditTrailMapper" style="stroke:#A80036;stroke-width:1.5;" width="136" x="464.87" y="313"/><ellipse cx="481.22" cy="329" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M483.5638,324.6719 C482.6263,324.2344 482.0325,324.0938 481.1575,324.0938 C478.5325,324.0938 476.5325,326.1719 476.5325,328.8906 L476.5325,330.0156 C476.5325,332.5938 478.6419,334.4844 481.5325,334.4844 C482.7513,334.4844 483.9075,334.1875 484.6575,333.6406 C485.2356,333.2344 485.5638,332.7813 485.5638,332.3906 C485.5638,331.9375 485.1731,331.5469 484.7044,331.5469 C484.4856,331.5469 484.2825,331.625 484.095,331.8125 C483.6419,332.2969 483.6419,332.2969 483.4544,332.3906 C483.0325,332.6563 482.345,332.7813 481.5794,332.7813 C479.5325,332.7813 478.2356,331.6875 478.2356,329.9844 L478.2356,328.8906 C478.2356,327.1094 479.4856,325.7969 481.22,325.7969 C481.7981,325.7969 482.4075,325.9531 482.8763,326.2031 C483.3606,326.4844 483.5325,326.7031 483.6263,327.1094 C483.6888,327.5156 483.72,327.6406 483.8606,327.7656 C484.0013,327.9063 484.2356,328.0156 484.4544,328.0156 C484.72,328.0156 484.9856,327.875 485.1575,327.6563 C485.2669,327.5 485.2981,327.3125 485.2981,326.8906 L485.2981,325.4688 C485.2981,325.0313 485.2825,324.9063 485.1888,324.75 C485.0325,324.4844 484.7513,324.3438 484.4544,324.3438 C484.1575,324.3438 483.9544,324.4375 483.7356,324.75 L483.5638,324.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="495.52" y="333.1543">AuditTrailMapper</text><line style="stroke:#A80036;stroke-width:1.5;" x1="465.87" x2="599.87" y1="345" y2="345"/><line style="stroke:#A80036;stroke-width:1.5;" x1="465.87" x2="599.87" y1="353" y2="353"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="124" x="470.87" y="367.2104">+toDTO(auditTrailList)</text><!--MD5=[3970702107d3f9d3317754501f63c4c2]
+link GetAuditTrailUI to GetAuditTrailController--><path codeLine="45" d="M231.87,89.035 C231.87,108.167 231.87,135.86 231.87,158.795 " fill="none" id="GetAuditTrailUI-to-GetAuditTrailController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="231.87,163.911,235.87,154.911,231.87,158.911,227.87,154.911,231.87,163.911" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ea4a519e744245f49c311e22b7eec915]
+link GetAuditTrailController to Printer--><path codeLine="46" d="M73.042,238.129 C59.7949,246.625 48.0044,257.097 38.8701,270 C6,316.432 12.0591,347.825 38.8701,398 C67.8845,452.298 133.857,486.147 176.824,503.279 " fill="none" id="GetAuditTrailController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="181.686,505.185,174.7682,498.1747,177.0313,503.3591,171.8469,505.6222,181.686,505.185" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3ffa71cd66cb0b4eded66bee64e901a5]
+link GetAuditTrailController to AuditTrail--><path codeLine="47" d="M231.87,238.182 C231.87,259.469 231.87,286.263 231.87,307.366 " fill="none" id="GetAuditTrailController-to-AuditTrail" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="231.87,312.601,235.87,303.601,231.87,307.601,227.87,303.601,231.87,312.601" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[53782b442ac352622d41abae9eef219b]
+link GetAuditTrailController to AuditTrailMapper--><path codeLine="48" d="M349.419,238.086 C374.804,247.341 401.134,258.092 424.87,270 C447.296,281.25 470.597,296.39 489.791,309.924 " fill="none" id="GetAuditTrailController-to-AuditTrailMapper" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="494.073,312.965,489.051,304.4927,489.9963,310.07,484.419,311.0154,494.073,312.965" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7bb2940b0098f85946cbbdcd69773fd9]
+link AuditTrailMapper to AuditTrailDTO--><path codeLine="49" d="M502.787,374.154 C482.947,393.71 456.056,420.216 430.826,445.087 " fill="none" id="AuditTrailMapper-to-AuditTrailDTO" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="427.116,448.743,436.3332,445.2726,430.6764,445.2326,430.7165,439.5758,427.116,448.743" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[aa611b6ab731fc2cd55be3a64bad6c3f]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class GetAuditTrailUI{
+}
+}
+
+package "controllers" {
+class GetAuditTrailController{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+class AuditTrailDTO{
+-date
+-operation
+-containerNumber
+-containerISOCode
+-cargoManifestID
+-cargoManifestPartialID
+-cargoManifestType
+}
+}
+
+package data{
+class AuditTrail{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
+}
+}
+
+package mapper{
+class AuditTrailMapper{
++toDTO(auditTrailList)
+}
+}
+
+
+
+GetAuditTrailUI ..> GetAuditTrailController
+GetAuditTrailController ..> Printer
+GetAuditTrailController ..> AuditTrail
+GetAuditTrailController ..> AuditTrailMapper
+AuditTrailMapper ..> AuditTrailDTO
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class GetAuditTrailUI{
+}
+}
+
+package "controllers" {
+class GetAuditTrailController{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+class AuditTrailDTO{
+-date
+-operation
+-containerNumber
+-containerISOCode
+-cargoManifestID
+-cargoManifestPartialID
+-cargoManifestType
+}
+}
+
+package data{
+class AuditTrail{
++getAuditTrail(containerNumber, ISOCode, cargoManifestID)
+}
+}
+
+package mapper{
+class AuditTrailMapper{
++toDTO(auditTrailList)
+}
+}
+
+
+
+GetAuditTrailUI ..> GetAuditTrailController
+GetAuditTrailController ..> Printer
+GetAuditTrailController ..> AuditTrail
+GetAuditTrailController ..> AuditTrailMapper
+AuditTrailMapper ..> AuditTrailDTO
+@enduml
+
+PlantUML version 1.2021.17beta4(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

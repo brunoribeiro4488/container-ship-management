@@ -1,0 +1,49 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Company {
+
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+
+class SeaDistance{
+-from_country
+-from_port_id
+-from_port
+-to_country
+-to_port_id
+-to_port
+-sea_distance
+}
+
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+Company "1" -- "*" Ship : owns >
+Company "1" -- "*" Port : knows >
+Ship "*" -- "1" Port : docks >
+SeaDistance "1" -- "2" Port : has >
+TrafficManager "*" -- "1" Ship : assigned to >
+@enduml

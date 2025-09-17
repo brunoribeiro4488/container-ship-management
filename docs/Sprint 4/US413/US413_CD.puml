@@ -1,0 +1,38 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class EnergyUI{
+}
+}
+
+package "controllers" {
+class EnergyController{
++getEnergy(segundos, temperature)
+}
+}
+package utils{
+package "stores"{
+class FsiapStore{
++getEnergyFromATripToNegativeContainer(segundos,temperature)
+}
+
+class Printer{
++print(Energy to maintain,energy,US413)
+}
+}
+package "model"{
+class Company{
++getFsiapStore()
+}
+
+}
+
+EnergyUI ..> EnergyController
+EnergyController ..> Company
+EnergyController ..> FsiapStore
+EnergyController ..> Printer
+
+@enduml

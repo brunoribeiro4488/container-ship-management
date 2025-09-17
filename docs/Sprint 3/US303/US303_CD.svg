@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="845px" preserveAspectRatio="none" style="width:1105px;height:845px;" version="1.1" viewBox="0 0 1105 845" width="1105px" zoomAndPan="magnify"><defs><filter height="300%" id="fii4p5n8pyf3f" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#fii4p5n8pyf3f)" points="356.25,7.5,380,7.5,388.75,37.0117,623.75,37.0117,623.75,132.5,356.25,132.5,356.25,7.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="356.25" x2="388.75" y1="37.0117" y2="37.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="16.25" x="361.25" y="28.1665">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#fii4p5n8pyf3f)" points="330,162.5,433.75,162.5,442.5,192.0117,650,192.0117,650,305,330,305,330,162.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="330" x2="442.5" y1="192.0117" y2="192.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="96.25" x="335" y="183.1665">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#fii4p5n8pyf3f)" points="20,335,65,335,73.75,364.5117,1083.75,364.5117,1083.75,836.25,20,836.25,20,335" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="20" x2="73.75" y1="364.5117" y2="364.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="37.5" x="25" y="355.6665">utils</text><!--MD5=[fbca5634cbc0239920b500cad9c4bedb]
+cluster stores--><polygon fill="#FFFFFF" filter="url(#fii4p5n8pyf3f)" points="50,390,113.75,390,122.5,419.5117,586.25,419.5117,586.25,775.625,50,775.625,50,390" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="50" x2="122.5" y1="419.5117" y2="419.5117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="55" y="410.6665">stores</text><!--MD5=[6c90033dafc7844095e13a44c223efdf]
+cluster matrix--><polygon fill="#FFFFFF" filter="url(#fii4p5n8pyf3f)" points="251.25,603.125,312.5,603.125,321.25,632.6367,556.25,632.6367,556.25,745.625,251.25,745.625,251.25,603.125" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="251.25" x2="321.25" y1="632.6367" y2="632.6367"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="53.75" x="256.25" y="623.7915">matrix</text><!--MD5=[5d4cd377749310b66bf14896f5cd8d9b]
+cluster model--><polygon fill="#FFFFFF" filter="url(#fii4p5n8pyf3f)" points="616.25,542.5,677.5,542.5,686.25,572.0117,1053.75,572.0117,1053.75,806.25,616.25,806.25,616.25,542.5" style="stroke:#000000;stroke-width:1.875;"/><line style="stroke:#000000;stroke-width:1.875;" x1="616.25" x2="686.25" y1="572.0117" y2="572.0117"/><text fill="#000000" font-family="sans-serif" font-size="17.5" font-weight="bold" lengthAdjust="spacing" textLength="53.75" x="621.25" y="563.1665">model</text><!--MD5=[acd110f718ac9b05c0192f18a50c1d54]
+class PlacesClosenessPlacesUI--><rect codeLine="6" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="60" id="PlacesClosenessPlacesUI" style="stroke:#A80036;stroke-width:1.875;" width="226.25" x="376.875" y="52.5"/><ellipse cx="395.625" cy="72.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M398.125,68.125 Q398.3789,67.5 398.6719,67.1875 Q398.9648,66.875 399.2969,66.875 Q399.8828,66.875 400.2539,67.2266 Q400.625,67.5781 400.625,68.3984 L400.625,70.3516 Q400.625,71.1719 400.2734,71.5234 Q399.9219,71.875 399.375,71.875 Q398.8867,71.875 398.5742,71.6602 Q398.2617,71.4453 398.125,70.8789 Q398.0664,70.4883 397.8516,70.2734 Q397.4609,69.8633 396.7578,69.6289 Q396.0547,69.375 395.3516,69.375 Q394.4727,69.375 393.7305,69.7266 Q393.0078,70.0781 392.4414,70.8594 Q391.875,71.6406 391.875,72.7148 L391.875,73.8672 Q391.875,75.1563 392.9297,76.0156 Q393.9844,76.875 395.8594,76.875 Q396.9727,76.875 397.7539,76.6211 Q398.2031,76.4844 398.7109,76.0352 Q399.043,75.7813 399.2188,75.7031 Q399.3945,75.625 399.6094,75.625 Q400.0195,75.625 400.3125,75.957 Q400.625,76.2695 400.625,76.7188 Q400.625,77.1484 400.1953,77.6563 Q399.5703,78.3984 398.5742,78.8086 Q397.2656,79.375 395.6641,79.375 Q393.7891,79.375 392.2852,78.6328 Q391.0742,78.0469 390.2148,76.7773 Q389.375,75.5078 389.375,74.0039 L389.375,72.6367 Q389.375,71.0742 390.1172,69.707 Q390.8789,68.3398 392.1875,67.6172 Q393.5156,66.875 395,66.875 Q395.8984,66.875 396.6797,67.1875 Q397.4609,67.5 398.125,68.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="186.25" x="413.125" y="78.6377">PlacesClosenessPlacesUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="378.125" x2="601.875" y1="92.5" y2="92.5"/><line style="stroke:#A80036;stroke-width:1.875;" x1="378.125" x2="601.875" y1="102.5" y2="102.5"/><!--MD5=[003ec795f5fdfa943f442e0e187cd1b5]
+class PlacesClosenessPlacesController--><rect codeLine="11" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="77.2949" id="PlacesClosenessPlacesController" style="stroke:#A80036;stroke-width:1.875;" width="278.75" x="350.625" y="207.5"/><ellipse cx="369.375" cy="227.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M371.875,223.125 Q372.1289,222.5 372.4219,222.1875 Q372.7148,221.875 373.0469,221.875 Q373.6328,221.875 374.0039,222.2266 Q374.375,222.5781 374.375,223.3984 L374.375,225.3516 Q374.375,226.1719 374.0234,226.5234 Q373.6719,226.875 373.125,226.875 Q372.6367,226.875 372.3242,226.6602 Q372.0117,226.4453 371.875,225.8789 Q371.8164,225.4883 371.6016,225.2734 Q371.2109,224.8633 370.5078,224.6289 Q369.8047,224.375 369.1016,224.375 Q368.2227,224.375 367.4805,224.7266 Q366.7578,225.0781 366.1914,225.8594 Q365.625,226.6406 365.625,227.7148 L365.625,228.8672 Q365.625,230.1563 366.6797,231.0156 Q367.7344,231.875 369.6094,231.875 Q370.7227,231.875 371.5039,231.6211 Q371.9531,231.4844 372.4609,231.0352 Q372.793,230.7813 372.9688,230.7031 Q373.1445,230.625 373.3594,230.625 Q373.7695,230.625 374.0625,230.957 Q374.375,231.2695 374.375,231.7188 Q374.375,232.1484 373.9453,232.6563 Q373.3203,233.3984 372.3242,233.8086 Q371.0156,234.375 369.4141,234.375 Q367.5391,234.375 366.0352,233.6328 Q364.8242,233.0469 363.9648,231.7773 Q363.125,230.5078 363.125,229.0039 L363.125,227.6367 Q363.125,226.0742 363.8672,224.707 Q364.6289,223.3398 365.9375,222.6172 Q367.2656,221.875 368.75,221.875 Q369.6484,221.875 370.4297,222.1875 Q371.2109,222.5 371.875,223.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="238.75" x="386.875" y="233.6377">PlacesClosenessPlacesController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="351.875" x2="628.125" y1="247.5" y2="247.5"/><line style="stroke:#A80036;stroke-width:1.875;" x1="351.875" x2="628.125" y1="257.5" y2="257.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="137.5" x="358.125" y="276.7737">+getNClosestPlaces(n)</text><!--MD5=[2cc01888644921b61c356dbf1e5a52f4]
+class NetworkStore--><rect codeLine="17" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="77.2949" id="NetworkStore" style="stroke:#A80036;stroke-width:1.875;" width="152.5" x="413.75" y="435"/><ellipse cx="441.5" cy="455" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M444,450.625 Q444.2539,450 444.5469,449.6875 Q444.8398,449.375 445.1719,449.375 Q445.7578,449.375 446.1289,449.7266 Q446.5,450.0781 446.5,450.8984 L446.5,452.8516 Q446.5,453.6719 446.1484,454.0234 Q445.7969,454.375 445.25,454.375 Q444.7617,454.375 444.4492,454.1602 Q444.1367,453.9453 444,453.3789 Q443.9414,452.9883 443.7266,452.7734 Q443.3359,452.3633 442.6328,452.1289 Q441.9297,451.875 441.2266,451.875 Q440.3477,451.875 439.6055,452.2266 Q438.8828,452.5781 438.3164,453.3594 Q437.75,454.1406 437.75,455.2148 L437.75,456.3672 Q437.75,457.6563 438.8047,458.5156 Q439.8594,459.375 441.7344,459.375 Q442.8477,459.375 443.6289,459.1211 Q444.0781,458.9844 444.5859,458.5352 Q444.918,458.2813 445.0938,458.2031 Q445.2695,458.125 445.4844,458.125 Q445.8945,458.125 446.1875,458.457 Q446.5,458.7695 446.5,459.2188 Q446.5,459.6484 446.0703,460.1563 Q445.4453,460.8984 444.4492,461.3086 Q443.1406,461.875 441.5391,461.875 Q439.6641,461.875 438.1602,461.1328 Q436.9492,460.5469 436.0898,459.2773 Q435.25,458.0078 435.25,456.5039 L435.25,455.1367 Q435.25,453.5742 435.9922,452.207 Q436.7539,450.8398 438.0625,450.1172 Q439.3906,449.375 440.875,449.375 Q441.7734,449.375 442.5547,449.6875 Q443.3359,450 444,450.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="92.5" x="461" y="461.1377">NetworkStore</text><line style="stroke:#A80036;stroke-width:1.875;" x1="415" x2="565" y1="475" y2="475"/><line style="stroke:#A80036;stroke-width:1.875;" x1="415" x2="565" y1="485" y2="485"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="137.5" x="421.25" y="504.2737">+getNClosestPlaces(n)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="27" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="77.2949" id="Printer" style="stroke:#A80036;stroke-width:1.875;" width="300" x="70" y="435"/><ellipse cx="192.1875" cy="455" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M194.6875,450.625 Q194.9414,450 195.2344,449.6875 Q195.5273,449.375 195.8594,449.375 Q196.4453,449.375 196.8164,449.7266 Q197.1875,450.0781 197.1875,450.8984 L197.1875,452.8516 Q197.1875,453.6719 196.8359,454.0234 Q196.4844,454.375 195.9375,454.375 Q195.4492,454.375 195.1367,454.1602 Q194.8242,453.9453 194.6875,453.3789 Q194.6289,452.9883 194.4141,452.7734 Q194.0234,452.3633 193.3203,452.1289 Q192.6172,451.875 191.9141,451.875 Q191.0352,451.875 190.293,452.2266 Q189.5703,452.5781 189.0039,453.3594 Q188.4375,454.1406 188.4375,455.2148 L188.4375,456.3672 Q188.4375,457.6563 189.4922,458.5156 Q190.5469,459.375 192.4219,459.375 Q193.5352,459.375 194.3164,459.1211 Q194.7656,458.9844 195.2734,458.5352 Q195.6055,458.2813 195.7813,458.2031 Q195.957,458.125 196.1719,458.125 Q196.582,458.125 196.875,458.457 Q197.1875,458.7695 197.1875,459.2188 Q197.1875,459.6484 196.7578,460.1563 Q196.1328,460.8984 195.1367,461.3086 Q193.8281,461.875 192.2266,461.875 Q190.3516,461.875 188.8477,461.1328 Q187.6367,460.5469 186.7773,459.2773 Q185.9375,458.0078 185.9375,456.5039 L185.9375,455.1367 Q185.9375,453.5742 186.6797,452.207 Q187.4414,450.8398 188.75,450.1172 Q190.0781,449.375 191.5625,449.375 Q192.4609,449.375 193.2422,449.6875 Q194.0234,450 194.6875,450.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="45" x="217.8125" y="461.1377">Printer</text><line style="stroke:#A80036;stroke-width:1.875;" x1="71.25" x2="368.75" y1="475" y2="475"/><line style="stroke:#A80036;stroke-width:1.875;" x1="71.25" x2="368.75" y1="485" y2="485"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="285" x="77.5" y="504.2737">+print(Closest Places,listPlaceDistance, US303)</text><!--MD5=[4533588fb66c6fa31a6e04bf29ae6161]
+class Algorithms--><rect codeLine="22" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="77.2949" id="Algorithms" style="stroke:#A80036;stroke-width:1.875;" width="263.75" x="271.875" y="648.125"/><ellipse cx="361.5625" cy="668.125" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M364.0625,663.75 Q364.3164,663.125 364.6094,662.8125 Q364.9023,662.5 365.2344,662.5 Q365.8203,662.5 366.1914,662.8516 Q366.5625,663.2031 366.5625,664.0234 L366.5625,665.9766 Q366.5625,666.7969 366.2109,667.1484 Q365.8594,667.5 365.3125,667.5 Q364.8242,667.5 364.5117,667.2852 Q364.1992,667.0703 364.0625,666.5039 Q364.0039,666.1133 363.7891,665.8984 Q363.3984,665.4883 362.6953,665.2539 Q361.9922,665 361.2891,665 Q360.4102,665 359.668,665.3516 Q358.9453,665.7031 358.3789,666.4844 Q357.8125,667.2656 357.8125,668.3398 L357.8125,669.4922 Q357.8125,670.7813 358.8672,671.6406 Q359.9219,672.5 361.7969,672.5 Q362.9102,672.5 363.6914,672.2461 Q364.1406,672.1094 364.6484,671.6602 Q364.9805,671.4063 365.1563,671.3281 Q365.332,671.25 365.5469,671.25 Q365.957,671.25 366.25,671.582 Q366.5625,671.8945 366.5625,672.3438 Q366.5625,672.7734 366.1328,673.2813 Q365.5078,674.0234 364.5117,674.4336 Q363.2031,675 361.6016,675 Q359.7266,675 358.2227,674.2578 Q357.0117,673.6719 356.1523,672.4023 Q355.3125,671.1328 355.3125,669.6289 L355.3125,668.2617 Q355.3125,666.6992 356.0547,665.332 Q356.8164,663.9648 358.125,663.2422 Q359.4531,662.5 360.9375,662.5 Q361.8359,662.5 362.6172,662.8125 Q363.3984,663.125 364.0625,663.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="73.75" x="387.1875" y="674.2627">Algorithms</text><line style="stroke:#A80036;stroke-width:1.875;" x1="273.125" x2="534.375" y1="688.125" y2="688.125"/><line style="stroke:#A80036;stroke-width:1.875;" x1="273.125" x2="534.375" y1="698.125" y2="698.125"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="248.75" x="279.375" y="717.3987">+shortestPath(grafo, obj, obj2, shortPath)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="32" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="77.2949" id="Company" style="stroke:#A80036;stroke-width:1.875;" width="135" x="898.75" y="648.125"/><ellipse cx="930.4375" cy="668.125" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M932.9375,663.75 Q933.1914,663.125 933.4844,662.8125 Q933.7773,662.5 934.1094,662.5 Q934.6953,662.5 935.0664,662.8516 Q935.4375,663.2031 935.4375,664.0234 L935.4375,665.9766 Q935.4375,666.7969 935.0859,667.1484 Q934.7344,667.5 934.1875,667.5 Q933.6992,667.5 933.3867,667.2852 Q933.0742,667.0703 932.9375,666.5039 Q932.8789,666.1133 932.6641,665.8984 Q932.2734,665.4883 931.5703,665.2539 Q930.8672,665 930.1641,665 Q929.2852,665 928.543,665.3516 Q927.8203,665.7031 927.2539,666.4844 Q926.6875,667.2656 926.6875,668.3398 L926.6875,669.4922 Q926.6875,670.7813 927.7422,671.6406 Q928.7969,672.5 930.6719,672.5 Q931.7852,672.5 932.5664,672.2461 Q933.0156,672.1094 933.5234,671.6602 Q933.8555,671.4063 934.0313,671.3281 Q934.207,671.25 934.4219,671.25 Q934.832,671.25 935.125,671.582 Q935.4375,671.8945 935.4375,672.3438 Q935.4375,672.7734 935.0078,673.2813 Q934.3828,674.0234 933.3867,674.4336 Q932.0781,675 930.4766,675 Q928.6016,675 927.0977,674.2578 Q925.8867,673.6719 925.0273,672.4023 Q924.1875,671.1328 924.1875,669.6289 L924.1875,668.2617 Q924.1875,666.6992 924.9297,665.332 Q925.6914,663.9648 927,663.2422 Q928.3281,662.5 929.8125,662.5 Q930.7109,662.5 931.4922,662.8125 Q932.2734,663.125 932.9375,663.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="950.8125" y="674.2627">Company</text><line style="stroke:#A80036;stroke-width:1.875;" x1="900" x2="1032.5" y1="688.125" y2="688.125"/><line style="stroke:#A80036;stroke-width:1.875;" x1="900" x2="1032.5" y1="698.125" y2="698.125"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="120" x="906.25" y="717.3987">+getNetworkStore()</text><!--MD5=[a0bfe97ac0a38e6e74cc1c7c7b744b71]
+class Port--><rect codeLine="36" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="163.7695" id="Port" style="stroke:#A80036;stroke-width:1.875;" width="75" x="780" y="605"/><ellipse cx="802.125" cy="625" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M804.625,620.625 Q804.8789,620 805.1719,619.6875 Q805.4648,619.375 805.7969,619.375 Q806.3828,619.375 806.7539,619.7266 Q807.125,620.0781 807.125,620.8984 L807.125,622.8516 Q807.125,623.6719 806.7734,624.0234 Q806.4219,624.375 805.875,624.375 Q805.3867,624.375 805.0742,624.1602 Q804.7617,623.9453 804.625,623.3789 Q804.5664,622.9883 804.3516,622.7734 Q803.9609,622.3633 803.2578,622.1289 Q802.5547,621.875 801.8516,621.875 Q800.9727,621.875 800.2305,622.2266 Q799.5078,622.5781 798.9414,623.3594 Q798.375,624.1406 798.375,625.2148 L798.375,626.3672 Q798.375,627.6563 799.4297,628.5156 Q800.4844,629.375 802.3594,629.375 Q803.4727,629.375 804.2539,629.1211 Q804.7031,628.9844 805.2109,628.5352 Q805.543,628.2813 805.7188,628.2031 Q805.8945,628.125 806.1094,628.125 Q806.5195,628.125 806.8125,628.457 Q807.125,628.7695 807.125,629.2188 Q807.125,629.6484 806.6953,630.1563 Q806.0703,630.8984 805.0742,631.3086 Q803.7656,631.875 802.1641,631.875 Q800.2891,631.875 798.7852,631.1328 Q797.5742,630.5469 796.7148,629.2773 Q795.875,628.0078 795.875,626.5039 L795.875,625.1367 Q795.875,623.5742 796.6172,622.207 Q797.3789,620.8398 798.6875,620.1172 Q800.0156,619.375 801.5,619.375 Q802.3984,619.375 803.1797,619.6875 Q803.9609,620 804.625,620.625 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="27.5" x="820.375" y="631.1377">Port</text><line style="stroke:#A80036;stroke-width:1.875;" x1="781.25" x2="853.75" y1="645" y2="645"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="15" x="787.5" y="664.2737">-id</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="37.5" x="787.5" y="681.5686">-name</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="60" x="787.5" y="698.8635">-continent</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="51.25" x="787.5" y="716.1584">-country</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="47.5" x="787.5" y="733.4534">-latitude</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="58.75" x="787.5" y="750.7483">-longitude</text><line style="stroke:#A80036;stroke-width:1.875;" x1="781.25" x2="853.75" y1="758.7695" y2="758.7695"/><!--MD5=[deb4e1f6eb1e3c1256fdb830f96abfbb]
+class Country--><rect codeLine="45" fill="#FEFECE" filter="url(#fii4p5n8pyf3f)" height="198.3594" id="Country" style="stroke:#A80036;stroke-width:1.875;" width="98.75" x="636.875" y="587.5"/><ellipse cx="658.4375" cy="607.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M660.9375,603.125 Q661.1914,602.5 661.4844,602.1875 Q661.7773,601.875 662.1094,601.875 Q662.6953,601.875 663.0664,602.2266 Q663.4375,602.5781 663.4375,603.3984 L663.4375,605.3516 Q663.4375,606.1719 663.0859,606.5234 Q662.7344,606.875 662.1875,606.875 Q661.6992,606.875 661.3867,606.6602 Q661.0742,606.4453 660.9375,605.8789 Q660.8789,605.4883 660.6641,605.2734 Q660.2734,604.8633 659.5703,604.6289 Q658.8672,604.375 658.1641,604.375 Q657.2852,604.375 656.543,604.7266 Q655.8203,605.0781 655.2539,605.8594 Q654.6875,606.6406 654.6875,607.7148 L654.6875,608.8672 Q654.6875,610.1563 655.7422,611.0156 Q656.7969,611.875 658.6719,611.875 Q659.7852,611.875 660.5664,611.6211 Q661.0156,611.4844 661.5234,611.0352 Q661.8555,610.7813 662.0313,610.7031 Q662.207,610.625 662.4219,610.625 Q662.832,610.625 663.125,610.957 Q663.4375,611.2695 663.4375,611.7188 Q663.4375,612.1484 663.0078,612.6563 Q662.3828,613.3984 661.3867,613.8086 Q660.0781,614.375 658.4766,614.375 Q656.6016,614.375 655.0977,613.6328 Q653.8867,613.0469 653.0273,611.7773 Q652.1875,610.5078 652.1875,609.0039 L652.1875,607.6367 Q652.1875,606.0742 652.9297,604.707 Q653.6914,603.3398 655,602.6172 Q656.3281,601.875 657.8125,601.875 Q658.7109,601.875 659.4922,602.1875 Q660.2734,602.5 660.9375,603.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="52.5" x="676.5625" y="613.6377">Country</text><line style="stroke:#A80036;stroke-width:1.875;" x1="638.125" x2="734.375" y1="627.5" y2="627.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="60" x="644.375" y="646.7737">-continent</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="83.75" x="644.375" y="664.0686">-alpha2_Code</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="83.75" x="644.375" y="681.3635">-alpha3_Code</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="51.25" x="644.375" y="698.6584">-country</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="66.25" x="644.375" y="715.9534">-population</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="43.75" x="644.375" y="733.2483">-capital</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="47.5" x="644.375" y="750.5432">-latitude</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="58.75" x="644.375" y="767.8381">-longitude</text><line style="stroke:#A80036;stroke-width:1.875;" x1="638.125" x2="734.375" y1="775.8594" y2="775.8594"/><!--MD5=[4c6485c3642e88e01d4ad96f899a15f7]
+link PlacesClosenessPlacesUI to PlacesClosenessPlacesController--><path codeLine="58" d="M490,112.575 C490,137.0625 490,172.6125 490,200.7125 " fill="none" id="PlacesClosenessPlacesUI-to-PlacesClosenessPlacesController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="490,207.3125,495,196.0625,490,201.0625,485,196.0625,490,207.3125" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[7d3c51eb4372084b965a32305ea5bd95]
+link PlacesClosenessPlacesController to Company--><path codeLine="59" d="M557.175,285.0875 C640.0625,333.9375 781.75,425.7125 877.5,532.5 C906.95,565.3375 931.275,609.5125 946.975,641.9625 " fill="none" id="PlacesClosenessPlacesController-to-Company" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="949.8,647.8875,949.4609,635.5811,947.1053,642.2483,940.4381,639.8926,949.8,647.8875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[3c6e851c78d50430e23f9eaefea05eed]
+link PlacesClosenessPlacesController to NetworkStore--><path codeLine="60" d="M490,285.1625 C490,324.5875 490,386.45 490,428.2 " fill="none" id="PlacesClosenessPlacesController-to-NetworkStore" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="490,434.7125,495,423.4625,490,428.4625,485,423.4625,490,434.7125" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[6aba8b064c9c60336c059f89a6f76566]
+link PlacesClosenessPlacesController to Printer--><path codeLine="61" d="M440.925,285.3 C424.9625,297.7875 407.2375,311.85 391.25,325 C348.7875,359.925 301.5125,400.8 267.4,430.65 " fill="none" id="PlacesClosenessPlacesController-to-Printer" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="262.475,434.975,274.2271,431.3076,267.1709,430.8505,267.6279,423.7942,262.475,434.975" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[e03f3129b3168c50655abe2b8174baba]
+link NetworkStore to Port--><path codeLine="62" d="M566.325,483.3125 C634.9125,492.2 729.0875,508.35 757.5,532.5 C777.55,549.55 790.95,574.175 799.875,598.7125 " fill="none" id="NetworkStore-to-Port" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="802.05,604.9375,803.0694,592.6687,799.9933,599.0356,793.6264,595.9595,802.05,604.9375" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[3ad7d8fa5abadfe17728ee1bdba0c0d9]
+link NetworkStore to Country--><path codeLine="63" d="M535.3875,512.7625 C542.5375,519.175 549.7125,525.9 556.25,532.5 C582.6875,559.225 609.9,590.5875 632.5625,617.95 " fill="none" id="NetworkStore-to-Country" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="636.7375,623.0125,633.4285,611.1545,632.7575,618.1936,625.7183,617.5225,636.7375,623.0125" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[5a5bcb3a922441d5533118b0b6025222]
+link NetworkStore to Algorithms--><path codeLine="64" d="M474.575,512.65 C459.725,548.9375 437.2625,603.7875 421.625,641.9625 " fill="none" id="NetworkStore-to-Algorithms" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="419.1875,647.9375,428.0851,639.4289,421.5609,642.1557,418.8342,635.6315,419.1875,647.9375" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[8bb3ad874ea1962f1bb755eee6742945]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class PlacesClosenessPlacesUI{
+}
+}
+
+package "controllers" {
+class PlacesClosenessPlacesController{
++getNClosestPlaces(n)
+}
+}
+package utils{
+package "stores"{
+class NetworkStore{
++getNClosestPlaces(n)
+}
+
+package "matrix"{
+class Algorithms{
++shortestPath(grafo, obj, obj2, shortPath)
+}
+}
+
+class Printer{
++print(Closest Places,listPlaceDistance, US303)
+}
+}
+package "model"{
+class Company{
++getNetworkStore()
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class Country{
+-continent
+-alpha2_Code
+-alpha3_Code
+-country
+-population
+-capital
+-latitude
+-longitude
+}
+
+}
+
+PlacesClosenessPlacesUI ..> PlacesClosenessPlacesController
+PlacesClosenessPlacesController ..> Company
+PlacesClosenessPlacesController ..> NetworkStore
+PlacesClosenessPlacesController ..> Printer
+NetworkStore ..> Port
+NetworkStore ..> Country
+NetworkStore ..> Algorithms
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class PlacesClosenessPlacesUI{
+}
+}
+
+package "controllers" {
+class PlacesClosenessPlacesController{
++getNClosestPlaces(n)
+}
+}
+package utils{
+package "stores"{
+class NetworkStore{
++getNClosestPlaces(n)
+}
+
+package "matrix"{
+class Algorithms{
++shortestPath(grafo, obj, obj2, shortPath)
+}
+}
+
+class Printer{
++print(Closest Places,listPlaceDistance, US303)
+}
+}
+package "model"{
+class Company{
++getNetworkStore()
+}
+
+class Port{
+-id
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+class Country{
+-continent
+-alpha2_Code
+-alpha3_Code
+-country
+-population
+-capital
+-latitude
+-longitude
+}
+
+}
+
+PlacesClosenessPlacesUI ..> PlacesClosenessPlacesController
+PlacesClosenessPlacesController ..> Company
+PlacesClosenessPlacesController ..> NetworkStore
+PlacesClosenessPlacesController ..> Printer
+NetworkStore ..> Port
+NetworkStore ..> Country
+NetworkStore ..> Algorithms
+
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

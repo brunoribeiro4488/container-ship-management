@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+activate TM
+
+TM -> ":System": asks to know the shortest path between two locals
+activate ":System"
+":System" --> TM : requests data (i.e.: n)
+deactivate ":System"
+TM -> ":System": types requested data
+activate ":System"
+
+alt n>0 && n<4
+":System" --> TM : requests data (i.e.: local1 and local2)
+end
+
+alt n=4
+":System" --> TM : requests data (i.e.: local1,local2 and locais)
+end
+deactivate ":System"
+TM -> ":System": types requested data
+activate ":System"
+
+":System" --> TM : shows the data (shortest path) and informs operation success
+deactivate ":System"
+@enduml

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="272px" preserveAspectRatio="none" style="width:659px;height:272px;" version="1.1" viewBox="0 0 659 272" width="659px" zoomAndPan="magnify"><defs><filter height="300%" id="f69cste93f0wl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f69cste93f0wl)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="96.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f69cste93f0wl)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="610.5" y="138.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="101" x2="101" y1="89.6094" y2="186.6641"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="615.5" x2="615.5" y1="89.6094" y2="186.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="5" y="86.5332">Ship Chief Electrical Engineer</text><ellipse cx="101.5" cy="15" fill="#FEFECE" filter="url(#f69cste93f0wl)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M101.5,23 L101.5,50 M88.5,31 L114.5,31 M101.5,50 L88.5,65 M101.5,50 L114.5,65 " fill="none" filter="url(#f69cste93f0wl)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="5" y="200.1973">Ship Chief Electrical Engineer</text><ellipse cx="101.5" cy="213.2734" fill="#FEFECE" filter="url(#f69cste93f0wl)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M101.5,221.2734 L101.5,248.2734 M88.5,229.2734 L114.5,229.2734 M101.5,248.2734 L88.5,263.2734 M101.5,248.2734 L114.5,263.2734 " fill="none" filter="url(#f69cste93f0wl)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#f69cste93f0wl)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="581.5" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="588.5" y="74.5332">:System</text><rect fill="#FEFECE" filter="url(#f69cste93f0wl)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="64" x="581.5" y="185.6641"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="588.5" y="207.1973">:System</text><rect fill="#FFFFFF" filter="url(#f69cste93f0wl)" height="78.0547" style="stroke:#A80036;stroke-width:1.0;" width="10" x="96.5" y="99.6094"/><rect fill="#FFFFFF" filter="url(#f69cste93f0wl)" height="30.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="610.5" y="138.3125"/><polygon fill="#A80036" points="598.5,134.3125,608.5,138.3125,598.5,142.3125,602.5,138.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="106.5" x2="604.5" y1="138.3125" y2="138.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="113.5" y="125.2803">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="474" x="124.5" y="117.1045">asks to know how much energy to supply, for each container, in a determined trip,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="364" x="128.5" y="133.4561">with an exterior temperature of 20 ºC, and a travel time of 2h30.</text><polygon fill="#A80036" points="117.5,164.6641,107.5,168.6641,117.5,172.6641,113.5,168.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="111.5" x2="614.5" y1="168.6641" y2="168.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="123.5" y="163.8076">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="360" x="134.5" y="163.8076">shows the data (energy values) and informs operation success</text><!--MD5=[7db45aee3c9e68a381c37eb914ebfef2]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+activate SCEE
+
+SCEE -> ":System": asks to know how much energy to supply, for each container, in a determined trip,\n with an exterior temperature of 20 ºC, and a travel time of 2h30.
+activate ":System"
+":System" - -> SCEE : shows the data (energy values) and informs operation success
+deactivate ":System"
+@enduml
+
+@startuml
+
+autonumber
+
+actor "Ship Chief Electrical Engineer" as SCEE
+activate SCEE
+
+SCEE -> ":System": asks to know how much energy to supply, for each container, in a determined trip,\n with an exterior temperature of 20 ºC, and a travel time of 2h30.
+activate ":System"
+":System" - -> SCEE : shows the data (energy values) and informs operation success
+deactivate ":System"
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

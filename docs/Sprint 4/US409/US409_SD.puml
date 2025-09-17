@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Port staff" as PM
+participant ":InformacoesContentoresUI" as LUMUI
+participant ":InformacoesContentoresController" as LUMC
+participant ":InformacoesContentores" as LUM
+participant ":Printer" as P
+
+activate PM
+PM -> LUMUI: asks to fill a dynamically reserved array in memory\n with all the container's information in its respective place
+activate LUMUI
+LUMUI -> PM : requests data (i.e.: cargomanifestId)
+deactivate LUMUI
+
+PM -> LUMUI: types requested data
+activate LUMUI
+
+deactivate LUMC
+LUMUI -> LUMC : informacoesContentores(cargomanifestId)
+activate LUMC
+LUMC -> LUM : result = informacoesContentores(databaseConnection,cargomanifestId)
+activate LUM
+deactivate LUM
+LUMC -> P : print(filename,result,path)
+activate P
+deactivate P
+deactivate LUMC
+
+
+LUMUI --> PM : shows informs operation success
+deactivate LUMC
+deactivate LUMUI
+deactivate PM
+@enduml

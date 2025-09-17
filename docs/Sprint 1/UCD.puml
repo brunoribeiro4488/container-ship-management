@@ -1,0 +1,34 @@
+@startuml
+left to right direction
+skinparam linetype polyline
+actor "Traffic Manager" as tm
+actor "Project Manager" as pm
+
+
+Rectangle "Cargo Shipping Company"{
+usecase "UC101-Import ships from a text file" as UC101
+usecase "UC102-Search details of a ship" as UC102
+usecase "UC103-Have the positional message temporally organized\n and associated with the ships" as UC103
+usecase "UC104-Make a summary of the ship's movements" as UC104
+usecase "UC105-List for all the ships the MMSI, the total number\nof movements, Travelled Distance and Delta Distance" as UC105
+usecase "UC106-Get the top-N ships with the most kilometres travelled\n and their average speed" as UC106
+usecase "UC107-Get pairs of ships with routes with close departure/arrival\n coordinates and with different Travelled Distance" as UC107
+usecase "UC108-Develop the data model required to support all the functionality and\n to fulfill the purpose of the system to develop" as UC108
+usecase "UC109-Draft an SQL script to test whether the database verifies\n all the data integrity restrictions that are required\n to fulfil the purpose of the system and the business constraints of the UoD" as UC109
+usecase "UC110-Define the naming conventions to apply \nwhen defining identifiers or writing SQL or PL/SQL code" as UC110
+usecase "UC111-Create a SQL script to load the database\nwith a minimum set of data sufficient to carry out data \nintegrity verification and functional testing" as UC111
+
+}
+
+tm--UC101
+tm--UC102
+tm--UC103
+tm--UC104
+tm--UC105
+tm--UC106
+tm--UC107
+pm--UC108
+pm--UC109
+pm--UC110
+pm--UC111
+@enduml

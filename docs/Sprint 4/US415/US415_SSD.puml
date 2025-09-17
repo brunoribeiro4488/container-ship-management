@@ -1,0 +1,13 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Ship Captain" as SC
+activate SC
+
+SC -> ":System": asks to know how many auxiliary power equipment are needed for the voyage,\n knowing that each one supplies a maximum of 75 KW
+activate ":System"
+":System" --> SC : shows the data (number of generators) and informs operation success
+deactivate ":System"
+@enduml

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="403px" preserveAspectRatio="none" style="width:401px;height:403px;" version="1.1" viewBox="0 0 401 403" width="401px" zoomAndPan="magnify"><defs><filter height="300%" id="fk949pa5mkjn1" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[64e2e010ba86d7988e5cd73bd64f61f9]
+cluster ui--><polygon fill="#FFFFFF" filter="url(#fk949pa5mkjn1)" points="90,6,109,6,116,29.6094,268,29.6094,268,106,90,106,90,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="90" x2="116" y1="29.6094" y2="29.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="13" x="94" y="22.5332">ui</text><!--MD5=[f4e70ef68289585296b9045165e58692]
+cluster controllers--><polygon fill="#FFFFFF" filter="url(#fk949pa5mkjn1)" points="69,130,152,130,159,153.6094,289,153.6094,289,258,69,258,69,130" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="69" x2="159" y1="153.6094" y2="153.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="77" x="73" y="146.5332">controllers</text><!--MD5=[c52f45833d539af9e29a9d34b8b7302b]
+cluster utils--><polygon fill="#FFFFFF" filter="url(#fk949pa5mkjn1)" points="16,282,52,282,59,305.6094,116,305.6094,116,396,16,396,16,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="59" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="20" y="298.5332">utils</text><!--MD5=[dce4c2b5694dd28223e7b1d160ba96c4]
+cluster data--><polygon fill="#FFFFFF" filter="url(#fk949pa5mkjn1)" points="140,282,176,282,183,305.6094,384,305.6094,384,396,140,396,140,282" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="140" x2="183" y1="305.6094" y2="305.6094"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="144" y="298.5332">data</text><!--MD5=[05e3a70f6917ea427e68753dc071090e]
+class ContainerCapacityUI--><rect codeLine="6" fill="#FEFECE" filter="url(#fk949pa5mkjn1)" height="48" id="ContainerCapacityUI" style="stroke:#A80036;stroke-width:1.5;" width="145" x="106.5" y="42"/><ellipse cx="121.5" cy="58" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M123.5,54.5 Q123.7031,54 123.9375,53.75 Q124.1719,53.5 124.4375,53.5 Q124.9063,53.5 125.2031,53.7813 Q125.5,54.0625 125.5,54.7188 L125.5,56.2813 Q125.5,56.9375 125.2188,57.2188 Q124.9375,57.5 124.5,57.5 Q124.1094,57.5 123.8594,57.3281 Q123.6094,57.1563 123.5,56.7031 Q123.4531,56.3906 123.2813,56.2188 Q122.9688,55.8906 122.4063,55.7031 Q121.8438,55.5 121.2813,55.5 Q120.5781,55.5 119.9844,55.7813 Q119.4063,56.0625 118.9531,56.6875 Q118.5,57.3125 118.5,58.1719 L118.5,59.0938 Q118.5,60.125 119.3438,60.8125 Q120.1875,61.5 121.6875,61.5 Q122.5781,61.5 123.2031,61.2969 Q123.5625,61.1875 123.9688,60.8281 Q124.2344,60.625 124.375,60.5625 Q124.5156,60.5 124.6875,60.5 Q125.0156,60.5 125.25,60.7656 Q125.5,61.0156 125.5,61.375 Q125.5,61.7188 125.1563,62.125 Q124.6563,62.7188 123.8594,63.0469 Q122.8125,63.5 121.5313,63.5 Q120.0313,63.5 118.8281,62.9063 Q117.8594,62.4375 117.1719,61.4219 Q116.5,60.4063 116.5,59.2031 L116.5,58.1094 Q116.5,56.8594 117.0938,55.7656 Q117.7031,54.6719 118.75,54.0938 Q119.8125,53.5 121,53.5 Q121.7188,53.5 122.3438,53.75 Q122.9688,54 123.5,54.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="135.5" y="62.9102">ContainerCapacityUI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="107.5" x2="250.5" y1="74" y2="74"/><line style="stroke:#A80036;stroke-width:1.5;" x1="107.5" x2="250.5" y1="82" y2="82"/><!--MD5=[4a5b17bb1a440d09eeff74716464387e]
+class ContainerCapacityController--><rect codeLine="11" fill="#FEFECE" filter="url(#fk949pa5mkjn1)" height="75.6719" id="ContainerCapacityController" style="stroke:#A80036;stroke-width:1.5;" width="187" x="85.5" y="166"/><ellipse cx="100.5" cy="182" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M102.5,178.5 Q102.7031,178 102.9375,177.75 Q103.1719,177.5 103.4375,177.5 Q103.9063,177.5 104.2031,177.7813 Q104.5,178.0625 104.5,178.7188 L104.5,180.2813 Q104.5,180.9375 104.2188,181.2188 Q103.9375,181.5 103.5,181.5 Q103.1094,181.5 102.8594,181.3281 Q102.6094,181.1563 102.5,180.7031 Q102.4531,180.3906 102.2813,180.2188 Q101.9688,179.8906 101.4063,179.7031 Q100.8438,179.5 100.2813,179.5 Q99.5781,179.5 98.9844,179.7813 Q98.4063,180.0625 97.9531,180.6875 Q97.5,181.3125 97.5,182.1719 L97.5,183.0938 Q97.5,184.125 98.3438,184.8125 Q99.1875,185.5 100.6875,185.5 Q101.5781,185.5 102.2031,185.2969 Q102.5625,185.1875 102.9688,184.8281 Q103.2344,184.625 103.375,184.5625 Q103.5156,184.5 103.6875,184.5 Q104.0156,184.5 104.25,184.7656 Q104.5,185.0156 104.5,185.375 Q104.5,185.7188 104.1563,186.125 Q103.6563,186.7188 102.8594,187.0469 Q101.8125,187.5 100.5313,187.5 Q99.0313,187.5 97.8281,186.9063 Q96.8594,186.4375 96.1719,185.4219 Q95.5,184.4063 95.5,183.2031 L95.5,182.1094 Q95.5,180.8594 96.0938,179.7656 Q96.7031,178.6719 97.75,178.0938 Q98.8125,177.5 100,177.5 Q100.7188,177.5 101.3438,177.75 Q101.9688,178 102.5,178.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="155" x="114.5" y="186.9102">ContainerCapacityController</text><line style="stroke:#A80036;stroke-width:1.5;" x1="86.5" x2="271.5" y1="198" y2="198"/><line style="stroke:#A80036;stroke-width:1.5;" x1="86.5" x2="271.5" y1="206" y2="206"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="91.5" y="221.4189">+containerCapacity()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="152" x="91.5" y="235.2549">+printer(fileName, stringToPrint)</text><!--MD5=[69f2f3ad3645114d26612368d508f737]
+class Printer--><rect codeLine="17" fill="#FEFECE" filter="url(#fk949pa5mkjn1)" height="61.8359" id="Printer" style="stroke:#A80036;stroke-width:1.5;" width="68" x="32" y="318"/><ellipse cx="47" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M49,330.5 Q49.2031,330 49.4375,329.75 Q49.6719,329.5 49.9375,329.5 Q50.4063,329.5 50.7031,329.7813 Q51,330.0625 51,330.7188 L51,332.2813 Q51,332.9375 50.7188,333.2188 Q50.4375,333.5 50,333.5 Q49.6094,333.5 49.3594,333.3281 Q49.1094,333.1563 49,332.7031 Q48.9531,332.3906 48.7813,332.2188 Q48.4688,331.8906 47.9063,331.7031 Q47.3438,331.5 46.7813,331.5 Q46.0781,331.5 45.4844,331.7813 Q44.9063,332.0625 44.4531,332.6875 Q44,333.3125 44,334.1719 L44,335.0938 Q44,336.125 44.8438,336.8125 Q45.6875,337.5 47.1875,337.5 Q48.0781,337.5 48.7031,337.2969 Q49.0625,337.1875 49.4688,336.8281 Q49.7344,336.625 49.875,336.5625 Q50.0156,336.5 50.1875,336.5 Q50.5156,336.5 50.75,336.7656 Q51,337.0156 51,337.375 Q51,337.7188 50.6563,338.125 Q50.1563,338.7188 49.3594,339.0469 Q48.3125,339.5 47.0313,339.5 Q45.5313,339.5 44.3281,338.9063 Q43.3594,338.4375 42.6719,337.4219 Q42,336.4063 42,335.2031 L42,334.1094 Q42,332.8594 42.5938,331.7656 Q43.2031,330.6719 44.25,330.0938 Q45.3125,329.5 46.5,329.5 Q47.2188,329.5 47.8438,329.75 Q48.4688,330 49,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="36" x="61" y="338.9102">Printer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="33" x2="99" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="38" y="373.4189">+print()</text><!--MD5=[cc7aa5613381d945738e3ca4016525e1]
+class ContainerCapacity--><rect codeLine="23" fill="#FEFECE" filter="url(#fk949pa5mkjn1)" height="61.8359" id="ContainerCapacity" style="stroke:#A80036;stroke-width:1.5;" width="212" x="156" y="318"/><ellipse cx="207.25" cy="334" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M209.25,330.5 Q209.4531,330 209.6875,329.75 Q209.9219,329.5 210.1875,329.5 Q210.6563,329.5 210.9531,329.7813 Q211.25,330.0625 211.25,330.7188 L211.25,332.2813 Q211.25,332.9375 210.9688,333.2188 Q210.6875,333.5 210.25,333.5 Q209.8594,333.5 209.6094,333.3281 Q209.3594,333.1563 209.25,332.7031 Q209.2031,332.3906 209.0313,332.2188 Q208.7188,331.8906 208.1563,331.7031 Q207.5938,331.5 207.0313,331.5 Q206.3281,331.5 205.7344,331.7813 Q205.1563,332.0625 204.7031,332.6875 Q204.25,333.3125 204.25,334.1719 L204.25,335.0938 Q204.25,336.125 205.0938,336.8125 Q205.9375,337.5 207.4375,337.5 Q208.3281,337.5 208.9531,337.2969 Q209.3125,337.1875 209.7188,336.8281 Q209.9844,336.625 210.125,336.5625 Q210.2656,336.5 210.4375,336.5 Q210.7656,336.5 211,336.7656 Q211.25,337.0156 211.25,337.375 Q211.25,337.7188 210.9063,338.125 Q210.4063,338.7188 209.6094,339.0469 Q208.5625,339.5 207.2813,339.5 Q205.7813,339.5 204.5781,338.9063 Q203.6094,338.4375 202.9219,337.4219 Q202.25,336.4063 202.25,335.2031 L202.25,334.1094 Q202.25,332.8594 202.8438,331.7656 Q203.4531,330.6719 204.5,330.0938 Q205.5625,329.5 206.75,329.5 Q207.4688,329.5 208.0938,329.75 Q208.7188,330 209.25,330.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="101" x="227.75" y="338.9102">ContainerCapacity</text><line style="stroke:#A80036;stroke-width:1.5;" x1="157" x2="367" y1="350" y2="350"/><line style="stroke:#A80036;stroke-width:1.5;" x1="157" x2="367" y1="358" y2="358"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="200" x="162" y="373.4189">+containerCapacity(databaseConnection)</text><!--MD5=[29834bd25841f88f55870fe8560b92c3]
+link ContainerCapacityUI to ContainerCapacityController--><path codeLine="30" d="M179,90.07 C179,109.38 179,137.42 179,160.74 " fill="none" id="ContainerCapacityUI-to-ContainerCapacityController" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="179,165.94,183,156.94,179,160.94,175,156.94,179,165.94" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7f658eface2e38b4963abd717218f07e]
+link ContainerCapacityController to Printer--><path codeLine="31" d="M149.61,242.2 C132.12,264.32 110.1,292.19 93.05,313.77 " fill="none" id="ContainerCapacityController-to-Printer" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="89.92,317.73,98.6352,313.1426,93.0173,313.8049,92.355,308.1869,89.92,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8e835600ed11be7b06ce6c920510ad5a]
+link ContainerCapacityController to ContainerCapacity--><path codeLine="32" d="M200.59,242.2 C213.33,264.14 229.34,291.73 241.82,313.23 " fill="none" id="ContainerCapacityController-to-ContainerCapacity" style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="244.43,317.73,243.3684,307.9385,241.9186,313.4065,236.4507,311.9567,244.43,317.73" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9a6e02f6e5beeb714e07d96542aabdeb]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ContainerCapacityUI{
+}
+}
+
+package "controllers" {
+class ContainerCapacityController{
++containerCapacity()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class ContainerCapacity{
++containerCapacity(databaseConnection)
+}
+}
+
+
+
+ContainerCapacityUI ..> ContainerCapacityController
+ContainerCapacityController ..> Printer
+ContainerCapacityController ..> ContainerCapacity
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class ContainerCapacityUI{
+}
+}
+
+package "controllers" {
+class ContainerCapacityController{
++containerCapacity()
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class ContainerCapacity{
++containerCapacity(databaseConnection)
+}
+}
+
+
+
+ContainerCapacityUI ..> ContainerCapacityController
+ContainerCapacityController ..> Printer
+ContainerCapacityController ..> ContainerCapacity
+@enduml
+
+PlantUML version 1.2021.2(Sun Mar 07 11:10:27 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

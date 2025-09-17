@@ -1,0 +1,39 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Traffic Manager" as TM
+participant ":MostEfficientCircuitUI" as MECUI
+participant ":MostEfficientCircuitController" as MECC
+participant ":Company" as COMP
+participant "nStore: NetworkStore" as NS
+participant ":Algorithms" as A
+participant "p: Printer" as P
+
+participant "mostEfficientCircuit: Pair<LinkedList<Object>, Double>"
+participant "graph: MatrixGraph"
+participant "circuit: LinkedList<Object>"
+
+
+activate TM
+TM -> MECUI: asks to know the most efficient circuit that starts from a source location and\n visits the greatest number of other locations once, returning to the starting location
+activate MECUI
+MECUI -> MECC: mostEfficientCircuit = getMostEfficientCircuit(sourceLocation)
+activate MECC
+MECC -> COMP : nStore = getNetworkStore()
+activate COMP
+deactivate COMP
+MECC -> NS : mostEfficientCircuit = getMostEfficientCircuit(sourceLocation)
+activate NS
+NS -> A : depthFirstSearch(graph, sourceLocation, circuit)
+activate A
+deactivate A
+deactivate NS
+MECC -> P : print(Most efficient circuit, mostEfficientCircuit, US403)
+activate P
+deactivate P
+deactivate MECC
+MECUI --> TM : shows the data (most efficient circuit and shortest total distance) and informs operation success
+deactivate MECUI
+@enduml

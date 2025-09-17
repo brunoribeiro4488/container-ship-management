@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Traffic Manager" as TM
+participant ":shipsAvailableUI" as SAUI
+participant ":shipsAvailableController" as SAC
+participant ":shipsAvailable" as SA
+participant ":Printer" as P
+
+activate TM
+TM -> SAUI: asks to know the ships available on next monday
+activate SAUI
+
+SAUI -> SAC : getShipsAvailable()
+activate SAC
+SAC -> SA : result = getShipsAvailable()
+activate SA
+deactivate SA
+SAC -> P : print(filename,result)
+activate P
+deactivate P
+deactivate OLCC
+SAUI --> TM : shows the data and informs operation success
+deactivate SAC
+deactivate SAUI
+deactivate TM
+@enduml

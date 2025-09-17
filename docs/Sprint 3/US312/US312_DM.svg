@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="343px" preserveAspectRatio="none" style="width:813px;height:343px;background:#FFFFFF;" version="1.1" viewBox="0 0 813 343" width="813px" zoomAndPan="magnify"><defs><filter height="300%" id="f1lxn7tpg9eklz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="7" fill="#FEFECE" filter="url(#f1lxn7tpg9eklz)" height="40" id="Company" style="stroke:#A80036;stroke-width:1.5;" width="88" x="7" y="169"/><ellipse cx="22" cy="185" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M24.3438,180.6719 C23.4063,180.2344 22.8125,180.0938 21.9375,180.0938 C19.3125,180.0938 17.3125,182.1719 17.3125,184.8906 L17.3125,186.0156 C17.3125,188.5938 19.4219,190.4844 22.3125,190.4844 C23.5313,190.4844 24.6875,190.1875 25.4375,189.6406 C26.0156,189.2344 26.3438,188.7813 26.3438,188.3906 C26.3438,187.9375 25.9531,187.5469 25.4844,187.5469 C25.2656,187.5469 25.0625,187.625 24.875,187.8125 C24.4219,188.2969 24.4219,188.2969 24.2344,188.3906 C23.8125,188.6563 23.125,188.7813 22.3594,188.7813 C20.3125,188.7813 19.0156,187.6875 19.0156,185.9844 L19.0156,184.8906 C19.0156,183.1094 20.2656,181.7969 22,181.7969 C22.5781,181.7969 23.1875,181.9531 23.6563,182.2031 C24.1406,182.4844 24.3125,182.7031 24.4063,183.1094 C24.4688,183.5156 24.5,183.6406 24.6406,183.7656 C24.7813,183.9063 25.0156,184.0156 25.2344,184.0156 C25.5,184.0156 25.7656,183.875 25.9375,183.6563 C26.0469,183.5 26.0781,183.3125 26.0781,182.8906 L26.0781,181.4688 C26.0781,181.0313 26.0625,180.9063 25.9688,180.75 C25.8125,180.4844 25.5313,180.3438 25.2344,180.3438 C24.9375,180.3438 24.7344,180.4375 24.5156,180.75 L24.3438,180.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="56" x="36" y="189.1543">Company</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="94" y1="201" y2="201"/><!--MD5=[a3093aa9f96b7df9aab31d8715601ff6]
+class Containers--><rect codeLine="11" fill="#FEFECE" filter="url(#f1lxn7tpg9eklz)" height="155.2422" id="Containers" style="stroke:#A80036;stroke-width:1.5;" width="141" x="658" y="123.5"/><ellipse cx="693.25" cy="139.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M695.5938,135.1719 C694.6563,134.7344 694.0625,134.5938 693.1875,134.5938 C690.5625,134.5938 688.5625,136.6719 688.5625,139.3906 L688.5625,140.5156 C688.5625,143.0938 690.6719,144.9844 693.5625,144.9844 C694.7813,144.9844 695.9375,144.6875 696.6875,144.1406 C697.2656,143.7344 697.5938,143.2813 697.5938,142.8906 C697.5938,142.4375 697.2031,142.0469 696.7344,142.0469 C696.5156,142.0469 696.3125,142.125 696.125,142.3125 C695.6719,142.7969 695.6719,142.7969 695.4844,142.8906 C695.0625,143.1563 694.375,143.2813 693.6094,143.2813 C691.5625,143.2813 690.2656,142.1875 690.2656,140.4844 L690.2656,139.3906 C690.2656,137.6094 691.5156,136.2969 693.25,136.2969 C693.8281,136.2969 694.4375,136.4531 694.9063,136.7031 C695.3906,136.9844 695.5625,137.2031 695.6563,137.6094 C695.7188,138.0156 695.75,138.1406 695.8906,138.2656 C696.0313,138.4063 696.2656,138.5156 696.4844,138.5156 C696.75,138.5156 697.0156,138.375 697.1875,138.1563 C697.2969,138 697.3281,137.8125 697.3281,137.3906 L697.3281,135.9688 C697.3281,135.5313 697.3125,135.4063 697.2188,135.25 C697.0625,134.9844 696.7813,134.8438 696.4844,134.8438 C696.1875,134.8438 695.9844,134.9375 695.7656,135.25 L695.5938,135.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="711.75" y="143.6543">Containers</text><line style="stroke:#A80036;stroke-width:1.5;" x1="659" x2="798" y1="155.5" y2="155.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="104" x="664" y="169.7104">-ContainerNumber</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="54" x="664" y="182.5151">-ISOCode</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="664" y="195.3198">-MaxWeight</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="664" y="208.1245">-ContainerWeight</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="107" x="664" y="220.9292">-MaxWeightPacked</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="664" y="233.7339">-MaxVolumePacked</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="69" x="664" y="246.5386">-Certificates</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="664" y="259.3433">-RepairRecomendation</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="664" y="272.1479">-Temperature</text><!--MD5=[0dc7f2ddb409b58bcf52b12238c25399]
+class Ship--><rect codeLine="23" fill="#FEFECE" filter="url(#f1lxn7tpg9eklz)" height="142.4375" id="Ship" style="stroke:#A80036;stroke-width:1.5;" width="58" x="466" y="7"/><ellipse cx="481" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M483.3438,18.6719 C482.4063,18.2344 481.8125,18.0938 480.9375,18.0938 C478.3125,18.0938 476.3125,20.1719 476.3125,22.8906 L476.3125,24.0156 C476.3125,26.5938 478.4219,28.4844 481.3125,28.4844 C482.5313,28.4844 483.6875,28.1875 484.4375,27.6406 C485.0156,27.2344 485.3438,26.7813 485.3438,26.3906 C485.3438,25.9375 484.9531,25.5469 484.4844,25.5469 C484.2656,25.5469 484.0625,25.625 483.875,25.8125 C483.4219,26.2969 483.4219,26.2969 483.2344,26.3906 C482.8125,26.6563 482.125,26.7813 481.3594,26.7813 C479.3125,26.7813 478.0156,25.6875 478.0156,23.9844 L478.0156,22.8906 C478.0156,21.1094 479.2656,19.7969 481,19.7969 C481.5781,19.7969 482.1875,19.9531 482.6563,20.2031 C483.1406,20.4844 483.3125,20.7031 483.4063,21.1094 C483.4688,21.5156 483.5,21.6406 483.6406,21.7656 C483.7813,21.9063 484.0156,22.0156 484.2344,22.0156 C484.5,22.0156 484.7656,21.875 484.9375,21.6563 C485.0469,21.5 485.0781,21.3125 485.0781,20.8906 L485.0781,19.4688 C485.0781,19.0313 485.0625,18.9063 484.9688,18.75 C484.8125,18.4844 484.5313,18.3438 484.2344,18.3438 C483.9375,18.3438 483.7344,18.4375 483.5156,18.75 L483.3438,18.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="26" x="495" y="27.1543">Ship</text><line style="stroke:#A80036;stroke-width:1.5;" x1="467" x2="523" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="472" y="53.2104">-MMSI</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="472" y="66.0151">-name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="25" x="472" y="78.8198">-IMO</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="472" y="91.6245">-callsign</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="472" y="104.4292">-type</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="40" x="472" y="117.2339">-length</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="34" x="472" y="130.0386">-width</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="30" x="472" y="142.8433">-draft</text><!--MD5=[a0bfe97ac0a38e6e74cc1c7c7b744b71]
+class Port--><rect codeLine="34" fill="#FEFECE" filter="url(#f1lxn7tpg9eklz)" height="116.8281" id="Port" style="stroke:#A80036;stroke-width:1.5;" width="69" x="193" y="130.5"/><ellipse cx="214.3" cy="146.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M216.6438,142.1719 C215.7063,141.7344 215.1125,141.5938 214.2375,141.5938 C211.6125,141.5938 209.6125,143.6719 209.6125,146.3906 L209.6125,147.5156 C209.6125,150.0938 211.7219,151.9844 214.6125,151.9844 C215.8313,151.9844 216.9875,151.6875 217.7375,151.1406 C218.3156,150.7344 218.6438,150.2813 218.6438,149.8906 C218.6438,149.4375 218.2531,149.0469 217.7844,149.0469 C217.5656,149.0469 217.3625,149.125 217.175,149.3125 C216.7219,149.7969 216.7219,149.7969 216.5344,149.8906 C216.1125,150.1563 215.425,150.2813 214.6594,150.2813 C212.6125,150.2813 211.3156,149.1875 211.3156,147.4844 L211.3156,146.3906 C211.3156,144.6094 212.5656,143.2969 214.3,143.2969 C214.8781,143.2969 215.4875,143.4531 215.9563,143.7031 C216.4406,143.9844 216.6125,144.2031 216.7063,144.6094 C216.7688,145.0156 216.8,145.1406 216.9406,145.2656 C217.0813,145.4063 217.3156,145.5156 217.5344,145.5156 C217.8,145.5156 218.0656,145.375 218.2375,145.1563 C218.3469,145 218.3781,144.8125 218.3781,144.3906 L218.3781,142.9688 C218.3781,142.5313 218.3625,142.4063 218.2688,142.25 C218.1125,141.9844 217.8313,141.8438 217.5344,141.8438 C217.2375,141.8438 217.0344,141.9375 216.8156,142.25 L216.6438,142.1719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="23" x="229.7" y="150.6543">Port</text><line style="stroke:#A80036;stroke-width:1.5;" x1="194" x2="261" y1="162.5" y2="162.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="38" x="199" y="176.7104">-portID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="37" x="199" y="189.5151">-name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="199" y="202.3198">-continent</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="199" y="215.1245">-country</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="199" y="227.9292">-latitude</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="199" y="240.7339">-longitude</text><!--MD5=[ed6624c6556d5e7b1bd23032162d20b7]
+class Client--><rect codeLine="44" fill="#FEFECE" filter="url(#f1lxn7tpg9eklz)" height="65.6094" id="Client" style="stroke:#A80036;stroke-width:1.5;" width="144" x="292" y="264"/><ellipse cx="343.25" cy="280" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M345.5938,275.6719 C344.6563,275.2344 344.0625,275.0938 343.1875,275.0938 C340.5625,275.0938 338.5625,277.1719 338.5625,279.8906 L338.5625,281.0156 C338.5625,283.5938 340.6719,285.4844 343.5625,285.4844 C344.7813,285.4844 345.9375,285.1875 346.6875,284.6406 C347.2656,284.2344 347.5938,283.7813 347.5938,283.3906 C347.5938,282.9375 347.2031,282.5469 346.7344,282.5469 C346.5156,282.5469 346.3125,282.625 346.125,282.8125 C345.6719,283.2969 345.6719,283.2969 345.4844,283.3906 C345.0625,283.6563 344.375,283.7813 343.6094,283.7813 C341.5625,283.7813 340.2656,282.6875 340.2656,280.9844 L340.2656,279.8906 C340.2656,278.1094 341.5156,276.7969 343.25,276.7969 C343.8281,276.7969 344.4375,276.9531 344.9063,277.2031 C345.3906,277.4844 345.5625,277.7031 345.6563,278.1094 C345.7188,278.5156 345.75,278.6406 345.8906,278.7656 C346.0313,278.9063 346.2656,279.0156 346.4844,279.0156 C346.75,279.0156 347.0156,278.875 347.1875,278.6563 C347.2969,278.5 347.3281,278.3125 347.3281,277.8906 L347.3281,276.4688 C347.3281,276.0313 347.3125,275.9063 347.2188,275.75 C347.0625,275.4844 346.7813,275.3438 346.4844,275.3438 C346.1875,275.3438 345.9844,275.4375 345.7656,275.75 L345.5938,275.6719 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="33" x="363.75" y="284.1543">Client</text><line style="stroke:#A80036;stroke-width:1.5;" x1="293" x2="435" y1="296" y2="296"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="47" x="298" y="310.2104">-clientID</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="298" y="323.0151">-clientRegistrationCode</text><!--MD5=[6eee883fdf517d3604e8bd0f2058e9aa]
+link Company to Client--><path codeLine="49" d="M82.6299,209.114 C110.361,226.429 152.891,250.8026 193,265 C224.567,276.1738 260.885,283.6846 291.828,288.6035 " fill="none" id="Company-Client" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="134.674,228.3424,127.2626,222.3823,125.1748,227.8769,134.674,228.3424" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="139" y="231.0669">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="82.4008" y="228.966">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="277.0243" y="300.6049">*</text><!--MD5=[5fd98a8c03cc0e5a408f548eb1c0ace8]
+link Company to Port--><path codeLine="50" d="M95.1348,189 C125.312,189 165.044,189 192.879,189 " fill="none" id="Company-Port" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="135,180.5664,125.9549,177.6275,125.9549,183.5053,135,180.5664" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="139" y="185.0669">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="103.1071" y="202.3201">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="178.0165" y="202.6452">*</text><!--MD5=[37a14a5de6d6fd738aee271300f4b5c8]
+link Company to Ship--><path codeLine="51" d="M85.0137,168.868 C113.039,152.355 154.69,129.148 193,113 C235.487,95.091 246.494,89.42 292,82 C353.276,72.009 426.383,73.921 465.669,76.053 " fill="none" id="Company-Ship" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="218.3577,78.382,208.8739,77.6694,210.2663,83.3799,218.3577,78.382" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="23" x="222.5" y="84.0669">has</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="85.8302" y="157.8375">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="451.0768" y="89.3688">*</text><!--MD5=[2a654a65145d4d768472c66eea17ac36]
+link Client to Containers--><path codeLine="52" d="M436.075,281.9279 C463.629,275.8184 495.378,268.4516 524,261 C568.735,249.3536 618.516,234.7064 657.644,222.799 " fill="none" id="Client-Containers" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="476.8309,251.2772,467.3339,250.7698,468.8495,256.4489,476.8309,251.2772" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="41" x="481" y="257.0669">leases</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="443.8687" y="293.2409">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="642.976" y="237.8817">*</text><!--MD5=[5fdd31ab83fa7860731c4022d7a13fe0]
+link Port to Containers--><path codeLine="53" d="M262.016,189.806 C342.649,191.745 548.836,196.703 657.72,199.322 " fill="none" id="Port-Containers" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="477.4986,185.6866,468.5267,182.5311,468.3854,188.4072,477.4986,185.6866" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="481.5" y="190.0669">stores</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="269.9599" y="203.6174">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="643.0599" y="211.9836">*</text><!--MD5=[cff4e3c6ede03364cf99bd3378be6b6a]
+link Ship to Containers--><path codeLine="54" d="M524.386,93.082 C557.348,110.595 612.905,140.114 657.591,163.856 " fill="none" id="Ship-Containers" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="563.4155,104.9124,556.8068,98.0731,554.0489,103.2638,563.4155,104.9124" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="568" y="107.0669">transport</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="532.1065" y="110.3358">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="642.9176" y="172.8602">*</text><!--MD5=[81746cb93c90cbb95bfeb7ee7cddfbe5]
+link Port to Ship--><path codeLine="55" d="M262.345,175.143 C303.471,158.267 374.939,128.812 436,103 C445.696,98.901 456.276,94.361 465.714,90.287 " fill="none" id="Port-Ship" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#000000" points="338.3856,96.4918,347.8649,95.721,345.6014,90.2965,338.3856,96.4918" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="37" x="352" y="99.0669">docks</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="269.8942" y="168.0352">*</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="7" x="451.1322" y="106.8944">*</text><!--MD5=[912b8e68b84dd900f801001492e42022]
+@startuml
+'https://plantuml.com/class-diagram
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Company {
+
+}
+
+class Containers{
+-ContainerNumber
+-ISOCode
+-MaxWeight
+-ContainerWeight
+-MaxWeightPacked
+-MaxVolumePacked
+-Certificates
+-RepairRecomendation
+-Temperature
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Port{
+-portID
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+
+class Client{
+-clientID
+-clientRegistrationCode
+}
+
+Company "1" - - "*" Client : has >
+Company "1" - - "*" Port : has >
+Company "1" - - "*" Ship : has >
+Client "*" - - "*" Containers : leases > 
+Port "1" - - "*" Containers: stores >
+Ship "1" - - "*" Containers: transport >
+Port "*" - - "*" Ship : docks <
+@enduml
+
+@startuml
+
+hide methods
+left to right direction
+skinparam classAttributeIconSize 0
+
+class Company {
+
+}
+
+class Containers{
+-ContainerNumber
+-ISOCode
+-MaxWeight
+-ContainerWeight
+-MaxWeightPacked
+-MaxVolumePacked
+-Certificates
+-RepairRecomendation
+-Temperature
+}
+
+class Ship{
+-MMSI
+-name
+-IMO
+-callsign
+-type
+-length
+-width
+-draft
+}
+
+class Port{
+-portID
+-name
+-continent
+-country
+-latitude
+-longitude
+}
+
+
+class Client{
+-clientID
+-clientRegistrationCode
+}
+
+Company "1" - - "*" Client : has >
+Company "1" - - "*" Port : has >
+Company "1" - - "*" Ship : has >
+Client "*" - - "*" Containers : leases > 
+Port "1" - - "*" Containers: stores >
+Ship "1" - - "*" Containers: transport >
+Port "*" - - "*" Ship : docks <
+@enduml
+
+PlantUML version 1.2021.17beta4(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

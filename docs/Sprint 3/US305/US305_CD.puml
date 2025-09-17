@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class GetRouteOfAContainerUI{
+}
+}
+
+package "controllers" {
+class GetRouteOfAContainerController{
++getRouteOfAContainer(clientRegistration, containerNumber, ISOCode)
++printer(fileName, stringToPrint)
+}
+}
+package utils{
+class Printer{
++print()
+}
+}
+
+package data{
+class RouteOfContainer{
++getRouteOfAContainer(clientRegistration, containerNumber, ISOCode)
+}
+}
+
+
+
+GetRouteOfAContainerUI ..> GetRouteOfAContainerController
+GetRouteOfAContainerController ..> Printer
+GetRouteOfAContainerController ..> RouteOfContainer
+@enduml

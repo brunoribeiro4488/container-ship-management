@@ -1,0 +1,34 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+
+package "ui" {
+class AvgOcuppancyRateUI{
+}
+}
+
+package "controllers" {
+class AvgOcuppancyRateController{
++avgOcuppancyRate(shipmmsi,startdate,enddate)
++print(fileName,stringToPrint)
+}
+}
+package utils{
+class Printer{
++print(fileName,stringToPrint,path)
+}
+}
+
+package data{
+class AvgOcuppancyRate{
++avgOcuppancyRate(databaseConnection,shipmmsi,startdate,enddate)
+}
+}
+
+
+
+AvgOcuppancyRateUI ..> AvgOcuppancyRateController
+AvgOcuppancyRateController ..> Printer
+AvgOcuppancyRateController ..> AvgOcuppancyRate
+@enduml
